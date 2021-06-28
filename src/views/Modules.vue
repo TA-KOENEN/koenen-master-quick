@@ -9,14 +9,14 @@
       <v-row no-gutters>
         <v-col sm="12" md="6" class="accent d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
-            <v-card-text>
-              Beste {{ persData.first_name }} {{ persData.last_name }},
-              <br /><br />
-              {{ textInfo[0].screen }} <br /><br />
-              {{ textInfo[1].screen }} <br />
-              {{ textInfo[2].screen }} <br />
-              {{ textInfo[3].screen }} <br />
-            </v-card-text>
+            Beste {{ persData.first_name }} {{ persData.last_name }},
+            <br /><br />
+            {{ textInfo[0].screen }} <br /><br />
+            {{ textInfo[1].screen }} <br /><br />
+            {{ textInfo[2].screen }} <br /><br />
+            {{ textInfo[3].screen }} <br /><br />
+            {{ textInfo[4].screen }} <br /><br />
+            {{ textInfo[5].screen }} <br /><br />
           </v-card>
         </v-col>
         <v-col sm="12" md="6" class="d-flex justify-center">
@@ -298,6 +298,7 @@ import textData from "@/text/modules.json";
 import ModuleService from "@/services/ModuleService";
 import infoText from "@/text/textmodules.json";
 import Loading from "@/components/core/loading";
+import axios from "axios";
 export default {
   components: { Loading, Toolbar },
   data() {
@@ -405,6 +406,11 @@ export default {
     ...mapGetters("auth", ["email"]),
   },
   created() {
+    const token = localStorage.getItem("token");
+    if (token) {
+      axios.defaults.headers.common["Authorization"] = `Bearer ` + token;
+    }
+
     this.getData();
   },
 };

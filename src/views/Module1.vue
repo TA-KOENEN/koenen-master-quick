@@ -100,11 +100,15 @@
               <br /><br />
               {{ textIntro[1].texta }}
               <br /><br />
+              {{ textIntro[1].textb }}
+              <br /><br />
             </div>
             <div v-if="memberData.step === 2">
               {{ textIntro[2].header }}
               <br /><br />
               {{ textIntro[2].texta }}
+              <br /><br />
+              {{ textIntro[2].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 3">
@@ -112,11 +116,15 @@
               <br /><br />
               {{ textIntro[3].texta }}
               <br /><br />
+              {{ textIntro[3].textb }}
+              <br /><br />
             </div>
             <div v-if="memberData.step === 4">
               {{ textIntro[4].header }}
               <br /><br />
               {{ textIntro[4].texta }}
+              <br /><br />
+              {{ textIntro[4].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 5">
@@ -124,11 +132,15 @@
               <br /><br />
               {{ textIntro[5].texta }}
               <br /><br />
+              {{ textIntro[5].textb }}
+              <br /><br />
             </div>
             <div v-if="memberData.step === 6">
               {{ textIntro[6].header }}
               <br /><br />
               {{ textIntro[6].texta }}
+              <br /><br />
+              {{ textIntro[6].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 7">

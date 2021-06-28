@@ -1,7 +1,14 @@
-import * as APIB from "@/services/APIB";
+import axios from "axios";
 
 export default {
   getStatus(payload) {
-    return APIB.apiClientB.post("/modulesChart", payload);
+    const token = localStorage.getItem("token");
+    return axios.post("/modulesChart", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
   },
 };

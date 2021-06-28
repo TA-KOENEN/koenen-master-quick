@@ -21,6 +21,8 @@
               {{ textIntro[0].textc }}
               <br /><br /><br />
               {{ textIntro[0].textd }}
+              <br /><br /><br />
+              {{ textIntro[0].texte }}
               <div class="d-none d-md-flex d-lg-flex">
                 <br /><br />
                 <br /><br />
@@ -81,10 +83,7 @@
               <br /><br />
               {{ textIntro[6].texta }}
               <br /><br />
-              {{ textIntro[6].textb }}
-              <br /><br />
             </div>
-
             <div v-if="memberData.step === 7">
               {{ textIntro[7].header }}
               <br /><br />
@@ -128,7 +127,7 @@
             />
             <div id="step0" v-if="memberData.step === 0">
               <vimeo-player
-                :video-id="vimeo.module_c"
+                :video-id="vimeo.module_j"
                 class="embed-container"
                 :options="{ responsive: true }"
               ></vimeo-player>
@@ -146,26 +145,54 @@
             />
 
             <div id="step1" v-if="memberData.step === 1">
-              <StatementText
-                :statement="Statements[0].statement"
-                :note="Statements[0].note"
-                :comment="Statements[0].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_a" />
               <CustomDivider />
-              <StatementText
-                :statement="Statements[1].statement"
-                :note="Statements[1].note"
-                :comment="Statements[1].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_b" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[2].statement"
-                :note="Statements[2].note"
-                :comment="Statements[2].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_c" />
+              <v-form v-model="valid1" ref="form1" lazy-validation>
+                <StatementText
+                  :statement="Statements[0].statement"
+                  :note="Statements[0].note"
+                  :comment="Statements[0].comment"
+                />
+                <radio-three
+                  number="2"
+                  :chsA="'Ja'"
+                  :chsB="'Nee'"
+                  v-model="memberData.question_a"
+                />
+
+                <div v-if="memberData.question_a === 'ke2'">
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[1].statement"
+                    :note="Statements[1].note"
+                    :comment="Statements[1].comment"
+                  />
+                  <radio-three
+                    number="2"
+                    :chsA="'Ja'"
+                    :chsB="'Nee'"
+                    v-model="memberData.question_b"
+                  />
+                </div>
+                <div
+                  v-if="
+                    memberData.question_a === 'ke2' &&
+                    memberData.question_b === 'ke2'
+                  "
+                >
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[2].statement"
+                    :note="Statements[2].note"
+                    :comment="Statements[2].comment"
+                  />
+                  <radio-three
+                    number="2"
+                    :chsA="'Ja'"
+                    :chsB="'Nee'"
+                    v-model="memberData.question_c"
+                  />
+                </div>
+              </v-form>
               <CustomDivider />
               <StatementText
                 :statement="Statements[3].statement"
@@ -206,6 +233,7 @@
               :kleur="colorStep2"
             />
             <div id="step2" v-if="memberData.step === 2">
+              <CustomDivider />
               <StatementText
                 :statement="Statements[6].statement"
                 :note="Statements[6].note"
@@ -238,6 +266,7 @@
               :kleur="colorStep3"
             />
             <div id="step3" v-if="memberData.step === 3">
+              <CustomDivider />
               <StatementText
                 :statement="Statements[8].statement"
                 :note="Statements[8].note"
@@ -280,7 +309,14 @@
               />
               <ta-slider2 v-model="memberData.sl_n" />
               <CustomDivider />
+              <StatementText
+                :statement="Statements[14].statement"
+                :note="Statements[14].note"
+                :comment="Statements[14].comment"
+              />
+              <ta-slider2 v-model="memberData.sl_o" />
               <RemarkStat v-model="memberData.remark_c" />
+              <CustomDivider />
               <v-row class="mt-10">
                 <v-spacer />
                 <btnback :on-click="backStep" />
@@ -297,34 +333,73 @@
               :kleur="colorStep4"
             />
             <div id="step4" v-if="memberData.step === 4">
-              <StatementText
-                :statement="Statements[14].statement"
-                :note="Statements[14].note"
-                :comment="Statements[14].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_o" />
               <CustomDivider />
-              <StatementText
-                :statement="Statements[15].statement"
-                :note="Statements[15].note"
-                :comment="Statements[15].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_p" />
+              <v-form v-model="valid2" ref="form2" lazy-validation>
+                <StatementText
+                  :statement="Statements[15].statement"
+                  :note="Statements[15].note"
+                  :comment="Statements[15].comment"
+                />
+                <radio-more
+                  number="2"
+                  :chsA="'Ja'"
+                  :chsB="'Nee'"
+                  v-model="memberData.question_p"
+                />
+
+                <div v-if="memberData.question_p === 'ke2'">
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[16].statement"
+                    :note="Statements[16].note"
+                    :comment="Statements[16].comment"
+                  />
+                  <radio-more
+                    number="2"
+                    :chsA="'Ja'"
+                    :chsB="'Nee'"
+                    v-model="memberData.question_q"
+                  />
+                </div>
+                <div
+                  v-if="
+                    memberData.question_p === 'ke2' &&
+                    memberData.question_q === 'ke2'
+                  "
+                >
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[17].statement"
+                    :note="Statements[17].note"
+                    :comment="Statements[17].comment"
+                  />
+                  <radio-more
+                    number="2"
+                    :chsA="'Ja'"
+                    :chsB="'Nee'"
+                    v-model="memberData.question_r"
+                  />
+                </div>
+              </v-form>
               <CustomDivider />
-              <StatementText
-                :statement="Statements[16].statement"
-                :note="Statements[16].note"
-                :comment="Statements[16].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_q" />
+              <RemarkStat v-model="memberData.remark_d" />
               <CustomDivider />
-              <StatementText
-                :statement="Statements[17].statement"
-                :note="Statements[17].note"
-                :comment="Statements[17].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_r" />
-              <CustomDivider />
+              <v-row class="mt-10">
+                <v-spacer />
+                <btnback :on-click="backStep" />
+                <btnnext :on-click="endStepD" />
+              </v-row>
+              <v-row class="mb-10">
+                <btn-stop :on-click="stopModule" />
+              </v-row>
+            </div>
+            <step-text
+              :stepText="textIntro[5].header"
+              :number="5"
+              class="mb-5"
+              :kleur="colorStep5"
+            />
+            <div id="step5" v-if="memberData.step === 5">
               <StatementText
                 :statement="Statements[18].statement"
                 :note="Statements[18].note"
@@ -346,6 +421,25 @@
               />
               <ta-slider2 v-model="memberData.sl_u" />
               <CustomDivider />
+              <RemarkStat v-model="memberData.remark_e" />
+              <CustomDivider />
+              <v-row class="mt-10">
+                <v-spacer />
+                <btnback :on-click="backStep" />
+                <btnnext :on-click="endStepE" />
+              </v-row>
+              <v-row class="mb-10">
+                <btn-stop :on-click="stopModule" />
+              </v-row>
+            </div>
+            <step-text
+              :stepText="textIntro[6].header"
+              :number="6"
+              class="mb-5"
+              :kleur="colorStep6"
+            />
+            <div id="step6" v-if="memberData.step === 6">
+              <CustomDivider />
               <StatementText
                 :statement="Statements[21].statement"
                 :note="Statements[21].note"
@@ -353,24 +447,6 @@
               />
               <ta-slider2 v-model="memberData.sl_v" />
               <CustomDivider />
-              <RemarkStat v-model="memberData.remark_d" />
-              <CustomDivider />
-              <v-row class="mt-10">
-                <v-spacer />
-                <btnback :on-click="backStep" />
-                <btnnext :on-click="endStepD" />
-              </v-row>
-              <v-row class="mb-10">
-                <btn-stop :on-click="stopModule" />
-              </v-row>
-            </div>
-            <step-text
-              :stepText="textIntro[5].header"
-              :number="5"
-              class="mb-5"
-              :kleur="colorStep5"
-            />
-            <div id="step5" v-if="memberData.step === 5">
               <StatementText
                 :statement="Statements[22].statement"
                 :note="Statements[22].note"
@@ -392,32 +468,31 @@
               />
               <ta-slider2 v-model="memberData.sl_y" />
               <CustomDivider />
+              <RemarkStat v-model="memberData.remark_f" />
+              <CustomDivider />
+              <v-row class="mt-10">
+                <v-spacer />
+                <btnback :on-click="backStep" />
+                <btnnext :on-click="endStepF" />
+              </v-row>
+              <v-row class="mb-10">
+                <btn-stop :on-click="stopModule" />
+              </v-row>
+            </div>
+            <step-text
+              :stepText="textIntro[7].header"
+              :number="7"
+              class="mb-5"
+              :kleur="colorStep7"
+            />
+            <div id="step7" v-if="memberData.step === 7">
+              <CustomDivider />
               <StatementText
                 :statement="Statements[25].statement"
                 :note="Statements[25].note"
                 :comment="Statements[25].comment"
               />
               <ta-slider2 v-model="memberData.sl_z" />
-              <CustomDivider />
-              <RemarkStat v-model="memberData.remark_e" />
-              <CustomDivider />
-              <v-row class="mt-10">
-                <v-spacer />
-                <btnback :on-click="backStep" />
-                <btnnext :on-click="endStepE" />
-              </v-row>
-              <v-row class="mb-10">
-                <btn-stop :on-click="stopModule" />
-              </v-row>
-            </div>
-
-            <step-text
-              :stepText="textIntro[6].header"
-              :number="7"
-              class="mb-5"
-              :kleur="colorStep6"
-            />
-            <div id="step6" v-if="memberData.step === 6">
               <CustomDivider />
               <StatementText
                 :statement="Statements[26].statement"
@@ -432,6 +507,25 @@
                 :comment="Statements[27].comment"
               />
               <ta-slider2 v-model="memberData.sl_zb" />
+              <CustomDivider />
+              <RemarkStat v-model="memberData.remark_g" />
+              <CustomDivider />
+              <v-row class="mt-10">
+                <v-spacer />
+                <btnback :on-click="backStep" />
+                <btnnext :on-click="endStepG" />
+              </v-row>
+              <v-row class="mb-10">
+                <btn-stop :on-click="stopModule" />
+              </v-row>
+            </div>
+            <step-text
+              :stepText="textIntro[8].header"
+              :number="8"
+              class="mb-5"
+              :kleur="colorStep8"
+            />
+            <div id="step8" v-if="memberData.step === 8">
               <CustomDivider />
               <StatementText
                 :statement="Statements[28].statement"
@@ -454,96 +548,6 @@
               />
               <ta-slider2 v-model="memberData.sl_ze" />
               <CustomDivider />
-              <StatementText
-                :statement="Statements[31].statement"
-                :note="Statements[31].note"
-                :comment="Statements[31].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zf" />
-              <CustomDivider />
-              <RemarkStat v-model="memberData.remark_f" />
-              <CustomDivider />
-              <v-row class="mt-10">
-                <v-spacer />
-                <btnback :on-click="backStep" />
-                <btnnext :on-click="endStepF" />
-              </v-row>
-              <v-row class="mb-10">
-                <btn-stop :on-click="stopModule" />
-              </v-row>
-            </div>
-            <step-text
-              :stepText="textIntro[7].header"
-              :number="7"
-              class="mb-5"
-              :kleur="colorStep7"
-            />
-            <div id="step7" v-if="memberData.step === 7">
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[32].statement"
-                :note="Statements[32].note"
-                :comment="Statements[32].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zg" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[33].statement"
-                :note="Statements[33].note"
-                :comment="Statements[33].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zh" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[34].statement"
-                :note="Statements[34].note"
-                :comment="Statements[34].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zi" />
-
-              <CustomDivider />
-              <RemarkStat v-model="memberData.remark_g" />
-              <CustomDivider />
-              <v-row class="mt-10">
-                <v-spacer />
-                <btnback :on-click="backStep" />
-                <btnnext :on-click="endStepG" />
-              </v-row>
-              <v-row class="mb-10">
-                <btn-stop :on-click="stopModule" />
-              </v-row>
-            </div>
-
-            <step-text
-              :stepText="textIntro[8].header"
-              :number="8"
-              class="mb-5"
-              :kleur="colorStep8"
-            />
-            <div id="step8" v-if="memberData.step === 8">
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[35].statement"
-                :note="Statements[35].note"
-                :comment="Statements[35].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zi" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[36].statement"
-                :note="Statements[36].note"
-                :comment="Statements[36].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zk" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[37].statement"
-                :note="Statements[37].note"
-                :comment="Statements[37].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zl" />
-
-              <CustomDivider />
               <RemarkStat v-model="memberData.remark_h" />
               <CustomDivider />
               <v-row class="mt-10">
@@ -555,7 +559,6 @@
                 <btn-stop :on-click="stopModule" />
               </v-row>
             </div>
-
             <step-text
               :stepText="textIntro[9].header"
               :number="9"
@@ -563,55 +566,6 @@
               :kleur="colorStep9"
             />
             <div id="step9" v-if="memberData.step === 9">
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[38].statement"
-                :note="Statements[38].note"
-                :comment="Statements[38].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zm" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[39].statement"
-                :note="Statements[39].note"
-                :comment="Statements[39].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zn" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[40].statement"
-                :note="Statements[40].note"
-                :comment="Statements[40].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zo" />
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[25].statement"
-                :note="Statements[25].note"
-                :comment="Statements[25].comment"
-              />
-              <ta-slider2 v-model="memberData.sl_zp" />
-
-              <CustomDivider />
-              <RemarkStat v-model="memberData.remark_i" />
-              <CustomDivider />
-              <v-row class="mt-10">
-                <v-spacer />
-                <btnback :on-click="backStep" />
-                <btnnext :on-click="endStepI" />
-              </v-row>
-              <v-row class="mb-10">
-                <btn-stop :on-click="stopModule" />
-              </v-row>
-            </div>
-
-            <step-text
-              :stepText="textIntro[10].header"
-              :number="10"
-              class="mb-5"
-              :kleur="colorStep10"
-            />
-            <div id="step11" v-if="memberData.step === 10">
               <CustomDivider />
               <v-row class="mt-10 mb-10 justify-center">
                 <v-btn
@@ -638,24 +592,29 @@
 <script>
 import { mapGetters } from "vuex";
 import Toolbar from "@/components/core/Toolbar";
-import textData from "@/text/textC.json";
+import textData from "@/text/textJ.json";
 import vimeoData from "@/text/vimeo.json";
 import Loading from "@/components/core/loading";
 import TaSlider2 from "@/components/core/ta-slider2";
 import StatementService from "@/services/StatementService";
 import ResultService from "@/services/ResultService";
 import StepText from "@/components/stepText";
+
 import Btnnext from "@/components/BtnNext";
 import StatementText from "@/components/StatementText";
 import RemarkStat from "@/components/core/RemarkStat";
 import Btnback from "@/components/BtnBack";
 import CustomDivider from "@/components/CustomDivider";
+import RadioThree from "@/components/RadioThree";
 import BtnStop from "@/components/BtnStop";
 import Saving from "@/components/core/saving";
+import RadioMore from "@/components/RadioMore";
 export default {
   components: {
+    RadioMore,
     Saving,
     BtnStop,
+    RadioThree,
     CustomDivider,
     Btnback,
     RemarkStat,
@@ -669,6 +628,7 @@ export default {
   data() {
     return {
       disableBtn: false,
+      valid1: false,
       valid2: false,
       valid3: false,
       valid4: false,
@@ -682,8 +642,6 @@ export default {
       colorStep7: "accent",
       colorStep8: "accent",
       colorStep9: "accent",
-      colorStep10: "accent",
-      colorStep11: "accent",
       stap: 0,
       saving: false,
       loading: false,
@@ -722,6 +680,18 @@ export default {
         sl_x: null,
         sl_y: null,
         sl_z: null,
+        sl_za: null,
+        sl_zb: null,
+        sl_zc: null,
+        sl_zd: null,
+        sl_ze: null,
+        sl_zf: null,
+        question_a: null,
+        question_b: null,
+        question_c: null,
+        question_p: null,
+        question_q: null,
+        question_r: null,
         ready_a: null,
         ready_b: null,
         ready_c: null,
@@ -735,6 +705,8 @@ export default {
         remark_d: "",
         remark_e: "",
         remark_f: "",
+        remark_g: "",
+        remark_h: "",
       },
       persData: {
         first_name: "",
@@ -762,30 +734,35 @@ export default {
       this.memberData.step++;
     },
     async endStepA() {
+      if (this.$refs.form1.validate()) {
+        await this.$vuetify.goTo(0);
+        await this.saveResults();
+        this.memberData.step++;
+      }
+    },
+    async endStepB() {
       await this.$vuetify.goTo(0);
       await this.saveResults();
       this.memberData.step++;
     },
-    async endStepB() {
-      await this.$vuetify.goTo(20);
-      await this.saveResults();
-      this.memberData.step++;
-    },
     async endStepC() {
-      await this.$vuetify.goTo(20);
+      await this.$vuetify.goTo(0);
       await this.saveResults();
       this.memberData.step++;
     },
     async endStepD() {
-      await this.$vuetify.goTo(20);
-      await this.saveResults();
-      this.memberData.step++;
+      if (this.$refs.form2.validate()) {
+        await this.$vuetify.goTo(0);
+        await this.saveResults();
+        this.memberData.step++;
+      }
     },
     async endStepE() {
-      await this.$vuetify.goTo(20);
+      await this.$vuetify.goTo(0);
       await this.saveResults();
       this.memberData.step++;
     },
+
     async endStepF() {
       await this.$vuetify.goTo(0);
       await this.saveResults();
@@ -797,11 +774,6 @@ export default {
       this.memberData.step++;
     },
     async endStepH() {
-      await this.$vuetify.goTo(0);
-      await this.saveResults();
-      this.memberData.step++;
-    },
-    async endStepI() {
       await this.$vuetify.goTo(0);
       await this.saveResults();
       this.memberData.step++;
@@ -840,26 +812,18 @@ export default {
         sl_zc: this.memberData.sl_zc,
         sl_zd: this.memberData.sl_zd,
         sl_ze: this.memberData.sl_ze,
-        sl_zf: this.memberData.sl_zf,
-        sl_zg: this.memberData.sl_zg,
-        sl_zh: this.memberData.sl_zh,
-        sl_zi: this.memberData.sl_zi,
-        sl_zj: this.memberData.sl_zj,
-        sl_zk: this.memberData.sl_zk,
-        sl_zl: this.memberData.sl_zl,
-        sl_zm: this.memberData.sl_zm,
-        sl_zn: this.memberData.sl_zn,
-        sl_zo: this.memberData.sl_zo,
-        sl_zp: this.memberData.sl_zp,
+        question_a: this.memberData.question_a,
+        question_b: this.memberData.question_b,
+        question_c: this.memberData.question_c,
+        question_p: this.memberData.question_p,
+        question_q: this.memberData.question_q,
+        question_r: this.memberData.question_r,
         ready_a: this.memberData.ready_a,
         ready_b: this.memberData.ready_b,
         ready_c: this.memberData.ready_c,
         ready_d: this.memberData.ready_d,
         ready_e: this.memberData.ready_e,
         ready_f: this.memberData.ready_f,
-        ready_g: this.memberData.ready_g,
-        ready_h: this.memberData.ready_h,
-        ready_i: this.memberData.ready_i,
         step: this.memberData.step,
         remark_a: this.memberData.remark_a,
         remark_b: this.memberData.remark_b,
@@ -869,10 +833,9 @@ export default {
         remark_f: this.memberData.remark_f,
         remark_g: this.memberData.remark_g,
         remark_h: this.memberData.remark_h,
-        remark_i: this.memberData.remark_i,
       };
       this.saving = true;
-      ResultService.saveResultC(payload).then(() => {
+      ResultService.saveResultJ(payload).then(() => {
         console.log("saved answers");
         this.saving = false;
       });
@@ -885,7 +848,7 @@ export default {
       this.disableBtn = true;
       // eslint-disable-next-line no-undef
       EventBus.$emit("report", true);
-      ResultService.getReportC(payload)
+      ResultService.getReportJ(payload)
         .then(() => {})
         .finally(() => {
           this.disableBtn = false;
@@ -894,7 +857,7 @@ export default {
 
     getStatement() {
       this.loading = true;
-      StatementService.getStatementC().then((response) => {
+      StatementService.getStatementJ().then((response) => {
         console.log("statements terug");
         this.Statements = response.data.data;
         this.loading = false;
@@ -905,9 +868,9 @@ export default {
         email: this.email,
       };
       this.loading1 = true;
-      ResultService.getResultC(payload).then((response) => {
+      ResultService.getResultJ(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.cfsmodule;
+        this.memberData = response.data.data.jfsmodule;
         this.loading1 = false;
       });
     },
@@ -958,27 +921,10 @@ export default {
       } else if (this.memberData.step === 9) {
         this.colorStep8 = "accent";
         this.colorStep9 = "info";
-        this.colorStep10 = "accent";
         this.memberData.ready_h = true;
-      } else if (this.memberData.step === 10) {
-        this.colorStep9 = "accent";
-        this.colorStep10 = "info";
-        this.colorStep11 = "accent";
-        this.memberData.ready_i = true;
-      } else if (this.memberData.step === 11) {
-        this.colorStep10 = "accent";
-        this.colorStep11 = "info";
-        this.colorStep12 = "accent";
-        this.memberData.ready_j = true;
-      } else if (this.memberData.step === 12) {
-        this.colorStep11 = "accent";
-        this.colorStep12 = "info";
-        this.colorStep13 = "accent";
-        this.memberData.ready_k = true;
       }
     },
   },
-
   computed: {
     ...mapGetters("auth", ["email"]),
   },

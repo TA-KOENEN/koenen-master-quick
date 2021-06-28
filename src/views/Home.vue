@@ -1,12 +1,12 @@
 <template>
-  <div class="home"></div>
+  <Start></Start>
 </template>
 
 <script>
-// @ is an alias to /src
+import Start from "@/views/Start";
 
 export default {
   name: "Home",
-  components: {},
+  components: { Start },
 };
 </script>

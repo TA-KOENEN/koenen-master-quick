@@ -48,8 +48,14 @@
       </template>
       <v-list nav shaped>
         <v-list-item to="/colors">
-          <v-list-item-icon><v-icon class="primary--text">mdi-view-list</v-icon></v-list-item-icon>
-          <v-list-item-title class="apple primary--text">Kleuren</v-list-item-title>
+          <v-list-item-icon
+            ><v-icon class="primary--text"
+              >mdi-view-list</v-icon
+            ></v-list-item-icon
+          >
+          <v-list-item-title class="apple primary--text"
+            >Kleuren</v-list-item-title
+          >
         </v-list-item>
         <v-list-item to="/photos">
           <v-list-item-icon><v-icon>mdi-view-list</v-icon></v-list-item-icon>

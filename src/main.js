@@ -4,6 +4,7 @@ import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
 import vueVimeoPlayer from "vue-vimeo-player";
+import "animate.css";
 window.EventBus = new Vue();
 Vue.config.productionTip = false;
 Vue.use(vueVimeoPlayer);
