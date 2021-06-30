@@ -61,6 +61,8 @@ export default {
     return {
       animated: false,
       tokkie: null,
+      token: null,
+      email: null,
       companyName: null,
       place: null,
       firstNameUser: null,
@@ -70,41 +72,47 @@ export default {
 
   methods: {
     begin() {
+      this.email = localStorage.getItem("email");
       this.tokkie = JSON.parse(localStorage.getItem("tokkie"));
-      const payload = {
-        token: this.tokkie,
-      };
-      AuthService.getInfo(payload)
-        .then((response) => {
-          this.firstNameUser = response.data.data.user.first_name;
-          this.lastNameUser = response.data.data.user.last_name;
-          this.place = response.data.data.place;
-          this.companyName = response.data.data.family_name;
-          console.log(response);
-          if (this.place) {
-            console.log("gaat heel goed gaat door");
-            localStorage.setItem(
-              "companyName",
-              JSON.stringify(this.companyName)
-            );
-            localStorage.setItem(
-              "firstNameUser",
-              JSON.stringify(this.firstNameUser)
-            );
-            localStorage.setItem(
-              "lastNameUser",
-              JSON.stringify(this.lastNameUser)
-            );
-            this.$router.push({ name: "Intro" });
-          } else {
+      this.token = localStorage.getItem("token");
+      if (this.token && this.email) {
+        this.$router.push({ name: "Modules" });
+      } else {
+        const payload = {
+          token: this.tokkie,
+        };
+        AuthService.getInfo(payload)
+          .then((response) => {
+            this.firstNameUser = response.data.data.user.first_name;
+            this.lastNameUser = response.data.data.user.last_name;
+            this.place = response.data.data.place;
+            this.companyName = response.data.data.family_name;
+            console.log(response);
+            if (this.place) {
+              console.log("gaat heel goed gaat door");
+              localStorage.setItem(
+                "companyName",
+                JSON.stringify(this.companyName)
+              );
+              localStorage.setItem(
+                "firstNameUser",
+                JSON.stringify(this.firstNameUser)
+              );
+              localStorage.setItem(
+                "lastNameUser",
+                JSON.stringify(this.lastNameUser)
+              );
+              this.$router.push({ name: "Intro" });
+            } else {
+              // eslint-disable-next-line no-undef
+              EventBus.$emit("errStart", true);
+            }
+          })
+          .catch(function () {
             // eslint-disable-next-line no-undef
             EventBus.$emit("errStart", true);
-          }
-        })
-        .catch(function () {
-          // eslint-disable-next-line no-undef
-          EventBus.$emit("errStart", true);
-        });
+          });
+      }
     },
   },
 

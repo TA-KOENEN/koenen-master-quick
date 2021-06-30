@@ -7,8 +7,8 @@ export default {
   loginB(payload) {
     return API.apiClient.post("/loginchartb", payload);
   },
-  logout() {
-    return API.apiClient.post("/logout");
+  logout(payload) {
+    return API.apiClient.post("/logoutchart", payload);
   },
   getAuthUser() {
     return API.apiClient.get("/api/auth/auth");

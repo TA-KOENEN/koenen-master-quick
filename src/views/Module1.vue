@@ -7,70 +7,10 @@
     <div v-if="saving">
       <saving />
     </div>
-    <!--    <div class="d-md-none" v-if="!loading">-->
-    <!--      <v-row class="accent justify-center align-center">-->
-    <!--        <v-card class="ma-10 transparent" outlined width="100%">-->
-    <!--          <v-card-text>-->
-    <!--            Beste {{ persData.first_name }} {{ persData.last_name }},-->
-    <!--            <br /><br />-->
-    <!--          </v-card-text>-->
-    <!--        </v-card>-->
-    <!--      </v-row>-->
-    <!--      <v-row>-->
-    <!--        <v-card class="ma-5 transparent" outlined width="100%">-->
-    <!--          <ta-slider2 />-->
-    <!--          <v-stepper v-model="stap" vertical>-->
-    <!--            <v-stepper-step :complete="stap > 1" step="1">-->
-    <!--              Bedrijfsfamilie-->
-    <!--              <v-stepper-content step="1">-->
-    <!--                <div class="primary&#45;&#45;text">-->
-    <!--                  Onder de bedrijfsfamilie versta ik alle bloedsverwanten van de-->
-    <!--                  oorspronkelijke oprichter(s).-->
-    <!--                </div>-->
-    <!--                <ta-slider2 />-->
-    <!--                <div class="primary&#45;&#45;text">-->
-    <!--                  Onder de bedrijfsfamilie versta ik alle bloedsverwanten van de-->
-    <!--                  oorspronkelijke oprichter(s).-->
-    <!--                </div>-->
-    <!--                <ta-slider2 />-->
-    <!--                <div class="primary&#45;&#45;text">-->
-    <!--                  Onder de bedrijfsfamilie versta ik alle bloedsverwanten van de-->
-    <!--                  oorspronkelijke oprichter(s).-->
-    <!--                </div>-->
-    <!--                <ta-slider2 />-->
-    <!--                <div class="primary&#45;&#45;text">-->
-    <!--                  Onder de bedrijfsfamilie versta ik alle bloedsverwanten van de-->
-    <!--                  oorspronkelijke oprichter(s).-->
-    <!--                </div>-->
-    <!--                <ta-slider2 />-->
-    <!--                <div class="primary&#45;&#45;text">-->
-    <!--                  Onder de bedrijfsfamilie versta ik alle bloedsverwanten van de-->
-    <!--                  oorspronkelijke oprichter(s).-->
-    <!--                </div>-->
-    <!--                <ta-slider2 />-->
-    <!--                <div class="primary&#45;&#45;text">-->
-    <!--                  Onder de bedrijfsfamilie versta ik alle bloedsverwanten van de-->
-    <!--                  oorspronkelijke oprichter(s).-->
-    <!--                </div>-->
-    <!--                <ta-slider2 />-->
-    <!--              </v-stepper-content>-->
-    <!--            </v-stepper-step>-->
-    <!--            <v-stepper-step :complete="stap > 2" step="2">-->
-    <!--              Bedrijfsfamilie-->
-    <!--              <v-stepper-content step="1">-->
-    <!--                <div class="primary&#45;&#45;text">-->
-    <!--                  Onder de bedrijfsfamilie versta ik alle bloedsverwanten van de-->
-    <!--                  oorspronkelijke oprichter(s).-->
-    <!--                </div>-->
-    <!--              </v-stepper-content>-->
-    <!--            </v-stepper-step>-->
-    <!--          </v-stepper>-->
-    <!--        </v-card>-->
-    <!--      </v-row>-->
-    <!--    </div>-->
+
     <div class="ma-0 pa-0" v-if="!loading">
       <v-row no-gutters>
-        <v-col sm="12" md="6" class="accent d-flex justify-center">
+        <v-col cols="12" md="6" class="accent d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <div v-if="memberData.step === 0">
               {{ textIntro[0].header }}
@@ -176,7 +116,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col sm="12" md="6" class="d-flex justify-center">
+        <v-col cols="12" md="6" class="d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <step-text
               :stepText="textIntro[0].header"

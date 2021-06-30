@@ -1,6 +1,6 @@
 <template>
   <v-row no-gutters>
-    <v-col sm="12" md="6" class="primary d-flex justify-center align-center">
+    <v-col cols="12" md="6" class="primary d-flex justify-center align-center">
       <v-card outlined class="transparent">
         <v-card-text>
           <v-img
@@ -24,10 +24,10 @@
         </div>
       </v-card>
     </v-col>
-    <v-col sm="12" md="6" class="justify-center align-center">
+    <v-col cols="12" md="6" class="justify-center align-center">
       <div class="ma-5 pa-0">
         <vimeo-player
-          :video-id="vimeo.module_a"
+          :video-id="vimeo.intro"
           class="embed-container"
           :options="{ responsive: true }"
         ></vimeo-player>
@@ -38,7 +38,7 @@
 
         Mocht u vragen hebben....
 
-        {{firstNameUser}} {{lastNameUser}}
+        {{ firstNameUser }} {{ lastNameUser }}
 
         <div class="text-end mr-15">
           <v-btn

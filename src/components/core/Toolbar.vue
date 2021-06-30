@@ -14,6 +14,9 @@
 
 <script>
 import Report from "@/components/core/report";
+import { mapGetters } from "vuex";
+import AuthService from "@/services/AuthService";
+
 export default {
   name: "Toolbar",
   components: { Report },
@@ -28,23 +31,32 @@ export default {
       localStorage.setItem("dark_theme", this.$vuetify.theme.dark.toString());
     },
     logout() {
+      this.logoutExt();
       localStorage.removeItem("token");
-      localStorage.removeItem("tokkie");
       localStorage.removeItem("lastNameUser");
       localStorage.removeItem("firstNameUser");
       localStorage.removeItem("companyName");
-      this.$router.push({ name: "Login" });
+      localStorage.removeItem("email");
+      this.$router.push({ name: "Start" });
+    },
+
+    logoutExt() {
+      const payload = {
+        email: this.email,
+      };
+      AuthService.logout(payload).then(() => {
+        console.log("logged out extern");
+      });
     },
   },
   mounted() {
     const theme = localStorage.getItem("dark_theme");
     if (theme) {
-      if (theme === "true") {
-        this.$vuetify.theme.dark = true;
-      } else {
-        this.$vuetify.theme.dark = false;
-      }
+      this.$vuetify.theme.dark = theme === "true";
     }
+  },
+  computed: {
+    ...mapGetters("auth", ["email"]),
   },
 };
 </script>

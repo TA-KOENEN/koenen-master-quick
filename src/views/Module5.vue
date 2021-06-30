@@ -9,7 +9,7 @@
     </div>
     <div class="ma-0 pa-0" v-if="!loading">
       <v-row no-gutters>
-        <v-col sm="12" md="6" class="accent d-flex justify-center">
+        <v-col cols="12" md="6" class="accent d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <div v-if="memberData.step === 0">
               {{ textIntro[0].header }}
@@ -101,7 +101,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col sm="12" md="6" class="d-flex justify-center">
+        <v-col cols="12" md="6" class="d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <step-text
               :stepText="textIntro[0].header"
@@ -442,48 +442,24 @@ export default {
     saveResults() {
       const payload = {
         email: this.email,
-        sl_a: this.memberData.sl_a,
-        sl_b: this.memberData.sl_b,
-        sl_c: this.memberData.sl_c,
-        sl_d: this.memberData.sl_d,
-        sl_e: this.memberData.sl_e,
-        sl_f: this.memberData.sl_f,
-        sl_g: this.memberData.sl_g,
-        sl_h: this.memberData.sl_h,
-        sl_i: this.memberData.sl_i,
-        sl_j: this.memberData.sl_j,
-        sl_k: this.memberData.sl_k,
-        sl_l: this.memberData.sl_l,
-        sl_m: this.memberData.sl_m,
-        sl_n: this.memberData.sl_n,
-        sl_o: this.memberData.sl_o,
-        sl_p: this.memberData.sl_p,
-        sl_q: this.memberData.sl_q,
-        sl_r: this.memberData.sl_r,
-        sl_s: this.memberData.sl_s,
-        sl_t: this.memberData.sl_t,
-        sl_u: this.memberData.sl_u,
-        sl_v: this.memberData.sl_v,
-        sl_w: this.memberData.sl_w,
-        sl_x: this.memberData.sl_x,
-        sl_y: this.memberData.sl_y,
-        sl_z: this.memberData.sl_z,
-        sl_za: this.memberData.sl_za,
-        sl_zb: this.memberData.sl_zb,
-        sl_zc: this.memberData.sl_zc,
+        question_a: this.memberData.question_a,
+        question_b: this.memberData.question_b,
+        question_c: this.memberData.question_c,
+        question_d: this.memberData.question_d,
+        question_e: this.memberData.question_e,
+        question_f: this.memberData.question_f,
+        question_g: this.memberData.question_g,
+        question_h: this.memberData.question_h,
+        question_i: this.memberData.question_i,
+        question_j: this.memberData.question_j,
+        question_k: this.memberData.question_k,
+        question_l: this.memberData.question_l,
         ready_a: this.memberData.ready_a,
         ready_b: this.memberData.ready_b,
         ready_c: this.memberData.ready_c,
-        ready_d: this.memberData.ready_d,
-        ready_e: this.memberData.ready_e,
-        ready_f: this.memberData.ready_f,
         step: this.memberData.step,
         remark_a: this.memberData.remark_a,
         remark_b: this.memberData.remark_b,
-        remark_c: this.memberData.remark_c,
-        remark_d: this.memberData.remark_d,
-        remark_e: this.memberData.remark_e,
-        remark_f: this.memberData.remark_f,
       };
       this.saving = true;
       ResultService.saveResultE(payload).then(() => {

@@ -7,7 +7,7 @@
 
     <div class="ma-0 pa-0" v-if="!loading">
       <v-row no-gutters>
-        <v-col sm="12" md="6" class="accent d-flex justify-center">
+        <v-col cols="12" md="6" class="accent d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             Beste {{ persData.first_name }} {{ persData.last_name }},
             <br /><br />
@@ -19,7 +19,7 @@
             {{ textInfo[5].screen }} <br /><br />
           </v-card>
         </v-col>
-        <v-col sm="12" md="6" class="d-flex justify-center">
+        <v-col cols="12" md="6" class="d-flex justify-center">
           <v-card
             class="ma-10 transparent"
             outlined
@@ -38,7 +38,6 @@
                   textMod[1].text
                 }}</v-list-item-subtitle>
                 <v-list-item-subtitle>
-                  <v-icon x-large color="primary"> mdi-check </v-icon>
                   <div class="text-end">
                     <v-btn color="accent" class="mr-3">start</v-btn>
                   </div>

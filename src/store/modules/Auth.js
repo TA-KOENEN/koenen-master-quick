@@ -5,12 +5,12 @@ export const namespaced = true;
 
 export const state = {
   user: null,
-  email: null,
+  email: localStorage.getItem("email") || "",
   loading: false,
   error: null,
   stepone: false,
   steptwo: false,
-  token: null,
+  token: localStorage.getItem("token") || "",
 };
 
 export const mutations = {

@@ -1,6 +1,10 @@
 <template>
   <v-row no-gutters>
-    <v-col sm="12" md="6" class="secondary d-flex justify-center align-center">
+    <v-col
+      cols="12"
+      md="6"
+      class="secondary d-flex justify-center align-center"
+    >
       <v-card outlined class="transparent">
         <v-card-text>
           <v-img
@@ -21,7 +25,7 @@
         >
       </v-card>
     </v-col>
-    <v-col sm="12" md="6" class="d-flex justify-center align-center">
+    <v-col cols="12" md="6" class="d-flex justify-center align-center">
       <v-card-text>
         <v-row>
           <v-text-field
@@ -55,7 +59,7 @@ import { mapGetters } from "vuex";
 import FlashMessage from "@/components/FlashMessage";
 
 export default {
-  name: "Login",
+  name: "LoginB",
   components: { FlashMessage },
   data() {
     return {
@@ -87,8 +91,8 @@ export default {
       try {
         await this.$store.dispatch("auth/loginB", data);
         if (this.stepTwo) {
+          localStorage.setItem("email", this.email);
           this.$router.push({ name: "Modules" });
-          console.log("stap2 af");
         } else {
           console.log("error");
           this.errorBtn = true;

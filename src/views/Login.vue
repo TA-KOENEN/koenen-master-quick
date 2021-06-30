@@ -1,6 +1,6 @@
 <template>
   <v-row no-gutters>
-    <v-col sm="12" md="6" class="primary d-flex justify-center align-center">
+    <v-col cols="12" md="6" class="primary d-flex justify-center align-center">
       <v-card outlined class="transparent">
         <v-card-text>
           <v-img
@@ -24,7 +24,7 @@
         </div>
       </v-card>
     </v-col>
-    <v-col sm="12" md="6" class="d-flex justify-center align-center">
+    <v-col cols="12" md="6" class="d-flex justify-center align-center">
       <v-card-text>
         <v-form v-model="valid" ref="form">
           <v-text-field

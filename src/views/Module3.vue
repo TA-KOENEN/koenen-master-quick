@@ -9,7 +9,7 @@
     </div>
     <div class="ma-0 pa-0" v-if="!loading">
       <v-row no-gutters>
-        <v-col sm="12" md="6" class="accent d-flex justify-center">
+        <v-col cols="12" md="6" class="accent d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <div v-if="memberData.step === 0">
               {{ textIntro[0].header }}
@@ -118,7 +118,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col sm="12" md="6" class="d-flex justify-center">
+        <v-col cols="12" md="6" class="d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <step-text
               :stepText="textIntro[0].header"
@@ -527,7 +527,7 @@
                 :note="Statements[35].note"
                 :comment="Statements[35].comment"
               />
-              <ta-slider2 v-model="memberData.sl_zi" />
+              <ta-slider2 v-model="memberData.sl_zj" />
               <CustomDivider />
               <StatementText
                 :statement="Statements[36].statement"
@@ -860,6 +860,8 @@ export default {
         ready_g: this.memberData.ready_g,
         ready_h: this.memberData.ready_h,
         ready_i: this.memberData.ready_i,
+        ready_j: this.memberData.ready_j,
+        ready_k: this.memberData.ready_k,
         step: this.memberData.step,
         remark_a: this.memberData.remark_a,
         remark_b: this.memberData.remark_b,
@@ -970,6 +972,7 @@ export default {
         this.colorStep11 = "info";
         this.colorStep12 = "accent";
         this.memberData.ready_j = true;
+        this.memberData.ready_k = true;
       } else if (this.memberData.step === 12) {
         this.colorStep11 = "accent";
         this.colorStep12 = "info";

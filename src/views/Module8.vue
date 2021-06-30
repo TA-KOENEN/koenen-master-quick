@@ -9,7 +9,7 @@
     </div>
     <div class="ma-0 pa-0" v-if="!loading">
       <v-row no-gutters>
-        <v-col sm="12" md="6" class="accent d-flex justify-center">
+        <v-col cols="12" md="6" class="accent d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <div v-if="memberData.step === 0">
               {{ textIntro[0].header }}
@@ -115,7 +115,7 @@
             </div>
           </v-card>
         </v-col>
-        <v-col sm="12" md="6" class="d-flex justify-center">
+        <v-col cols="12" md="6" class="d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <step-text
               :stepText="textIntro[0].header"
@@ -775,6 +775,7 @@ export default {
         this.colorStep6 = "info";
         this.colorStep7 = "accent";
         this.memberData.ready_e = true;
+        this.memberData.ready_f = true;
       } else if (this.memberData.step === 7) {
         this.colorStep6 = "accent";
         this.colorStep7 = "info";
