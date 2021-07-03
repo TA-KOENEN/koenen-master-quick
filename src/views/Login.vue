@@ -31,9 +31,10 @@
             outlined
             shaped
             placeholder="email"
-            v-model="email"
+            v-model.trim="email"
             required
             :rules="emailRules"
+            @keyup="lowercase"
           />
           <div class="text-end mr-15">
             <v-btn
@@ -41,7 +42,7 @@
               class="primary"
               @click="login"
               :disabled="!valid"
-              :class="{ 'primary white--text': valid, disabled: !valid }"
+              :class="{ primary: valid, disabled: !valid }"
               >Verder</v-btn
             >
           </div>
@@ -83,6 +84,9 @@ export default {
     toggle_dark_mode: function () {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
       localStorage.setItem("dark_theme", this.$vuetify.theme.dark.toString());
+    },
+    lowercase() {
+      this.email = this.email.toLowerCase();
     },
     async login() {
       let data = {

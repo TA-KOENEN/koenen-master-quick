@@ -81,6 +81,11 @@
               <br /><br />
               {{ textIntro[6].texta }}
               <br /><br />
+              {{ textIntro[6].textb }}
+              <br /><br />
+              {{ textIntro[6].textc }}
+              <br /><br />
+              {{ textIntro[6].textd }}
             </div>
             <div v-if="memberData.step === 7">
               {{ textIntro[7].header }}

@@ -20,8 +20,9 @@
 
         <v-card-title class="white--text">Password</v-card-title>
         <v-card-text class="white--text"
-          >Na het invullen van uw e-mail is er een tijdelijk wachtwoord aan u
-          verzonden.</v-card-text
+          >U ontvangt een e-mailbericht met een zescijferige code. Deze vult u
+          als password in. <br />
+          Controleer eventueel uw spambox</v-card-text
         >
       </v-card>
     </v-col>

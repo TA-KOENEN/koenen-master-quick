@@ -187,33 +187,44 @@
               :kleur="colorStep3"
             />
             <div id="step3" v-if="memberData.step === 3">
-              <CustomDivider />
-              <StatementText :statement="Statements[0].statement" />
-              <en-area v-model="memberData.question_a" />
-              <CustomDivider />
-              <StatementText :statement="Statements[1].statement" />
-              <en-area v-model="memberData.question_b" />
-              <CustomDivider />
-              <StatementText :statement="Statements[2].statement" />
-              <en-area v-model="memberData.question_c" />
-              <CustomDivider />
-              <StatementText :statement="Statements[3].statement" />
-              <en-area v-model="memberData.question_d" />
-              <CustomDivider />
-              <StatementText :statement="Statements[4].statement" />
-              <en-area v-model="memberData.question_e" />
-              <CustomDivider />
-              <StatementText :statement="Statements[5].statement" />
-              <en-area v-model="memberData.question_f" />
-              <CustomDivider />
-              <v-row class="mt-10">
-                <v-spacer />
-                <btnback :on-click="backStep" />
-                <btnnext :on-click="endStepC" />
-              </v-row>
-              <v-row class="mb-10">
-                <btn-stop :on-click="stopModule" />
-              </v-row>
+              <v-form v-model="valid" ref="form">
+                <CustomDivider />
+                <StatementText :statement="Statements[0].statement" />
+                <en-area v-model="memberData.question_a" />
+                <CustomDivider />
+                <StatementText :statement="Statements[1].statement" />
+                <en-area v-model="memberData.question_b" />
+                <CustomDivider />
+                <StatementText :statement="Statements[2].statement" />
+                <en-area v-model="memberData.question_c" />
+                <CustomDivider />
+                <StatementText :statement="Statements[3].statement" />
+                <en-area v-model="memberData.question_d" />
+                <CustomDivider />
+                <StatementText :statement="Statements[4].statement" />
+                <en-area v-model="memberData.question_e" />
+                <CustomDivider />
+                <StatementText :statement="Statements[5].statement" />
+                <en-area v-model="memberData.question_f" />
+                <CustomDivider />
+                <div v-if="!valid" class="primary--text">
+                  Let op u heeft het maximaal aantal tekens overschreden
+                </div>
+                <v-row class="mt-10">
+                  <v-spacer />
+                  <btnback :on-click="backStep" />
+                  <v-btn
+                    small
+                    @click="endStepC"
+                    :disabled="!valid"
+                    :class="{ accent: valid, disabled: !valid }"
+                    >Verder</v-btn
+                  >
+                </v-row>
+                <v-row class="mb-10">
+                  <btn-stop :on-click="stopModule" />
+                </v-row>
+              </v-form>
             </div>
             <step-text
               :stepText="textIntro[4].header"
@@ -222,33 +233,44 @@
               :kleur="colorStep4"
             />
             <div id="step4" v-if="memberData.step === 4">
-              <CustomDivider />
-              <StatementText :statement="Statements[0].statement" />
-              <en-area v-model="memberData.question_g" />
-              <CustomDivider />
-              <StatementText :statement="Statements[1].statement" />
-              <en-area v-model="memberData.question_h" />
-              <CustomDivider />
-              <StatementText :statement="Statements[2].statement" />
-              <en-area v-model="memberData.question_i" />
-              <CustomDivider />
-              <StatementText :statement="Statements[3].statement" />
-              <en-area v-model="memberData.question_j" />
-              <CustomDivider />
-              <StatementText :statement="Statements[4].statement" />
-              <en-area v-model="memberData.question_k" />
-              <CustomDivider />
-              <StatementText :statement="Statements[5].statement" />
-              <en-area v-model="memberData.question_l" />
-              <CustomDivider />
-              <v-row class="mt-10">
-                <v-spacer />
-                <btnback :on-click="backStep" />
-                <btnnext :on-click="endStepD" />
-              </v-row>
-              <v-row class="mb-10">
-                <btn-stop :on-click="stopModule" />
-              </v-row>
+              <v-form v-model="validB" ref="formB">
+                <CustomDivider />
+                <StatementText :statement="Statements[0].statement" />
+                <en-area v-model="memberData.question_g" />
+                <CustomDivider />
+                <StatementText :statement="Statements[1].statement" />
+                <en-area v-model="memberData.question_h" />
+                <CustomDivider />
+                <StatementText :statement="Statements[2].statement" />
+                <en-area v-model="memberData.question_i" />
+                <CustomDivider />
+                <StatementText :statement="Statements[3].statement" />
+                <en-area v-model="memberData.question_j" />
+                <CustomDivider />
+                <StatementText :statement="Statements[4].statement" />
+                <en-area v-model="memberData.question_k" />
+                <CustomDivider />
+                <StatementText :statement="Statements[5].statement" />
+                <en-area v-model="memberData.question_l" />
+                <CustomDivider />
+                <div v-if="!validB" class="primary--text">
+                  Let op u heeft het maximaal aantal tekens overschreden
+                </div>
+                <v-row class="mt-10">
+                  <v-spacer />
+                  <btnback :on-click="backStep" />
+                  <v-btn
+                    small
+                    @click="endStepC"
+                    :disabled="!validB"
+                    :class="{ accent: validB, disabled: !validB }"
+                    >Verder</v-btn
+                  >
+                </v-row>
+                <v-row class="mb-10">
+                  <btn-stop :on-click="stopModule" />
+                </v-row>
+              </v-form>
             </div>
 
             <step-text
@@ -315,6 +337,8 @@ export default {
   },
   data() {
     return {
+      valid: true,
+      validB: true,
       disableBtn: false,
       valid2: false,
       valid3: false,

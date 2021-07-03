@@ -181,7 +181,7 @@
                 <radio-more
                   :number="3"
                   :chsA="'Ja'"
-                  :chsB="'Ja, onder voorwaarde dat deze kinderen door het bloedverwant zijn erkend'"
+                  :chsB="'Ja, onder voorwaarde dat deze kinderen door de bloedverwant zijn erkend'"
                   :chsC="'Nee'"
                   v-model="memberData.question_d"
                 />

@@ -557,23 +557,23 @@
               <ta-slider2 v-model="memberData.sl_zj" />
               <CustomDivider />
               <StatementText
-                :statement="Statements[35].statement"
-                :note="Statements[35].note"
-                :comment="Statements[35].comment"
+                :statement="Statements[36].statement"
+                :note="Statements[36].note"
+                :comment="Statements[36].comment"
               />
               <ta-slider2 v-model="memberData.sl_zk" />
               <CustomDivider />
               <StatementText
-                :statement="Statements[35].statement"
-                :note="Statements[35].note"
-                :comment="Statements[35].comment"
+                :statement="Statements[37].statement"
+                :note="Statements[37].note"
+                :comment="Statements[37].comment"
               />
               <ta-slider2 v-model="memberData.sl_zl" />
               <CustomDivider />
               <StatementText
-                :statement="Statements[35].statement"
-                :note="Statements[35].note"
-                :comment="Statements[35].comment"
+                :statement="Statements[38].statement"
+                :note="Statements[38].note"
+                :comment="Statements[38].comment"
               />
               <ta-slider2 v-model="memberData.sl_zm" />
               <CustomDivider />
@@ -598,16 +598,16 @@
             <div id="step9" v-if="memberData.step === 9">
               <CustomDivider />
               <StatementText
-                :statement="Statements[36].statement"
-                :note="Statements[36].note"
-                :comment="Statements[36].comment"
+                :statement="Statements[39].statement"
+                :note="Statements[39].note"
+                :comment="Statements[39].comment"
               />
               <ta-slider2 v-model="memberData.sl_zn" />
               <CustomDivider />
               <StatementText
-                :statement="Statements[37].statement"
-                :note="Statements[37].note"
-                :comment="Statements[37].comment"
+                :statement="Statements[40].statement"
+                :note="Statements[40].note"
+                :comment="Statements[40].comment"
               />
               <ta-slider2 v-model="memberData.sl_zo" />
               <CustomDivider />

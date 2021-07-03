@@ -7,8 +7,6 @@
       disabled
       v-model="innerValue"
       shaped
-      :rules="[(v) => v.length <= 250 || 'U hebt maximaal 150 tekens']"
-      :counter="250"
     >
     </v-textarea>
   </div>

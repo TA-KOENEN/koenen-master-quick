@@ -95,25 +95,61 @@
               {{ textIntro[7].textc }}
               <br /><br />
               {{ textIntro[7].textd }}
-              <div class="d-none d-md-flex d-lg-flex">
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <div>.</div>
-              </div>
+            </div>
+            <div v-if="memberData.step === 8">
+              {{ textIntro[8].header }}
+              <br /><br />
+              {{ textIntro[8].texta }}
+              <br /><br />
+              <br /><br />
+              {{ textIntro[8].textb }}
+              <br /><br />
+              {{ textIntro[8].textc }}
+              <br /><br />
+              {{ textIntro[8].textd }}
+            </div>
+            <div v-if="memberData.step === 9">
+              {{ textIntro[9].header }}
+              <br /><br />
+              {{ textIntro[9].texta }}
+              <br /><br />
+              <br /><br />
+              {{ textIntro[9].textb }}
+              <br /><br />
+              {{ textIntro[9].textc }}
+              <br /><br />
+              {{ textIntro[9].textd }}
+            </div>
+            <div v-if="memberData.step === 10">
+              {{ textIntro[10].header }}
+              <br /><br />
+              {{ textIntro[10].texta }}
+              <br /><br />
+              <br /><br />
+              {{ textIntro[10].textb }}
+              <br /><br />
+              {{ textIntro[10].textc }}
+              <br /><br />
+              {{ textIntro[10].textd }}
+            </div>
+            <div class="d-none d-md-flex d-lg-flex">
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <div>.</div>
             </div>
           </v-card>
         </v-col>

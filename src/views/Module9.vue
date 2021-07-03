@@ -85,6 +85,10 @@
               <br /><br />
               {{ textIntro[6].textb }}
               <br /><br />
+              {{ textIntro[6].textc }}
+              <br /><br />
+              {{ textIntro[6].textd }}
+              <br /><br />
             </div>
             <div v-if="memberData.step === 7">
               {{ textIntro[7].header }}
@@ -97,25 +101,25 @@
               {{ textIntro[7].textc }}
               <br /><br />
               {{ textIntro[7].textd }}
-              <div class="d-none d-md-flex d-lg-flex">
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <br /><br />
-                <div>.</div>
-              </div>
+            </div>
+            <div class="d-none d-md-flex d-lg-flex">
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <br /><br />
+              <div>.</div>
             </div>
           </v-card>
         </v-col>

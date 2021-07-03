@@ -31,15 +31,54 @@
           class="embed-container"
           :options="{ responsive: true }"
         ></vimeo-player>
-        Beste betrokkene bij {{ companyName }} <br />
 
-        Binnenkort starten wij.. met de knop gaat u naar het persoonlijke
-        inlog...
+        <br />
+        Beste betrokkene bij {{ companyName }} <br /><br />
 
-        Mocht u vragen hebben....
+        Mijn naam is {{ firstNameUser }} {{ lastNameUser }} en namens Trusted
+        Accountant begeleid ik de familie {{ companyName }} bij het beschrijven
+        van het Familiestatuut.<br />
+        <br />
 
-        {{ firstNameUser }} {{ lastNameUser }}
+        U bent uitgenodigd om aan de familiebijeenkomsten deel te nemen.
+        Voorafgaand aan elke familiebijeenkomst vragen wij alle deelnemers om
+        input over bepaalde perspectieven op het familiebedrijf.
+        <br />
 
+        <br />
+        Met de Familiestatuut App bieden wij u de mogelijkheid om uw input te
+        geven aan de hand van een gestructureerde vragenlijst. Uw input geeft
+        ons een beter begrip van uw visie op de toekomst van het familiebedrijf
+        en de rol van de familie hierbij. Samen met de visie van de andere
+        deelnemers hebben we een compleet beeld van de wensen en verwachtingen.
+        Hierdoor kunnen we in de familiebijeenkomsten gerichter toewerken naar
+        het vastleggen van de afspraken die de familie wil maken.
+        <br />
+        Op de volgende pagina komt u in uw persoonlijke deel van de
+        Familiestatuut App die wij voor u hebben klaargezet.
+        <br />
+        <br />
+
+        U kunt de Familiestatuut App in uw eigen tijd en tempo doornemen en
+        invullen. Voor elke volgende familiebijeenkomst zullen er nieuwe modules
+        voor u worden klaargezet. Heeft u vragen of opmerkingen over de
+        Familiestatuut App, dan kunt u mij bereiken op onderstaande
+        contactgegevens. <br />
+        <br />Alvast dank en tot de volgende familiebijeenkomst.<br />
+        Met vriendelijke groet,<br />
+        <br />
+        <br />
+        {{ firstNameUser }} {{ lastNameUser }}<br />
+        <br />
+
+        <h5>
+          TrustedAccountant
+          <br />
+
+          {{ firstNameUser }} {{ lastNameUser }}<br />
+          e-mail {{ emailUser }}<br />
+          telefoon: {{ telephoneUser }} <br />
+        </h5>
         <div class="text-end mr-15">
           <v-btn
             elevation="15"
@@ -65,6 +104,8 @@ export default {
       companyName: null,
       firstNameUser: null,
       lastNameUser: null,
+      emailUser: null,
+      telephoneUser: null,
       valid: true,
       vimeo: vimeoData,
     };
@@ -86,6 +127,8 @@ export default {
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
     this.companyName = JSON.parse(localStorage.getItem("companyName"));
+    this.emailUser = JSON.parse(localStorage.getItem("emailUser"));
+    this.telephoneUser = JSON.parse(localStorage.getItem("telephoneUser"));
   },
 };
 </script>

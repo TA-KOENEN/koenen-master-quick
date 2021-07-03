@@ -67,6 +67,8 @@ export default {
       place: null,
       firstNameUser: null,
       lastNameUser: null,
+      emailUser: null,
+      telephoneUser: null,
     };
   },
 
@@ -85,6 +87,8 @@ export default {
           .then((response) => {
             this.firstNameUser = response.data.data.user.first_name;
             this.lastNameUser = response.data.data.user.last_name;
+            this.emailUser = response.data.data.user.email;
+            this.telephoneUser = response.data.data.user.telephone;
             this.place = response.data.data.place;
             this.companyName = response.data.data.family_name;
             console.log(response);
@@ -101,6 +105,11 @@ export default {
               localStorage.setItem(
                 "lastNameUser",
                 JSON.stringify(this.lastNameUser)
+              );
+              localStorage.setItem("emailUser", JSON.stringify(this.emailUser));
+              localStorage.setItem(
+                "telephoneUser",
+                JSON.stringify(this.telephoneUser)
               );
               this.$router.push({ name: "Intro" });
             } else {
