@@ -33,7 +33,8 @@
         ></vimeo-player>
 
         <br />
-        Beste betrokkene bij {{ companyName }} <br /><br />
+        Beste betrokkene bij het maken van een familiestatuut voor de familie
+        {{ companyName }}.<br /><br />
 
         Mijn naam is {{ firstNameUser }} {{ lastNameUser }} en namens Trusted
         Accountant begeleid ik de familie {{ companyName }} bij het beschrijven
