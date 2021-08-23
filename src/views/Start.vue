@@ -74,11 +74,16 @@ export default {
 
   methods: {
     begin() {
+      this.$router.push({ name: "Login" });
+    },
+    begin2() {
       this.email = localStorage.getItem("email");
       this.tokkie = JSON.parse(localStorage.getItem("tokkie"));
       this.token = localStorage.getItem("token");
       if (this.token && this.email) {
         this.$router.push({ name: "Modules" });
+      } else if (this.tokkie === "123") {
+        this.$router.push({ name: "Login" });
       } else {
         const payload = {
           token: this.tokkie,
@@ -156,6 +161,9 @@ export default {
           return "600px";
       }
     },
+  },
+  created() {
+    this.tokkie = JSON.parse(localStorage.getItem("tokkie"));
   },
 };
 </script>

@@ -160,16 +160,16 @@
             <div id="step2" v-if="memberData.step === 2">
               <CustomDivider />
               <StatementText :statement="textExample[1].question_a" />
-              <dis-area v-model="textExample[1].answer_a" />
+              <dis-area-two v-model="textExample[1].answer_a" />
               <CustomDivider />
               <StatementText :statement="textExample[1].question_b" />
-              <dis-area v-model="textExample[1].answer_b" />
+              <dis-area-two v-model="textExample[1].answer_b" />
               <CustomDivider />
               <StatementText :statement="textExample[1].question_c" />
-              <dis-area v-model="textExample[1].answer_c" />
+              <dis-area-two v-model="textExample[1].answer_c" />
               <CustomDivider />
               <StatementText :statement="textExample[1].question_d" />
-              <dis-area v-model="textExample[1].answer_d" />
+              <dis-area-two v-model="textExample[1].answer_d" />
               <CustomDivider />
               <v-row class="mt-10">
                 <v-spacer />
@@ -320,6 +320,7 @@ import CustomDivider from "@/components/CustomDivider";
 import BtnStop from "@/components/BtnStop";
 import Saving from "@/components/core/saving";
 import disArea from "@/components/mod5/disArea";
+import disAreaTwo from "@/components/mod5/disAreaTwo";
 import enArea from "@/components/mod5/enArea";
 export default {
   components: {
@@ -334,6 +335,7 @@ export default {
     Toolbar,
     enArea,
     disArea,
+    disAreaTwo,
   },
   data() {
     return {

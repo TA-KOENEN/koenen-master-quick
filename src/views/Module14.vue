@@ -198,6 +198,7 @@
                 :comment="Statements[5].comment"
               />
               <ta-slider2 v-model="memberData.sl_f" />
+              <CustomDivider />
               <StatementText
                 :statement="Statements[6].statement"
                 :note="Statements[6].note"
@@ -365,6 +366,7 @@
                 :comment="Statements[21].comment"
               />
               <ta-slider2 v-model="memberData.sl_v" />
+              <CustomDivider />
               <StatementText
                 :statement="Statements[22].statement"
                 :note="Statements[22].note"

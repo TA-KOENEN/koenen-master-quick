@@ -17,13 +17,9 @@ export default {
     };
   },
   created() {
+    this.tokkie = this.$route.query.name;
+    localStorage.setItem("tokkie", JSON.stringify(this.tokkie));
     this.tokkie = localStorage.getItem("tokkie");
-    if (this.tokkie) {
-      console.log("already authenticated");
-    } else {
-      this.tokkie = this.$route.query.name;
-      localStorage.setItem("tokkie", JSON.stringify(this.tokkie));
-    }
   },
 };
 </script>
