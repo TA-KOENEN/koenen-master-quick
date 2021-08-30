@@ -34,11 +34,12 @@
 
         <br />
         Beste betrokkene bij het maken van een familiestatuut voor de familie
-        {{ companyName }}.<br /><br />
+        {{ family.data.family_name }}.<br /><br />
 
-        Mijn naam is {{ firstNameUser }} {{ lastNameUser }} en namens Trusted
-        Accountant begeleid ik de familie {{ companyName }} bij het beschrijven
-        van het Familiestatuut.<br />
+        Mijn naam is {{ family.data.user.first_name }}
+        {{ family.data.user.last_name }} en namens Trusted Accountant begeleid
+        ik de familie {{ family.data.family_name }} bij het beschrijven van het
+        Familiestatuut.<br />
         <br />
 
         U bent uitgenodigd om aan de familiebijeenkomsten deel te nemen.
@@ -69,16 +70,17 @@
         Met vriendelijke groet,<br />
         <br />
         <br />
-        {{ firstNameUser }} {{ lastNameUser }}<br />
+        {{ family.data.user.first_name }} {{ family.data.user.last_name }}<br />
         <br />
 
         <h5>
           TrustedAccountant
           <br />
 
-          {{ firstNameUser }} {{ lastNameUser }}<br />
-          e-mail {{ emailUser }}<br />
-          telefoon: {{ telephoneUser }} <br />
+          {{ family.data.user.first_name }} {{ family.data.user.last_name
+          }}<br />
+          e-mail {{ family.data.user.email }}<br />
+          telefoon: {{ family.data.user.telephone }} <br />
         </h5>
         <div class="text-end mr-15">
           <v-btn
@@ -97,6 +99,7 @@
 
 <script>
 import vimeoData from "@/text/vimeo.json";
+import { mapGetters } from "vuex";
 
 export default {
   name: "Intro",
@@ -130,6 +133,9 @@ export default {
     this.companyName = JSON.parse(localStorage.getItem("companyName"));
     this.emailUser = JSON.parse(localStorage.getItem("emailUser"));
     this.telephoneUser = JSON.parse(localStorage.getItem("telephoneUser"));
+  },
+  computed: {
+    ...mapGetters("auth", ["family"]),
   },
 };
 </script>

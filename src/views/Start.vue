@@ -1,6 +1,5 @@
 <template>
   <v-container xs12 sm6 offset-sm3>
-    <error-start />
     <v-row justify="center">
       <div class="hoofd" @click="begin">
         <transition
@@ -52,11 +51,8 @@
 </template>
 
 <script>
-import AuthService from "@/services/AuthService";
-import errorStart from "@/components/core/errorStart";
 export default {
   name: "Start",
-  components: { errorStart },
   data() {
     return {
       animated: false,
@@ -74,59 +70,7 @@ export default {
 
   methods: {
     begin() {
-      this.$router.push({ name: "Login" });
-    },
-    begin2() {
-      this.email = localStorage.getItem("email");
-      this.tokkie = JSON.parse(localStorage.getItem("tokkie"));
-      this.token = localStorage.getItem("token");
-      if (this.token && this.email) {
-        this.$router.push({ name: "Modules" });
-      } else if (this.tokkie === "123") {
-        this.$router.push({ name: "Login" });
-      } else {
-        const payload = {
-          token: this.tokkie,
-        };
-        AuthService.getInfo(payload)
-          .then((response) => {
-            this.firstNameUser = response.data.data.user.first_name;
-            this.lastNameUser = response.data.data.user.last_name;
-            this.emailUser = response.data.data.user.email;
-            this.telephoneUser = response.data.data.user.telephone;
-            this.place = response.data.data.place;
-            this.companyName = response.data.data.family_name;
-            console.log(response);
-            if (this.place) {
-              console.log("gaat heel goed gaat door");
-              localStorage.setItem(
-                "companyName",
-                JSON.stringify(this.companyName)
-              );
-              localStorage.setItem(
-                "firstNameUser",
-                JSON.stringify(this.firstNameUser)
-              );
-              localStorage.setItem(
-                "lastNameUser",
-                JSON.stringify(this.lastNameUser)
-              );
-              localStorage.setItem("emailUser", JSON.stringify(this.emailUser));
-              localStorage.setItem(
-                "telephoneUser",
-                JSON.stringify(this.telephoneUser)
-              );
-              this.$router.push({ name: "Intro" });
-            } else {
-              // eslint-disable-next-line no-undef
-              EventBus.$emit("errStart", true);
-            }
-          })
-          .catch(function () {
-            // eslint-disable-next-line no-undef
-            EventBus.$emit("errStart", true);
-          });
-      }
+      this.$router.push({ name: "LoginFam" });
     },
   },
 
@@ -161,9 +105,6 @@ export default {
           return "600px";
       }
     },
-  },
-  created() {
-    this.tokkie = JSON.parse(localStorage.getItem("tokkie"));
   },
 };
 </script>

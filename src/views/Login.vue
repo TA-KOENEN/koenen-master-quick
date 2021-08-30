@@ -26,27 +26,30 @@
     </v-col>
     <v-col cols="12" md="6" class="d-flex justify-center align-center">
       <v-card-text>
-        <v-form v-model="valid" ref="form">
-          <v-text-field
-            outlined
-            shaped
-            placeholder="email"
-            v-model.trim="email"
-            required
-            :rules="emailRules"
-            @keyup="lowercase"
-          />
-          <div class="text-end mr-15">
-            <v-btn
-              elevation="15"
-              class="primary"
-              @click="login"
-              :disabled="!valid"
-              :class="{ primary: valid, disabled: !valid }"
-              >Verder</v-btn
-            >
-          </div>
-        </v-form>
+        <ValidationObserver
+          ref="obs"
+          v-slot="{ invalid, validated, handleSubmit }"
+        >
+          <v-form ref="form">
+            <BaseValInput
+              rules="required|email"
+              v-model.trim="email"
+              label="email"
+              @keyup="lowercase"
+            />
+
+            <div class="text-end mr-15">
+              <v-btn
+                elevation="15"
+                class="primary"
+                @click="handleSubmit(login)"
+                :disabled="invalid || !validated"
+              >
+                Verder</v-btn
+              >
+            </div>
+          </v-form>
+        </ValidationObserver>
         <flash-message :error="error" v-if="error" key="error" />
       </v-card-text>
     </v-col>
@@ -59,10 +62,11 @@
 import FlashMessage from "@/components/FlashMessage";
 import { getError } from "@/utils/helpers";
 import { mapGetters } from "vuex";
-
+import { ValidationObserver } from "vee-validate";
+import BaseValInput from "@/components/input/BaseValInput";
 export default {
   name: "Login",
-  components: { FlashMessage },
+  components: { FlashMessage, ValidationObserver, BaseValInput },
   data() {
     return {
       error: null,

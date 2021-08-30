@@ -1,25 +1,35 @@
 <template>
-  <div class="mt-5">
-    <v-textarea
-      color="info"
-      class="mt-5"
-      rows="3"
-      outlined
-      filled
-      label="Uw gedachten"
+  <ValidationProvider
+    :name="$attrs.label"
+    :rules="rules"
+    v-slot="{ errors, valid }"
+  >
+    <v-text-field
       v-model="innerValue"
+      :error-messages="errors"
+      :success="valid"
+      v-bind="$attrs"
+      v-on="$listeners"
+      outlined
       shaped
-      :rules="[(v) => v.length <= 200 || 'U hebt maximaal 200 tekens']"
-      :counter="200"
-    >
-    </v-textarea>
-  </div>
+    ></v-text-field>
+  </ValidationProvider>
 </template>
 
 <script>
+import { ValidationProvider } from "vee-validate";
+
 export default {
-  name: "RemarkStat",
+  name: "BaseValInput",
+  components: {
+    ValidationProvider,
+  },
   props: {
+    rules: {
+      type: [Object, String],
+      default: "",
+    },
+    // must be included in props
     value: {
       type: null,
     },
@@ -44,5 +54,3 @@ export default {
   },
 };
 </script>
-
-<style scoped></style>
