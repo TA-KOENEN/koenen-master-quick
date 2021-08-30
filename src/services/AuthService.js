@@ -7,6 +7,9 @@ export default {
   loginB(payload) {
     return API.apiClient.post("/loginchartb", payload);
   },
+  loginFam(payload) {
+    return API.apiClient.post("/getInfoChart", payload);
+  },
   logout(payload) {
     return API.apiClient.post("/logoutchart", payload);
   },

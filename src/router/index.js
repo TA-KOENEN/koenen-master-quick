@@ -45,6 +45,12 @@ const router = new VueRouter({
         import(/* webpackChunkName: "loginB" */ "@/views/LoginB"),
     },
     {
+      path: "/loginfam",
+      name: "LoginFam",
+      component: () =>
+        import(/* webpackChunkName: "loginB" */ "@/views/LoginFam"),
+    },
+    {
       path: "/modules",
       name: "Modules",
       component: () =>

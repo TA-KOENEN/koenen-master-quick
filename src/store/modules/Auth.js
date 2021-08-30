@@ -10,12 +10,17 @@ export const state = {
   error: null,
   stepone: false,
   steptwo: false,
+  stepfamily: false,
   token: localStorage.getItem("token") || "",
+  family: null,
 };
 
 export const mutations = {
   SET_USER(state, user) {
     state.user = user;
+  },
+  SET_FAMILY(state, family) {
+    state.family = family;
   },
   SET_EMAIL(state, email) {
     state.email = email;
@@ -25,6 +30,9 @@ export const mutations = {
   },
   SET_STEPONE(state, stepone) {
     state.stepone = stepone;
+  },
+  SET_STEPFAMILY(state, stepfamily) {
+    state.stepfamily = stepfamily;
   },
   SET_STEPTWO(state, steptwo) {
     state.steptwo = steptwo;
@@ -82,6 +90,20 @@ export const actions = {
       commit("SET_ERROR", getError(error));
     }
   },
+  async loginFam({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginFam(payload);
+      commit("SET_FAMILY", response.data);
+      commit("SET_STEPFAMILY", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPFAMILY", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+
   setGuest(context, { value }) {
     window.localStorage.setItem("guest", value);
   },
@@ -99,6 +121,12 @@ export const getters = {
   },
   stepTwo: (state) => {
     return state.steptwo;
+  },
+  stepFamily: (state) => {
+    return state.stepfamily;
+  },
+  family: (state) => {
+    return state.family;
   },
   error: (state) => {
     return state.error;
