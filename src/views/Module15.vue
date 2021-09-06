@@ -86,7 +86,7 @@
               <br /><br />
               {{ textIntro[6].textc }}
               <br /><br />
-              {{ textIntro[5].textd }}
+              {{ textIntro[6].textd }}
               <div class="d-none d-md-flex d-lg-flex">
                 <br /><br />
                 <br /><br />
