@@ -21,10 +21,11 @@
         <v-card-title class="white--text">Familiecode</v-card-title>
         <v-card-text class="white--text"
           >In uw email uitnodiging treft u een familiecode aan. Met deze code
-          krijgt u toegang
+          krijgt u toegang.<br />
+
           <br />
-          Controleer eventueel uw spambox</v-card-text
-        >
+          Controleer eventueel uw spambox.
+        </v-card-text>
       </v-card>
     </v-col>
     <v-col cols="12" md="6" class="d-flex justify-center align-center">
@@ -91,7 +92,7 @@ export default {
           console.log("error");
           this.errorBtn = true;
           const error = Error(
-            "Deze familiecode is onjuist of verlopen, probeer het a.u.b opnieuw. Mocht u problemen blijven ondervinden dan verzoeken we contact met ons op te nemen."
+            "Deze familiecode is onjuist of verlopen, probeer het a.u.b opnieuw. Mocht u problemen blijven ondervinden dan verzoeken we contact met ons op te nemen. This family code is incorrect or expired, please try again. If you continue to have problems, please contact us."
           );
           error.name = "Fetch User";
           throw error;

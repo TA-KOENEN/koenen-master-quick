@@ -12,16 +12,18 @@
         <v-col cols="12" md="6" class="accent d-flex justify-center">
           <v-card class="ma-10 transparent" outlined width="100%">
             <div v-if="memberData.step === 0">
-              {{ textIntro[0].header }}
-              <br /><br /><br /><br />
+              <h3>
+                {{ textIntro[0].header }}
+              </h3>
+              <br />
               {{ textIntro[0].texta }}
-              <br /><br /><br />
+              <br /><br />
               {{ textIntro[0].textb }}
-              <br /><br /><br />
+              <br /><br />
               {{ textIntro[0].textc }}
-              <br /><br /><br />
+              <br /><br />
               {{ textIntro[0].textd }}
-              <br /><br /><br />
+              <br /><br />
               {{ textIntro[0].texte }}
               <div class="d-none d-md-flex d-lg-flex">
                 <br /><br />
@@ -33,20 +35,28 @@
                 <br /><br />
                 <br /><br />
                 <br /><br />
-                <div>'</div>
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
               </div>
             </div>
             <div v-if="memberData.step === 1">
-              {{ textIntro[1].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[1].header }}
+              </h3>
+              <br />
               {{ textIntro[1].texta }}
               <br /><br />
               {{ textIntro[1].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 2">
-              {{ textIntro[2].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[2].header }}
+              </h3>
+              <br />
               {{ textIntro[2].texta }}
               <br /><br />
               {{ textIntro[2].textb }}
@@ -55,48 +65,60 @@
               <br /><br />
             </div>
             <div v-if="memberData.step === 3">
-              {{ textIntro[3].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[3].header }}
+              </h3>
+              <br />
               {{ textIntro[3].texta }}
               <br /><br />
               {{ textIntro[3].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 4">
-              {{ textIntro[4].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[4].header }}
+              </h3>
+              <br />
               {{ textIntro[4].texta }}
               <br /><br />
               {{ textIntro[4].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 5">
-              {{ textIntro[5].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[5].header }}
+              </h3>
+              <br />
               {{ textIntro[5].texta }}
               <br /><br />
               {{ textIntro[5].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 6">
-              {{ textIntro[6].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[6].header }}
+              </h3>
+              <br />
               {{ textIntro[6].texta }}
               <br /><br />
               {{ textIntro[6].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 7">
-              {{ textIntro[7].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[7].header }}
+              </h3>
+              <br />
               {{ textIntro[7].texta }}
               <br /><br />
               {{ textIntro[7].textb }}
               <br /><br />
             </div>
             <div v-if="memberData.step === 8">
-              {{ textIntro[8].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[8].header }}
+              </h3>
+              <br />
               {{ textIntro[8].texta }}
               <br /><br />
               {{ textIntro[8].textb }}
@@ -104,10 +126,11 @@
             </div>
 
             <div v-if="memberData.step === 9">
-              {{ textIntro[9].header }}
-              <br /><br />
+              <h3>
+                {{ textIntro[9].header }}
+              </h3>
+              <br />
               {{ textIntro[9].texta }}
-              <br /><br />
               <br /><br />
               {{ textIntro[9].textb }}
               <br /><br />
@@ -131,7 +154,11 @@
                 <br /><br />
                 <br /><br />
                 <br /><br />
-                <div>.</div>
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
               </div>
             </div>
           </v-card>

@@ -43,7 +43,10 @@
           enter-active-class="animate__animated animate__fadeInLeft"
           appear
         >
-          <p class="logoo3">Click op het logo om verder te gaan</p>
+          <p class="logoo3">
+            Klik op het logo om verder te gaan <br /><br />
+            Click on the logo to continue
+          </p>
         </transition>
       </div>
     </v-row>

@@ -17,7 +17,7 @@
         <v-card-title> Welkom bij Trusted Accountant</v-card-title>
         <v-card-text>Liever een ander kleurschema klik op de knop</v-card-text>
         <div class="text-center">
-          <v-btn class="secondary" @click="toggle_dark_mode">
+          <v-btn class="secondary mb-8" @click="toggle_dark_mode">
             <v-icon left>mdi-theme-light-dark</v-icon>
             <span>Donker/Licht</span>
           </v-btn>
