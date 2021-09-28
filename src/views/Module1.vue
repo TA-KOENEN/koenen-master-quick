@@ -71,6 +71,7 @@
               {{ textIntro[3].textb }}
               <br /><br />
             </div>
+
             <div v-if="memberData.step === 4">
               <h3>
                 {{ textIntro[4].header }}
@@ -80,39 +81,9 @@
               <br /><br />
               {{ textIntro[4].textb }}
               <br /><br />
-            </div>
-            <div v-if="memberData.step === 5">
-              <h3>
-                {{ textIntro[5].header }}
-              </h3>
-              <br />
-              {{ textIntro[5].texta }}
+              {{ textIntro[4].textc }}
               <br /><br />
-              {{ textIntro[5].textb }}
-              <br /><br />
-            </div>
-            <div v-if="memberData.step === 6">
-              <h3>
-                {{ textIntro[6].header }}
-              </h3>
-              <br />
-              {{ textIntro[6].texta }}
-              <br /><br />
-              {{ textIntro[6].textb }}
-              <br /><br />
-            </div>
-            <div v-if="memberData.step === 7">
-              <h3>
-                {{ textIntro[7].header }}
-              </h3>
-              <br />
-              {{ textIntro[7].texta }}
-              <br /><br />
-              {{ textIntro[7].textb }}
-              <br /><br />
-              {{ textIntro[7].textc }}
-              <br /><br />
-              {{ textIntro[7].textd }}
+              {{ textIntro[4].textd }}
               <div class="d-none d-md-flex d-lg-flex">
                 <br /><br />
                 <br /><br />
@@ -195,60 +166,21 @@
                     :note="Statements[2].note"
                     :comment="Statements[2].comment"
                   />
-
-                  <ValidationProvider
-                    rules="required"
-                    v-slot="{ errors, valid }"
-                  >
-                    <v-radio-group
-                      v-model="memberData.question_c"
-                      :succes="valid"
-                      :error-messages="errors"
-                    >
-                      <v-radio value="ke1" color="info">
-                        <template v-slot:label> Ja </template>
-                      </v-radio>
-                      <v-radio value="ke2" color="info">
-                        <template v-slot:label>
-                          Ja, onder voorwaarde van een huwelijk of geregistreerd
-                          partnerschap
-                        </template>
-                      </v-radio>
-                      <v-radio value="ke3" color="info">
-                        <template v-slot:label> Nee </template>
-                      </v-radio>
-                    </v-radio-group>
-                  </ValidationProvider>
+                  <ta-slider2 v-model="memberData.sl_c" />
                   <CustomDivider />
                   <StatementText
                     :statement="Statements[3].statement"
                     :note="Statements[3].note"
                     :comment="Statements[3].comment"
                   />
-
-                  <ValidationProvider
-                    rules="required"
-                    v-slot="{ errors, valid }"
-                  >
-                    <v-radio-group
-                      v-model="memberData.question_d"
-                      :succes="valid"
-                      :error-messages="errors"
-                    >
-                      <v-radio value="ke1" color="info">
-                        <template v-slot:label> Ja </template>
-                      </v-radio>
-                      <v-radio value="ke2" color="info">
-                        <template v-slot:label>
-                          Ja, onder voorwaarde van een huwelijk of geregistreerd
-                          partnerschap met de levenspartner
-                        </template>
-                      </v-radio>
-                      <v-radio value="ke3" color="info">
-                        <template v-slot:label> Nee </template>
-                      </v-radio>
-                    </v-radio-group>
-                  </ValidationProvider>
+                  <ta-slider2 v-model="memberData.sl_d" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[4].statement"
+                    :note="Statements[4].note"
+                    :comment="Statements[4].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_e" />
                   <CustomDivider />
                   <base-val-area
                     label="Uw opmerkingen"
@@ -290,49 +222,11 @@
                 <v-form ref="form">
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[4].statement"
-                    :note="Statements[4].note"
-                    :comment="Statements[4].comment"
-                    id="stepBstart"
-                  />
-                  <ta-slider2 v-model="memberData.sl_e" />
-                  <CustomDivider />
-                  <StatementText
                     :statement="Statements[5].statement"
                     :note="Statements[5].note"
                     :comment="Statements[5].comment"
                   />
-                  <ValidationProvider
-                    rules="required"
-                    v-slot="{ errors, valid }"
-                  >
-                    <v-radio-group
-                      vid="memberData.question_f"
-                      v-model="memberData.question_f"
-                      :succes="valid"
-                      :error-messages="errors"
-                    >
-                      <v-radio value="ke1" color="info">
-                        <template v-slot:label> 18 jaar </template>
-                      </v-radio>
-                      <v-radio value="ke2" color="info">
-                        <template v-slot:label> 21 jaar </template>
-                      </v-radio>
-                      <v-radio value="ke3" color="info">
-                        <template v-slot:label> 23 jaar </template>
-                      </v-radio>
-                      <v-radio value="ke4" color="info">
-                        <template v-slot:label> Anders </template>
-                      </v-radio>
-                    </v-radio-group>
-                  </ValidationProvider>
-                  <div v-if="memberData.question_f === 'ke4'">
-                    <base-val-input
-                      label="Anders"
-                      rules="max:50"
-                      v-model="memberData.data_f"
-                    ></base-val-input>
-                  </div>
+                  <ta-slider2 v-model="memberData.sl_f" />
                   <CustomDivider />
                   <StatementText
                     :statement="Statements[6].statement"
@@ -341,6 +235,42 @@
                   />
                   <ta-slider2 v-model="memberData.sl_g" />
                   <CustomDivider />
+                  <StatementText
+                    :statement="Statements[7].statement"
+                    :note="Statements[7].note"
+                    :comment="Statements[7].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_h" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[8].statement"
+                    :note="Statements[8].note"
+                    :comment="Statements[8].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_i" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[9].statement"
+                    :note="Statements[9].note"
+                    :comment="Statements[9].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_j" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[10].statement"
+                    :note="Statements[10].note"
+                    :comment="Statements[10].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_k" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[11].statement"
+                    :note="Statements[11].note"
+                    :comment="Statements[11].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_l" />
+                  <CustomDivider />
+
                   <base-val-area
                     label="Uw opmerkingen"
                     rules="max:150"
@@ -379,32 +309,73 @@
                 <v-form ref="form">
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[7].statement"
-                    :note="Statements[7].note"
-                    :comment="Statements[7].comment"
+                    :statement="Statements[12].statement"
+                    :note="Statements[12].note"
+                    :comment="Statements[12].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_h" />
+                  <ta-slider2 v-model="memberData.sl_m" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[8].statement"
-                    :note="Statements[8].note"
-                    :comment="Statements[8].comment"
+                    :statement="Statements[13].statement"
+                    :note="Statements[13].note"
+                    :comment="Statements[13].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_i" />
+                  <ta-slider2 v-model="memberData.sl_n" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[9].statement"
-                    :note="Statements[9].note"
-                    :comment="Statements[9].comment"
+                    :statement="Statements[14].statement"
+                    :note="Statements[14].note"
+                    :comment="Statements[14].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_j" />
+                  <ta-slider2 v-model="memberData.sl_o" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[10].statement"
-                    :note="Statements[10].note"
-                    :comment="Statements[10].comment"
+                    :statement="Statements[15].statement"
+                    :note="Statements[15].note"
+                    :comment="Statements[15].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_k" />
+                  <ta-slider2 v-model="memberData.sl_p" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[16].statement"
+                    :note="Statements[16].note"
+                    :comment="Statements[16].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_q" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[17].statement"
+                    :note="Statements[17].note"
+                    :comment="Statements[17].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_r" />
+                  <StatementText
+                    :statement="Statements[18].statement"
+                    :note="Statements[18].note"
+                    :comment="Statements[18].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_s" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[19].statement"
+                    :note="Statements[19].note"
+                    :comment="Statements[19].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_t" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[20].statement"
+                    :note="Statements[20].note"
+                    :comment="Statements[20].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_u" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[21].statement"
+                    :note="Statements[21].note"
+                    :comment="Statements[21].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_v" />
                   <CustomDivider />
                   <base-val-area
                     label="Uw opmerkingen"
@@ -435,302 +406,9 @@
               :stepText="textIntro[4].header"
               :number="4"
               class="mb-5"
-              :kleur="colorStep4"
-            />
-            <div id="step4" v-if="memberData.step === 4">
-              <CustomDivider />
-              <StatementText
-                :statement="Statements[11].statement"
-                :note="Statements[11].note"
-                :comment="Statements[11].comment"
-              />
-              <ValidationObserver
-                ref="obs"
-                v-slot="{ invalid, validate, handleSubmit }"
-              >
-                <v-form ref="form">
-                  <ta-slider2 v-model="memberData.sl_l" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[12].statement"
-                    :note="Statements[12].note"
-                    :comment="Statements[12].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_m" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[13].statement"
-                    :note="Statements[13].note"
-                    :comment="Statements[13].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_n" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[14].statement"
-                    :note="Statements[14].note"
-                    :comment="Statements[14].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_o" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[15].statement"
-                    :note="Statements[15].note"
-                    :comment="Statements[15].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_p" />
-                  <CustomDivider />
-                  <base-val-area
-                    label="Uw opmerkingen"
-                    rules="max:150"
-                    v-model="memberData.remark_d"
-                  />
-                  <CustomDivider />
-                  <v-row class="mt-10">
-                    <v-spacer />
-                    <btnback :on-click="backStep" />
-                    <v-btn
-                      color="accent"
-                      small
-                      class="mb-5 mr-8"
-                      @click="handleSubmit(endStepD)"
-                      :disabled="invalid || !validate"
-                      >Verder</v-btn
-                    >
-                  </v-row>
-                  <v-row class="mb-10">
-                    <btn-stop :on-click="stopModule" />
-                  </v-row>
-                </v-form>
-              </ValidationObserver>
-            </div>
-            <step-text
-              :stepText="textIntro[5].header"
-              :number="5"
-              class="mb-5"
               :kleur="colorStep5"
             />
-            <div id="step5" v-if="memberData.step === 5">
-              <CustomDivider />
-              <ValidationObserver
-                ref="obs"
-                v-slot="{ invalid, validate, handleSubmit }"
-              >
-                <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[16].statement"
-                    :note="Statements[16].note"
-                    :comment="Statements[16].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_q" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[17].statement"
-                    :note="Statements[17].note"
-                    :comment="Statements[17].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_r" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[18].statement"
-                    :note="Statements[18].note"
-                    :comment="Statements[18].comment"
-                  />
-                  <ValidationProvider
-                    rules="required"
-                    v-slot="{ errors, valid }"
-                  >
-                    <v-radio-group
-                      v-model="memberData.question_s"
-                      :succes="valid"
-                      :error-messages="errors"
-                    >
-                      <v-radio value="ke1" color="info">
-                        <template v-slot:label>Maandelijks</template>
-                      </v-radio>
-                      <v-radio value="ke2" color="info">
-                        <template v-slot:label>Per twee maanden</template>
-                      </v-radio>
-                      <v-radio value="ke3" color="info">
-                        <template v-slot:label>Per kwartaal</template>
-                      </v-radio>
-                      <v-radio value="ke4" color="info">
-                        <template v-slot:label>Andere frequentie, nl</template>
-                      </v-radio>
-                    </v-radio-group>
-                  </ValidationProvider>
-
-                  <div v-if="memberData.question_s === 'ke4'">
-                    <base-val-input
-                      label="Anders"
-                      rules="max:50"
-                      v-model="memberData.data_s"
-                    ></base-val-input>
-                  </div>
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[19].statement"
-                    :note="Statements[19].note"
-                    :comment="Statements[19].comment"
-                  />
-                  <ValidationProvider
-                    rules="required"
-                    v-slot="{ errors, valid }"
-                  >
-                    <v-radio-group
-                      vid="memberData.question_f"
-                      v-model="memberData.question_t"
-                      :succes="valid"
-                      :error-messages="errors"
-                    >
-                      <v-radio value="ke1" color="info">
-                        <template v-slot:label>2 uur</template>
-                      </v-radio>
-                      <v-radio value="ke2" color="info">
-                        <template v-slot:label>2 tot 4 uur</template>
-                      </v-radio>
-                      <v-radio value="ke3" color="info">
-                        <template v-slot:label>Langer dan 4 uur</template>
-                      </v-radio>
-                      <v-radio value="ke4" color="info">
-                        <template v-slot:label
-                          >Afhankelijk van de agenda</template
-                        >
-                      </v-radio>
-                    </v-radio-group>
-                  </ValidationProvider>
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[20].statement"
-                    :note="Statements[20].note"
-                    :comment="Statements[20].comment"
-                  />
-                  <ValidationProvider
-                    rules="required"
-                    v-slot="{ errors, valid }"
-                  >
-                    <v-radio-group
-                      vid="memberData.question_f"
-                      v-model="memberData.question_u"
-                      :succes="valid"
-                      :error-messages="errors"
-                    >
-                      <v-radio value="ke1" color="info">
-                        <template v-slot:label>Op het familiebedrijf</template>
-                      </v-radio>
-                      <v-radio value="ke2" color="info">
-                        <template v-slot:label
-                          >Bij één van de familieleden thuis</template
-                        >
-                      </v-radio>
-                      <v-radio value="ke3" color="info">
-                        <template v-slot:label>Op een externe locatie</template>
-                      </v-radio>
-                      <v-radio value="ke4" color="info">
-                        <template v-slot:label>Digitaal</template>
-                      </v-radio>
-                      <v-radio value="ke5" color="info">
-                        <template v-slot:label>Anders, nl</template>
-                      </v-radio>
-                    </v-radio-group>
-                  </ValidationProvider>
-                  <div v-if="memberData.question_u === 'ke5'">
-                    <base-val-input
-                      label="Anders"
-                      rules="max:50"
-                      v-model="memberData.data_u"
-                    ></base-val-input>
-                  </div>
-
-                  <CustomDivider />
-                  <base-val-area
-                    label="Uw opmerkingen"
-                    rules="max:150"
-                    v-model="memberData.remark_e"
-                  />
-                  <CustomDivider />
-                  <v-row class="mt-10">
-                    <v-spacer />
-                    <btnback :on-click="backStep" />
-                    <v-btn
-                      color="accent"
-                      small
-                      class="mb-5 mr-8"
-                      @click="handleSubmit(endStepE)"
-                      :disabled="invalid || !validate"
-                      >Verder</v-btn
-                    >
-                  </v-row>
-                  <v-row class="mb-10">
-                    <btn-stop :on-click="stopModule" />
-                  </v-row>
-                </v-form>
-              </ValidationObserver>
-            </div>
-            <step-text
-              :stepText="textIntro[6].header"
-              :number="6"
-              class="mb-5"
-              :kleur="colorStep6"
-            />
-            <div id="step6" v-if="memberData.step === 6">
-              <CustomDivider />
-              <ValidationObserver
-                ref="obs"
-                v-slot="{ invalid, validate, handleSubmit }"
-              >
-                <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[21].statement"
-                    :note="Statements[21].note"
-                    :comment="Statements[21].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_v" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[22].statement"
-                    :note="Statements[22].note"
-                    :comment="Statements[22].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_x" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[23].statement"
-                    :note="Statements[23].note"
-                    :comment="Statements[23].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_y" />
-                  <CustomDivider />
-                  <base-val-area
-                    label="Uw opmerkingen"
-                    rules="max:150"
-                    v-model="memberData.remark_f"
-                  />
-                  <CustomDivider />
-                  <v-row class="mt-10">
-                    <v-spacer />
-                    <btnback :on-click="backStep" />
-                    <v-btn
-                      color="accent"
-                      small
-                      class="mb-5 mr-8"
-                      @click="handleSubmit(endStepF)"
-                      :disabled="invalid || !validate"
-                      >Verder</v-btn
-                    >
-                  </v-row>
-                  <v-row class="mb-10">
-                    <btn-stop :on-click="stopModule" />
-                  </v-row>
-                </v-form>
-              </ValidationObserver>
-            </div>
-            <step-text
-              :stepText="textIntro[7].header"
-              :number="7"
-              class="mb-5"
-              :kleur="colorStep8"
-            />
-            <div id="step7" v-if="memberData.step === 7">
+            <div id="step4" v-if="memberData.step === 4">
               <CustomDivider />
               <v-row class="mt-10 mb-10 justify-center">
                 <v-btn
@@ -757,27 +435,24 @@
 <script>
 import { mapGetters } from "vuex";
 import Toolbar from "@/components/core/Toolbar";
-import textData from "@/text/textA.json";
+import textData from "@/text/text/textA.json";
 import vimeoData from "@/text/vimeo.json";
+import Stat from "@/text/statements/StatementsA.json";
 import Loading from "@/components/core/loading";
 import TaSlider2 from "@/components/core/ta-slider2";
-import StatementService from "@/services/StatementService";
 import ResultService from "@/services/ResultService";
 import StepText from "@/components/stepText";
 import Btnnext from "@/components/BtnNext";
 import StatementText from "@/components/StatementText";
 import Btnback from "@/components/BtnBack";
-
 import CustomDivider from "@/components/CustomDivider";
 import BtnStop from "@/components/BtnStop";
 import Saving from "@/components/core/saving";
 import { ValidationObserver } from "vee-validate";
 import BaseValArea from "@/components/input/BaseValArea";
-import { ValidationProvider } from "vee-validate";
-import BaseValInput from "@/components/input/BaseValInput";
+
 export default {
   components: {
-    BaseValInput,
     BaseValArea,
     Saving,
     BtnStop,
@@ -790,10 +465,10 @@ export default {
     Loading,
     Toolbar,
     ValidationObserver,
-    ValidationProvider,
   },
   data() {
     return {
+      Statements: Stat,
       disableBtn: false,
       valid2: false,
       valid3: false,
@@ -871,7 +546,6 @@ export default {
         first_name: "",
         last_name: "",
       },
-      Statements: null,
     };
   },
   methods: {
@@ -947,19 +621,6 @@ export default {
         sl_t: this.memberData.sl_t,
         sl_u: this.memberData.sl_u,
         sl_v: this.memberData.sl_v,
-        sl_w: this.memberData.sl_w,
-        sl_x: this.memberData.sl_x,
-        sl_y: this.memberData.sl_y,
-        question_c: this.memberData.question_c,
-        question_d: this.memberData.question_d,
-        question_f: this.memberData.question_f,
-        question_s: this.memberData.question_s,
-        question_t: this.memberData.question_t,
-        question_u: this.memberData.question_u,
-        data_f: this.memberData.data_f,
-        data_s: this.memberData.data_s,
-        data_t: this.memberData.data_t,
-        data_u: this.memberData.data_u,
         ready_a: this.memberData.ready_a,
         ready_b: this.memberData.ready_b,
         ready_c: this.memberData.ready_c,
@@ -995,14 +656,6 @@ export default {
         });
     },
 
-    getStatement() {
-      this.loading = true;
-      StatementService.getStatementA().then((response) => {
-        console.log("statements terug");
-        this.Statements = response.data.data;
-        this.loading = false;
-      });
-    },
     getData() {
       const payload = {
         email: this.email,
@@ -1010,7 +663,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultA(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.afsmodule;
+        this.memberData = response.data.data.alightmodule;
         this.loading1 = false;
       });
     },
@@ -1027,7 +680,7 @@ export default {
         this.colorStep1 = "accent";
         this.colorStep2 = "info";
         this.colorStep3 = "accent";
-        this.memberData.ready_a = true;
+        this.memberData.ready_b = true;
       } else if (this.memberData.step === 3) {
         this.colorStep2 = "accent";
         this.colorStep3 = "info";
@@ -1037,21 +690,21 @@ export default {
         this.colorStep3 = "accent";
         this.colorStep4 = "info";
         this.colorStep5 = "accent";
-        this.memberData.ready_c = true;
+        this.memberData.ready_d = true;
       } else if (this.memberData.step === 5) {
         this.colorStep4 = "accent";
         this.colorStep5 = "info";
         this.colorStep6 = "accent";
-        this.memberData.ready_d = true;
+        this.memberData.ready_e = true;
       } else if (this.memberData.step === 6) {
         this.colorStep5 = "accent";
         this.colorStep6 = "info";
         this.colorStep7 = "accent";
-        this.memberData.ready_e = true;
+        this.memberData.ready_f = true;
       } else if (this.memberData.step === 7) {
         this.colorStep6 = "accent";
         this.colorStep7 = "info";
-        this.memberData.ready_f = true;
+        this.memberData.ready_g = true;
       }
     },
   },
@@ -1060,7 +713,6 @@ export default {
     ...mapGetters("auth", ["email"]),
   },
   created() {
-    this.getStatement();
     this.getData();
   },
 };

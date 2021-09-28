@@ -802,7 +802,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultG(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.gfsmodule;
+        this.memberData = response.data.data.glightmodule;
         this.loading1 = false;
       });
     },

@@ -7,6 +7,7 @@
     <div v-if="saving">
       <saving />
     </div>
+
     <div class="ma-0 pa-0" v-if="!loading">
       <v-row no-gutters>
         <v-col cols="12" md="6" class="accent d-flex justify-center">
@@ -24,6 +25,7 @@
               <br /><br />
               {{ textIntro[0].textd }}
               <div class="d-none d-md-flex d-lg-flex">
+                <br /><br />
                 <br /><br />
                 <br /><br />
                 <br /><br />
@@ -58,8 +60,6 @@
               <br /><br />
               {{ textIntro[2].textb }}
               <br /><br />
-              {{ textIntro[2].textc }}
-              <br /><br />
             </div>
             <div v-if="memberData.step === 3">
               <h3>
@@ -72,9 +72,9 @@
               <br /><br />
             </div>
             <div v-if="memberData.step === 4">
-              <h3>
+              <h4>
                 {{ textIntro[4].header }}
-              </h3>
+              </h4>
               <br />
               {{ textIntro[4].texta }}
               <br /><br />
@@ -82,19 +82,20 @@
               <br /><br />
             </div>
             <div v-if="memberData.step === 5">
-              <h3>
+              <h5>
                 {{ textIntro[5].header }}
-              </h3>
+              </h5>
               <br />
               {{ textIntro[5].texta }}
               <br /><br />
               {{ textIntro[5].textb }}
               <br /><br />
             </div>
+
             <div v-if="memberData.step === 6">
-              <h3>
+              <h6>
                 {{ textIntro[6].header }}
-              </h3>
+              </h6>
               <br />
               {{ textIntro[6].texta }}
               <br /><br />
@@ -103,17 +104,14 @@
             </div>
 
             <div v-if="memberData.step === 7">
-              <h3>
+              <h7>
                 {{ textIntro[7].header }}
-              </h3>
+              </h7>
               <br />
               {{ textIntro[7].texta }}
               <br /><br />
               {{ textIntro[7].textb }}
               <br /><br />
-              {{ textIntro[7].textc }}
-              <br /><br />
-              {{ textIntro[7].textd }}
             </div>
             <div v-if="memberData.step === 8">
               <h3>
@@ -127,53 +125,32 @@
               {{ textIntro[8].textc }}
               <br /><br />
               {{ textIntro[8].textd }}
-            </div>
-            <div v-if="memberData.step === 9">
-              <h3>
-                {{ textIntro[9].header }}
-              </h3>
-              <br />
-              {{ textIntro[9].texta }}
-              <br /><br />
-              <br /><br />
-              {{ textIntro[9].textb }}
-              <br /><br />
-            </div>
-            <div v-if="memberData.step === 10">
-              <h3>
-                {{ textIntro[10].header }}
-              </h3>
-              <br />
-              {{ textIntro[10].texta }}
-              <br /><br />
-              {{ textIntro[10].textb }}
-              <br /><br />
-              {{ textIntro[10].textc }}
-              <br /><br />
-              {{ textIntro[10].textd }}
-            </div>
-            <div class="d-none d-md-flex d-lg-flex">
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
-              <br /><br />
+              <div class="d-none d-md-flex d-lg-flex">
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+              </div>
             </div>
           </v-card>
         </v-col>
@@ -187,7 +164,7 @@
             />
             <div id="step0" v-if="memberData.step === 0">
               <vimeo-player
-                :video-id="vimeo.module_c"
+                :video-id="vimeo.module_a"
                 class="embed-container"
                 :options="{ responsive: true }"
               ></vimeo-player>
@@ -232,33 +209,14 @@
                   />
                   <ta-slider2 v-model="memberData.sl_c" />
                   <CustomDivider />
-                  <StatementText
-                    :statement="Statements[3].statement"
-                    :note="Statements[3].note"
-                    :comment="Statements[3].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_d" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[4].statement"
-                    :note="Statements[4].note"
-                    :comment="Statements[4].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_e" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[5].statement"
-                    :note="Statements[5].note"
-                    :comment="Statements[5].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_f" />
-                  <CustomDivider />
                   <base-val-area
                     label="Uw opmerkingen"
                     rules="max:150"
                     v-model="memberData.remark_a"
                   />
+
                   <CustomDivider />
+
                   <v-row class="mt-10">
                     <v-spacer />
                     <btnback :on-click="backStep" />
@@ -284,25 +242,32 @@
               :kleur="colorStep2"
             />
             <div id="step2" v-if="memberData.step === 2">
-              <CustomDivider />
               <ValidationObserver
                 ref="obs"
                 v-slot="{ invalid, validate, handleSubmit }"
               >
                 <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[6].statement"
-                    :note="Statements[6].note"
-                    :comment="Statements[6].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_g" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[7].statement"
-                    :note="Statements[7].note"
-                    :comment="Statements[7].comment"
+                    :statement="Statements[3].statement"
+                    :note="Statements[3].note"
+                    :comment="Statements[3].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_h" />
+                  <ta-slider2 v-model="memberData.sl_d" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[4].statement"
+                    :note="Statements[4].note"
+                    :comment="Statements[4].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_e" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[5].statement"
+                    :note="Statements[5].note"
+                    :comment="Statements[5].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_f" />
                   <CustomDivider />
                   <base-val-area
                     label="Uw opmerkingen"
@@ -335,12 +300,26 @@
               :kleur="colorStep3"
             />
             <div id="step3" v-if="memberData.step === 3">
-              <CustomDivider />
               <ValidationObserver
                 ref="obs"
                 v-slot="{ invalid, validate, handleSubmit }"
               >
                 <v-form ref="form">
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[6].statement"
+                    :note="Statements[6].note"
+                    :comment="Statements[6].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_g" />
+                  <CustomDivider />
+                  <StatementText
+                    :statement="Statements[7].statement"
+                    :note="Statements[7].note"
+                    :comment="Statements[7].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_h" />
+                  <CustomDivider />
                   <StatementText
                     :statement="Statements[8].statement"
                     :note="Statements[8].note"
@@ -354,6 +333,43 @@
                     :comment="Statements[9].comment"
                   />
                   <ta-slider2 v-model="memberData.sl_j" />
+                  <CustomDivider />
+                  <base-val-area
+                    label="Uw opmerkingen"
+                    rules="max:150"
+                    v-model="memberData.remark_c"
+                  />
+                  <CustomDivider />
+                  <v-row class="mt-10">
+                    <v-spacer />
+                    <btnback :on-click="backStep" />
+                    <v-btn
+                      color="accent"
+                      small
+                      class="mb-5 mr-8"
+                      @click="handleSubmit(endStepC)"
+                      :disabled="invalid || !validate"
+                      >Verder</v-btn
+                    >
+                  </v-row>
+                  <v-row class="mb-10">
+                    <btn-stop :on-click="stopModule" />
+                  </v-row>
+                </v-form>
+              </ValidationObserver>
+            </div>
+            <step-text
+              :stepText="textIntro[4].header"
+              :number="4"
+              class="mb-5"
+              :kleur="colorStep4"
+            />
+            <div id="step4" v-if="memberData.step === 4">
+              <ValidationObserver
+                ref="obs"
+                v-slot="{ invalid, validate, handleSubmit }"
+              >
+                <v-form ref="form">
                   <CustomDivider />
                   <StatementText
                     :statement="Statements[10].statement"
@@ -383,11 +399,19 @@
                   />
                   <ta-slider2 v-model="memberData.sl_n" />
                   <CustomDivider />
+                  <StatementText
+                    :statement="Statements[14].statement"
+                    :note="Statements[14].note"
+                    :comment="Statements[14].comment"
+                  />
+                  <ta-slider2 v-model="memberData.sl_o" />
+                  <CustomDivider />
                   <base-val-area
                     label="Uw opmerkingen"
                     rules="max:150"
-                    v-model="memberData.remark_c"
+                    v-model="memberData.remark_d"
                   />
+                  <CustomDivider />
                   <v-row class="mt-10">
                     <v-spacer />
                     <btnback :on-click="backStep" />
@@ -407,24 +431,17 @@
               </ValidationObserver>
             </div>
             <step-text
-              :stepText="textIntro[4].header"
-              :number="4"
+              :stepText="textIntro[5].header"
+              :number="5"
               class="mb-5"
-              :kleur="colorStep4"
+              :kleur="colorStep5"
             />
-            <div id="step4" v-if="memberData.step === 4">
-              <CustomDivider />
+            <div id="step5" v-if="memberData.step === 5">
               <ValidationObserver
                 ref="obs"
                 v-slot="{ invalid, validate, handleSubmit }"
               >
                 <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[14].statement"
-                    :note="Statements[14].note"
-                    :comment="Statements[14].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_o" />
                   <CustomDivider />
                   <StatementText
                     :statement="Statements[15].statement"
@@ -467,79 +484,6 @@
                     :comment="Statements[20].comment"
                   />
                   <ta-slider2 v-model="memberData.sl_u" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[21].statement"
-                    :note="Statements[21].note"
-                    :comment="Statements[21].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_v" />
-                  <CustomDivider />
-                  <base-val-area
-                    label="Uw opmerkingen"
-                    rules="max:150"
-                    v-model="memberData.remark_d"
-                  />
-                  <CustomDivider />
-                  <v-row class="mt-10">
-                    <v-spacer />
-                    <btnback :on-click="backStep" />
-                    <v-btn
-                      color="accent"
-                      small
-                      class="mb-5 mr-8"
-                      @click="handleSubmit(endStepD)"
-                      :disabled="invalid || !validate"
-                      >Verder</v-btn
-                    >
-                  </v-row>
-                  <v-row class="mb-10">
-                    <btn-stop :on-click="stopModule" />
-                  </v-row>
-                </v-form>
-              </ValidationObserver>
-            </div>
-            <step-text
-              :stepText="textIntro[5].header"
-              :number="5"
-              class="mb-5"
-              :kleur="colorStep5"
-            />
-            <div id="step5" v-if="memberData.step === 5">
-              <CustomDivider />
-              <ValidationObserver
-                ref="obs"
-                v-slot="{ invalid, validate, handleSubmit }"
-              >
-                <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[22].statement"
-                    :note="Statements[22].note"
-                    :comment="Statements[22].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_w" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[23].statement"
-                    :note="Statements[23].note"
-                    :comment="Statements[23].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_x" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[24].statement"
-                    :note="Statements[24].note"
-                    :comment="Statements[24].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_y" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[25].statement"
-                    :note="Statements[25].note"
-                    :comment="Statements[25].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_z" />
-                  <CustomDivider />
                   <base-val-area
                     label="Uw opmerkingen"
                     rules="max:150"
@@ -567,59 +511,38 @@
 
             <step-text
               :stepText="textIntro[6].header"
-              :number="7"
+              :number="6"
               class="mb-5"
               :kleur="colorStep6"
             />
             <div id="step6" v-if="memberData.step === 6">
-              <CustomDivider />
               <ValidationObserver
                 ref="obs"
                 v-slot="{ invalid, validate, handleSubmit }"
               >
                 <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[26].statement"
-                    :note="Statements[26].note"
-                    :comment="Statements[26].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_za" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[27].statement"
-                    :note="Statements[27].note"
-                    :comment="Statements[27].comment"
+                    :statement="Statements[21].statement"
+                    :note="Statements[21].note"
+                    :comment="Statements[21].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_zb" />
+                  <ta-slider2 v-model="memberData.sl_v" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[28].statement"
-                    :note="Statements[28].note"
-                    :comment="Statements[28].comment"
+                    :statement="Statements[22].statement"
+                    :note="Statements[22].note"
+                    :comment="Statements[22].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_zc" />
+                  <ta-slider2 v-model="memberData.sl_w" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[29].statement"
-                    :note="Statements[29].note"
-                    :comment="Statements[29].comment"
+                    :statement="Statements[23].statement"
+                    :note="Statements[23].note"
+                    :comment="Statements[23].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_zd" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[30].statement"
-                    :note="Statements[30].note"
-                    :comment="Statements[30].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_ze" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[31].statement"
-                    :note="Statements[31].note"
-                    :comment="Statements[31].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zf" />
-                  <CustomDivider />
+                  <ta-slider2 v-model="memberData.sl_x" />
+
                   <base-val-area
                     label="Uw opmerkingen"
                     rules="max:150"
@@ -633,7 +556,7 @@
                       color="accent"
                       small
                       class="mb-5 mr-8"
-                      @click="handleSubmit(endStepF)"
+                      @click="handleSubmit(endStepE)"
                       :disabled="invalid || !validate"
                       >Verder</v-btn
                     >
@@ -651,33 +574,25 @@
               :kleur="colorStep7"
             />
             <div id="step7" v-if="memberData.step === 7">
-              <CustomDivider />
               <ValidationObserver
                 ref="obs"
                 v-slot="{ invalid, validate, handleSubmit }"
               >
                 <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[32].statement"
-                    :note="Statements[32].note"
-                    :comment="Statements[32].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zg" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[33].statement"
-                    :note="Statements[33].note"
-                    :comment="Statements[33].comment"
+                    :statement="Statements[24].statement"
+                    :note="Statements[24].note"
+                    :comment="Statements[24].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_zh" />
+                  <ta-slider2 v-model="memberData.sl_y" />
                   <CustomDivider />
                   <StatementText
-                    :statement="Statements[34].statement"
-                    :note="Statements[34].note"
-                    :comment="Statements[34].comment"
+                    :statement="Statements[25].statement"
+                    :note="Statements[25].note"
+                    :comment="Statements[25].comment"
                   />
-                  <ta-slider2 v-model="memberData.sl_zi" />
-
+                  <ta-slider2 v-model="memberData.sl_z" />
                   <CustomDivider />
                   <base-val-area
                     label="Uw opmerkingen"
@@ -692,7 +607,7 @@
                       color="accent"
                       small
                       class="mb-5 mr-8"
-                      @click="handleSubmit(endStepG)"
+                      @click="handleSubmit(endStepE)"
                       :disabled="invalid || !validate"
                       >Verder</v-btn
                     >
@@ -711,133 +626,6 @@
               :kleur="colorStep8"
             />
             <div id="step8" v-if="memberData.step === 8">
-              <CustomDivider />
-              <ValidationObserver
-                ref="obs"
-                v-slot="{ invalid, validate, handleSubmit }"
-              >
-                <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[35].statement"
-                    :note="Statements[35].note"
-                    :comment="Statements[35].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zj" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[36].statement"
-                    :note="Statements[36].note"
-                    :comment="Statements[36].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zk" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[37].statement"
-                    :note="Statements[37].note"
-                    :comment="Statements[37].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zl" />
-
-                  <CustomDivider />
-                  <base-val-area
-                    label="Uw opmerkingen"
-                    rules="max:150"
-                    v-model="memberData.remark_h"
-                  />
-                  <CustomDivider />
-                  <v-row class="mt-10">
-                    <v-spacer />
-                    <btnback :on-click="backStep" />
-                    <v-btn
-                      color="accent"
-                      small
-                      class="mb-5 mr-8"
-                      @click="handleSubmit(endStepH)"
-                      :disabled="invalid || !validate"
-                      >Verder</v-btn
-                    >
-                  </v-row>
-                  <v-row class="mb-10">
-                    <btn-stop :on-click="stopModule" />
-                  </v-row>
-                </v-form>
-              </ValidationObserver>
-            </div>
-
-            <step-text
-              :stepText="textIntro[9].header"
-              :number="9"
-              class="mb-5"
-              :kleur="colorStep9"
-            />
-            <div id="step9" v-if="memberData.step === 9">
-              <CustomDivider />
-              <ValidationObserver
-                ref="obs"
-                v-slot="{ invalid, validate, handleSubmit }"
-              >
-                <v-form ref="form">
-                  <StatementText
-                    :statement="Statements[38].statement"
-                    :note="Statements[38].note"
-                    :comment="Statements[38].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zm" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[39].statement"
-                    :note="Statements[39].note"
-                    :comment="Statements[39].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zn" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[40].statement"
-                    :note="Statements[40].note"
-                    :comment="Statements[40].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zo" />
-                  <CustomDivider />
-                  <StatementText
-                    :statement="Statements[41].statement"
-                    :note="Statements[41].note"
-                    :comment="Statements[41].comment"
-                  />
-                  <ta-slider2 v-model="memberData.sl_zp" />
-
-                  <CustomDivider />
-                  <base-val-area
-                    label="Uw opmerkingen"
-                    rules="max:150"
-                    v-model="memberData.remark_i"
-                  />
-                  <CustomDivider />
-                  <v-row class="mt-10">
-                    <v-spacer />
-                    <btnback :on-click="backStep" />
-                    <v-btn
-                      color="accent"
-                      small
-                      class="mb-5 mr-8"
-                      @click="handleSubmit(endStepI)"
-                      :disabled="invalid || !validate"
-                      >Verder</v-btn
-                    >
-                  </v-row>
-                  <v-row class="mb-10">
-                    <btn-stop :on-click="stopModule" />
-                  </v-row>
-                </v-form>
-              </ValidationObserver>
-            </div>
-
-            <step-text
-              :stepText="textIntro[10].header"
-              :number="10"
-              class="mb-5"
-              :kleur="colorStep10"
-            />
-            <div id="step11" v-if="memberData.step === 10">
               <CustomDivider />
               <v-row class="mt-10 mb-10 justify-center">
                 <v-btn
@@ -864,11 +652,11 @@
 <script>
 import { mapGetters } from "vuex";
 import Toolbar from "@/components/core/Toolbar";
-import textData from "@/text/textC.json";
+import textData from "@/text/text/textC.json";
 import vimeoData from "@/text/vimeo.json";
+import Stat from "@/text/statements/StatementsC.json";
 import Loading from "@/components/core/loading";
 import TaSlider2 from "@/components/core/ta-slider2";
-import StatementService from "@/services/StatementService";
 import ResultService from "@/services/ResultService";
 import StepText from "@/components/stepText";
 import Btnnext from "@/components/BtnNext";
@@ -897,6 +685,7 @@ export default {
   },
   data() {
     return {
+      Statements: Stat,
       disableBtn: false,
       valid2: false,
       valid3: false,
@@ -951,6 +740,15 @@ export default {
         sl_x: null,
         sl_y: null,
         sl_z: null,
+        question_c: null,
+        question_d: null,
+        question_f: null,
+        question_s: null,
+        question_t: null,
+        question_u: null,
+        data_f: null,
+        data_s: null,
+        data_u: null,
         ready_a: null,
         ready_b: null,
         ready_c: null,
@@ -969,7 +767,6 @@ export default {
         first_name: "",
         last_name: "",
       },
-      Statements: null,
     };
   },
   methods: {
@@ -1016,22 +813,7 @@ export default {
       this.memberData.step++;
     },
     async endStepF() {
-      await this.$vuetify.goTo(0);
-      await this.saveResults();
-      this.memberData.step++;
-    },
-    async endStepG() {
-      await this.$vuetify.goTo(0);
-      await this.saveResults();
-      this.memberData.step++;
-    },
-    async endStepH() {
-      await this.$vuetify.goTo(0);
-      await this.saveResults();
-      this.memberData.step++;
-    },
-    async endStepI() {
-      await this.$vuetify.goTo(0);
+      await this.$vuetify.goTo(20);
       await this.saveResults();
       this.memberData.step++;
     },
@@ -1064,22 +846,6 @@ export default {
         sl_x: this.memberData.sl_x,
         sl_y: this.memberData.sl_y,
         sl_z: this.memberData.sl_z,
-        sl_za: this.memberData.sl_za,
-        sl_zb: this.memberData.sl_zb,
-        sl_zc: this.memberData.sl_zc,
-        sl_zd: this.memberData.sl_zd,
-        sl_ze: this.memberData.sl_ze,
-        sl_zf: this.memberData.sl_zf,
-        sl_zg: this.memberData.sl_zg,
-        sl_zh: this.memberData.sl_zh,
-        sl_zi: this.memberData.sl_zi,
-        sl_zj: this.memberData.sl_zj,
-        sl_zk: this.memberData.sl_zk,
-        sl_zl: this.memberData.sl_zl,
-        sl_zm: this.memberData.sl_zm,
-        sl_zn: this.memberData.sl_zn,
-        sl_zo: this.memberData.sl_zo,
-        sl_zp: this.memberData.sl_zp,
         ready_a: this.memberData.ready_a,
         ready_b: this.memberData.ready_b,
         ready_c: this.memberData.ready_c,
@@ -1087,10 +853,6 @@ export default {
         ready_e: this.memberData.ready_e,
         ready_f: this.memberData.ready_f,
         ready_g: this.memberData.ready_g,
-        ready_h: this.memberData.ready_h,
-        ready_i: this.memberData.ready_i,
-        ready_j: this.memberData.ready_j,
-        ready_k: this.memberData.ready_k,
         step: this.memberData.step,
         remark_a: this.memberData.remark_a,
         remark_b: this.memberData.remark_b,
@@ -1099,8 +861,6 @@ export default {
         remark_e: this.memberData.remark_e,
         remark_f: this.memberData.remark_f,
         remark_g: this.memberData.remark_g,
-        remark_h: this.memberData.remark_h,
-        remark_i: this.memberData.remark_i,
       };
       this.saving = true;
       ResultService.saveResultC(payload).then(() => {
@@ -1123,14 +883,6 @@ export default {
         });
     },
 
-    getStatement() {
-      this.loading = true;
-      StatementService.getStatementC().then((response) => {
-        console.log("statements terug");
-        this.Statements = response.data.data;
-        this.loading = false;
-      });
-    },
     getData() {
       const payload = {
         email: this.email,
@@ -1138,7 +890,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultC(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.cfsmodule;
+        this.memberData = response.data.data.clightmodule;
         this.loading1 = false;
       });
     },
@@ -1151,62 +903,41 @@ export default {
         this.colorStep0 = "accent";
         this.colorStep1 = "info";
         this.colorStep2 = "accent";
+        this.memberData.ready_a = true;
       } else if (this.memberData.step === 2) {
         this.colorStep1 = "accent";
         this.colorStep2 = "info";
         this.colorStep3 = "accent";
-        this.memberData.ready_a = true;
+        this.memberData.ready_b = true;
       } else if (this.memberData.step === 3) {
         this.colorStep2 = "accent";
         this.colorStep3 = "info";
         this.colorStep4 = "accent";
-        this.memberData.ready_b = true;
+        this.memberData.ready_c = true;
       } else if (this.memberData.step === 4) {
         this.colorStep3 = "accent";
         this.colorStep4 = "info";
         this.colorStep5 = "accent";
-        this.memberData.ready_c = true;
+        this.memberData.ready_d = true;
       } else if (this.memberData.step === 5) {
         this.colorStep4 = "accent";
         this.colorStep5 = "info";
         this.colorStep6 = "accent";
-        this.memberData.ready_d = true;
+        this.memberData.ready_e = true;
       } else if (this.memberData.step === 6) {
         this.colorStep5 = "accent";
         this.colorStep6 = "info";
         this.colorStep7 = "accent";
-        this.memberData.ready_e = true;
+        this.memberData.ready_f = true;
       } else if (this.memberData.step === 7) {
         this.colorStep6 = "accent";
         this.colorStep7 = "info";
         this.colorStep8 = "accent";
-        this.memberData.ready_f = true;
+        this.memberData.ready_g = true;
       } else if (this.memberData.step === 8) {
         this.colorStep7 = "accent";
         this.colorStep8 = "info";
-        this.colorStep9 = "accent";
         this.memberData.ready_g = true;
-      } else if (this.memberData.step === 9) {
-        this.colorStep8 = "accent";
-        this.colorStep9 = "info";
-        this.colorStep10 = "accent";
-        this.memberData.ready_h = true;
-      } else if (this.memberData.step === 10) {
-        this.colorStep9 = "accent";
-        this.colorStep10 = "info";
-        this.colorStep11 = "accent";
-        this.memberData.ready_i = true;
-      } else if (this.memberData.step === 11) {
-        this.colorStep10 = "accent";
-        this.colorStep11 = "info";
-        this.colorStep12 = "accent";
-        this.memberData.ready_j = true;
-        this.memberData.ready_k = true;
-      } else if (this.memberData.step === 12) {
-        this.colorStep11 = "accent";
-        this.colorStep12 = "info";
-        this.colorStep13 = "accent";
-        this.memberData.ready_k = true;
       }
     },
   },
@@ -1215,7 +946,6 @@ export default {
     ...mapGetters("auth", ["email"]),
   },
   created() {
-    this.getStatement();
     this.getData();
   },
 };

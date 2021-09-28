@@ -816,7 +816,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultN(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.nfsmodule;
+        this.memberData = response.data.data.nlightmodule;
         this.loading1 = false;
       });
     },

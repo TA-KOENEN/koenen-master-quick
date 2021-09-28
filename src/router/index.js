@@ -64,37 +64,37 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/familie",
+      path: "/familieoverleg",
       name: "Module1",
       component: () =>
         import(/* webpackChunkName: "moduleA" */ "@/views/Module1"),
     },
     {
-      path: "/conflicten",
+      path: "/toekomstvisie",
       name: "Module2",
       component: () =>
         import(/* webpackChunkName: "moduleB" */ "@/views/Module2"),
     },
     {
-      path: "/toekomstvisie",
+      path: "/eigendom_financiën",
       name: "Module3",
       component: () =>
         import(/* webpackChunkName: "moduleC" */ "@/views/Module3"),
     },
     {
-      path: "/waardenengedrag",
+      path: "/opvolging",
       name: "Module4",
       component: () =>
         import(/* webpackChunkName: "moduleD" */ "@/views/Module4"),
     },
     {
-      path: "/familiewaarden",
+      path: "/beloning",
       name: "Module5",
       component: () =>
         import(/* webpackChunkName: "moduleE" */ "@/views/Module5"),
     },
     {
-      path: "/leidingdga",
+      path: "/social_media",
       name: "Module6",
       component: () =>
         import(/* webpackChunkName: "moduleF" */ "@/views/Module6"),

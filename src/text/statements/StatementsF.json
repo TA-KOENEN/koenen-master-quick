@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "statement": "Ik vind het belangrijk dat we afspraken maken over hoe we omgaan met social media.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 2,
+    "statement": "Ik vind het belangrijk dat deze afspraken gaan over het social media gebruik in de privésfeer.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 3,
+    "statement": "Ik vind het belangrijk dat deze afspraken door ieder familielid worden nagekomen.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 4,
+    "statement": "Ik vind het belangrijk dat de onderlinge afspraken worden gehandhaafd door elkaar aan te spreken als daartoe aanleiding is.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 5,
+    "statement": "Ik vind het belangrijk dat de ouders verantwoordelijk zijn voor het naleven van deze afspraken door de minderjarige familieleden.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 6,
+    "statement": "Ik vind het belangrijk dat het aanspreken van minderjarige familieleden op de onderlinge afspraken plaatsvindt via de ouders.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 7,
+    "statement": "Ik vind het belangrijk dat er geen beperking is in de keuze van welke social media een individueel familielid gebruik maakt.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 8,
+    "statement": "Ik vind het belangrijk dat bij gebruik van sommige social media een zodanig profiel wordt gebruikt dat deze niet te herleiden is tot het individuele familielid.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 9,
+    "statement": "Ik vind het belangrijk dat we sommige social media uitsluiten, omdat we niet achter het doel of strekking van bepaalde social media kunnen staan.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 10,
+    "statement": "Ik vind het belangrijk dat we de risico’s op inbraak zoveel mogelijk beperken.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 11,
+    "statement": "Ik vind het realistisch dat we rekening houden met het risico van reputatieschade.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 12,
+    "statement": "Ik vind het realistisch dat we rekening houden met het risico van bedrog of afpersing.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 13,
+    "statement": "Ik vind het realistisch dat we rekening houden met het risico van ontvoering.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 14,
+    "statement": "Mijn eigen persoonlijke gegevens zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 15,
+    "statement": "Persoonsgegevens van familieleden zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 16,
+    "statement": "Foto’s en video’s van mijzelf zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 17,
+    "statement": "Foto’s en video’s van familieleden zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 18,
+    "statement": "Actuele locatiegegevens van mijzelf zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 19,
+    "statement": "Actuele locatiegegevens van familieleden zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 20,
+    "statement": "Reis-, vlucht-, vervoersgegevens van huidige of toekomstige (vakantie)reizen zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 21,
+    "statement": "Aankoop of gebruik van waardevolle objecten (auto’s, boten, kleding, etc.) zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 22,
+    "statement": "Luxueuze bestemmingen zoals hotels, resorts, party locaties, etc. zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 23,
+    "statement": "Informatie over financiële gegevens van mijzelf, familieleden en/of het familiebedrijf zijn privacygevoelig.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 24,
+    "statement": "Ik vind het belangrijk dat bij gebruik van social media de privacyinstellingen actief worden gebruikt om eventuele uitwisseling van privacygevoelige informatie te beperken.",
+    "comment": true,
+    "note": "Op Facebook kan bijvoorbeeld de gezichtsherkenning in foto’s worden uitgeschakeld."
+  },
+  {
+    "id": 25,
+    "statement": "Ik vind het belangrijk dat ik mijn profielen op social media qua instellingen zet op: Locatiegegevens uit.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 26,
+    "statement": "Ik vind het belangrijk dat ik mijn profielen op social media qua instellingen zet op: Gezichtsherkenning op foto’s uit.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 27,
+    "statement": "Ik vind het belangrijk dat ik mijn profielen op social media qua instellingen zet op: Taggen van berichten uit.",
+    "comment": true,
+    "note": "Onder taggen wordt verstaan het bijvoegen van de naam bij berichten en foto’s. "
+  },
+  {
+    "id": 28,
+    "statement": "Ik vind het belangrijk dat ik mijn profielen op social media qua instellingen zet op: Controle op taggen voordat er geplaatst wordt.",
+    "comment": true,
+    "note": "Onder taggen wordt verstaan het bijvoegen van de naam bij berichten en foto’s."
+  },
+  {
+    "id": 29,
+    "statement": "Ik vind het belangrijk dat familieleden zelf bepalen met wie zij berichten delen op social media.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 30,
+    "statement": "Ik vind het belangrijk dat profielen op social media zoveel mogelijk beperkt worden tot het delen met vrienden.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 31,
+    "statement": "Ik vind het belangrijk dat vriendschapsverzoeken alleen worden geaccepteerd als men de betreffende persoon persoonlijk kent.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 32,
+    "statement": "Ik vind het belangrijk dat het delen van berichten door vrienden zoveel mogelijk beperkt wordt.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 33,
+    "statement": "Ik vind het belangrijk dat het taggen door vrienden zoveel mogelijk beperkt wordt.",
+    "comment": true,
+    "note": "Onder taggen wordt verstaan het bijvoegen van de naam bij berichten en foto’s. "
+  }
+]

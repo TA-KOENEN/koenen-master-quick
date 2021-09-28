@@ -3,7 +3,7 @@ import axios from "axios";
 export default {
   getResultA(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartA", payload, {
+    return axios.post("/resultlChartA", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -13,7 +13,7 @@ export default {
   },
   saveResultA(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartA", payload, {
+    return axios.post("/updatelChartA", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -23,7 +23,7 @@ export default {
   },
   getReportA(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartA", payload, {
+    return axios.post("/reportlChartA", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -33,7 +33,7 @@ export default {
   },
   getResultB(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartB", payload, {
+    return axios.post("/resultlChartB", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -43,7 +43,7 @@ export default {
   },
   saveResultB(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartB", payload, {
+    return axios.post("/updatelChartB", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -53,7 +53,7 @@ export default {
   },
   getReportB(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartB", payload, {
+    return axios.post("/reportlChartB", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -63,7 +63,7 @@ export default {
   },
   getResultC(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartC", payload, {
+    return axios.post("/resultlChartC", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -73,7 +73,7 @@ export default {
   },
   saveResultC(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartC", payload, {
+    return axios.post("/updatelChartC", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -83,7 +83,7 @@ export default {
   },
   getReportC(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartC", payload, {
+    return axios.post("/reportlChartC", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -93,7 +93,7 @@ export default {
   },
   getResultD(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartD", payload, {
+    return axios.post("/resultlChartD", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -103,7 +103,7 @@ export default {
   },
   saveResultD(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartD", payload, {
+    return axios.post("/updatelChartD", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -113,7 +113,7 @@ export default {
   },
   getReportD(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartD", payload, {
+    return axios.post("/reportlChartD", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -123,7 +123,7 @@ export default {
   },
   getResultE(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartE", payload, {
+    return axios.post("/resultlChartE", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -133,7 +133,7 @@ export default {
   },
   saveResultE(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartE", payload, {
+    return axios.post("/updatelChartE", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -143,7 +143,7 @@ export default {
   },
   getReportE(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartE", payload, {
+    return axios.post("/reportlChartE", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -153,7 +153,7 @@ export default {
   },
   getResultF(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartF", payload, {
+    return axios.post("/resultlChartF", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -163,7 +163,7 @@ export default {
   },
   saveResultF(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartF", payload, {
+    return axios.post("/updatelChartF", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -173,7 +173,7 @@ export default {
   },
   getReportF(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartF", payload, {
+    return axios.post("/reportlChartF", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -183,7 +183,7 @@ export default {
   },
   getResultG(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartG", payload, {
+    return axios.post("/resultlChartG", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -193,7 +193,7 @@ export default {
   },
   saveResultG(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartG", payload, {
+    return axios.post("/updatelChartG", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -203,7 +203,7 @@ export default {
   },
   getReportG(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartG", payload, {
+    return axios.post("/reportlChartG", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -213,7 +213,7 @@ export default {
   },
   getResultH(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartH", payload, {
+    return axios.post("/resultlChartH", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -223,7 +223,7 @@ export default {
   },
   saveResultH(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartH", payload, {
+    return axios.post("/updatelChartH", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -233,7 +233,7 @@ export default {
   },
   getReportH(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartH", payload, {
+    return axios.post("/reportlChartH", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -243,7 +243,7 @@ export default {
   },
   getResultI(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartI", payload, {
+    return axios.post("/resultlChartI", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -253,7 +253,7 @@ export default {
   },
   saveResultI(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartI", payload, {
+    return axios.post("/updatelChartI", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -263,7 +263,7 @@ export default {
   },
   getReportI(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartI", payload, {
+    return axios.post("/reportlChartI", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -273,7 +273,7 @@ export default {
   },
   getResultJ(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartJ", payload, {
+    return axios.post("/resultlChartJ", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -283,7 +283,7 @@ export default {
   },
   saveResultJ(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartJ", payload, {
+    return axios.post("/updatelChartJ", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -293,7 +293,7 @@ export default {
   },
   getReportJ(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartJ", payload, {
+    return axios.post("/reportlChartJ", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -303,7 +303,7 @@ export default {
   },
   getResultK(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartK", payload, {
+    return axios.post("/resultlChartK", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -313,7 +313,7 @@ export default {
   },
   saveResultK(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartK", payload, {
+    return axios.post("/updatelChartK", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -323,7 +323,7 @@ export default {
   },
   getReportK(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartK", payload, {
+    return axios.post("/reportlChartK", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -333,7 +333,7 @@ export default {
   },
   getResultL(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartL", payload, {
+    return axios.post("/resultlChartL", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -343,7 +343,7 @@ export default {
   },
   saveResultL(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartL", payload, {
+    return axios.post("/updatelChartL", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -353,7 +353,7 @@ export default {
   },
   getReportL(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartL", payload, {
+    return axios.post("/reportlChartL", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -363,7 +363,7 @@ export default {
   },
   getResultM(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartM", payload, {
+    return axios.post("/resultlChartM", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -373,7 +373,7 @@ export default {
   },
   saveResultM(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartM", payload, {
+    return axios.post("/updatelChartM", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -383,7 +383,7 @@ export default {
   },
   getReportM(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartM", payload, {
+    return axios.post("/reportlChartM", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -393,7 +393,7 @@ export default {
   },
   getResultN(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartN", payload, {
+    return axios.post("/resultlChartN", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -403,7 +403,7 @@ export default {
   },
   saveResultN(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartN", payload, {
+    return axios.post("/updatelChartN", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -413,7 +413,7 @@ export default {
   },
   getReportN(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartN", payload, {
+    return axios.post("/reportlChartN", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -423,7 +423,7 @@ export default {
   },
   getResultO(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/resultChartO", payload, {
+    return axios.post("/resultlChartO", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -433,7 +433,7 @@ export default {
   },
   saveResultO(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/updateChartO", payload, {
+    return axios.post("/updatelChartO", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -443,7 +443,7 @@ export default {
   },
   getReportO(payload) {
     const token = localStorage.getItem("token");
-    return axios.post("/reportChartO", payload, {
+    return axios.post("/reportlChartO", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",

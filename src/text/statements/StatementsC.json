@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "statement": "Ik vind het belangrijk dat in de toekomst elk gezinslid (mede-)eigenaar kan worden van het bedrijf.",
+    "comment": true,
+    "note": "Mede-eigendom van onroerende zaken hoeft niet automatisch te leiden tot zeggenschap over de bedrijfsvoering."
+  },
+  {
+    "id": 2,
+    "statement": "Ik vind het belangrijk dat in de toekomst alleen de opvolger eigenaar van het bedrijf kan worden.",
+    "comment": false,
+    "note": "Wanneer u het met deze stelling eens bent, vindt u dat de opvolger in de toekomst volledig zelfstandig moet kunnen beslissen, ook over alle onroerende zaken."
+  },
+  {
+    "id": 3,
+    "statement": "Ik vind het belangrijk dat andere gezinsleden de mogelijkheid hebben van toetreding tot de samenwerking.",
+    "comment": true,
+    "note": "Mede-vennoot in een samenwerking betekent niet automatisch mede-eigenaar van onroerende zaken."
+  },
+  {
+    "id": 4,
+    "statement": "Ik vind het belangrijk dat de opvolger (mede-)eigenaar wordt van het bedrijf direct bij de start van de samenwerking.",
+    "comment": true,
+    "note": "Het voordeel hiervan is dat de opvolger meedeelt in de waardeaangroei. Nadeel hiervan is dat wanneer de opvolger later afziet van opvolging mede-eigendom grotere consequenties voor het bedrijf heeft (zijn aandeel moet dan weer worden terug geleverd)."
+  },
+  {
+    "id": 5,
+    "statement": "Ik vind het belangrijk dat de beoogd opvolger zo snel mogelijk als mede-ondernemer tot de samenwerking toetreedt.",
+    "comment": false,
+    "note": "Het voordeel hiervan is dat de fiscale ondernemersfaciliteiten voor de opvolger direct van toepassing zijn. Nadeel van het snel toetreden is dat bepaalde afspraken en verwachtingen niet zomaar herroepen kunnen worden."
+  },
+  {
+    "id": 6,
+    "statement": "Ik vind het belangrijk dat de beoogd opvolger eerst een aantal jaren in loondienst komt.",
+    "comment": false,
+    "note": "Argument is vaak om eerst ervaring in het bedrijf op te doen en te ervaren of de opvolger geschikt is om het bedrijf in de toekomst voort te zetten."
+  },
+  {
+    "id": 7,
+    "statement": "Ik vind het belangrijk dat beschikbaar komende geldmiddelen uit de exploitatie direct weer in het bedrijf worden geïnvesteerd.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 8,
+    "statement": "Ik vind het belangrijk dat beschikbaar komende geldmiddelen uit de exploitatie worden gereserveerd voor de toekomstige overname.",
+    "comment": true,
+    "note": "Als u het met deze stelling eens bent vindt u dat de financiering van de toekomstige overnamesom niet in gevaar mag komen door investeringen in het bedrijf."
+  },
+  {
+    "id": 9,
+    "statement": "Ik vind het belangrijk dat voor uitgaven groter dan € 25.000 alle vennoten akkoord zijn.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 10,
+    "statement": "Ik vind het belangrijk dat voldoende financiële buffer een hogere prioriteit heeft dan noodzakelijke investeringen doen.",
+    "comment": true,
+    "note": "Als u het met deze stelling eens bent vindt u dat aflossing of sparen een hogere prioriteit heeft dan investeren."
+  },
+  {
+    "id": 11,
+    "statement": "Ik vind het belangrijk dat bij overlijden van de ondernemer het bedrijf binnen de familie blijft.",
+    "comment": true,
+    "note": "Overlijden kan zowel de overdrager als de toekomstige overnemer betreffen."
+  },
+  {
+    "id": 12,
+    "statement": "Ik vind het belangrijk dat een ander gezinslid de mogelijkheid krijgt van overname als de beoogd opvolger tijdens de samenwerking hiervan afziet.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 13,
+    "statement": "Ik vind het belangrijk dat een ander gezinslid de mogelijkheid krijgt van overname als de opvolger ná overname met het bedrijf stopt.",
+    "comment": true,
+    "note": "Dit zou kunnen worden vastgelegd in een aanbiedingsverplichting."
+  },
+  {
+    "id": 14,
+    "statement": "Ik vind het belangrijk dat, ingeval van scheiding of overlijden, de opvolger maatregelen heeft getroffen dat het bedrijf binnen de familie blijft.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 15,
+    "statement": "Ik vind het belangrijk dat het bedrijf wordt verkocht als er geen capabele opvolger in het gezin aanwezig is.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 16,
+    "statement": "Ik vind het belangrijk dat de overnameprijs van het bedrijf is gebaseerd op de waarde in het economisch verkeer.",
+    "comment": true,
+    "note": "Als u het met deze stelling eens bent vindt u dat de overnameprijs zakelijk moet worden vastgesteld."
+  },
+  {
+    "id": 17,
+    "statement": "Ik vind het belangrijk dat de overnameprijs van het bedrijf is gebaseerd op een taxatierapport van de waarde in verpachte staat.",
+    "comment": true,
+    "note": "Als u het met deze stelling eens bent vindt u dat overname op basis van de waarde in het economisch verkeer niet haalbaar is en dat daarom vanwege de continuïteit van het bedrijf de overnameprijs gelijk moet zijn aan de verpachte waarde."
+  },
+  {
+    "id": 18,
+    "statement": "Ik vind het belangrijk dat de waarde van het bedrijf door een onafhankelijke deskundige wordt vastgesteld.",
+    "comment": true,
+    "note": "Als u het eens bent met deze stelling vindt u een objectieve waardevaststelling van het bedrijf belangrijk."
+  },
+  {
+    "id": 19,
+    "statement": "Ik vind het belangrijk dat de overnameprijs van het bedrijf is gebaseerd op een zodanig bedrag waarbij de opvolger het bedrijf rendabel kan exploiteren, ook als dit betekent dat er een aanzienlijk deel wordt geschonken.",
+    "comment": true,
+    "note": "Als u het eens bent met deze stelling vindt u dat de overnameprijs zodanig moet zijn dat de opvolger nog juist voldoende inkomen met het bedrijf kan behalen."
+  },
+  {
+    "id": 20,
+    "statement": "Ik vind het belangrijk dat de overnameprijs van het bedrijf is gebaseerd op een zodanig bedrag waarbij de opvolger naast inkomen het bedrijf verder kan ontwikkelen.",
+    "comment": true,
+    "note": "Als u het eens bent met deze stelling vindt u dat de overnameprijs zodanig moet zijn dat de opvolger voldoende inkomen met het bedrijf kan behalen en daarnaast voldoende financiële ruimte heeft om het bedrijf verder te ontwikkelen."
+  },
+  {
+    "id": 21,
+    "statement": "Ik vind het belangrijk dat bij een overnameprijs lager dan de marktwaarde er een goede terugbetaalregeling (meerwaardeclausule) met de opvolger wordt vastgelegd ten behoeve van de overdrager en/of diens kinderen.",
+    "comment": true,
+    "note": "Een meerwaardeclausule houdt in dat de opvolger, ingeval deze binnen een bepaalde periode na overname het bedrijf beëindigt, deze de meerwaarde of een deel ervan moet terug betalen."
+  },
+  {
+    "id": 22,
+    "statement": "Ik vind het belangrijk dat de overnameprijs van het bedrijf is gebaseerd op een zodanig bedrag waarbij de overdragers voldoende inkomen/vermogen hebben voor hun oudedag.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 23,
+    "statement": "Ik vind het belangrijk dat de overnameprijs van het bedrijf is gebaseerd op een zodanig bedrag waarbij de overdragers naast hun oudedagsvoorziening ook vermogen aan de andere kinderen kunnen nalaten.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 24,
+    "statement": "Ik vind het belangrijk dat de overdragers een oudedagsvoorziening buiten het bedrijf hebben.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 25,
+    "statement": "Ik vind het belangrijk dat de opvolger de overnamesom volledig extern (bij de bank) kan financieren.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 26,
+    "statement": "Ik vind het belangrijk dat de overdragers een (groot) deel van de overnamesom als familielening in het bedrijf laten.",
+    "comment": false,
+    "note": ""
+  }
+]

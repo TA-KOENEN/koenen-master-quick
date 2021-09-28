@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "statement": "Ik vind het belangrijk om afspraken te maken over hoe we met conflicten tussen gezinsleden omgaan.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 2,
+        "statement": "Ik vind het belangrijk dat gezinsleden eerst onderling de tijd en ruimte krijgen om hun conflicten op te lossen.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 3,
+        "statement": "Ik vind het belangrijk dat, indien gezinsleden niet zelf een oplossing kunnen vinden, eerst een beroep kan worden gedaan op een ander familielid.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 4,
+        "statement": "Ik vind het belangrijk dat, indien gezinsleden niet zelf een oplossing kunnen vinden, een beroep gedaan kan worden op een externe mediator.",
+        "comment": true,
+        "note": "Als u het eens bent met deze stelling  vindt u het belangrijk dat een externe partij moet bemiddelen bemiddelen i.p.v. een familielid."
+    },
+    {
+        "id": 5,
+        "statement": "Ik vind het belangrijk dat, indien na bemiddeling geen oplossing gevonden kan worden, een dwingend advies mogelijk is.",
+        "comment": true,
+        "note": "Als u het eens bent met deze stelling vindt u dat een derde een besluit neemt over het geschil."
+    },
+    {
+        "id": 6,
+        "statement": "Ik vind het belangrijk dat alle gezinsleden betrokken kunnen zijn bij het bedrijf.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 7,
+        "statement": "Ik vind het belangrijk dat binnen het gezin consensus is over de toekomst van het bedrijf.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 8,
+        "statement": "Ik vind het belangrijk dat er een draagvlak is binnen het gezin voor de strategische koers van het bedrijf.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 9,
+        "statement": "Ik vind het belangrijk dat andere gezinsleden (niet-opvolgers) zich kunnen uitspreken over de ondernemingsdoelen en ondernemingsstrategie.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 10,
+        "statement": "Ik vind het belangrijk dat andere gezinsleden (niet-opvolgers) zich kunnen uitspreken over de voorwaarden tot toetreding tot het bedrijf als toekomstig opvolger.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 11,
+        "statement": "Ik vind het belangrijk dat er binnen de samenwerking met de opvolger wekelijks werkoverleg plaats vindt.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 12,
+        "statement": "Ik vind het belangrijk dat met niet-opvolgende gezinsleden twee maal per jaar overleg plaats vindt over het opvolgingsproces.",
+        "comment": true,
+        "note": "Als u het eens bent met deze stelling hecht u er belang aan dat het hele gezin nauw betrokken wordt bij het opvolgingsproces."
+    },
+    {
+        "id": 13,
+        "statement": "Ik vind het belangrijk dat er open wordt gecommuniceerd en op basis van respect en vertrouwen.",
+        "comment": true,
+        "note": "Als u het hier mee eens bent dan vindt u dat alle zaken en gedachten met elkaar gedeeld moeten worden ook al zijn dit zaken waar je van weet dat de ander wellicht een andere mening heeft."
+    },
+    {
+        "id": 14,
+        "statement": "Ik vind het belangrijk dat in het bedrijf werkzame gezinsleden elkaar constructief feedback kunnen geven.",
+        "comment": true,
+        "note": "Als u het hier mee eens bent dan betekent dit dat u vindt dat werkzame familie leden elkaar vertellen hoe zij het werk of de communicatie onderling ervaren. Dit kan positief of minder positief overkomen. Het doel is elkaar te helpen."
+    },
+    {
+        "id": 15,
+        "statement": "Ik vind het belangrijk dat in het bedrijf jaarlijks een evaluatie plaats vindt van ieders functioneren.",
+        "comment": true,
+        "note": "Een evaluatiegesprek heeft tot doel elkaar te helpen. Hieruit kunnen actie- en verbeterpunten voortkomen."
+    },
+    {
+        "id": 16,
+        "statement": "Ik vind het belangrijk dat gezinsleden die in het bedrijf slecht functioneren uiteindelijk het bedrijf verlaten.",
+        "comment": true,
+        "note": "Als u het hier mee eens bent vindt u dat vennoten elkaars functioneren zakelijk mogen beoordelen, hetgeen in een uiterst geval kan leiden tot uittreding uit de samenwerking. Het bedrijfsbelang prevaleert boven het persoonlijk belang."
+    },
+    {
+        "id": 17,
+        "statement": "Ik vind het belangrijk dat jonge gezinsleden zelf kunnen kiezen of ze in het bedrijf komen werken.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 18,
+        "statement": "Ik vind het belangrijk dat jonge gezinsleden zich buiten het bedrijf goed kunnen ontwikkelen.",
+        "comment": true,
+        "note": "Als u het hier mee eens bent vindt u dat jonge gezinsleden eerst elders ervaring opdoen voordat ze mogelijk in het eigen bedrijf komen werken."
+    },
+    {
+        "id": 19,
+        "statement": "Ik vind het belangrijk dat elk gezinslid zich trots voelt op de familie en op het bedrijf",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 20,
+        "statement": "Ik vind het belangrijk dat alleen gezinsleden die (mede-)ondernemer zijn zeggenschap hebben in het bedrijf.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 21,
+        "statement": "Ik vind het belangrijk dat de eigenaar van het bedrijf het laatste woord heeft bij belangrijke beslissingen.",
+        "comment": false,
+        "note": ""
+    },
+    {
+        "id": 22,
+        "statement": "Ik vind het belangrijk dat als de ondernemer plotseling wegvalt, er een noodplan aanwezig is.",
+        "comment": false,
+        "note": ""
+    }
+]

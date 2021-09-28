@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "statement": "Ik vind het belangrijk dat de volgende generatie zich bewust is van de historie van het bedrijf.",
+    "comment": true,
+    "note": "De historie schept een band met het verleden; biedt dat een meerwaarde voor het bedrijf?"
+  },
+  {
+    "id": 2,
+    "statement": "Ik vind het belangrijk dat de familiehistorie en -waarden schriftelijk worden vastgelegd.",
+    "comment": true,
+    "note": "Wat is belangrijk om aan een volgende generatie over te dragen?"
+  },
+  {
+    "id": 3,
+    "statement": "Ik vind het belangrijk dat jonge gezinsleden zelf een bewuste keuze kunnen maken of ze in het bedrijf komen werken.",
+    "comment": true,
+    "note": "Waar word ik gelukkig van, waar ligt mijn hart?"
+  },
+  {
+    "id": 4,
+    "statement": "Ik vind het belangrijk dat elk gezinslid kennis moet kunnen maken met het werk binnen het bedrijf, d.m.v. mee helpen in vakantie of vrije tijd.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 5,
+    "statement": "Ik vind het belangrijk dat jonge gezinsleden zelf hun opleiding/studie kiezen, los van een eventuele rol in het bedrijf.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 6,
+    "statement": "Ik vind het belangrijk dat jonge gezinsleden de gelegenheid krijgen een beroepskeuzeonderzoek te doen.",
+    "comment": true,
+    "note": "Als dat niet via de onderwijsinstelling wordt aangeboden moet de beoogd opvolger deze mogelijkheid vanuit het bedrijf krijgen?"
+  },
+  {
+    "id": 7,
+    "statement": "Ik vind het belangrijk dat er heldere afspraken zijn over de dagelijkse bedrijfsvoering.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 8,
+    "statement": "Ik vind het belangrijk dat wederzijdse verwachtingen over de opvolging aan elkaar kenbaar worden gemaakt.",
+    "comment": true,
+    "note": "Wordt er binnen de familie/het gezin open gecommuniceerd over de opvolging en de opvolger? (wel/niet opvolgen, wie, wanneer?)"
+  },
+  {
+    "id": 9,
+    "statement": "Ik vind het belangrijk om deze verwachtingen expliciet te maken en op papier te zetten.",
+    "comment": true,
+    "note": "Het begint met nadenken over en kenbaar maken van eigen ideeën aan elkaar. Op papier is het terug te halen."
+  },
+  {
+    "id": 10,
+    "statement": "Ik vind het belangrijk om deze verwachtingen zo nu en dan tegen het licht te houden en te toetsen op hun realiteit naar de toekomst.",
+    "comment": true,
+    "note": "Af en toe een pas op de plaats maken en terugzien maar vooral ook lijnen naar de toekomst uitzetten."
+  },
+  {
+    "id": 11,
+    "statement": "Ik vind het belangrijk dat de opvolger actief betrokken wordt bij de besluitvorming in het bedrijf.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 12,
+    "statement": "Ik vind het belangrijk dat overdracht van zeggenschap en/of leiding geleidelijk aan gedurende de samenwerking wordt overgedragen.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 13,
+    "statement": "Ik vind het belangrijk dat een potentiële opvolger bereidheid dient te tonen zich volledig voor het bedrijf te willen inzetten en hiervoor verantwoordelijkheid te willen dragen.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 14,
+    "statement": "Ik vind het belangrijk dat huidige en volgende generatie structureel met elkaar van gedachten wisselen over de toekomst van het bedrijf.",
+    "comment": true,
+    "note": "Als u het eens bent met deze stelling respecteert u de visie van de ander, net als die van uzelf, en hecht u eraan om tot een gezamenlijke standpunt te komen."
+  },
+  {
+    "id": 15,
+    "statement": "Ik vind het belangrijk dat bij een eventuele herijking van de missie en doelen gebruik wordt gemaakt van externe deskundigen.",
+    "comment": true,
+    "note": "Vreemde ogen kunnen dwingen en staan los van de emotie."
+  },
+  {
+    "id": 16,
+    "statement": "Ik vind het belangrijk dat een opvolger eerst meerdere jaren kennis en ervaring dient op te bouwen buiten het ouderlijke bedrijf.",
+    "comment": true,
+    "note": "Argumenten voor: de beste ervaring is leren van je eigen fouten; vreemde ogen dwingen; bredere kijk ontwikkelen."
+  },
+  {
+    "id": 17,
+    "statement": "Ik vind het belangrijk dat in de beoordeling van de geschiktheid van een opvolger voor het ondernemerschap extern advies wordt ingewonnen.",
+    "comment": true,
+    "note": "Bij sollicitatieprocedures in bedrijven is externe beoordeling gebruikelijk."
+  },
+  {
+    "id": 18,
+    "statement": "Ik vind het belangrijk dat het overdragen van taken en verantwoordelijkheden tussen overdrager en opvolger over een langere periode dient plaats te vinden.",
+    "comment": true,
+    "note": "Opvolging is een proces van loslaten en ingroeien."
+  },
+  {
+    "id": 19,
+    "statement": "Ik vind het belangrijk dat een opvolger in de voorbereiding op het ondernemerschap een geschikte mentor/coach krijgt toegewezen.",
+    "comment": true,
+    "note": "In hoeverre is één van de overdragers/ouders hiertoe de juiste persoon, in hoeverre denk je aan een externe begeleider."
+  },
+  {
+    "id": 20,
+    "statement": "Ik vind het belangrijk dat in de beoordeling en keuze van de opvolger sprake is van extern advies en begeleiding.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 21,
+    "statement": "Ik vind het belangrijk dat de uiteindelijke opvolger voldoende draagvlak heeft binnen het gezin.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 22,
+    "statement": "Ik vind het belangrijk dat de uiteindelijke opvolger zich heeft bewezen, zowel binnen als buiten het bedrijf.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 23,
+    "statement": "Ik vind het belangrijk dat het opvolgingsproces planmatig wordt uitgevoerd.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 24,
+    "statement": "Ik vind het belangrijk dat het belang van het bedrijf voorop staat in het opvolgingsproces.",
+    "comment": true,
+    "note": "Bijvoorbeeld de financiële haalbaarheid (hoogte overnameprijs), woonsituatie, toekomst gericht investeren."
+  },
+  {
+    "id": 25,
+    "statement": "Ik vind het belangrijk dat de overdrager al tijdens de rolwisseling tijd en ruimte neemt voor (nieuwe) interesses en hobby's.",
+    "comment": false,
+    "note": ""
+  },
+  {
+    "id": 26,
+    "statement": "Ik vind het belangrijk dat de overdrager actief betrokken blijft bij de besluitvorming in het bedrijf.",
+    "comment": true,
+    "note": "De overdrager houdt 'een vinger in de pap'."
+  },
+  {
+    "id": 27,
+    "statement": "Ik vind het belangrijk dat de overdrager actief betrokken blijft als adviseur bij het bedrijf.",
+    "comment": true,
+    "note": "De overdrager is in staat het bedrijf los te laten, maar is wel beschikbaar voor advies."
+  },
+  {
+    "id": 28,
+    "statement": "Ik vind het belangrijk dat de inkomenspositie van de overdrager niet afhankelijk is van de (toekomstige) winsten van het bedrijf.",
+    "comment": true,
+    "note": "Als u het eens bent met deze stelling moet de overnamesom volledig bij een bank worden gefinancierd. De financiële afhankelijkheid blijft wel bestaan bij een (achtergestelde) lening van de overdrager aan de opvolger of bij een lijfrenteovereenkomst met de opvolger."
+  },
+  {
+    "id": 29,
+    "statement": "Ik vind het belangrijk dat de inkomenspositie van de overdrager niet afhankelijk is van de waarde bij bedrijfsoverdracht.",
+    "comment": true,
+    "note": "Als u het eens bent met deze stelling vindt u dat de overdrager een pensioenvoorziening buiten het bedrijf moet hebben opgebouwd, bijvoorbeeld in de vorm van een lijfrente bij een bank."
+  }
+]

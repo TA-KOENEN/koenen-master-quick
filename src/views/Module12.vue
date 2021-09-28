@@ -1143,7 +1143,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultL(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.lfsmodule;
+        this.memberData = response.data.data.llightmodule;
         this.loading1 = false;
       });
     },

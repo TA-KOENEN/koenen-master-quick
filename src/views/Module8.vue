@@ -877,7 +877,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultH(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.hfsmodule;
+        this.memberData = response.data.data.hlightmodule;
         this.loading1 = false;
       });
     },

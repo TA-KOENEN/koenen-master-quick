@@ -609,7 +609,7 @@ import textData from "@/text/textO.json";
 import vimeoData from "@/text/vimeo.json";
 import Loading from "@/components/core/loading";
 import TaSlider2 from "@/components/core/ta-slider2";
-import StatementService from "@/services/StatementService";
+import Stat from "@/text/statements/StatementsF.json";
 import ResultService from "@/services/ResultService";
 import StepText from "@/components/stepText";
 import Btnnext from "@/components/BtnNext";
@@ -637,6 +637,7 @@ export default {
   },
   data() {
     return {
+      Statements: Stat,
       disableBtn: false,
       valid2: false,
       valid3: false,
@@ -709,7 +710,6 @@ export default {
         first_name: "",
         last_name: "",
       },
-      Statements: null,
     };
   },
   methods: {
@@ -792,6 +792,10 @@ export default {
         sl_za: this.memberData.sl_za,
         sl_zb: this.memberData.sl_zb,
         sl_zc: this.memberData.sl_zc,
+        sl_zd: this.memberData.sl_zd,
+        sl_ze: this.memberData.sl_ze,
+        sl_zf: this.memberData.sl_zf,
+        sl_zg: this.memberData.sl_zg,
         ready_a: this.memberData.ready_a,
         ready_b: this.memberData.ready_b,
         ready_c: this.memberData.ready_c,
@@ -807,7 +811,7 @@ export default {
         remark_f: this.memberData.remark_f,
       };
       this.saving = true;
-      ResultService.saveResultO(payload).then(() => {
+      ResultService.saveResultF(payload).then(() => {
         console.log("saved answers");
         this.saving = false;
       });
@@ -820,29 +824,21 @@ export default {
       this.disableBtn = true;
       // eslint-disable-next-line no-undef
       EventBus.$emit("report", true);
-      ResultService.getReportO(payload)
+      ResultService.getReportF(payload)
         .then(() => {})
         .finally(() => {
           this.disableBtn = false;
         });
     },
 
-    getStatement() {
-      this.loading = true;
-      StatementService.getStatementO().then((response) => {
-        console.log("statements terug");
-        this.Statements = response.data.data;
-        this.loading = false;
-      });
-    },
     getData() {
       const payload = {
         email: this.email,
       };
       this.loading1 = true;
-      ResultService.getResultO(payload).then((response) => {
+      ResultService.getResultF(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.ofsmodule;
+        this.memberData = response.data.data.flightmodule;
         this.loading1 = false;
       });
     },
@@ -893,7 +889,6 @@ export default {
     ...mapGetters("auth", ["email"]),
   },
   created() {
-    this.getStatement();
     this.getData();
   },
 };

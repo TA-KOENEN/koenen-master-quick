@@ -852,7 +852,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultF(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.ffsmodule;
+        this.memberData = response.data.data.flightmodule;
         this.loading1 = false;
       });
     },

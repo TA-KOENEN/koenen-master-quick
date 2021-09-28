@@ -1230,7 +1230,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultM(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.mfsmodule;
+        this.memberData = response.data.data.mlightmodule;
         this.loading1 = false;
       });
     },

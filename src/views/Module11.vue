@@ -1172,7 +1172,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultK(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.kfsmodule;
+        this.memberData = response.data.data.klightmodule;
         this.loading1 = false;
       });
     },

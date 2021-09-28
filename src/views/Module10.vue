@@ -1140,7 +1140,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultJ(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.jfsmodule;
+        this.memberData = response.data.data.jlightmodule;
         this.loading1 = false;
       });
     },

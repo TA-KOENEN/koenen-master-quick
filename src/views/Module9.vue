@@ -797,7 +797,7 @@ export default {
       this.loading1 = true;
       ResultService.getResultI(payload).then((response) => {
         console.log("dataklant terug");
-        this.memberData = response.data.data.ifsmodule;
+        this.memberData = response.data.data.ilightmodule;
         this.loading1 = false;
       });
     },
