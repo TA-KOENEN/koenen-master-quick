@@ -6,7 +6,6 @@ import vuetify from "./plugins/vuetify";
 import vueVimeoPlayer from "vue-vimeo-player";
 import "./vee-validate";
 import "animate.css";
-import "./registerServiceWorker";
 window.EventBus = new Vue();
 Vue.config.productionTip = false;
 Vue.use(vueVimeoPlayer);

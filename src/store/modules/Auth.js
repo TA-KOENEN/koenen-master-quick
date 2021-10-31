@@ -48,17 +48,18 @@ export const mutations = {
 };
 
 export const actions = {
-  logout({ commit, dispatch }) {
-    return AuthService.logout()
-      .then(() => {
-        commit("SET_USER", null);
-        dispatch("setGuest", { value: "isGuest" });
-        if (router.currentRoute.name !== "login")
-          router.push({ path: "/login" });
-      })
-      .catch((error) => {
-        commit("SET_ERROR", getError(error));
-      });
+  logout(payload) {
+    return AuthService.logout(payload).then(() => {
+      localStorage.removeItem("clientId");
+      localStorage.removeItem("firstNameClient");
+      localStorage.removeItem("lastNameClient");
+      localStorage.removeItem("emailClient");
+      localStorage.removeItem("firstNameUser");
+      localStorage.removeItem("lastNameUser");
+      localStorage.removeItem("formal");
+      localStorage.removeItem("token");
+      router.push({ path: "/Start" });
+    });
   },
 
   async loginA({ commit }, payload) {

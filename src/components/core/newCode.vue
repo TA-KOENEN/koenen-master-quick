@@ -1,6 +1,6 @@
 <template>
   <v-snackbar
-    :timeout="7000"
+    :timeout="5000"
     auto-heigth
     multi-line
     v-model="successFull"
@@ -10,17 +10,14 @@
     class="mt-15"
   >
     <v-layout align-center pr-4>
-      <v-icon class="pr-3" dark large>mdi-alert-circle</v-icon>
+      <v-icon class="pr-3" dark large>mdi-email</v-icon>
       <v-layout column>
         <div>
-          <strong>FOUT</strong>
+          <strong>SUCCES</strong>
         </div>
         <div>
-          Er gaat iets niet goed!!<br />Als u deze site via een knop heeft
-          geopend, probeer dan om de url zoals in de mail te kopiëren in de
-          browser.<br />
-          Mocht u problemen blijven ondervinden, stellen wij het op prijs als u
-          contact met ons opneemt.
+          De nieuwe toegangscode is verzonden<br />Let op: deze e-mail kan in de
+          ongewenste e-mailbox terecht komen.
         </div>
       </v-layout>
     </v-layout>
@@ -39,7 +36,7 @@ export default {
   },
   created() {
     // eslint-disable-next-line no-undef
-    EventBus.$on("errStart", (data) => {
+    EventBus.$on("newCode", (data) => {
       this.successFull = data;
     });
   },

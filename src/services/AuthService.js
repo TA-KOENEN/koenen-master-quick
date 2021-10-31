@@ -1,22 +1,20 @@
 import * as API from "@/services/API";
 
 export default {
-  async login(payload) {
-    return API.apiClient.post("/loginlchart", payload);
-  },
   loginB(payload) {
-    return API.apiClient.post("/loginlchartb", payload);
-  },
-  loginFam(payload) {
-    return API.apiClient.post("/getInfolChart", payload);
+    return API.apiClient.post("/loginAscan", payload);
   },
   logout(payload) {
-    return API.apiClient.post("/logoutlchart", payload);
+    const token = localStorage.getItem("token");
+    return API.apiClient.post("/logoutAscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
   },
-  getAuthUser() {
-    return API.apiClient.get("/api/auth/auth");
-  },
-  getInfo(payload) {
-    return API.apiClient.post("/getInfolChart", payload);
+  notInt(payload) {
+    return API.apiClient.post("/notIntAscan", payload);
   },
 };

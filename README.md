@@ -1,4 +1,4 @@
-# tta-bo
+# quick-scan noodplan
 
 ## Project setup
 ```

@@ -1,12 +1,12 @@
 <template>
   <v-btn color="accent" small class="mb-5 mr-8" @click="onClick">
-    <slot>Start</slot>
+    <slot>Verder</slot>
   </v-btn>
 </template>
 
 <script>
 export default {
-  name: "knopterug",
+  name: "BtnCont",
   props: {
     onClick: {
       type: Function,

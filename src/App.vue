@@ -16,6 +16,10 @@ export default {
       tokkie: null,
     };
   },
+  created() {
+    this.tokkie = this.$route.query.name;
+    localStorage.setItem("tokkie", JSON.stringify(this.tokkie));
+  },
 };
 </script>
 <style>
