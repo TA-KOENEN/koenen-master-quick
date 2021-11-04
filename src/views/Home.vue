@@ -454,6 +454,12 @@
                 <br /><br />
                 {{ textIntro[8].textd }}
                 <br /><br />
+                {{ textIntro[8].texte }}
+                <br /><br />
+                {{ firstNameUser }} {{ lastNameUser }} <br /><br />
+                {{ textIntro[8].textf }}
+                {{ textIntro[8].textg }}
+                <br /><br />
               </div>
               <div v-if="!formal">
                 <h3>
@@ -467,6 +473,12 @@
                 {{ textIntro[8].textcInf }}
                 <br /><br />
                 {{ textIntro[8].textdInf }}
+                <br /><br />
+                {{ textIntro[8].texteInf }}
+                <br /><br />
+                {{ firstNameUser }} {{ lastNameUser }} <br /><br />
+                {{ textIntro[8].textfInf }}
+                {{ textIntro[8].textgInf }}
                 <br /><br />
               </div>
               <div class="d-none d-md-flex d-lg-flex">
@@ -926,6 +938,8 @@ export default {
   },
   data() {
     return {
+      firstNameUser: null,
+      lastNameUser: null,
       formal: true,
       sl_a: 0,
       question_b: "",
@@ -1167,6 +1181,8 @@ export default {
   mounted() {
     this.formal = JSON.parse(localStorage.getItem("formal"));
     this.clientId = JSON.parse(localStorage.getItem("clientId"));
+    this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
+    this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
   },
 };
 </script>

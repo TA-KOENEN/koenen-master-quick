@@ -72,14 +72,20 @@
   {
     "header": "Einde",
     "headerInf": "Einde",
-    "texta": "U bent aan het einde gekomen van de vragenlijst. ",
-    "textaInf": "Je bent aan het einde gekomen van de vragenlijst. ",
-    "textb": "Indien gewenst, kunt u uw antwoorden aanpassen door gebruik te maken van de knop TERUG.",
-    "textbInf": "Indien gewenst, kan je  jouw antwoorden aanpassen door gebruik te maken van de knop TERUG.",
-    "textc": "U sluit deze vragenlijst af met de knop RAPPORTAGE, waarna u binnen enkele minuten een e-mail met een rapport aan de hand van deze vragenlijst ontvangt.",
-    "textcInf": "Je sluit deze vragenlijst af met de knop RAPPORTAGE, waarna je binnen enkele minuten een e-mail met een rapport aan de hand van deze vragenlijst ontvangt.",
-    "textd": "Let op: de e-mail kan in uw spamfilter terecht komen.",
-    "textdInf": "Let op: de e-mail kan in je spamfilter terecht komen."
+    "texta": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "textaInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "textb": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "textbInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "textc": "U heeft in kort tijdsbestek een aantal vragen over noodopvolging ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "textcInf": "Je hebt in kort tijdsbestek een aantal vragen over noodopvolging ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "textd": "Hebt u tussentijds vragen? Bel mij gerust.",
+    "textdInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "texte": "Met vriendelijke groet,",
+    "texteInf": "Met vriendelijke groet,",
+    "textf": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "textfInf": "Wij gaan op een zorgvuldige wijze met je gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "textg": "www.trustedaccountant.nl",
+    "textgInf": "www.trustedaccountant.nl"
   },
   {
     "header": "",

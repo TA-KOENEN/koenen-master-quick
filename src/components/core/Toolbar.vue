@@ -3,7 +3,6 @@
     <v-toolbar dark :src="require('@/assets/core/alleenlijn.jpg')">
       <v-toolbar-title class="ml-15">Noodopvolging</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn x-small outlined @click="logout">Logout</v-btn>
       <v-btn icon @click="toggle_dark_mode">
         <v-icon>mdi-theme-light-dark</v-icon>
       </v-btn>

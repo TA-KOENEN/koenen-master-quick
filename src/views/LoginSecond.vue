@@ -40,7 +40,7 @@
           Let op deze code is 30 minuten geldig.
         </div>
         <div v-if="!formal">
-          Beste {{ firstNameUser }}, <br />
+          Beste {{ firstNameClient }}, <br />
           <br />
           Je hebt zojuist per mail een code ontvangen. Met deze code krijg je
           toegang.<br />
