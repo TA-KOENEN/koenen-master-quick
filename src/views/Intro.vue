@@ -35,7 +35,7 @@
       <v-col cols="12" md="6" class="justify-center align-center">
         <div class="ma-5 pa-0">
           <vimeo-player
-            :video-id="vimeo.intro"
+            :video-id="textData.vimeo.intro"
             class="embed-container"
             :options="{ responsive: true }"
           ></vimeo-player>
@@ -44,34 +44,20 @@
           <div v-if="formal">
             Beste {{ firstNameClient }} {{ lastNameClient }},<br /><br />
 
-            Veel ondernemers schatten het risico op het plotseling wegvallen als
-            gevolg van een ziekte of ongeval laag in. Dat maakt dat ze weinig
-            tot geen maatregelen nemen om hun onderneming en gezin tegen de
-            impact hiervan te beschermen. Als uw adviseur vinden wij het
-            belangrijk om het onderwerp Noodopvolging op de agenda te zetten.<br />
+            {{ textData.formal.text_a }}<br />
             <br />
             <br />
-            Met deze app nodigen wij u uit een korte vragenlijst over
-            noodopvolging voor uzelf in te vullen. Het vraagt circa 5 minuten
-            van uw tijd. Na afloop heeft u de mogelijkheid om per e-mail een
-            rapport te ontvangen met daarin een verdere toelichting aan de hand
-            van uw antwoorden.
+            {{ textData.formal.text_b }}
             <br />
             <br />
-            U kunt de vragenlijst starten met de knop JA. In het volgende scherm
-            wordt u gevraagd een persoonlijke inlogcode in te voeren. Inmiddels
-            is deze persoonlijke inlogcode per e-mail aan u verstuurd.
+            {{ textData.formal.text_c }}
             <br />
-            Heeft u geen interesse in het invullen van de vragenlijst, dan kunt
-            u de knop NEE gebruiken. U wordt dan automatisch uitgelogd uit de
-            app.
+            {{ textData.formal.text_d }}
             <br />
-            Wilt u tijdens het invullen van de vragenlijst meer informatie? Bel
-            mij gerust. Mijn contactgegevens treft u aan onderaan de e-mails die
-            u zojuist hebt ontvangen. <br />
+            {{ textData.formal.text_e }} <br />
             <br />
             <br />
-            Met vriendelijke groet,<br />
+            {{ this.textData.formal.text_f }}<br />
             <br />
             <br />
             {{ firstNameUser }} {{ lastNameUser }}<br />
@@ -83,32 +69,20 @@
           <div v-if="!formal">
             Beste {{ firstNameClient }} ,<br /><br />
 
-            Veel ondernemers schatten het risico op het plotseling wegvallen als
-            gevolg van een ziekte of ongeval laag in. Dat maakt dat ze weinig
-            tot geen maatregelen nemen om hun onderneming en gezin tegen de
-            impact hiervan te beschermen. Als jouw adviseur vinden wij het
-            belangrijk om het onderwerp Noodopvolging op de agenda te zetten.<br />
-            <br />
-            Met deze app nodigen wij je uit een korte vragenlijst over
-            noodopvolging voor jezelf in te vullen. Het vraagt circa 5 minuten
-            van je tijd. Na afloop heb je de mogelijkheid om per e-mail een
-            rapport te ontvangen met daarin een verdere toelichting aan de hand
-            van jouw antwoorden.
-            <br />
-            Je kunt de vragenlijst starten met de knop JA. In het volgende
-            scherm wordt je gevraagd een persoonlijke inlogcode in te voeren.
-            Inmiddels is deze persoonlijke inlogcode per e-mail aan je
-            verstuurd.
-            <br />
-            Heb je geen interesse in het invullen van de vragenlijst, dan kun je
-            de knop NEE gebruiken. Je wordt dan automatisch uitgelogd uit de
-            app.<br />
-            Wil je tijdens het invullen van de vragenlijst meer informatie? Bel
-            mij gerust. Mijn contactgegevens tref je aan onderaan de e-mails die
-            je zojuist hebt ontvangen.
+            {{ textData.informal.text_a }}<br />
             <br />
             <br />
-            Met vriendelijke groet,<br />
+            {{ textData.informal.text_b }}
+            <br />
+            <br />
+            {{ textData.informal.text_c }}
+            <br />
+            {{ textData.informal.text_d }}
+            <br />
+            {{ textData.informal.text_e }} <br />
+            <br />
+            <br />
+            {{ textData.informal.text_f }}<br />
             <br />
             <br />
             <br />
@@ -132,6 +106,7 @@
 import vimeoData from "@/text/vimeo.json";
 import AuthService from "@/services/AuthService";
 import NotInt from "@/components/core/notInt";
+import textData from "@/text/textAintro.json";
 
 export default {
   name: "Intro",
@@ -146,6 +121,7 @@ export default {
       formal: true,
       valid: true,
       vimeo: vimeoData,
+      textData: textData,
     };
   },
   methods: {
