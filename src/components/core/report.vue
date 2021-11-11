@@ -6,7 +6,7 @@
     v-model="successFull"
     color="info"
     absolute
-    centered
+    top
   >
     <v-layout align-center pr-4>
       <v-icon class="pr-3" dark large>mdi-printer</v-icon>

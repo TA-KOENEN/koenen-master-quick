@@ -1,5 +1,6 @@
 <template>
   <div>
+    <report />
     <v-toolbar dark :src="require('@/assets/core/alleenlijn.jpg')">
       <v-toolbar-title class="ml-15">Noodopvolging</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -7,7 +8,6 @@
         <v-icon>mdi-theme-light-dark</v-icon>
       </v-btn>
     </v-toolbar>
-    <report />
   </div>
 </template>
 
