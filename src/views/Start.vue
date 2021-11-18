@@ -125,6 +125,9 @@ export default {
           // eslint-disable-next-line no-undef
           await EventBus.$emit("errStart", true);
         }
+      } else {
+        // eslint-disable-next-line no-undef
+        await EventBus.$emit("errStart", true);
       }
     },
   },

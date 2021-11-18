@@ -20,11 +20,6 @@ const router = new VueRouter({
   routes: [
     {
       path: "/",
-      name: "Home",
-      component: Home,
-    },
-    {
-      path: "/start",
       name: "Start",
       component: Start,
     },
