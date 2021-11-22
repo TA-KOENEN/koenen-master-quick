@@ -1,29 +1,13 @@
 <template>
   <div>
-    <slot>U kunt hier uw antwoord ingeven</slot>
-    <v-textarea
-      rows="1"
-      class="mt-5"
-      outlined
-      filled
-      label="Anders"
-      v-model="innerValue"
-      shaped
-      :rules="[(v) => v.length <= 40 || 'U hebt maximaal 40 tekens']"
-      :counter="40"
-    >
-    </v-textarea>
+    <v-checkbox color="primary" :label="label" v-model="innerValue" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "RemarkStat",
-  props: {
-    value: {
-      type: null,
-    },
-  },
+  name: "BaseCheck",
+  props: ["label"],
   data: () => ({
     innerValue: "",
   }),

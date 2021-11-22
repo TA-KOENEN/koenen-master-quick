@@ -1,16 +1,11 @@
 <template>
-  <ValidationProvider
-    :name="$attrs.label"
-    :rules="rules"
-    v-slot="{ errors, valid }"
-  >
+  <ValidationProvider :name="$attrs.label" :rules="rules" v-slot="{ errors }">
     <div class="mt-5" />
-    <slot>Wat zijn uw overwegingen /opmerkingen hierbij?</slot>
+    <h4 class="primary--text">{{ textA }}</h4>
     <v-textarea
-      color="info"
+      color="accent"
       v-model="innerValue"
       :error-messages="errors"
-      :success="valid"
       v-bind="$attrs"
       v-on="$listeners"
       outlined
@@ -37,6 +32,10 @@ export default {
     // must be included in props
     value: {
       type: null,
+    },
+    textA: {
+      type: String,
+      default: null,
     },
   },
   data: () => ({

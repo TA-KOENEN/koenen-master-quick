@@ -1,10 +1,11 @@
 <template>
   <v-app ma="0" pa="0" class="achtergrond">
-    <transition
-      enter-active-class="animate__animated animate__slideInDown"
-      appear
-    />
+    <!--    <transition-->
+    <!--      enter-active-class="animate__animated animate__slideInLeft"-->
+    <!--      appear-->
+    <!--    >-->
     <router-view />
+    <!--    </transition>-->
   </v-app>
 </template>
 
@@ -26,5 +27,8 @@ export default {
 html,
 body {
   overflow-x: hidden;
+}
+.full-page {
+  height: 100vh;
 }
 </style>

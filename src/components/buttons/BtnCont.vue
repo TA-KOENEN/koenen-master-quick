@@ -1,5 +1,11 @@
 <template>
-  <v-btn color="accent" small class="mb-5 mr-8" @click="onClick">
+  <v-btn
+    color="accent"
+    small
+    class="mb-5 mr-8"
+    @click="onClick"
+    :disabled="disabled"
+  >
     <slot>Verder</slot>
   </v-btn>
 </template>
@@ -11,6 +17,9 @@ export default {
     onClick: {
       type: Function,
       required: true,
+    },
+    disabled: {
+      type: Boolean,
     },
   },
 };

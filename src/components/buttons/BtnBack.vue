@@ -1,12 +1,12 @@
 <template>
-  <v-btn color="primary" small outlined class="mb-5" @click="onClick">
-    <slot>Stop</slot>
+  <v-btn color="accent" small outlined class="mb-5 mr-8" @click="onClick">
+    <slot>Terug</slot>
   </v-btn>
 </template>
 
 <script>
 export default {
-  name: "BtnStop",
+  name: "BtnBack",
   props: {
     onClick: {
       type: Function,
@@ -15,3 +15,5 @@ export default {
   },
 };
 </script>
+
+<style scoped></style>

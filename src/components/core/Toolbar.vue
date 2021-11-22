@@ -2,7 +2,7 @@
   <div>
     <report />
     <v-toolbar dark :src="require('@/assets/core/alleenlijn.jpg')">
-      <v-toolbar-title class="ml-15">Noodopvolging</v-toolbar-title>
+      <v-toolbar-title class="ml-15">{{ name }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click="toggle_dark_mode">
         <v-icon>mdi-theme-light-dark</v-icon>
@@ -18,6 +18,7 @@ import AuthService from "@/services/AuthService";
 
 export default {
   name: "Toolbar",
+  props: ["name"],
   components: { Report },
   data() {
     return {

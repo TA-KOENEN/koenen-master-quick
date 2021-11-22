@@ -1,7 +1,8 @@
 <template>
   <div class="mt-5">
-    {{ statement }}
-
+    <h4 class="primary--text">
+      {{ statement }}
+    </h4>
     <v-icon v-if="comment" color="info" dark @click.stop="showNote = true"
       >mdi-chat</v-icon
     >

@@ -1,5 +1,6 @@
 import { extend } from "vee-validate";
 import { localize } from "vee-validate";
+
 import nl from "vee-validate/dist/locale/nl.json";
 
 localize("nl", nl);

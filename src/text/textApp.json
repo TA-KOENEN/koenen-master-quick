@@ -8,66 +8,164 @@
     "textbInf": "Not in use"
   },
   {
-    "header": "Uw gevoel",
-    "headerInf": "Je gevoel",
-    "texta": "Voor uw medewerkers, klanten en leveranciers bent u het boegbeeld van uw onderneming. Als u plotseling wegvalt, zonder dat er duidelijkheid voor hen is, kan dit het vertrouwen in uw onderneming aantasten. Gevolg kan zijn dat uw belangrijkste stakeholders andere keuzes maken en de bedrijfscontinuïteit in korte tijd onder druk komt te staan.",
-    "textaInf": "Voor jouw medewerkers, klanten en leveranciers ben je het boegbeeld van uw onderneming. Als je plotseling wegvalt, zonder dat er duidelijkheid voor hen is, kan dit het vertrouwen in jouw onderneming aantasten. Gevolg kan zijn dat je belangrijkste stakeholders andere keuzes maken en de bedrijfscontinuïteit in korte tijd onder druk komt te staan.",
-    "textb": "In hoeverre kunt u zich  gevoelsmatig in de volgende stelling vinden?",
-    "textbInf": "In hoeverre kan je je gevoelsmatig in de volgende stelling vinden?",
-    "textc": "Mijn onderneming blijft gewoon doordraaien als ik plotseling wegval!",
-    "textcInf": "Mijn onderneming blijft gewoon doordraaien als ik plotseling wegval!"
+    "header": "Donker / Licht",
+    "headerInf": "Donker / Licht",
+    "texta": "Er is de mogelijkheid bla die bla ",
+    "textaInf": "Er is de mogelijkheid bla die bla ",
+    "textb": "Rechtboven een knop waarmee u van kleurenschema kan wisselen",
+    "textbInf": "Rechtboven een knop waarmee u van kleurenschema kan wisselen",
+    "textc": "Wilt u bla bla",
+    "textcInf": "Wilt u bla bla!"
   },
   {
-    "header": "Waarnemer of opvolger",
-    "headerInf": "Waarnemer of opvolger",
-    "texta": "In de situatie dat u plotseling niet aanwezig kunt zijn of zelfs permanent niet meer aanwezig kunt zijn, zal iemand anders uw rol in de onderneming over moeten nemen. Als dit van tijdelijke aard is, spreken we over waarneming. Als u definitief niet meer terugkomt in de onderneming, spreken we over opvolging. ",
-    "textaInf": "In de situatie dat je plotseling niet aanwezig kunt zijn of zelfs permanent niet meer aanwezig kunt zijn, zal iemand anders jouw rol in de onderneming over moeten nemen. Als dit van tijdelijke aard is, spreken we over waarneming. Als je definitief niet meer terugkomt in de onderneming, spreken we over opvolging. ",
-    "textb": "Heeft u een waarnemer of opvolger aangesteld?",
-    "textbInf": "Heb je een waarnemer of opvolger aangesteld?"
+    "header": "Toolbar",
+    "headerInf": "Toolbar",
+    "texta": "tekst toolbar kleuren",
+    "textaInf": "tekst toolbar kleuren",
+    "textb": "tekst toolbar kleuren",
+    "textbInf": "tekst toolbar kleuren",
+    "textc": "Vraag over de toolbar  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over de toolbar zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over de toolbar  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over de toolbar zorg dat het kleurenschema donker is geselecteerd"
   },
   {
-    "header": "Juridische vertegenwoordiging",
-    "headerInf": "Juridische vertegenwoordiging",
-    "texta": "In uw afwezigheid zal uw waarnemer of opvolger de onderneming juridisch moeten kunnen vertegenwoordigen. Denk daarbij aan overeenkomsten met klanten en leveranciers, arbeidscontracten met medewerkers en inzicht c.q. toegang tot de zakelijke bankrekeningen en het uitvoeren van betalingen.",
-    "textaInf": "In jouw afwezigheid zal je waarnemer of opvolger de onderneming juridisch moeten kunnen vertegenwoordigen. Denk daarbij aan overeenkomsten met klanten en leveranciers, arbeidscontracten met medewerkers en inzicht c.q. toegang tot de zakelijke bankrekeningen en het uitvoeren van betalingen.",
-    "textb": "Is uw waarnemer of opvolger voldoende gemachtigd?",
-    "textbInf": "Is jouw waarnemer of opvolger voldoende gemachtigd?"
+    "header": "Linker  of boven paneel",
+    "headerInf": "Linker of boven paneel",
+    "texta": "tekst linkerpaneel kleuren",
+    "textaInf": "tekst linkerpaneel kleuren",
+    "textb": "tekst linkerpaneel kleuren",
+    "textbInf": "tekst linkerpaneel kleuren",
+    "textc": "Vraag over de linkerpaneel  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over de linkerpaneel zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over de linkerpaneel  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over de linkerpaneel zorg dat het kleurenschema donker is geselecteerd"
   },
   {
-    "header": "Mogelijke opvolger",
-    "headerInf": "Mogelijke opvolger",
-    "texta": "U geeft aan dat u geen waarnemer of opvolger heeft aangesteld.",
-    "textaInf": "Je geeft aan dat je geen waarnemer of opvolger hebt aangesteld.",
-    "textb": "Heeft u iemand in uw gezin, familie of bedrijf die geschikt en bereid is om als waarnemer of opvolger op te treden?",
-    "textbInf": "Heb je iemand in je gezin, familie of bedrijf die geschikt en bereid is om als waarnemer of opvolger op te treden?"
+    "header": "Rechter of onder paneel",
+    "headerInf": "Rechter of onder paneel",
+    "texta": "tekst rechterpaneel kleuren",
+    "textaInf": "tekst rechterpaneel kleuren",
+    "textb": "tekst rechterpaneel kleuren",
+    "textbInf": "tekst rechterpaneel kleuren",
+    "textc": "Vraag over de rechterpaneel  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over de rechterpaneel zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over de rechterpaneel  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over de rechterpaneel zorg dat het kleurenschema donker is geselecteerd"
   },
   {
-    "header": "Bedrijfsstrategie",
-    "headerInf": "Bedrijfsstrategie",
-    "texta": "In de situatie dat u definitief niet terugkeert in de onderneming, zal de onderneming uiteindelijk in andere handen overgaan of wellicht zelfs in het uiterste geval haar activiteiten moeten staken. ",
-    "textaInf": "In de situatie dat je definitief niet terugkeert in de onderneming, zal de onderneming uiteindelijk in andere handen overgaan of wellicht zelfs in het uiterste geval haar activiteiten moeten staken. ",
-    "textb": "Voor uw opvolger en gezin is het van essentieel belang om te weten wat uw wensen zijn als u zelf niet meer betrokken kunt zijn bij uw onderneming. Allereerst: wat is de bedrijfsstrategie en is deze bedrijfsstrategie bij alle betrokkenen bekend?",
-    "textbInf": "Voor jouw opvolger en gezin is het van essentieel belang om te weten wat jouw wensen zijn als je zelf niet meer betrokken kunt zijn bij jouw onderneming. Allereerst: wat is de bedrijfsstrategie en is deze bedrijfsstrategie bij alle betrokkenen bekend?",
-    "textc": "Heeft u een uitgewerkt business plan voor uw onderneming?",
-    "textcInf": "Heb je een uitgewerkt business plan voor jouw onderneming?"
+    "header": "Radio buttons",
+    "headerInf": "Radio buttons",
+    "texta": "tekst radio buttons kleuren",
+    "textaInf": "tekst radio buttons kleuren",
+    "textb": "tekst radio buttons kleuren",
+    "textbInf": "tekst radio buttons kleuren",
+    "textc": "Vraag over onderstaande radio buttons  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over onderstaande radio buttons zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over onderstaande radio buttons  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over onderstaande radio buttons zorg dat het kleurenschema donker is geselecteerd"
   },
   {
-    "header": "Eigendomsstrategie",
-    "headerInf": "Eigendomsstrategie",
-    "texta": "Ten tweede: als u zelf geen leiding meer kunt geven aan uw onderneming, wat dient uw gezin/nabestaanden te doen met het eigendom in de onderneming? Wilt u dat de onderneming wordt voorgezet binnen het gezin/familie, wordt verkocht aan een medewerker of een derde partij of dient de onderneming te worden gestaakt?",
-    "textaInf": "Ten tweede: als je zelf geen leiding meer kunt geven aan jouw onderneming, wat dient jouw gezin/nabestaanden te doen met het eigendom in de onderneming? Wil je dat de onderneming wordt voorgezet binnen het gezin/familie, wordt verkocht aan een medewerker of een derde partij of dient de onderneming te worden gestaakt?",
-    "textb": "Heeft u uw wensen over het eigendom in het bedrijf vastgelegd?",
-    "textbInf": "Heb je je wensen over het eigendom in het bedrijf vastgelegd?"
+    "header": "checkbox",
+    "headerInf": "checkbox",
+    "texta": "tekst checkbox kleuren",
+    "textaInf": "tekst checkbox kleuren",
+    "textb": "tekst checkbox kleuren",
+    "textbInf": "tekst checkbox kleuren",
+    "textc": "Vraag over onderstaande checkbox  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over onderstaande checkbox zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over onderstaande checkbox  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over onderstaande checkbox zorg dat het kleurenschema donker is geselecteerd"
   },
   {
-    "header": "Zorg voor het gezin",
-    "headerInf": "Zorg voor het gezin",
-    "texta": "In de situatie dat u niet meer verder kunt met de onderneming, wilt u uw gezin beschermen tegen de gevolgen hiervan. Vanuit financieel oogpunt wilt u bijvoorbeeld het verlies aan inkomen voor een belangrijk deel of zelfs volledig willen compenseren. ",
-    "textaInf": "In de situatie dat je niet meer verder kunt met de onderneming, wilt je jouw gezin beschermen tegen de gevolgen hiervan. Vanuit financieel oogpunt wil je bijvoorbeeld het verlies aan inkomen voor een belangrijk deel of zelfs volledig willen compenseren. ",
-    "textb": "Dat vraagt om een aantal financiële maatregelen, zowel binnen de onderneming als in privé. Zodat uw gezin of nabestaanden gevrijwaard zijn van financiële problemen.",
-    "textbInf": "Dat vraagt om een aantal financiële maatregelen, zowel binnen de onderneming als in privé. Zodat jouw gezin of nabestaanden gevrijwaard zijn van financiële problemen.",
-    "textc": "Mocht u iets overkomen, heeft u dan alles goed geregeld voor uw gezin?",
-    "textcInf": "Mocht je iets overkomen, heb je dan alles goed geregeld voor jouw gezin?"
+    "header": "GevoelsScore",
+    "headerInf": "GevoelsScore",
+    "texta": "tekst GevoelsScore kleuren",
+    "textaInf": "tekst GevoelsScore kleuren",
+    "textb": "tekst GevoelsScore kleuren",
+    "textbInf": "tekst GevoelsScore kleuren",
+    "textc": "Vraag over onderstaande GevoelsScore  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over onderstaande GevoelsScore zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over onderstaande GevoelsScore  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over onderstaande GevoelsScore zorg dat het kleurenschema donker is geselecteerd"
+  },
+  {
+    "header": "Rating",
+    "headerInf": "Rating",
+    "texta": "tekst Rating kleuren",
+    "textaInf": "tekst Rating kleuren",
+    "textb": "tekst Rating kleuren",
+    "textbInf": "tekst Rating kleuren",
+    "textc": "Vraag over onderstaande Rating  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over onderstaande Rating zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over onderstaande Rating  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over onderstaande Rating zorg dat het kleurenschema donker is geselecteerd"
+  },
+  {
+    "header": "knoppen",
+    "headerInf": "knoppen",
+    "texta": "tekst knoppen kleuren",
+    "textaInf": "tekst knoppen kleuren",
+    "textb": "tekst knoppen kleuren",
+    "textbInf": "tekst knoppen kleuren",
+    "textc": "Vraag over onderstaande knoppen  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over onderstaande knoppen zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over onderstaande knoppen  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over onderstaande knoppen zorg dat het kleurenschema donker is geselecteerd"
+  },
+  
+  {
+    "header": "Text Left",
+    "headerInf": "Text Left",
+    "texta": "tekst Text Left kleuren",
+    "textaInf": "tekst Text Left kleuren",
+    "textb": "tekst Text Left kleuren",
+    "textbInf": "tekst Text Left kleuren",
+    "textc": "Vraag over onderstaande Text Left  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over onderstaande Text Left zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over onderstaande Text Left  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over onderstaande Text Left zorg dat het kleurenschema donker is geselecteerd",
+    "texte": "De teksten links of boven bestaan uit kop en alinea's. Kleuren en opmaak kunnen wijzigen voor zowel de knop als de alinea."
+  },
+
+  {
+    "header": "Text Right",
+    "headerInf": "Text Right",
+    "texta": "tekst Text Right kleuren",
+    "textaInf": "tekst Text Right kleuren",
+    "textb": "tekst Text Right kleuren",
+    "textbInf": "tekst Text Right kleuren",
+    "textc": "Vraag over onderstaande Text Right  zorg dat het kleurenschema licht is geselecteerd",
+    "textcInf": "Vraag over onderstaande Text Right zorg dat het kleurenschema licht is geselecteerd",
+    "textd": "Vraag over onderstaande Text Right  zorg dat het kleurenschema donker is geselecteerd",
+    "textdInf": "Vraag over onderstaande Text Right zorg dat het kleurenschema donker is geselecteerd",
+    "texte": "De wijzigbare teksten rechts bestaan uit kop, alinea's en een scheidingslijn alleen de kop en de scheidingslijn kunnen wijzigen."
+  },
+  {
+    "header": "Vimeo",
+    "headerInf": "Vimeo",
+    "texta": "tekst Vimeo kleuren",
+    "textaInf": "tekst Vimeo kleuren",
+    "textb": "tekst Vimeo kleuren",
+    "textbInf": "tekst Vimeo kleuren",
+    "textc": "Vraag over onderstaande Vimeo",
+    "textcInf": "Vraag over onderstaande Vimeo ",
+    "textd": "Niet in gebruik ",
+    "textdInf": "Niet in gebruik ",
+    "texte": "Text Wat kan er allemaal aangepast worden........"
+  },
+
+  {
+    "header": "Overige wensen",
+    "headerInf": "Overige wensen",
+    "texta": "tekst overige wensen",
+    "textaInf": "tekst overige wensen",
+    "textb": "tekst overige wensen",
+    "textbInf": "tekst overige wensen",
+    "textc": "Vraag over overige wensen",
+    "textcInf": "Vraag over overige wensen ",
+    "textd": "Not in use",
+    "textdInf": "Not in use"
   },
   {
     "header": "Einde",
@@ -95,5 +193,4 @@
     "textb": "",
     "textbInf": ""
   }
-
 ]

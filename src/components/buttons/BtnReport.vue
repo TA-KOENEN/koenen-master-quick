@@ -1,16 +1,19 @@
 <template>
-  <v-btn color="accent" small class="mb-5 mr-8" @click="onClick">
-    <slot>Verder</slot>
+  <v-btn color="info" x-large @click="onClick" :disabled="disabled">
+    <slot>Rapportage</slot>
   </v-btn>
 </template>
 
 <script>
 export default {
-  name: "btnnext",
+  name: "BtnReport",
   props: {
     onClick: {
       type: Function,
       required: true,
+    },
+    disabled: {
+      type: Boolean,
     },
   },
 };

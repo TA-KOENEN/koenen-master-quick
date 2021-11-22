@@ -172,7 +172,7 @@ export default {
 
 <style scoped>
 .hoofd {
-  padding-top: 10vh;
+  padding-top: 15vh;
 }
 
 .logoA {
