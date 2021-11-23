@@ -66,6 +66,7 @@ export default {
       token: null,
       email: null,
       companyName: null,
+      website_team: null,
       place: null,
       firstNameUser: null,
       lastNameUser: null,
@@ -95,6 +96,7 @@ export default {
           app.firstNameUser = response.data.data.firstNameUser;
           app.lastNameUser = response.data.data.lastNameUser;
           app.style = response.data.data.style;
+          app.website_team = response.data.data.website_team;
           localStorage.setItem("clientId", JSON.stringify(this.clientId));
           localStorage.setItem(
             "firstNameClient",
@@ -113,6 +115,11 @@ export default {
             "lastNameUser",
             JSON.stringify(this.lastNameUser)
           );
+          localStorage.setItem(
+            "website_team",
+            JSON.stringify(this.website_team)
+          );
+
           if (this.style === "formeel") {
             localStorage.setItem("formal", JSON.stringify(true));
           }

@@ -21,7 +21,7 @@
     <br />
     <br />
     {{ textF }}
-    {{ textG }}
+    {{ websiteTeam }}
     <br />
     <br />
   </div>
@@ -41,6 +41,7 @@ export default {
     "textG",
     "firstName",
     "lastName",
+    "websiteTeam",
   ],
 };
 </script>

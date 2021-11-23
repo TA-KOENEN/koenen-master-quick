@@ -1,6 +1,8 @@
 <template>
   <div>
     <ToolbarAuth :name="'Starter template'" />
+    <report />
+    <error-report />
     <div class="ma-0 pa-0">
       <v-row no-gutters>
         <v-col
@@ -20,6 +22,9 @@
                 :text-e="textEnd.texte"
                 :text-f="textEnd.textf"
                 :text-g="textEnd.textg"
+                :firstName="firstNameUser"
+                :lastName="lastNameUser"
+                :websiteTeam="website_team"
               />
             </div>
             <div v-if="!formal">
@@ -32,6 +37,9 @@
                 :text-e="textEnd.texteInf"
                 :text-f="textEnd.textfInf"
                 :text-g="textEnd.textgInf"
+                :firstName="firstNameUser"
+                :lastName="lastNameUser"
+                :websiteTeam="website_team"
               />
             </div>
           </div>
@@ -63,12 +71,12 @@
 <script>
 import textEind from "@/text/textEind.json";
 import textData from "@/text/textApp.json";
-import TextLeftEnd from "@/components/text-left/textLeftEnd";
 import ResultService from "@/services/ResultService";
 import AuthService from "@/services/AuthService";
+
 export default {
   name: "stepEnd",
-  components: { TextLeftEnd },
+  components: {},
   data() {
     return {
       textEnd: textEind,
@@ -77,6 +85,7 @@ export default {
       firstNameUser: null,
       lastNameUser: null,
       clientId: null,
+      website_team: null,
     };
   },
   computed: {
@@ -252,6 +261,12 @@ export default {
     },
   },
   methods: {
+    sleep(ms) {
+      return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+      });
+    },
+
     async getReport() {
       // eslint-disable-next-line
       console.log("gaat goed");
@@ -300,7 +315,8 @@ export default {
         await ResultService.getReport(payload);
         // eslint-disable-next-line no-undef
         await EventBus.$emit("reportSend", true);
-        await this.sleep(3000);
+
+        await this.sleep(1000);
         await AuthService.logout(payloadLog);
         localStorage.removeItem("clientId");
         localStorage.removeItem("firstNameClient");
@@ -310,6 +326,7 @@ export default {
         localStorage.removeItem("lastNameUser");
         localStorage.removeItem("formal");
         localStorage.removeItem("token");
+        localStorage.removeItem("website_team");
         this.$router.push({ path: "/Start" });
       } catch (error) {
         // eslint-disable-next-line no-undef
@@ -327,6 +344,7 @@ export default {
     this.clientId = JSON.parse(localStorage.getItem("clientId"));
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
+    this.website_team = JSON.parse(localStorage.getItem("website_team"));
   },
 };
 </script>

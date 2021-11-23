@@ -39,10 +39,16 @@ Vue.component("ToolbarAuth", ToolbarAuth);
 
 import textLeft from "@/components/text-left/textLeft";
 Vue.component("text-left", textLeft);
+import TextLeftEnd from "@/components/text-left/textLeftEnd";
+Vue.component("text-left-end", TextLeftEnd);
 import StatementText from "@/components/StatementText";
 Vue.component("StatementText", StatementText);
 import StepText from "@/components/stepText";
 Vue.component("step-text", StepText);
+import ErrorReport from "@/components/core/errorReport";
+Vue.component("error-report", ErrorReport);
+import Report from "@/components/core/report";
+Vue.component("report", Report);
 
 new Vue({
   router,
