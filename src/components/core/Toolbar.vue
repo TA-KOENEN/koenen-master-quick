@@ -1,7 +1,8 @@
 <template>
   <div>
     <report />
-    <v-toolbar dark :src="require('@/assets/core/alleenlijn.jpg')">
+    <v-toolbar dark class="primary">
+      <!--    <v-toolbar dark :src="require('@/assets/core/alleenlijn.jpg')">-->
       <v-toolbar-title class="ml-15">{{ name }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click="toggle_dark_mode">

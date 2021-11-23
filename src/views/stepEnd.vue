@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ToolbarAuth :name="'Starter template'" />
+    <ToolbarAuth :name="'Design App'" />
     <report />
     <error-report />
     <div class="ma-0 pa-0">
