@@ -1,29 +1,32 @@
 export const namespaced = true;
 
 export const state = {
-  question_a: null,
-  question_b: null,
-  question_c: null,
-  question_d: null,
-  question_e: null,
-  question_f: null,
-  question_g: null,
-  question_h: null,
-  question_i: null,
-  question_j: null,
-  question_k: null,
-  question_l: null,
-  question_m: null,
-  question_n: null,
-  question_o: null,
-  question_p: null,
-  question_q: null,
-  question_r: null,
-  question_s: null,
-  question_t: null,
-  question_u: null,
-  question_v: null,
-  question_w: null,
+  sl_a: 0,
+  sl_b: 0,
+  sl_c: 0,
+  question_a: "",
+  question_b: "",
+  question_c: "",
+  question_d: "",
+  question_e: "",
+  question_f: "",
+  question_g: "",
+  question_h: "",
+  question_i: "",
+  question_j: "",
+  question_k: "",
+  question_l: "",
+  question_m: "",
+  question_n: "",
+  question_o: "",
+  question_p: "",
+  question_q: "",
+  question_r: "",
+  question_s: "",
+  question_t: "",
+  question_u: "",
+  question_v: "",
+  question_w: "",
   text_a: null,
   text_b: null,
   text_c: null,
@@ -38,6 +41,15 @@ export const state = {
   text_l: null,
 };
 export const mutations = {
+  update_sl_a(state, sl_a) {
+    state.sl_a = sl_a;
+  },
+  update_sl_b(state, sl_b) {
+    state.sl_b = sl_b;
+  },
+  update_sl_c(state, sl_c) {
+    state.sl_c = sl_c;
+  },
   update_question_a(state, question_a) {
     state.question_a = question_a;
   },
@@ -145,6 +157,15 @@ export const mutations = {
   },
 };
 export const getters = {
+  sl_a: (state) => {
+    return state.sl_a;
+  },
+  sl_b: (state) => {
+    return state.sl_b;
+  },
+  sl_c: (state) => {
+    return state.sl_c;
+  },
   question_a: (state) => {
     return state.question_a;
   },
