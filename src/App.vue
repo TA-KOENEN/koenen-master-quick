@@ -29,6 +29,6 @@ body {
   overflow-x: hidden;
 }
 .full-page {
-  height: 100vh;
+  height: 250vh;
 }
 </style>
