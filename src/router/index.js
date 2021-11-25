@@ -47,7 +47,7 @@ const router = new VueRouter({
       component: LoginSecond,
     },
     {
-      path: "/schema",
+      path: "/een",
       name: "stepOne",
       component: stepOne,
       beforeEnter(to, from, next) {
@@ -59,7 +59,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/toolbar",
+      path: "/twee",
       name: "stepTwo",
       component: stepTwo,
       beforeEnter(to, from, next) {
@@ -71,7 +71,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/links",
+      path: "/drie",
       name: "stepThree",
       component: stepThree,
       beforeEnter(to, from, next) {
@@ -83,7 +83,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/rechts",
+      path: "/vier",
       name: "stepFour",
       component: stepFour,
       beforeEnter(to, from, next) {
@@ -95,7 +95,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/radio",
+      path: "/vijf",
       name: "stepFive",
       component: stepFive,
       beforeEnter(to, from, next) {
@@ -107,7 +107,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/checkbox",
+      path: "/zes",
       name: "stepSix",
       component: stepSix,
       beforeEnter(to, from, next) {
@@ -119,7 +119,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/gevoelsscore",
+      path: "/zeven",
       name: "stepSeven",
       component: stepSeven,
       beforeEnter(to, from, next) {
@@ -131,7 +131,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/rating",
+      path: "/acht",
       name: "stepEight",
       component: stepEight,
       beforeEnter(to, from, next) {
@@ -143,7 +143,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/knoppen",
+      path: "/negen",
       name: "stepNine",
       component: stepNine,
       beforeEnter(to, from, next) {
@@ -155,7 +155,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/tekst-links",
+      path: "/tien",
       name: "stepTen",
       component: stepTen,
       beforeEnter(to, from, next) {
@@ -167,7 +167,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/tekst-rechts",
+      path: "/elf",
       name: "stepEleven",
       component: stepEleven,
       beforeEnter(to, from, next) {
@@ -179,7 +179,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/video",
+      path: "/twaalf",
       name: "stepTwelve",
       component: stepTwelve,
       beforeEnter(to, from, next) {
@@ -191,7 +191,7 @@ const router = new VueRouter({
       },
     },
     {
-      path: "/anders",
+      path: "/dertien",
       name: "stepThirteen",
       component: stepThirteen,
       beforeEnter(to, from, next) {

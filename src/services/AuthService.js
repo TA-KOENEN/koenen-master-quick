@@ -2,11 +2,11 @@ import * as API from "@/services/API";
 
 export default {
   loginB(payload) {
-    return API.apiClient.post("/loginFscan", payload);
+    return API.apiClient.post("/loginCscan", payload);
   },
   logout(payload) {
     const token = localStorage.getItem("token");
-    return API.apiClient.post("/logoutFscan", payload, {
+    return API.apiClient.post("/logoutCscan", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -15,6 +15,6 @@ export default {
     });
   },
   notInt(payload) {
-    return API.apiClient.post("/notIntFscan", payload);
+    return API.apiClient.post("/notIntCscan", payload);
   },
 };

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ToolbarAuth :name="'Design App'" />
+    <ToolbarAuth :name="'Optimaal financieel pakket'" />
     <report />
     <error-report />
     <div class="ma-0 pa-0">
@@ -89,6 +89,111 @@ export default {
     };
   },
   computed: {
+    sl_a: {
+      get() {
+        return this.$store.state.quick.sl_a;
+      },
+    },
+    sl_b: {
+      get() {
+        return this.$store.state.quick.sl_b;
+      },
+    },
+    sl_c: {
+      get() {
+        return this.$store.state.quick.sl_c;
+      },
+    },
+    sl_d: {
+      get() {
+        return this.$store.state.quick.sl_d;
+      },
+    },
+    sl_e: {
+      get() {
+        return this.$store.state.quick.sl_e;
+      },
+    },
+    sl_f: {
+      get() {
+        return this.$store.state.quick.sl_f;
+      },
+    },
+    sl_g: {
+      get() {
+        return this.$store.state.quick.sl_g;
+      },
+    },
+    sl_h: {
+      get() {
+        return this.$store.state.quick.sl_h;
+      },
+    },
+    sl_i: {
+      get() {
+        return this.$store.state.quick.sl_i;
+      },
+    },
+    sl_j: {
+      get() {
+        return this.$store.state.quick.sl_j;
+      },
+    },
+    sl_k: {
+      get() {
+        return this.$store.state.quick.sl_k;
+      },
+    },
+    sl_l: {
+      get() {
+        return this.$store.state.quick.sl_l;
+      },
+    },
+    sl_m: {
+      get() {
+        return this.$store.state.quick.sl_m;
+      },
+    },
+    sl_n: {
+      get() {
+        return this.$store.state.quick.sl_n;
+      },
+    },
+    cb_a: {
+      get() {
+        return this.$store.state.quick.cb_a;
+      },
+    },
+    cb_b: {
+      get() {
+        return this.$store.state.quick.cb_b;
+      },
+    },
+    cb_c: {
+      get() {
+        return this.$store.state.quick.cb_c;
+      },
+    },
+    cb_d: {
+      get() {
+        return this.$store.state.quick.cb_d;
+      },
+    },
+    cb_e: {
+      get() {
+        return this.$store.state.quick.cb_e;
+      },
+    },
+    cb_f: {
+      get() {
+        return this.$store.state.quick.cb_f;
+      },
+    },
+    cb_g: {
+      get() {
+        return this.$store.state.quick.cb_g;
+      },
+    },
     question_a: {
       get() {
         return this.$store.state.quick.question_a;
@@ -119,86 +224,6 @@ export default {
         return this.$store.state.quick.question_f;
       },
     },
-    question_g: {
-      get() {
-        return this.$store.state.quick.question_g;
-      },
-    },
-    question_h: {
-      get() {
-        return this.$store.state.quick.question_h;
-      },
-    },
-    question_i: {
-      get() {
-        return this.$store.state.quick.question_i;
-      },
-    },
-    question_j: {
-      get() {
-        return this.$store.state.quick.question_j;
-      },
-    },
-    question_k: {
-      get() {
-        return this.$store.state.quick.question_k;
-      },
-    },
-    question_l: {
-      get() {
-        return this.$store.state.quick.question_l;
-      },
-    },
-    question_m: {
-      get() {
-        return this.$store.state.quick.question_m;
-      },
-    },
-    question_n: {
-      get() {
-        return this.$store.state.quick.question_n;
-      },
-    },
-    question_o: {
-      get() {
-        return this.$store.state.quick.question_o;
-      },
-    },
-    question_p: {
-      get() {
-        return this.$store.state.quick.question_p;
-      },
-    },
-    question_q: {
-      get() {
-        return this.$store.state.quick.question_q;
-      },
-    },
-    question_r: {
-      get() {
-        return this.$store.state.quick.question_r;
-      },
-    },
-    question_s: {
-      get() {
-        return this.$store.state.quick.question_s;
-      },
-    },
-    question_t: {
-      get() {
-        return this.$store.state.quick.question_t;
-      },
-    },
-    question_u: {
-      get() {
-        return this.$store.state.quick.question_u;
-      },
-    },
-    question_v: {
-      get() {
-        return this.$store.state.quick.question_v;
-      },
-    },
     text_a: {
       get() {
         return this.$store.state.quick.text_a;
@@ -214,51 +239,6 @@ export default {
         return this.$store.state.quick.text_c;
       },
     },
-    text_d: {
-      get() {
-        return this.$store.state.quick.text_d;
-      },
-    },
-    text_e: {
-      get() {
-        return this.$store.state.quick.text_e;
-      },
-    },
-    text_f: {
-      get() {
-        return this.$store.state.quick.text_f;
-      },
-    },
-    text_g: {
-      get() {
-        return this.$store.state.quick.text_g;
-      },
-    },
-    text_h: {
-      get() {
-        return this.$store.state.quick.text_h;
-      },
-    },
-    text_i: {
-      get() {
-        return this.$store.state.quick.text_i;
-      },
-    },
-    text_j: {
-      get() {
-        return this.$store.state.quick.text_j;
-      },
-    },
-    text_k: {
-      get() {
-        return this.$store.state.quick.text_k;
-      },
-    },
-    text_l: {
-      get() {
-        return this.$store.state.quick.text_l;
-      },
-    },
   },
   methods: {
     sleep(ms) {
@@ -272,40 +252,36 @@ export default {
       console.log("gaat goed");
       const payload = {
         clientId: JSON.parse(localStorage.getItem("clientId")),
+        sl_a: this.sl_a,
+        sl_b: this.sl_b,
+        sl_c: this.sl_c,
+        sl_d: this.sl_d,
+        sl_e: this.sl_e,
+        sl_f: this.sl_f,
+        sl_g: this.sl_g,
+        sl_h: this.sl_h,
+        sl_i: this.sl_i,
+        sl_j: this.sl_j,
+        sl_k: this.sl_k,
+        sl_l: this.sl_l,
+        sl_m: this.sl_m,
+        sl_n: this.sl_n,
+        cb_a: this.cb_a,
+        cb_b: this.cb_b,
+        cb_c: this.cb_c,
+        cb_d: this.cb_d,
+        cb_e: this.cb_e,
+        cb_f: this.cb_f,
+        cb_g: this.cb_g,
         question_a: this.question_a,
         question_b: this.question_b,
         question_c: this.question_c,
         question_d: this.question_d,
         question_e: this.question_e,
         question_f: this.question_f,
-        question_g: this.question_g,
-        question_h: this.question_h,
-        question_i: this.question_i,
-        question_j: this.question_j,
-        question_k: this.question_k,
-        question_l: this.question_l,
-        question_m: this.question_m,
-        question_n: this.question_n,
-        question_o: this.question_o,
-        question_p: this.question_p,
-        question_q: this.question_q,
-        question_r: this.question_r,
-        question_s: this.question_s,
-        question_t: this.question_t,
-        question_u: this.question_u,
-        question_v: this.question_v,
         text_a: this.text_a,
         text_b: this.text_b,
         text_c: this.text_c,
-        text_d: this.text_d,
-        text_e: this.text_e,
-        text_f: this.text_f,
-        text_g: this.text_g,
-        text_h: this.text_h,
-        text_i: this.text_i,
-        text_j: this.text_j,
-        text_k: this.text_k,
-        text_l: this.text_l,
       };
       const payloadLog = {
         clientId: JSON.parse(localStorage.getItem("clientId")),
@@ -335,7 +311,7 @@ export default {
       }
     },
     backStep() {
-      this.$router.push({ name: "stepThirteen" });
+      this.$router.push({ name: "stepSeven" });
     },
   },
 

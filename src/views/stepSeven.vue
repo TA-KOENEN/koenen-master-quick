@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ToolbarAuth :name="'Design App'" />
+    <ToolbarAuth :name="'Optimaal financieel pakket'" />
     <div class="ma-0 pa-0">
       <v-row no-gutters>
         <v-col
@@ -15,6 +15,7 @@
                 :head-text="textIntro[7].header"
                 :text-a="textIntro[7].texta"
                 :text-b="textIntro[7].textb"
+                :text-c="textIntro[7].textc"
               />
             </div>
             <div v-if="!formal">
@@ -22,6 +23,7 @@
                 :head-text="textIntro[7].headerInf"
                 :text-a="textIntro[7].textaInf"
                 :text-b="textIntro[7].textbInf"
+                :text-c="textIntro[7].textcInf"
               />
             </div>
           </div>
@@ -34,7 +36,7 @@
               class="mb-5"
               :active="true"
             />
-            <ValidationObserver v-slot="{ invalid, validate, errors }">
+            <ValidationObserver v-slot="{ invalid }">
               <form ref="form">
                 <CustomDivider />
                 <div v-if="formal">
@@ -43,41 +45,37 @@
                 <div v-if="!formal">
                   <StatementText :statement="textIntro[7].textcInf" />
                 </div>
+                <base-check
+                  :label="'Inrichten koppelingen met andere systemen'"
+                  v-model="cb_a"
+                />
+                <base-check
+                  :label="'Stroomlijnen financiële processen'"
+                  v-model="cb_b"
+                />
+                <base-check
+                  :label="'Inrichten administratieve organisatie en bevoegdheden'"
+                  v-model="cb_c"
+                />
+                <base-check
+                  :label="'Aanreiken (financiële) kennis over de mogelijkheden van systemen'"
+                  v-model="cb_d"
+                />
+                <base-check
+                  :label="'Inzicht in liquiditeiten'"
+                  v-model="cb_e"
+                />
+                <base-check :label="'Overig te weten'" v-model="cb_f" />
 
-                <ta-slider2 v-model="sl_a" />
-                <base-radio
-                  v-model="question_l"
-                  :error-messages="errors"
-                  rules="required"
-                  nrOptions="2"
-                  optionA="Ja, deze kleur is prima"
-                  optionB="Nee, ik wil dit wijzigen."
-                ></base-radio>
-                <div v-if="question_a === 'ke1'">
-                  <div v-if="formal">
-                    <StatementText :statement="textIntro[7].textd" />
-                  </div>
-                  <div v-if="!formal">
-                    <StatementText :statement="textIntro[7].textdInf" />
-                  </div>
-                  <ta-slider2 v-model="sl_a" />
-                  <base-radio
-                    v-model="question_m"
-                    :error-messages="errors"
-                    rules="required"
-                    nrOptions="2"
-                    optionA="Ja, deze kleur is prima"
-                    optionB="Nee, ik wil dit wijzigen."
-                  ></base-radio>
-                </div>
-                <div v-if="question_l === 'ke2' || question_m === 'ke2'">
+                <div v-if="cb_f">
                   <base-val-area
-                    :textA="'Welke wijzigingen mogen doorgevoerd worden?'"
+                    :textA="'Overig te weten:'"
                     :rules="'max:200'"
-                    :label="'Wijzigingen'"
-                    v-model="text_f"
+                    :label="'Overig'"
+                    v-model="text_c"
                   />
                 </div>
+
                 <CustomDivider />
                 <v-row class="mt-10">
                   <v-spacer />
@@ -90,42 +88,6 @@
             <step-text
               :stepText="textIntro[8].header"
               :number="8"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[9].header"
-              :number="9"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[10].header"
-              :number="10"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[11].header"
-              :number="11"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[12].header"
-              :number="12"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[13].header"
-              :number="13"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[14].header"
-              :number="14"
               class="mb-5"
               :active="false"
             />
@@ -150,11 +112,6 @@ export default {
     };
   },
   computed: {
-    question_a: {
-      get() {
-        return this.$store.state.quick.question_a;
-      },
-    },
     question_l: {
       get() {
         return this.$store.state.quick.question_l;
@@ -163,26 +120,66 @@ export default {
         this.$store.commit("quick/update_question_l", value);
       },
     },
-    question_m: {
+    cb_a: {
       get() {
-        return this.$store.state.quick.question_m;
+        return this.$store.state.quick.cb_a;
       },
       set(value) {
-        this.$store.commit("quick/update_question_m", value);
+        this.$store.commit("quick/update_cb_a", value);
       },
     },
-    text_f: {
+    cb_b: {
       get() {
-        return this.$store.state.quick.text_f;
+        return this.$store.state.quick.cb_b;
       },
       set(value) {
-        this.$store.commit("quick/update_text_f", value);
+        this.$store.commit("quick/update_cb_b", value);
+      },
+    },
+    cb_c: {
+      get() {
+        return this.$store.state.quick.cb_c;
+      },
+      set(value) {
+        this.$store.commit("quick/update_cb_c", value);
+      },
+    },
+    cb_d: {
+      get() {
+        return this.$store.state.quick.cb_d;
+      },
+      set(value) {
+        this.$store.commit("quick/update_cb_d", value);
+      },
+    },
+    cb_e: {
+      get() {
+        return this.$store.state.quick.cb_e;
+      },
+      set(value) {
+        this.$store.commit("quick/update_cb_e", value);
+      },
+    },
+    cb_f: {
+      get() {
+        return this.$store.state.quick.cb_f;
+      },
+      set(value) {
+        this.$store.commit("quick/update_cb_f", value);
+      },
+    },
+    text_c: {
+      get() {
+        return this.$store.state.quick.text_c;
+      },
+      set(value) {
+        this.$store.commit("quick/update_text_c", value);
       },
     },
   },
   methods: {
     nextStep() {
-      this.$router.push({ name: "stepEight" });
+      this.$router.push({ name: "stepEnd" });
     },
     backStep() {
       this.$router.push({ name: "stepSix" });

@@ -1,4 +1,4 @@
-# quick-scan noodplan
+# PCM optimaal financieel pakket
 
 ## Project setup
 ```

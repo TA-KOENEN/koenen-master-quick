@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ToolbarAuth :name="'Design App'" />
+    <ToolbarAuth :name="'Optimaal financieel pakket'" />
     <div class="ma-0 pa-0">
       <v-row no-gutters>
         <v-col
@@ -45,17 +45,45 @@
                 <div v-if="!formal">
                   <StatementText :statement="textIntro[1].textcInf" />
                 </div>
+                <statement-text :statement="textIntro[1].slider_a" />
+                <ta-slider3 v-model="sl_a" />
+                <statement-text :statement="textIntro[1].slider_b" />
+                <ta-slider3 v-model="sl_b" />
+                <statement-text :statement="textIntro[1].slider_c" />
+                <ta-slider3 v-model="sl_c" />
+                <statement-text :statement="textIntro[1].slider_d" />
+                <ta-slider3 v-model="sl_d" />
+                <statement-text :statement="textIntro[1].slider_e" />
+                <ta-slider3 v-model="sl_e" />
+                <statement-text :statement="textIntro[1].slider_f" />
+                <ta-slider3 v-model="sl_f" />
+
+                <div v-if="formal">
+                  <StatementText :statement="textIntro[1].question_a" />
+                </div>
+                <div v-if="!formal">
+                  <StatementText :statement="textIntro[1].question_aInf" />
+                </div>
+
                 <base-radio
                   v-model="question_a"
                   :error-messages="errors"
                   rules="required"
                   nrOptions="2"
-                  optionA="Ja, ik geef mijn klanten de mogelijkheid van verschillende kleurenschema's."
-                  optionB="Nee, een donker kleurenschema past niet binnen onze huisstijl."
+                  optionA="Ja"
+                  optionB="Nee"
                 ></base-radio>
-                <div v-if="question_a === 'ke2'">
-                  <StatementText
-                    :statement="'Vragen over een tweede kleurenschema worden overgeslagen.'"
+                <div v-if="question_a === 'ke1'">
+                  <div v-if="formal">
+                    <StatementText :statement="textIntro[1].question_b" />
+                  </div>
+                  <div v-if="!formal">
+                    <StatementText :statement="textIntro[1].question_bInf" />
+                  </div>
+                  <base-val-area
+                    label="Functionaliteiten"
+                    rules="max:250"
+                    v-model="text_a"
                   />
                 </div>
 
@@ -113,42 +141,6 @@
               class="mb-5"
               :active="false"
             />
-            <step-text
-              :stepText="textIntro[9].header"
-              :number="9"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[10].header"
-              :number="10"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[11].header"
-              :number="11"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[12].header"
-              :number="12"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[13].header"
-              :number="13"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[14].header"
-              :number="14"
-              class="mb-5"
-              :active="false"
-            />
           </div>
         </v-col>
       </v-row>
@@ -175,6 +167,70 @@ export default {
       },
       set(value) {
         this.$store.commit("quick/update_question_a", value);
+      },
+    },
+    sl_a: {
+      get() {
+        return this.$store.state.quick.sl_a;
+      },
+      set(value) {
+        this.$store.commit("quick/update_sl_a", value);
+      },
+    },
+    sl_b: {
+      get() {
+        return this.$store.state.quick.sl_b;
+      },
+      set(value) {
+        this.$store.commit("quick/update_sl_b", value);
+      },
+    },
+    sl_c: {
+      get() {
+        return this.$store.state.quick.sl_c;
+      },
+      set(value) {
+        this.$store.commit("quick/update_sl_c", value);
+      },
+    },
+    sl_d: {
+      get() {
+        return this.$store.state.quick.sl_d;
+      },
+      set(value) {
+        this.$store.commit("quick/update_sl_d", value);
+      },
+    },
+    sl_e: {
+      get() {
+        return this.$store.state.quick.sl_e;
+      },
+      set(value) {
+        this.$store.commit("quick/update_sl_e", value);
+      },
+    },
+    sl_f: {
+      get() {
+        return this.$store.state.quick.sl_f;
+      },
+      set(value) {
+        this.$store.commit("quick/update_sl_f", value);
+      },
+    },
+    sl_g: {
+      get() {
+        return this.$store.state.quick.sl_g;
+      },
+      set(value) {
+        this.$store.commit("quick/update_sl_g", value);
+      },
+    },
+    text_a: {
+      get() {
+        return this.$store.state.quick.text_a;
+      },
+      set(value) {
+        this.$store.commit("quick/update_text_a", value);
       },
     },
   },

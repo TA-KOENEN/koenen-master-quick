@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ToolbarAuth :name="'Design App'" />
+    <ToolbarAuth :name="'Optimaal financieel pakket'" />
     <div class="ma-0 pa-0">
       <v-row no-gutters>
         <v-col

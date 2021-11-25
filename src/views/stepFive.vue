@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ToolbarAuth :name="'Design App'" />
+    <ToolbarAuth :name="'Optimaal financieel pakket'" />
     <div class="ma-0 pa-0">
       <v-row no-gutters>
         <v-col
@@ -38,41 +38,34 @@
               <form ref="form">
                 <CustomDivider />
                 <div v-if="formal">
-                  <StatementText :statement="textIntro[5].textc" />
+                  <StatementText :statement="textIntro[5].textb" />
                 </div>
                 <div v-if="!formal">
-                  <StatementText :statement="textIntro[5].textcInf" />
+                  <StatementText :statement="textIntro[5].textbInf" />
                 </div>
                 <base-radio
-                  v-model="question_h"
+                  v-model="question_e"
                   :error-messages="errors"
                   rules="required"
-                  nrOptions="2"
-                  optionA="Ja, deze kleur is prima"
-                  optionB="Nee, ik wil dit wijzigen."
+                  nrOptions="5"
+                  optionA="Direct na elke mutatie"
+                  optionB="Dagelijks dienen alle resultaten te zijn bijgewerkt"
+                  optionC="Zo snel mogelijk aan het einde van de kalendermaand"
+                  optionD="Zo snel mogelijk aan het einde van het kwartaal"
+                  optionE="Anders, namelijk"
                 ></base-radio>
-                <div v-if="question_a === 'ke1'">
+                <div v-if="question_e === 'ke5'">
                   <div v-if="formal">
                     <StatementText :statement="textIntro[5].textd" />
                   </div>
                   <div v-if="!formal">
                     <StatementText :statement="textIntro[5].textdInf" />
                   </div>
-                  <base-radio
-                    v-model="question_i"
-                    :error-messages="errors"
-                    rules="required"
-                    nrOptions="2"
-                    optionA="Ja, deze kleur is prima"
-                    optionB="Nee, ik wil dit wijzigen."
-                  ></base-radio>
-                </div>
-                <div v-if="question_h === 'ke2' || question_i === 'ke2'">
                   <base-val-area
-                    :textA="'Welke wijzigingen mogen doorgevoerd worden?'"
+                    :textA="'Wat zijn de wensen, m.b.t. actualiteit?'"
                     :rules="'max:200'"
-                    :label="'Wijzigingen'"
-                    v-model="text_d"
+                    :label="'Anders'"
+                    v-model="text_b"
                   />
                 </div>
                 <CustomDivider />
@@ -102,42 +95,6 @@
               class="mb-5"
               :active="false"
             />
-            <step-text
-              :stepText="textIntro[9].header"
-              :number="9"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[10].header"
-              :number="10"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[11].header"
-              :number="11"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[12].header"
-              :number="12"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[13].header"
-              :number="13"
-              class="mb-5"
-              :active="false"
-            />
-            <step-text
-              :stepText="textIntro[14].header"
-              :number="14"
-              class="mb-5"
-              :active="false"
-            />
           </div>
         </v-col>
       </v-row>
@@ -158,33 +115,20 @@ export default {
     };
   },
   computed: {
-    question_a: {
+    question_e: {
       get() {
-        return this.$store.state.quick.question_a;
-      },
-    },
-    question_h: {
-      get() {
-        return this.$store.state.quick.question_h;
+        return this.$store.state.quick.question_e;
       },
       set(value) {
-        this.$store.commit("quick/update_question_h", value);
+        this.$store.commit("quick/update_question_e", value);
       },
     },
-    question_i: {
+    text_b: {
       get() {
-        return this.$store.state.quick.question_i;
+        return this.$store.state.quick.text_b;
       },
       set(value) {
-        this.$store.commit("quick/update_question_i", value);
-      },
-    },
-    text_d: {
-      get() {
-        return this.$store.state.quick.text_d;
-      },
-      set(value) {
-        this.$store.commit("quick/update_text_d", value);
+        this.$store.commit("quick/update_text_b", value);
       },
     },
   },

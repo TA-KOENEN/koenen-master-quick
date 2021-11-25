@@ -1,13 +1,21 @@
 <template>
   <div>
-    <v-checkbox color="primary" :label="label" v-model="innerValue" />
+    <v-checkbox color="info" :label="label" v-model="innerValue" />
   </div>
 </template>
 
 <script>
 export default {
   name: "BaseCheck",
-  props: ["label"],
+  props: {
+    value: {
+      type: Boolean,
+      default: false,
+    },
+    label: {
+      default: "",
+    },
+  },
   data: () => ({
     innerValue: "",
   }),
