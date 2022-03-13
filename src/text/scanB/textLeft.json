@@ -1,0 +1,109 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Visie",
+    "headerInf": "Visie",
+    "sign": false,
+    "text_a": "De beeldvorming over de toekomst bij alle betrokken familieleden is van groot belang. Een gezamenlijk toekomstbeeld kan een sterk punt zijn in het bedrijf.",
+    "text_aInf": "De beeldvorming over de toekomst bij alle betrokken familieleden is van groot belang. Een gezamenlijk toekomstbeeld kan een sterk punt zijn in het bedrijf.",
+    "text_b": "In hoeverre kunt u zich  gevoelsmatig in de volgende stelling vinden?",
+    "text_bInf": "In hoeverre kan je je gevoelsmatig in de volgende stelling vinden?",
+    "text_c": "Alle bij het bedrijf betrokken familieleden hebben eenzelfde visie op de toekomst van het familiebedrijf.",
+    "text_cInf": "Alle bij het bedrijf betrokken familieleden hebben eenzelfde visie op de toekomst van het familiebedrijf."
+  },
+  {
+    "header": "Opvolging",
+    "headerInf": "Opvolging",
+    "sign": false,
+    "text_a": "Het opvolgingsproces is een cruciale fase in de ontwikkeling van het familiebedrijf. Voor alle betrokken familieleden is het afstemmingsproces hierover van groot belang, zeker als van hen verwacht wordt dat zij de opvolger het vertrouwen geven. ",
+    "text_aInf": "Het opvolgingsproces is een cruciale fase in de ontwikkeling van het familiebedrijf. Voor alle betrokken familieleden is het afstemmingsproces hierover van groot belang, zeker als van hen verwacht wordt dat zij de opvolger het vertrouwen geven. ",
+    "text_b": "Is het voor alle familieleden duidelijk wie de huidige ondernemer in de toekomst gaat opvolgen?",
+    "text_bInf": "Is het voor alle familieleden duidelijk wie de huidige ondernemer in de toekomst gaat opvolgen?"
+  },
+  {
+    "header": "Voorwaarden",
+    "headerInf": "Voorwaarden",
+    "sign": false,
+    "text_a": "In het opvolgingsproces komen veel aspecten samen. Organisatorisch, juridisch, financieel, etc. Ook komen in het opvolgingsproces zowel gezamenlijke als tegengestelde belangen samen. Bijvoorbeeld de belangen van de opvolger versus de belangen van de kinderen die niet direct betrokken zijn in het familiebedrijf.",
+    "text_aInf": "In het opvolgingsproces komen veel aspecten samen. Organisatorisch, juridisch, financieel, etc. Ook komen in het opvolgingsproces zowel gezamenlijke als tegengestelde belangen samen. Bijvoorbeeld de belangen van de opvolger versus de belangen van de kinderen die niet direct betrokken zijn in het familiebedrijf.",
+    "text_b": "In hoeverre kunt u zich  gevoelsmatig in de volgende stelling vinden?",
+    "text_bInf": "In hoeverre kan je je gevoelsmatig in de volgende stelling vinden?",
+    "text_c": "Het is aan te bevelen om duidelijke voorwaarden aan de opvolger van het familiebedrijf te stellen.",
+    "text_cInf": "Het is aan te bevelen om duidelijke voorwaarden aan de opvolger van het familiebedrijf te stellen."
+  },
+  {
+    "header": "Overleg",
+    "headerInf": "Overleg",
+    "sign": false,
+    "text_a": "Vanzelfsprekend vindt er in de dagelijkse bedrijfsvoering overleg tussen de betrokken familieleden plaats. De vraag is of ook over de zaken die de dagelijkse bedrijfsvoering overstijgen regelmatig met elkaar wordt overlegd.",
+    "text_aInf": "Vanzelfsprekend vindt er in de dagelijkse bedrijfsvoering overleg tussen de betrokken familieleden plaats. De vraag is of ook over de zaken die de dagelijkse bedrijfsvoering overstijgen regelmatig met elkaar wordt overlegd.",
+    "text_b": "Wordt er met enige regelmaat tussen familieleden gesproken over belangrijke zaken in het bedrijf?",
+    "text_bInf": "Wordt er met enige regelmaat tussen familieleden gesproken over belangrijke zaken in het bedrijf?"
+  },
+  {
+    "header": "Gelijke behandeling",
+    "headerInf": "Gelijke behandeling",
+    "sign": false,
+    "text_a": "Voor veel ouders geldt dat zij de kinderen gelijkelijk willen behandelen. Dit heeft vaak ook betrekking op het schenken en vererven van vermogen. Aan de hand van de onderstaande stelling vragen wij uw mening hierover.",
+    "text_aInf": "Voor veel ouders geldt dat zij de kinderen gelijkelijk willen behandelen. Dit heeft vaak ook betrekking op het schenken en vererven van vermogen. Aan de hand van de onderstaande stelling vragen wij jouw mening hierover.",
+    "text_b": "In hoeverre kunt u zich gevoelsmatig in de volgende stelling vinden?",
+    "text_bInf": "In hoeverre kan je je gevoelsmatig in de volgende stelling vinden?",
+    "text_c": "Een gelijke behandeling van kinderen houdt onder meer in dat zij uiteindelijk allemaal een even groot aandeel in het vermogen van de ouders krijgen.",
+    "text_cInf": "Een gelijke behandeling van kinderen houdt onder meer in dat zij uiteindelijk allemaal een even groot aandeel in het vermogen van de ouders krijgen."
+  },
+  {
+    "header": "Eigendom",
+    "headerInf": "Eigendom",
+    "sign": false,
+    "text_a": "Het eigendom in het bedrijf gaat op enig moment over naar de volgende generatie. Dit kunnen alleen de meewerkende familieleden zijn, maar kan ook betekenen dat alle familieleden in de volgende generatie eigendom verkrijgen. ",
+    "text_aInf": "Het eigendom in het bedrijf gaat op enig moment over naar de volgende generatie. Dit kunnen alleen de meewerkende familieleden zijn, maar kan ook betekenen dat alle familieleden in de volgende generatie eigendom verkrijgen. ",
+    "text_b": "Aan beide situaties zijn voor- en nadelen verbonden ten aanzien van bijvoorbeeld inspraak, invloed en zeggenschap in het bedrijf. Aan de hand van onderstaande stelling vragen wij uw mening.",
+    "text_bInf": "Aan beide situaties zijn voor- en nadelen verbonden ten aanzien van bijvoorbeeld inspraak, invloed en zeggenschap in het bedrijf. Aan de hand van onderstaande stelling vragen wij jouw mening.",
+    "text_c": "In hoeverre kunt u zich gevoelsmatig in de volgende stelling vinden?",
+    "text_cInf": "In hoeverre kan je je gevoelsmatig in de volgende stelling vinden?",
+    "text_d": "Het eigendom van uw bedrijf mag (gedeeltelijk) in handen komen van niet-meewerkende familieleden.",
+    "text_dInf": "Het eigendom van jouw bedrijf mag (gedeeltelijk) in handen komen van niet-meewerkende familieleden."
+  },
+  {
+    "header": "Samenwerking",
+    "headerInf": "Samenwerking",
+    "sign": false,
+    "text_a": "De slotvraag gaat in op hoe u de huidige samenwerking met familieleden in het bedrijf ervaart:",
+    "text_aInf": "De slotvraag gaat in op hoe je de huidige samenwerking met familieleden in het bedrijf ervaart:",
+    "text_b": "Geeft het samen werken in het familiebedrijf u een tevreden gevoel?",
+    "text_bInf": "Geeft het samen werken in het familiebedrijf je een tevreden gevoel?"
+  },
+
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over juridische aspecten ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over juridische aspecten ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met je gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  },
+  {
+    "header": "",
+    "headerInf": "",
+    "text_a": "",
+    "text_aInf": "",
+    "text_b": "",
+    "text_bInf": ""
+  }
+]

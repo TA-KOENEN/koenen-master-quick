@@ -1,0 +1,108 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Tevredenheid over het gebruik",
+    "headerInf": "Tevredenheid over het gebruik",
+    "sign": false,
+    "text_a": "U maakt gebruik van een financieel pakket voor uw boekhouding. Om te weten hoe u de verschillende aspecten van dit financieel pakket beoordeelt, vragen wij u een rapportcijfer per onderdeel te geven.",
+    "text_aInf": "Je maakt gebruik van een financieel pakket voor jouw boekhouding. Om te weten hoe je de verschillende aspecten van dit financieel pakket beoordeelt, vragen wij je een rapportcijfer per onderdeel te geven.",
+    "text_b": "Per onderdeel is een slider weergeven, waarbij het rapportcijfer 1 zeer slecht is en rapportcijfer 10 uitmuntend is.",
+    "text_bInf": "Per onderdeel is een slider weergeven, waarbij het rapportcijfer 1 zeer slecht is en rapportcijfer 10 uitmuntend is.",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Koppeling met uw bank",
+    "headerInf": "Koppeling met jouw bank",
+    "sign": false,
+    "text_a": "U heeft de mogelijkheid binnen uw financieel pakket een koppeling te maken met uw bank. Deze koppeling kan u veel tijdswinst opleveren bij de verwerking van uw administratie. Vanzelfsprekend geldt dan ook dat u (eventuele) autorisaties voor uw medewerkers in het pakket goed moet hebben ingeregeld. ",
+    "text_aInf": "Je hebt de mogelijkheid binnen jouw financieel pakket een koppeling te maken met jouw bank. Deze koppeling kan je veel tijdswinst opleveren bij de verwerking van jouw administratie. Vanzelfsprekend geldt dan ook dat je (eventuele) autorisaties voor jouw medewerkers in het pakket goed moet hebben ingeregeld. ",
+    "text_b": "Heeft u de financiële processen met de bank goed ingericht in uw financieel pakket of verwacht u dat hierin nog verdere stappen kunnen worden genomen?",
+    "text_bInf": "Heb je de financiële processen met de bank goed ingericht in jouw financieel pakket of verwacht je dat hierin nog verdere stappen kunnen worden genomen?"
+  },
+  {
+    "header": "Koppelingen met andere systemen",
+    "headerInf": "Koppelingen met andere systemen",
+    "sign": false,
+    "text_a": "Er zijn vaak mogelijkheden om financiële software te koppelen aan andere systemen waarvan u gebruik maakt binnen uw onderneming: zoals bijvoorbeeld uw CRM-, ERP- en Kassasysteem. Deze koppelingen kunnen leiden tot nieuwe voordelen, maar ook tot bijvoorbeeld implementatie en aanpassing van (administratieve) processen.",
+    "text_aInf": "Er zijn vaak mogelijkheden om financiële software te koppelen aan andere systemen waarvan je gebruik maakt binnen jouw onderneming: zoals bijvoorbeeld je CRM-, ERP- en Kassasysteem. Deze koppelingen kunnen leiden tot nieuwe voordelen, maar ook tot bijvoorbeeld implementatie en aanpassing van (administratieve) processen.",
+    "text_b": "Heeft u uw financieel pakket gekoppeld met andere systemen binnen uw onderneming?",
+    "text_bInf": "Heb je jouw financieel pakket gekoppeld met andere systemen binnen jouw onderneming?"
+  },
+  {
+    "header": "Inzicht in de ontwikkeling van uw resultaten",
+    "headerInf": "Inzicht in de ontwikkeling van uw resultaten",
+    "sign": false,
+    "text_a": "Veel ondernemers vinden het belangrijk om de onderneming te sturen op basis van de financiële resultaten. Uw financieel pakket, eventueel via koppeling met andere systemen, kan u het inzicht geven in de ontwikkeling van de onderliggende posten.",
+    "text_aInf": "Veel ondernemers vinden het belangrijk om de onderneming te sturen op basis van de financiële resultaten. Jouw financieel pakket, eventueel via koppeling met andere systemen, kan je het inzicht geven in de ontwikkeling van de onderliggende posten.",
+    "text_b": "Biedt uw financieel pakket, eventueel via koppeling met uw andere systemen, voldoende inzicht in de ontwikkeling van:",
+    "text_bInf": "Biedt jouw financieel pakket, eventueel via koppeling met jouw andere systemen, voldoende inzicht in de ontwikkeling van:"
+  },
+  {
+    "header": "Inzicht in de resultaten",
+    "headerInf": "Inzicht in de resultaten",
+    "sign": false,
+    "text_a": "Een direct inzicht in de resultaten kan de besluitvorming binnen uw onderneming (verder) ondersteunen. ",
+    "text_aInf": "Een direct inzicht in de resultaten kan de besluitvorming binnen jouw onderneming (verder) ondersteunen.",
+    "text_b": "Hoe actueel wilt u het inzicht in uw resultaten hebben?",
+    "text_bInf": "Hoe actueel wil je het inzicht in jouw resultaten hebben?",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Kwaliteit van uw financiële administratie",
+    "headerInf": "Kwaliteit van jouw financiële administratie",
+    "sign": false,
+    "text_a": "Aan het einde van het boekjaar geeft uw financieel pakket inzicht in het bedrijfsresultaat op basis van de administratie. Het komt voor dat achteraf naar aanleiding van verschillende posten correcties moeten plaatsvinden.",
+    "text_aInf": "Aan het einde van het boekjaar geeft jouw financieel pakket inzicht in het bedrijfsresultaat op basis van de administratie. Het komt voor dat achteraf naar aanleiding van verschillende posten correcties moeten plaatsvinden.",
+    "text_b": "Deze correcties kunnen het bedrijfsresultaat sterk beïnvloeden. Deze impact geeft dan ook een goede indicatie of uw financiële administratie kwalitatief op orde is en dat u op deze cijfers kunt vertrouwen.",
+    "text_bInf": "Deze correcties kunnen het bedrijfsresultaat sterk beïnvloeden. Deze impact geeft dan ook een goede indicatie of jouw financiële administratie kwalitatief op orde is en dat je op deze cijfers kunt vertrouwen.",
+    "text_c": "Verwacht u dat het bedrijfsresultaat in het financieel pakket elk jaar sterk af zal wijken van het uiteindelijke bedrijfsresultaat in uw jaarrekening doordat er veel correcties moeten plaatsvinden?",
+    "text_cInf": "Verwacht je dat het bedrijfsresultaat in het financieel pakket elk jaar sterk af zal wijken van het uiteindelijke bedrijfsresultaat in jouw jaarrekening doordat er veel correcties moeten plaatsvinden?"
+  },
+  {
+    "header": "Ondersteuning",
+    "headerInf": "Ondersteuning",
+    "sign": false,
+    "text_a": "Uw financieel pakket kan, mede door de mogelijkheid om andere systemen te koppelen, belangrijke voordelen bieden. Bijvoorbeeld sneller en actueler inzicht in uw financiële resultaten en het verder stroomlijnen en vereenvoudigen van financieel-administratieve processen. ",
+    "text_aInf": "Jouw financieel pakket kan, mede door de mogelijkheid om andere systemen te koppelen, belangrijke voordelen bieden. Bijvoorbeeld sneller en actueler inzicht in jouw financiële resultaten en het verder stroomlijnen en vereenvoudigen van financieel-administratieve processen. ",
+    "text_b": "Wij staan u hierbij graag terzijde en hebben daarom de volgende vraag:",
+    "text_bInf": "Wij staan je hierbij graag terzijde en hebben daarom de volgende vraag:",
+    "text_c": "Hoe kunnen wij u ondersteunen om het maximale uit uw financieel pakket te halen? U kunt meerdere onderwerpen aanvinken. Bij overige, kunt u ook verdere onderwerpen vermelden.",
+    "text_cInf": "Hoe kunnen wij jou ondersteunen om het maximale uit jouw financieel pakket te halen? Je kunt meerdere onderwerpen aanvinken. Bij overige, kun je ook verdere onderwerpen vermelden."
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over uw financieel pakket ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over jouw financieel pakket ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  },
+  {
+    "header": "",
+    "headerInf": "",
+    "text_a": "",
+    "text_aInf": "",
+    "text_b": "",
+    "text_bInf": ""
+  }
+
+]

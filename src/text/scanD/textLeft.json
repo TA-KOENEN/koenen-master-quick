@@ -1,0 +1,104 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Inzicht in de resultaten",
+    "headerInf": "Inzicht in de resultaten",
+    "sign": false,
+    "text_a": "Een direct inzicht in de resultaten kan de besluitvorming binnen uw onderneming (verder) ondersteunen.",
+    "text_aInf": "Een direct inzicht in de resultaten kan de besluitvorming binnen jouw onderneming (verder) ondersteunen.",
+    "text_b": "Hoe actueel wilt u het inzicht in uw resultaten hebben?",
+    "text_bInf": "Hoe actueel wil je het inzicht in jouw resultaten hebben?",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Beoordeling financiële bedrijfsprestaties",
+    "headerInf": "Beoordeling financiële bedrijfsprestaties",
+    "sign": false,
+    "text_a": "Maandelijks ontvangt u inzicht in uw financiële bedrijfsprestaties. U kunt deze analyseren en vervolgens gebruiken om te beoordelen of uw bedrijf sterk, gemiddeld of zwak presteert. Mogelijk maakt u bij deze beoordeling gebruik van een vergelijking met andere data. Onze vraag is: ",
+    "text_aInf": "Maandelijks ontvang je inzicht in jouw financiële bedrijfsprestaties. Je kunt deze analyseren en vervolgens gebruiken om te beoordelen of jouw bedrijf sterk, gemiddeld of zwak presteert. Mogelijk maak je bij deze beoordeling gebruik van een vergelijking met andere data. Onze vraag is:",
+    "text_b": "Met welke andere data vergelijkt u uw maandcijfers om tot een beoordeling van de financiële bedrijfsprestaties te komen?",
+    "text_bInf": "Met welke andere data vergelijk je jouw maandcijfers om tot een beoordeling van de financiële bedrijfsprestaties te komen?"
+  },
+  {
+    "header": "Managementinformatie",
+    "headerInf": "Managementinformatie",
+    "sign": false,
+    "text_a": "Uw financieel pakket levert u diverse mogelijkheden om generieke en specifieke informatie inzichtelijk te maken. Onze vraag gaat over welke informatie u momenteel gebruikt om uw onderneming te sturen. Onderstaand treft u een aantal veel gebruikte indicatoren aan.",
+    "text_aInf": "Jouw financieel pakket levert je diverse mogelijkheden om generieke en specifieke informatie inzichtelijk te maken. Onze vraag gaat over welke informatie je momenteel gebruikt om jouw onderneming te sturen. Onderstaand tref je een aantal veel gebruikte indicatoren aan.",
+    "text_b": "Wij vragen u aan te geven op welke deelgebieden u momenteel informatie uit uw financieel pakket gebruikt.",
+    "text_bInf": "Wij vragen je aan te geven op welke deelgebieden je momenteel informatie uit jouw financieel pakket gebruikt."
+  },
+  {
+    "header": "Ontwikkeling werkkapitaal",
+    "headerInf": "Ontwikkeling werkkapitaal",
+    "sign": false,
+    "text_a": "Veel ondernemers hanteren in onzekere tijden de stelregel “Cash is King”. Hoe beter de verhouding is tussen kortlopende inkomsten en uitgaven, des te beter vinden zij dat de gevolgen van onverwachte tegenslagen kunnen worden opgevangen.",
+    "text_aInf": "Veel ondernemers hanteren in onzekere tijden de stelregel “Cash is King”. Hoe beter de verhouding is tussen kortlopende inkomsten en uitgaven, des te beter vinden zij dat de gevolgen van onverwachte tegenslagen kunnen worden opgevangen.",
+    "text_b": "Berekent u regelmatig hoe het werkkapitaal zich over een langere periode ontwikkeld, bijvoorbeeld over de komende 6 maanden?",
+    "text_bInf": "Bereken je regelmatig hoe het werkkapitaal zich over een langere periode ontwikkeld, bijvoorbeeld over de komende 6 maanden?"
+  },
+  {
+    "header": "Ontwikkeling bedrijfsresultaat",
+    "headerInf": "Ontwikkeling bedrijfsresultaat",
+    "sign": false,
+    "text_a": "Onder het mom van regeren is vooruitzien maken veel ondernemers een jaarprognose of -budget.",
+    "text_aInf": "Onder het mom van regeren is vooruitzien maken veel ondernemers een jaarprognose of -budget.",
+    "text_b": "Soms ook voor langere periodes (3 jaar, 5 jaar) om te kunnen voorspellen welke vraagstukken opgelost moeten worden in de toekomst. Onze vraag aan u is:",
+    "text_bInf": "Soms ook voor langere periodes (3 jaar, 5 jaar) om te kunnen voorspellen welke vraagstukken opgelost moeten worden in de toekomst. Onze vraag aan jou is:",
+    "text_c": "Maakt u een jaarprognose of -budget?",
+    "text_cInf": "Maakt u een jaarprognose of -budget?"
+  },
+  {
+    "header": "Scenario's",
+    "headerInf": "Scenario's",
+    "sign": false,
+    "text_a": "Er bestaat de mogelijkheid om verschillende scenario’s uit te werken om inzicht te krijgen in de mogelijke veranderingen in het bedrijfsresultaat en de balans. Een scenario is bijvoorbeeld het worst-case scenario of crash test scenario.\nDit kan worden ingezet om te voorspellen hoe de resultaten en de bedrijfskosten zich kunnen ontwikkelen als de economische omstandigheden sterk verslechterd zijn. Onze vraag aan u is:",
+    "text_aInf": "Er bestaat de mogelijkheid om verschillende scenario’s uit te werken om inzicht te krijgen in de mogelijke veranderingen in het bedrijfsresultaat en de balans. Een scenario is bijvoorbeeld het worst-case scenario of crash test scenario.\nDit kan worden ingezet om te voorspellen hoe de resultaten en de bedrijfskosten zich kunnen ontwikkelen als de economische omstandigheden sterk verslechterd zijn. Onze vraag aan jou is:",
+    "text_b": "Stel dat uw omzet met 30% daalt, heeft u dan inzicht in welke maatregelen u moet nemen om de financiële consequenties hiervan op te vangen?",
+    "text_bInf": "Stel dat jouw omzet met 30% daalt, heb je dan inzicht in welke maatregelen je moet nemen om de financiële consequenties hiervan op te vangen?"
+  },
+  {
+    "header": "Winstgevendheid",
+    "headerInf": "Winstgevendheid",
+    "sign": false,
+    "text_a": "Als ondernemer bent u natuurlijk geïnteresseerd in de ontwikkeling van de winstgevendheid van uw bedrijf. Aan de basis hiervan ligt de winstgevendheid van de verschillende producten en diensten die uw onderneming voert. Onze vraag aan u is: ",
+    "text_aInf": "Als ondernemer ben je natuurlijk geïnteresseerd in de ontwikkeling van de winstgevendheid van jouw bedrijf. Aan de basis hiervan ligt de winstgevendheid van de verschillende producten en diensten die jouw onderneming voert. Onze vraag aan jou is:",
+    "text_b": "Heeft u inzicht in de winstgevendheid van uw producten en diensten?",
+    "text_bInf": "Heb je inzicht in de winstgevendheid van jouw producten en diensten?"
+  },
+  {
+    "header": "Ondersteuning",
+    "headerInf": "Ondersteuning",
+    "sign": false,
+    "text_a": "In control zijn over de onderneming in de nabije toekomst geeft zekerheid en rust om verder te bouwen. U bent dan goed voorbereid en in staat om snel beslissingen te nemen, aangezien u weet welke impact deze maatregelen zullen hebben. Wij staan u hierbij graag terzijde en hebben daarom de volgende vraag:",
+    "text_aInf": "In control zijn over de onderneming in de nabije toekomst geeft zekerheid en rust om verder te bouwen. Je bent dan goed voorbereid en in staat om snel beslissingen te nemen, aangezien je weet welke impact deze maatregelen zullen hebben. Wij staan je hierbij graag terzijde en hebben daarom de volgende vraag:",
+    "text_b": "Hoe kunnen wij u ondersteunen om meer grip te krijgen over de (toekomstige) winstgevendheid van uw onderneming?",
+    "text_bInf": "Hoe kunnen wij je ondersteunen om meer grip te krijgen over de (toekomstige) winstgevendheid van jouw onderneming?"
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over noodopvolging ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over noodopvolging ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met je gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  }
+]

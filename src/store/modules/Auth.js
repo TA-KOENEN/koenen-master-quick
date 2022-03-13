@@ -62,16 +62,32 @@ export const actions = {
     });
   },
 
+  // async loginA({ commit }, payload) {
+  //   commit("SET_LOADING", true);
+  //   try {
+  //     const response = await AuthService.login(payload);
+  //     commit("SET_STEPONE", true);
+  //     commit("SET_LOADING", false);
+  //     commit("SET_ERROR", response);
+  //   } catch (error) {
+  //     commit("SET_LOADING", false);
+  //     commit("SET_STEPONE", false);
+  //     commit("SET_ERROR", getError(error));
+  //   }
+  // },
+
   async loginA({ commit }, payload) {
     commit("SET_LOADING", true);
     try {
-      const response = await AuthService.login(payload);
-      commit("SET_STEPONE", true);
+      const response = await AuthService.loginA(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
       commit("SET_LOADING", false);
-      commit("SET_ERROR", response);
     } catch (error) {
       commit("SET_LOADING", false);
-      commit("SET_STEPONE", false);
+      commit("SET_STEPTWO", false);
       commit("SET_ERROR", getError(error));
     }
   },
@@ -91,16 +107,109 @@ export const actions = {
       commit("SET_ERROR", getError(error));
     }
   },
-  async loginFam({ commit }, payload) {
+
+  async loginC({ commit }, payload) {
     commit("SET_LOADING", true);
     try {
-      const response = await AuthService.loginFam(payload);
-      commit("SET_FAMILY", response.data);
-      commit("SET_STEPFAMILY", true);
+      const response = await AuthService.loginC(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
       commit("SET_LOADING", false);
     } catch (error) {
       commit("SET_LOADING", false);
-      commit("SET_STEPFAMILY", false);
+      commit("SET_STEPTWO", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+  async loginD({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginD(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPTWO", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+  async loginE({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginE(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPTWO", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+  async loginH({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginH(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPTWO", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+  async loginI({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginI(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPTWO", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+  async loginJ({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginJ(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPTWO", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+  async loginK({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginK(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPTWO", false);
       commit("SET_ERROR", getError(error));
     }
   },

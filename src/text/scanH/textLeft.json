@@ -1,0 +1,100 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Motief",
+    "headerInf": "Motief",
+    "sign": false,
+    "text_a": "Aan het voornemen om het bedrijf in andere handen over te laten gaan, liggen vaak één of meerdere persoonlijke motieven van de eigenaar ten grondslag. De meest voorkomende hebben we onderstaand vermeld. Welke motief is voor u van toepassing als u een exit overweegt?",
+    "text_aInf": "Aan het voornemen om het bedrijf in andere handen over te laten gaan, liggen vaak één of meerdere persoonlijke motieven van de eigenaar ten grondslag. De meest voorkomende hebben we onderstaand vermeld. Welke motief is voor jou van toepassing als je een exit overweegt?",
+    "text_b": "",
+    "text_bInf": "",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Termijn",
+    "headerInf": "Termijn",
+    "sign": false,
+    "text_a": "Vanzelfsprekend speelt de termijn waarop u een eventuele exit uit het bedrijf voorziet een belangrijke rol. Des te langer van tevoren u uw exit plant, des te ruimer zijn de mogelijkheden om de exit vorm te geven. ",
+    "text_aInf": "Vanzelfsprekend speelt de termijn waarop u een eventuele exit uit het bedrijf voorziet een belangrijke rol. Des te langer van tevoren je jouw exit plant, des te ruimer zijn de mogelijkheden om de exit vorm te geven. ",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Koper",
+    "headerInf": "Koper",
+    "sign": false,
+    "text_a": "Mogelijk heeft u in het verleden vaker met de gedachte gespeeld van een exit. Wellicht heeft u zich zelfs geöriënteerd op welke marktpartijen interesse hebben in een overname van uw bedrijf. Wie is voor u de ideale koper van uw bedrijf?",
+    "text_aInf": "Mogelijk heb je in het verleden vaker met de gedachte gespeeld van een exit. Wellicht heb je je zelfs geöriënteerd op welke marktpartijen interesse hebben in een overname van jouw bedrijf. Wie is voor jou de ideale koper van jouw bedrijf?",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Persoonlijke betrokkenheid",
+    "headerInf": "Persoonlijke betrokkenheid",
+    "sign": false,
+    "text_a": "Voor veel ondernemers stopt de betrokkenheid bij het bedrijf niet op het moment dat het bedrijf in andere handen overgaat. Ze zijn vaak nog bereid en committed om het bedrijf en haar nieuwe eigenaren te steunen. Hoe ziet u uw persoonlijke betrokkenheid bij het bedrijf, nadat u het in andere handen heeft overgedragen?",
+    "text_aInf": "Voor veel ondernemers stopt de betrokkenheid bij het bedrijf niet op het moment dat het bedrijf in andere handen overgaat. Ze zijn vaak nog bereid en committed om het bedrijf en haar nieuwe eigenaren te steunen. Hoe zie je jouw persoonlijke betrokkenheid bij het bedrijf, nadat je het in andere handen hebt overgedragen?",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Financiële betrokkenheid",
+    "headerInf": "Financiële betrokkenheid",
+    "sign": false,
+    "text_a": "Naast persoonlijke betrokkenheid kan ook sprake zijn van financiële betrokkenheid bij het bedrijf na de overdracht. Hoe kijkt u hier tegenaan?",
+    "text_aInf": "Naast persoonlijke betrokkenheid kan ook sprake zijn van financiële betrokkenheid bij het bedrijf na de overdracht. Hoe kijk je hier tegenaan?",
+    "text_b": "",
+    "text_bInf": "",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Persoonlijke voldoening",
+    "headerInf": "Persoonlijke voldoening",
+    "sign": false,
+    "text_a": "Een factor die vaak onderbelicht blijft als het gaat om de verkoop van een bedrijf is de persoonlijke voldoening van de ondernemer over wat met de verkoop bereikt wordt. Welke onderstaande zaken vindt u belangrijk voor uw persoonlijke voldoening?",
+    "text_aInf": "Een factor die vaak onderbelicht blijft als het gaat om de verkoop van een bedrijf is de persoonlijke voldoening van de ondernemer over wat met de verkoop bereikt wordt. Welke onderstaande zaken vind je belangrijk voor jouw persoonlijke voldoening?"
+  },
+  {
+    "header": "In hoeverre is uw onderneming verkoopklaar",
+    "headerInf": "In hoeverre is jouw onderneming verkoopklaar",
+    "sign": false,
+    "text_a": "De laatste vraag gaat over de mate waarin uw bedrijf op dit moment verkoopklaar is. Met 'Verkoopklaar' wordt bedoeld dat de organisatorische, juridische en financiële aspecten op orde zijn om een koper te overtuigen van de meerwaarde van uw bedrijf. ",
+    "text_aInf": "De laatste vraag gaat over de mate waarin jouw bedrijf op dit moment verkoopklaar is. Met 'Verkooplaar' wordt bedoeld dat de organisatorische, juridische en financiële aspecten op orde zijn om een koper te overtuigen van de meerwaarde van jouw bedrijf. "
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over exit planning ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over exit planning ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  },
+  {
+    "header": "",
+    "headerInf": "",
+    "text_a": "",
+    "text_aInf": "",
+    "text_b": "",
+    "text_bInf": ""
+  }
+
+]

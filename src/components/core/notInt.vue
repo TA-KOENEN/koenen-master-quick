@@ -13,7 +13,7 @@
       <v-icon class="pr-3" dark large>mdi-account-remove-outline</v-icon>
       <v-layout column>
         <div>
-          <strong>DankS</strong>
+          <strong>Dank</strong>
         </div>
         <div v-if="formal">
           Jammer dat u deze QuickScan niet wil invullen<br />Ik denk dat dit

@@ -1,0 +1,86 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "De huidige stand van zaken",
+    "headerInf": "De huidige stand van zaken",
+    "sign": false,
+    "text_a": "In dit onderdeel staat de huidige functie van IT binnen uw onderneming centraal.",
+    "text_aInf": "In dit onderdeel staat de huidige functie van IT binnen uw onderneming centraal.",
+    "text_b": "",
+    "text_bInf": "",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "IT en uw bedrijfsproces",
+    "headerInf": "IT en uw bedrijfsproces",
+    "sign": false,
+    "text_a": "Aan de basis van de IT functie in uw organisatie ligt de aansluiting tussen uw primaire bedrijfsprocessen en IT.",
+    "text_aInf": "Aan de basis van de IT functie in uw organisatie ligt de aansluiting tussen uw primaire bedrijfsprocessen en IT.",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Stuurinformatie en IT",
+    "headerInf": "Stuurinformatie en IT",
+    "sign": false,
+    "text_a": "Vanuit uw bedrijfsprocessen verkrijgt u informatie over de bedrijfsprestaties. In deze vraag staat managementinformatie centraal.",
+    "text_aInf": "Vanuit uw bedrijfsprocessen verkrijgt u informatie over de bedrijfsprestaties. In deze vraag staat managementinformatie centraal.",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "IT als competitive advantage",
+    "headerInf": "IT als competitive advantage",
+    "sign": false,
+    "text_a": "Als u een vergelijking maakt met uw concurrenten, zult u een gevoel hebben in hoeverre IT u een achterstand of juist een voorsprong geeft.",
+    "text_aInf": "Als u een vergelijking maakt met uw concurrenten, zult u een gevoel hebben in hoeverre IT u een achterstand of juist een voorsprong geeft.",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Vragen",
+    "headerInf": "Vragen",
+    "sign": false,
+    "text_a": "We hebben in deze Personal QuickScan een beperkt aantal onderwerpen voorgelegd. Onderstaand heeft u de mogelijkheid om vragen of opmerkingen te vermelden.",
+    "text_aInf": "We hebben in deze Personal QuickScan een beperkt aantal onderwerpen voorgelegd. Onderstaand heeft u de mogelijkheid om vragen of opmerkingen te vermelden.",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Support",
+    "headerInf": "Support",
+    "sign": false,
+    "text_a": "Wij kunnen u vanuit onze deskundigheid adviseren en begeleiden bij het formuleren en implementeren van een IT strategie die naadloos aansluit op uw bedrijfsstrategie.",
+    "text_aInf": "Wij kunnen u vanuit onze deskundigheid adviseren en begeleiden bij het formuleren en implementeren van een IT strategie die naadloos aansluit op uw bedrijfsstrategie.",
+    "text_b": "",
+    "text_bInf": "",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over uw financieel pakket ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over jouw financieel pakket ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  }
+]

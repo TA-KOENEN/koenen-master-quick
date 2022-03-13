@@ -1,0 +1,96 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Uw gevoel",
+    "headerInf": "Je gevoel",
+    "sign": false,
+    "text_a": "Voor uw medewerkers, klanten en leveranciers bent u het boegbeeld van uw onderneming. Als u plotseling wegvalt, zonder dat er duidelijkheid voor hen is, kan dit het vertrouwen in uw onderneming aantasten. Gevolg kan zijn dat uw belangrijkste stakeholders andere keuzes maken en de bedrijfscontinuïteit in korte tijd onder druk komt te staan.",
+    "text_aInf": "Voor jouw medewerkers, klanten en leveranciers ben je het boegbeeld van uw onderneming. Als je plotseling wegvalt, zonder dat er duidelijkheid voor hen is, kan dit het vertrouwen in jouw onderneming aantasten. Gevolg kan zijn dat je belangrijkste stakeholders andere keuzes maken en de bedrijfscontinuïteit in korte tijd onder druk komt te staan.",
+    "text_b": "In hoeverre kunt u zich  gevoelsmatig in de volgende stelling vinden?",
+    "text_bInf": "In hoeverre kan je je gevoelsmatig in de volgende stelling vinden?",
+    "text_c": "Mijn onderneming blijft gewoon doordraaien als ik plotseling wegval!",
+    "text_cInf": "Mijn onderneming blijft gewoon doordraaien als ik plotseling wegval!"
+  },
+  {
+    "header": "Waarnemer of opvolger",
+    "headerInf": "Waarnemer of opvolger",
+    "sign": false,
+    "text_a": "In de situatie dat u plotseling niet aanwezig kunt zijn of zelfs permanent niet meer aanwezig kunt zijn, zal iemand anders uw rol in de onderneming over moeten nemen. Als dit van tijdelijke aard is, spreken we over waarneming. Als u definitief niet meer terugkomt in de onderneming, spreken we over opvolging. ",
+    "text_aInf": "In de situatie dat je plotseling niet aanwezig kunt zijn of zelfs permanent niet meer aanwezig kunt zijn, zal iemand anders jouw rol in de onderneming over moeten nemen. Als dit van tijdelijke aard is, spreken we over waarneming. Als je definitief niet meer terugkomt in de onderneming, spreken we over opvolging. ",
+    "text_b": "Heeft u een waarnemer of opvolger aangesteld?",
+    "text_bInf": "Heb je een waarnemer of opvolger aangesteld?"
+  },
+  {
+    "header": "Juridische vertegenwoordiging",
+    "headerInf": "Juridische vertegenwoordiging",
+    "sign": false,
+    "text_a": "In uw afwezigheid zal uw waarnemer of opvolger de onderneming juridisch moeten kunnen vertegenwoordigen. Denk daarbij aan overeenkomsten met klanten en leveranciers, arbeidscontracten met medewerkers en inzicht c.q. toegang tot de zakelijke bankrekeningen en het uitvoeren van betalingen.",
+    "text_aInf": "In jouw afwezigheid zal je waarnemer of opvolger de onderneming juridisch moeten kunnen vertegenwoordigen. Denk daarbij aan overeenkomsten met klanten en leveranciers, arbeidscontracten met medewerkers en inzicht c.q. toegang tot de zakelijke bankrekeningen en het uitvoeren van betalingen.",
+    "text_b": "Is uw waarnemer of opvolger voldoende gemachtigd?",
+    "text_bInf": "Is jouw waarnemer of opvolger voldoende gemachtigd?"
+  },
+  {
+    "header": "Mogelijke opvolger",
+    "headerInf": "Mogelijke opvolger",
+    "sign": false,
+    "text_a": "U geeft aan dat u geen waarnemer of opvolger heeft aangesteld.",
+    "text_aInf": "Je geeft aan dat je geen waarnemer of opvolger hebt aangesteld.",
+    "text_b": "Heeft u iemand in uw gezin, familie of bedrijf die geschikt en bereid is om als waarnemer of opvolger op te treden?",
+    "text_bInf": "Heb je iemand in je gezin, familie of bedrijf die geschikt en bereid is om als waarnemer of opvolger op te treden?"
+  },
+  {
+    "header": "Bedrijfsstrategie",
+    "headerInf": "Bedrijfsstrategie",
+    "sign": false,
+    "text_a": "In de situatie dat u definitief niet terugkeert in de onderneming, zal de onderneming uiteindelijk in andere handen overgaan of wellicht zelfs in het uiterste geval haar activiteiten moeten staken. ",
+    "text_aInf": "In de situatie dat je definitief niet terugkeert in de onderneming, zal de onderneming uiteindelijk in andere handen overgaan of wellicht zelfs in het uiterste geval haar activiteiten moeten staken. ",
+    "text_b": "Voor uw opvolger en gezin is het van essentieel belang om te weten wat uw wensen zijn als u zelf niet meer betrokken kunt zijn bij uw onderneming. Allereerst: wat is de bedrijfsstrategie en is deze bedrijfsstrategie bij alle betrokkenen bekend?",
+    "text_bInf": "Voor jouw opvolger en gezin is het van essentieel belang om te weten wat jouw wensen zijn als je zelf niet meer betrokken kunt zijn bij jouw onderneming. Allereerst: wat is de bedrijfsstrategie en is deze bedrijfsstrategie bij alle betrokkenen bekend?",
+    "text_c": "Heeft u een uitgewerkt business plan voor uw onderneming?",
+    "text_cInf": "Heb je een uitgewerkt business plan voor jouw onderneming?"
+  },
+  {
+    "header": "Eigendomsstrategie",
+    "headerInf": "Eigendomsstrategie",
+    "sign": false,
+    "text_a": "Ten tweede: als u zelf geen leiding meer kunt geven aan uw onderneming, wat dient uw gezin/nabestaanden te doen met het eigendom in de onderneming? Wilt u dat de onderneming wordt voorgezet binnen het gezin/familie, wordt verkocht aan een medewerker of een derde partij of dient de onderneming te worden gestaakt?",
+    "text_aInf": "Ten tweede: als je zelf geen leiding meer kunt geven aan jouw onderneming, wat dient jouw gezin/nabestaanden te doen met het eigendom in de onderneming? Wil je dat de onderneming wordt voorgezet binnen het gezin/familie, wordt verkocht aan een medewerker of een derde partij of dient de onderneming te worden gestaakt?",
+    "text_b": "Heeft u uw wensen over het eigendom in het bedrijf vastgelegd?",
+    "text_bInf": "Heb je je wensen over het eigendom in het bedrijf vastgelegd?"
+  },
+  {
+    "header": "Zorg voor het gezin",
+    "headerInf": "Zorg voor het gezin",
+    "sign": false,
+    "text_a": "In de situatie dat u niet meer verder kunt met de onderneming, wilt u uw gezin beschermen tegen de gevolgen hiervan. Vanuit financieel oogpunt wilt u bijvoorbeeld het verlies aan inkomen voor een belangrijk deel of zelfs volledig willen compenseren. ",
+    "text_aInf": "In de situatie dat je niet meer verder kunt met de onderneming, wilt je jouw gezin beschermen tegen de gevolgen hiervan. Vanuit financieel oogpunt wil je bijvoorbeeld het verlies aan inkomen voor een belangrijk deel of zelfs volledig willen compenseren. ",
+    "text_b": "Dat vraagt om een aantal financiële maatregelen, zowel binnen de onderneming als in privé. Zodat uw gezin of nabestaanden gevrijwaard zijn van financiële problemen.",
+    "text_bInf": "Dat vraagt om een aantal financiële maatregelen, zowel binnen de onderneming als in privé. Zodat jouw gezin of nabestaanden gevrijwaard zijn van financiële problemen.",
+    "text_c": "Mocht u iets overkomen, heeft u dan alles goed geregeld voor uw gezin?",
+    "text_cInf": "Mocht je iets overkomen, heb je dan alles goed geregeld voor jouw gezin?"
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over noodopvolging ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over noodopvolging ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Hebt u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met je gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  }
+]

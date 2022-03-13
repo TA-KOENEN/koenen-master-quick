@@ -1,0 +1,106 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Privacybescherming",
+    "headerInf": "Privacybescherming",
+    "text_a": "Sinds mei 2018 is de Algemene verordening gegevensbescherming (AVG) van kracht. Dit heeft onder meer gezorgd voor versterking en uitbreiding van privacyrechten, meer verantwoordelijkheden voor organisaties en bevoegdheden voor privacytoezichthouders om boetes op te kunnen leggen.",
+    "text_aInf": "Sinds mei 2018 is de Algemene verordening gegevensbescherming (AVG) van kracht. Dit heeft onder meer gezorgd voor versterking en uitbreiding van privacyrechten, meer verantwoordelijkheden voor organisaties en bevoegdheden voor privacytoezichthouders om boetes op te kunnen leggen.",
+    "text_b": "Hoewel er veel aandacht is geweest voor een goede invoering van deze AVG in het Nederlandse MKB, blijkt het nog niet bij elke onderneming op een juiste wijze te zijn geïmplementeerd. Onze vraag aan u is:",
+    "text_bInf": "Hoewel er veel aandacht is geweest voor een goede invoering van deze AVG in het Nederlandse MKB, blijkt het nog niet bij elke onderneming op een juiste wijze te zijn geïmplementeerd. Onze vraag aan jou is:",
+    "text_c": "Heeft u het gevoel dat de AVG op een juiste manier in uw onderneming is ingevoerd?",
+    "text_cInf": "Heb je het gevoel dat de AVG op een juiste manier in jouw onderneming is ingevoerd?"
+  },
+  {
+    "header": "Algemene voorwaarden",
+    "headerInf": "Algemene voorwaarden",
+    "text_a": "Het hanteren van algemene voorwaarden is binnen een onderneming vrij gebruikelijk bij transacties met klanten. In de praktijk ervaren wij dat de toepasselijke algemene voorwaarden ooit zijn opgesteld maar niet meer regelmatig worden aangepast, bijvoorbeeld zodra een onderneming nieuwe producten en/of diensten gaat leveren.",
+    "text_aInf": "Het hanteren van algemene voorwaarden is binnen een onderneming vrij gebruikelijk bij transacties met klanten. In de praktijk ervaren wij dat de toepasselijke algemene voorwaarden ooit zijn opgesteld maar niet meer regelmatig worden aangepast, bijvoorbeeld zodra een onderneming nieuwe producten en/of diensten gaat leveren.",
+    "text_b": "Hierdoor kunnen nadelige gevolgen ontstaan voor de onderneming bij een geschil met een klant. Onze vragen aan u zijn:",
+    "text_bInf": "Hierdoor kunnen nadelige gevolgen ontstaan voor de onderneming bij een geschil met een klant. Onze vragen aan jou zijn:",
+    "text_c": "Wanneer heeft u uw algemene voorwaarden voor het laatst aangepast?",
+    "text_cInf": "Wanneer heb je jouw algemene voorwaarden voor het laatst aangepast?",
+    "text_d": "Zijn uw algemene voorwaarden actueel en passend bij de huidige activiteiten van uw onderneming?",
+    "text_dInf": "Zijn jouw algemene voorwaarden actueel en passend bij de huidige activiteiten van jouw onderneming?"
+  },
+  {
+    "header": "Arbeidscontracten",
+    "headerInf": "Arbeidscontracten",
+    "text_a": "Met de invoering van de Wet arbeidsmarkt in balans (WAB) zijn vanaf 1 januari 2020 belangrijke wijzigingen doorgevoerd in onder meer de opzet van tijdelijke - en vaste arbeidscontracten, oproepcontracten alsmede in de toepassing van ontslaggronden en de transitievergoeding.",
+    "text_aInf": "Met de invoering van de Wet arbeidsmarkt in balans (WAB) zijn vanaf 1 januari 2020 belangrijke wijzigingen doorgevoerd in onder meer de opzet van tijdelijke - en vaste arbeidscontracten, oproepcontracten alsmede in de toepassing van ontslaggronden en de transitievergoeding.",
+    "text_b": "Dit kan een belangrijke invloed hebben op zowel uw huidige als uw nieuwe arbeidscontracten. Onze vraag hierover is:",
+    "text_bInf": "Dit kan een belangrijke invloed hebben op zowel uw huidige als uw nieuwe arbeidscontracten. Onze vraag hierover is:",
+    "text_c": "Heeft de Wet arbeidsmarkt in balans een belangrijke invloed op de arbeidsrelaties in uw onderneming?",
+    "text_cInf": "Heeft de Wet arbeidsmarkt in balans een belangrijke invloed op de arbeidsrelaties in jouw onderneming?"
+  },
+  {
+    "header": "Intercompany",
+    "headerInf": "Intercompany",
+    "text_a": "Als uw onderneming bestaat uit meerdere (besloten) vennootschappen, zijn er vaak over en weer overeenkomsten gesloten, zoals bijvoorbeeld een rekeningen-courant met schuldoverneming en cessie binnen concern eventueel met bijbehorende pandakte activa.",
+    "text_aInf": "Als uw onderneming bestaat uit meerdere (besloten) vennootschappen, zijn er vaak over en weer overeenkomsten gesloten, zoals bijvoorbeeld een rekeningen-courant met schuldoverneming en cessie binnen concern eventueel met bijbehorende pandakte activa.",
+    "text_b": "Ook hierbij geldt dat de positie van uw onderneming en daarmee de onderlinge afspraken kunnen veranderen in de tijd, terwijl de bestaande intercompany overeenkomsten niet zijn aangepast. Onze vraag hierover:",
+    "text_bInf": "Ook hierbij geldt dat de positie van uw onderneming en daarmee de onderlinge afspraken kunnen veranderen in de tijd, terwijl de bestaande intercompany overeenkomsten niet zijn aangepast. Onze vraag hierover:",
+    "text_c": "Beschikt u over intercompany overeenkomsten zoals bijvoorbeeld hiervoor omschreven?",
+    "text_cInf": "Beschik je over intercompany overeenkomsten zoals bijvoorbeeld hiervoor omschreven?",
+    "text_d": "Wanneer heeft u deze intercompany contracten voor het laatst aangepast?",
+    "text_dInf": "Wanneer heb je deze intercompany contracten voor het laatst aangepast?",
+    "text_e": "Heeft u de indruk dat deze overeenkomsten nog actueel en passend bij uw situatie zijn?",
+    "text_eInf": "Heb je de indruk dat deze overeenkomsten nog actueel en passend bij jouw situatie zijn?"
+  },
+  {
+    "header": "Exit strategie",
+    "headerInf": "Exit strategie",
+    "text_a": "Als u overweegt de onderneming te verkopen of zelfs wegens slechte economische omstandigheden met de onderneming besluit te stoppen, is het raadzaam vooraf eventuele risico’s zoveel mogelijk in kaart te brengen. Op die manier kunt u hiervan een goede inschatting maken en eventuele maatregelen nemen, voordat u aan het proces begint.",
+    "text_aInf": "Als je overweegt de onderneming te verkopen of zelfs wegens slechte economische omstandigheden met de onderneming besluit te stoppen, is het raadzaam vooraf eventuele risico’s zoveel mogelijk in kaart te brengen. Op die manier kun je hiervan een goede inschatting maken en eventuele maatregelen nemen, voordat je aan het proces begint.",
+    "text_b": "Bijkomend voordeel is dat uw onderhandelingspositie bij een verkoopproces bijvoorbeeld niet onnodig wordt ondermijnd.",
+    "text_bInf": "Bijkomend voordeel is dat jouw onderhandelingspositie bij een verkoopproces bijvoorbeeld niet onnodig wordt ondermijnd.",
+    "text_c": "Heeft u een goed zicht op de mogelijke juridische en fiscale risico’s die bij een verkoop van uw onderneming een rol kunnen spelen?",
+    "text_cInf": "Heb je een goed zicht op de mogelijke juridische en fiscale risico’s die bij een verkoop van jouw onderneming een rol kunnen spelen?"
+  },
+  {
+    "header": "Overeenkomsten tussen uzelf en uw bedrijf",
+    "headerInf": "Overeenkomsten tussen jouzelf en jouw bedrijf",
+    "text_a": "Als eigenaar/directeur-grootaandeelhouder heeft u mogelijk een aantal overeenkomsten met uw persoonlijke holding, zoals een managementovereenkomst, een rekening-courant en/of eventueel een (hypothecaire) lening, enzovoort.",
+    "text_aInf": "Als eigenaar/directeur-grootaandeelhouder heb je mogelijk een aantal overeenkomsten met jouw persoonlijke holding, zoals een managementovereenkomst, een rekening-courant en/of eventueel een (hypothecaire) lening, enzovoort.",
+    "text_b": "Ook bij deze overeenkomsten geldt dat uw privé en zakelijke omstandigheden, evenals de fiscale en juridische wetgeving kunnen veranderen, waardoor deze overeenkomsten wellicht niet meer passend zijn. Onze vraag aan u is:",
+    "text_bInf": "Ook bij deze overeenkomsten geldt dat jouw privé en zakelijke omstandigheden, evenals de fiscale en juridische wetgeving kunnen veranderen, waardoor deze overeenkomsten wellicht niet meer passend zijn. Onze vraag aan jou is:",
+    "text_c": "Beschikt u over overeenkomsten tussen uzelf en uw bedrijf, zoals bijvoorbeeld hiervoor omschreven?",
+    "text_cInf": "Beschikt u over overeenkomsten tussen jezelf en jouw bedrijf, zoals bijvoorbeeld hiervoor omschreven?",
+    "text_d": "Wanneer zijn deze overeenkomsten voor het laatst aangepast?",
+    "text_dInf": "Wanneer zijn deze overeenkomsten voor het laatst aangepast?",
+    "text_e": "Heeft u de indruk dat deze overeenkomsten tussen uzelf en uw onderneming nog actueel en passend bij uw situatie zijn?",
+    "text_eInf": "Heb je de indruk dat deze overeenkomsten tussen jezelf en jouw onderneming nog actueel en passend bij jouw situatie zijn?"
+  },
+  {
+    "header": "Varia",
+    "headerInf": "Varia",
+    "text_a": "Heeft u andere juridisch gerelateerde vragen over bijvoorbeeld het huren, kopen en/of exploiteren van onroerend goed of over uw contracten met leveranciers, dan kunt u dit hieronder aangeven met een korte toelichting op uw vraag.",
+    "text_aInf": "Heb je andere juridisch gerelateerde vragen over bijvoorbeeld het huren, kopen en/of exploiteren van onroerend goed of over jouw contracten met leveranciers, dan kun je dit hieronder aangeven met een korte toelichting op jouw vraag.",
+    "text_b": "Wij nemen aan de hand daarvan dan contact met u op.",
+    "text_bInf": "Wij nemen aan de hand daarvan dan contact met je op.",
+    "text_c": "Heeft u andere juridisch gerelateerde vragen?",
+    "text_cInf": "Heb je andere juridisch gerelateerde vragen?"
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over juridische aspecten ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over juridische aspecten ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met je gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  }
+]

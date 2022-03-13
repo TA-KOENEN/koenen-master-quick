@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "text": "Not in use"
+  },
+  {
+    "id": 1,
+    "text": "Inzicht in resultaten"
+  },
+  {
+    "id": 2,
+    "text": "Beoordeling financiële bedrijfsprestaties"
+  },
+  {
+    "id": 3,
+    "text": "Managementinformatie"
+  },
+  {
+    "id": 4,
+    "text": "Ontwikkeling werkkapitaal"
+  },
+  {
+    "id": 5,
+    "text": "Ontwikkeling bedrijfsresultaat"
+  },
+  {
+    "id": 6,
+    "text": "Scenario's"
+  },
+  {
+    "id": 7,
+    "text": "Winstgevendheid"
+  },
+  {
+    "id": 8,
+    "text": "Ondersteuning"
+  },
+  {
+    "id": 8,
+    "text": "Einde"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "text": "Not in use"
+  },
+  {
+    "id": 1,
+    "text": "Cyber aanvallen"
+  },
+  {
+    "id": 2,
+    "text": "IT partners"
+  },
+  {
+    "id": 3,
+    "text": "Toegang"
+  },
+  {
+    "id": 4,
+    "text": "Handelen"
+  },
+  {
+    "id": 5,
+    "text": "Back-ups"
+  },
+  {
+    "id": 6,
+    "text": "Data recovery"
+  },
+  {
+    "id": 7,
+    "text": "Specialist"
+  },
+  {
+    "id": 8,
+    "text": "Einde"
+  }
+]

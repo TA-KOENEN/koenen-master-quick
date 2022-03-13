@@ -1,0 +1,93 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Cyber aanvallen",
+    "headerInf": "Cyber aanvallen",
+    "sign": false,
+    "text_a": "Onze eerste vraag betreft uw gevoel met betrekking tot de digitale veiligheid van uw onderneming.",
+    "text_aInf": "Onze eerste vraag betreft jouw gevoel met betrekking tot de digitale veiligheid van jouw onderneming.",
+    "text_b": "",
+    "text_bInf": "",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "IT partners",
+    "headerInf": "IT partners",
+    "sign": false,
+    "text_a": "Een belangrijk deel van uw bedrijfssoftware zult u inkopen bij IT partners. Denk bijvoorbeeld aan SAAS, webapplicaties en beheer van werkplekken. De wijze waarop uw IT partners zich digitaal beveiligen raakt ook de digitale veiligheid van uw onderneming. ",
+    "text_aInf": "Een belangrijk deel van uw bedrijfssoftware zal je inkopen bij IT partners. Denk bijvoorbeeld aan SAAS, webapplicaties en beheer van werkplekken. De wijze waarop jouw IT partners zich digitaal beveiligen raakt ook de digitale veiligheid van jouw onderneming. ",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Toegang",
+    "headerInf": "Toegang",
+    "sign": false,
+    "text_a": "Een zeer belangrijk onderdeel van digitale veiligheid is de wijze waarop medewerkers in uw organisatie omgaan met de toegang tot systemen. Zeker in een periode waarin zowel vanuit kantoor als vanuit thuis toegang tot uw IT-omgeving is geregeld. Denk aan de aandacht en uitvoering van maatregelen als periodiek wijzigen van wachtwoorden, gebruik van 2Factor authentication, etc. Onze vraag hierover is:",
+    "text_aInf": "Een zeer belangrijk onderdeel van digitale veiligheid is de wijze waarop medewerkers in jouw organisatie omgaan met de toegang tot systemen. Zeker in een periode waarin zowel vanuit kantoor als vanuit thuis toegang tot jouw IT-omgeving is geregeld. Denk aan de aandacht en uitvoering van maatregelen als periodiek wijzigen van wachtwoorden, gebruik van 2Factor authentication, etc. Onze vraag hierover is:",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Handelen",
+    "headerInf": "Handelen",
+    "sign": false,
+    "text_a": "Ondanks alle maatregelen die u kunt nemen om de digitale veiligheid van uw onderneming op een hoog niveau te krijgen en te houden, kan er sprake zijn van een cyberaanval die succesvol is. Onze vraag over deze situatie is als volgt:",
+    "text_aInf": "Ondanks alle maatregelen die je kunt nemen om de digitale veiligheid van jouw onderneming op een hoog niveau te krijgen en te houden, kan er sprake zijn van een cyberaanval die succesvol is. Onze vraag over deze situatie is als volgt:",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Back-ups",
+    "headerInf": "Back-ups",
+    "sign": false,
+    "text_a": "Een belangrijke tegenmaatregel voor een cyber incident is dat data kan worden teruggehaald. Hiervoor is het noodzakelijk dat er back-ups worden gemaakt. Onze vraag hierover is als volgt:",
+    "text_aInf": "Een belangrijke tegenmaatregel voor een cyber incident is dat data kan worden teruggehaald. Hiervoor is het noodzakelijk dat er back-ups worden gemaakt. Onze vraag hierover is als volgt:",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Data recovery",
+    "headerInf": "Data recovery",
+    "sign": false,
+    "text_a": "Stel dat u met de gevolgen van een succesvol cyberaanval te maken heeft, waarbij uw data is gehackt, heeft u dan voldoende maatregelen genomen om deze hack te omzeilen door uw data terug te halen. ",
+    "text_aInf": "Stel dat je met de gevolgen van een succesvol cyberaanval te maken heeft, waarbij jouw data is gehackt, heb je dan voldoende maatregelen genomen om deze hack te omzeilen door jouw data terug te halen. ",
+    "text_b": "",
+    "text_bInf": "",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Specialist",
+    "headerInf": "Specialist",
+    "sign": false,
+    "text_a": "Wij kunnen ons voorstellen dat u vragen heeft over de huidige stand van zaken met betrekking tot de digitale veiligheid van uw onderneming. Onze laatste vraag is om deze reden:",
+    "text_aInf": "Wij kunnen ons voorstellen dat je vragen hebt over de huidige stand van zaken met betrekking tot de digitale veiligheid van jouw onderneming. Onze laatste vraag aan u is om deze reden"
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over Cybersecurity ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over Cybersecurity ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  }
+]

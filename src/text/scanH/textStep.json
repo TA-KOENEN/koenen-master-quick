@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "text": "Not in use"
+  },
+  {
+    "id": 1,
+    "text": "Motief"
+  },
+  {
+    "id": 2,
+    "text": "Termijn"
+  },
+  {
+    "id": 3,
+    "text": "Koper"
+  },
+  {
+    "id": 4,
+    "text": "Persoonlijke betrokkenheid"
+  },
+  {
+    "id": 5,
+    "text": "Financiële betrokkenheid"
+  },
+  {
+    "id": 6,
+    "text": "Voldoening"
+  },
+  {
+    "id": 7,
+    "text": "Verkoopklaar"
+  },
+  {
+    "id": 8,
+    "text": "Einde"
+  }
+]

@@ -1,23 +1,70 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import stepOne from "@/views/stepOne.vue";
-import stepTwo from "@/views/stepTwo.vue";
-import stepThree from "@/views/stepThree";
-import stepFour from "@/views/stepFour";
-import stepFive from "@/views/stepFive";
-import stepSix from "@/views/stepSix";
-import stepSeven from "@/views/stepSeven";
-import stepEight from "@/views/stepEight";
-import stepNine from "@/views/stepNine";
-import stepTen from "@/views/stepTen";
-import stepEleven from "@/views/stepEleven";
-import stepTwelve from "@/views/stepTwelve";
-import stepThirteen from "@/views/stepThirteen";
-import stepEnd from "@/views/stepEnd";
-import LoginSecond from "../views/LoginSecond";
-import Intro from "@/views/Intro";
 import Start from "@/views/Start";
-import store from "@/store";
+import Eind from "@/views/Eind";
+
+const loginA = () =>
+  import("../views/ascan/loginScanA" /* webpackChunkName: "loginA" */);
+const introA = () =>
+  import("../views/ascan/introScanA" /* webpackChunkName: "introA" */);
+const indexA = () =>
+  import("../views/ascan/scanIndexA" /* webpackChunkName: "indexA" */);
+
+const loginB = () =>
+  import("../views/bscan/loginScanB" /* webpackChunkName: "loginB" */);
+const introB = () =>
+  import("../views/bscan/introScanB" /* webpackChunkName: "introB" */);
+const indexB = () =>
+  import("../views/bscan/scanIndexB" /* webpackChunkName: "indexB" */);
+
+const loginC = () =>
+  import("../views/cscan/loginScanC" /* webpackChunkName: "loginC" */);
+const introC = () =>
+  import("../views/cscan/introScanC" /* webpackChunkName: "introC" */);
+const indexC = () =>
+  import("../views/cscan/scanIndexC" /* webpackChunkName: "indexC" */);
+
+const loginD = () =>
+  import("../views/dscan/loginScanD" /* webpackChunkName: "loginD" */);
+const introD = () =>
+  import("../views/dscan/introScanD" /* webpackChunkName: "introD" */);
+const indexD = () =>
+  import("../views/dscan/scanIndexD" /* webpackChunkName: "indexD" */);
+
+const loginE = () =>
+  import("../views/escan/loginScanE" /* webpackChunkName: "loginE" */);
+const introE = () =>
+  import("../views/escan/introScanE" /* webpackChunkName: "introE" */);
+const indexE = () =>
+  import("../views/escan/scanIndexE" /* webpackChunkName: "indexE" */);
+
+const loginH = () =>
+  import("../views/hscan/loginScanH" /* webpackChunkName: "loginH" */);
+const introH = () =>
+  import("../views/hscan/introScanH" /* webpackChunkName: "introH" */);
+const indexH = () =>
+  import("../views/hscan/scanIndexH" /* webpackChunkName: "indexH" */);
+
+const loginI = () =>
+  import("../views/iscan/loginScanI" /* webpackChunkName: "loginI" */);
+const introI = () =>
+  import("../views/iscan/introScanI" /* webpackChunkName: "introI" */);
+const indexI = () =>
+  import("../views/iscan/scanIndexI" /* webpackChunkName: "indexI" */);
+
+const loginJ = () =>
+  import("../views/jscan/loginScanJ" /* webpackChunkName: "loginJ" */);
+const introJ = () =>
+  import("../views/jscan/introScanJ" /* webpackChunkName: "introJ" */);
+const indexJ = () =>
+  import("../views/jscan/scanIndexJ" /* webpackChunkName: "indexJ" */);
+
+const loginK = () =>
+  import("../views/kscan/loginScanK" /* webpackChunkName: "loginK" */);
+const introK = () =>
+  import("../views/kscan/introScanK" /* webpackChunkName: "introK" */);
+const indexK = () =>
+  import("../views/kscan/scanIndexK" /* webpackChunkName: "indexK" */);
 
 Vue.use(VueRouter);
 
@@ -32,187 +79,149 @@ const router = new VueRouter({
   },
   routes: [
     {
+      path: "/noodopvolging",
+      name: "index_a",
+      component: indexA,
+    },
+    {
+      path: "/login-noodopvolging",
+      name: "login_a",
+      component: loginA,
+    },
+    {
+      path: "/intro-noodopvolging",
+      name: "intro_a",
+      component: introA,
+    },
+    {
+      path: "/familiestatuut",
+      name: "index_b",
+      component: indexB,
+    },
+    {
+      path: "/login-familiestatuut",
+      name: "login_b",
+      component: loginB,
+    },
+    {
+      path: "/intro-familiestatuut",
+      name: "intro_b",
+      component: introB,
+    },
+    {
+      path: "/optimaal",
+      name: "index_c",
+      component: indexC,
+    },
+    {
+      path: "/login-optimaal",
+      name: "login_c",
+      component: loginC,
+    },
+    {
+      path: "/intro-optimaal",
+      name: "intro_c",
+      component: introC,
+    },
+    {
+      path: "/resultaat",
+      name: "index_d",
+      component: indexD,
+    },
+    {
+      path: "/login-resultaat",
+      name: "login_d",
+      component: loginD,
+    },
+    {
+      path: "/intro-resultaat",
+      name: "intro_d",
+      component: introD,
+    },
+    {
+      path: "/juridisch",
+      name: "index_e",
+      component: indexE,
+    },
+    {
+      path: "/login-juridisch",
+      name: "login_e",
+      component: loginE,
+    },
+    {
+      path: "/intro-juridisch",
+      name: "intro_e",
+      component: introE,
+    },
+    {
+      path: "/exit-planning",
+      name: "index_h",
+      component: indexH,
+    },
+    {
+      path: "/login-exit-planning",
+      name: "login_h",
+      component: loginH,
+    },
+    {
+      path: "/intro-exit-planning",
+      name: "intro_h",
+      component: introH,
+    },
+    {
+      path: "/cyber-security",
+      name: "index_i",
+      component: indexI,
+    },
+    {
+      path: "/login-cyber-security",
+      name: "login_i",
+      component: loginI,
+    },
+    {
+      path: "/intro-cyber-security",
+      name: "intro_i",
+      component: introI,
+    },
+    {
+      path: "/IT-strategy",
+      name: "index_j",
+      component: indexJ,
+    },
+    {
+      path: "/login-IT-strategy",
+      name: "login_j",
+      component: loginJ,
+    },
+    {
+      path: "/intro-IT-strategy",
+      name: "intro_j",
+      component: introJ,
+    },
+    {
+      path: "/prive-situatie",
+      name: "index_k",
+      component: indexK,
+    },
+    {
+      path: "/login-prive-situatie",
+      name: "login_k",
+      component: loginK,
+    },
+    {
+      path: "/intro-prive-situatie",
+      name: "intro_k",
+      component: introK,
+    },
+    {
       path: "/",
       name: "Start",
       component: Start,
     },
     {
-      path: "/intro",
-      name: "Intro",
-      component: Intro,
-    },
-    {
-      path: "/login",
-      name: "Login",
-      component: LoginSecond,
-    },
-    {
-      path: "/een",
-      name: "stepOne",
-      component: stepOne,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/twee",
-      name: "stepTwo",
-      component: stepTwo,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/drie",
-      name: "stepThree",
-      component: stepThree,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/vier",
-      name: "stepFour",
-      component: stepFour,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/vijf",
-      name: "stepFive",
-      component: stepFive,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/zes",
-      name: "stepSix",
-      component: stepSix,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/zeven",
-      name: "stepSeven",
-      component: stepSeven,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/acht",
-      name: "stepEight",
-      component: stepEight,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/negen",
-      name: "stepNine",
-      component: stepNine,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/tien",
-      name: "stepTen",
-      component: stepTen,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/elf",
-      name: "stepEleven",
-      component: stepEleven,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/twaalf",
-      name: "stepTwelve",
-      component: stepTwelve,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/dertien",
-      name: "stepThirteen",
-      component: stepThirteen,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
-    },
-    {
-      path: "/einde",
-      name: "stepEnd",
-      component: stepEnd,
-      beforeEnter(to, from, next) {
-        if (store.state.auth.token) {
-          next();
-        } else {
-          next("/start");
-        }
-      },
+      path: "/uitgelogd",
+      name: "Eind",
+      component: Eind,
     },
     {
       path: "*",

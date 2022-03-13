@@ -1,11 +1,6 @@
 <template>
   <v-app ma="0" pa="0" class="achtergrond">
-    <!--    <transition-->
-    <!--      enter-active-class="animate__animated animate__slideInLeft"-->
-    <!--      appear-->
-    <!--    >-->
     <router-view />
-    <!--    </transition>-->
   </v-app>
 </template>
 
@@ -15,9 +10,12 @@ export default {
   data() {
     return {
       tokkie: null,
+      quickId: null,
     };
   },
   created() {
+    this.quickId = this.$route.query.quickId;
+    localStorage.setItem("quickId", JSON.stringify(this.quickId));
     this.tokkie = this.$route.query.name;
     localStorage.setItem("tokkie", JSON.stringify(this.tokkie));
   },
