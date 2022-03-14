@@ -1,6 +1,6 @@
 <template>
   <div class="ma-0 pa-0">
-    <ToolbarAuth :name="'IT strategy'" />
+    <ToolbarAuth :name="'Digitale strategie'" />
     <v-row no-gutters>
       <v-col
         cols="12"

@@ -26,7 +26,7 @@
     "text_a": "De vraag over uw burgerlijke staat hebben we in tweeën geknipt. Allereerst willen wij van u weten of u alleenstaand bent of dat u een duurzame relatie heeft met een levenspartner. Onder een duurzame relatie verstaan we in dit kader dat de relatie met uw levenspartner al een langere periode bestaat en naar de toekomst bestendigt wordt.",
     "text_aInf": "De vraag over je burgerlijke staat hebben we in tweeën geknipt. Allereerst willen wij van je weten of je alleenstaand bent of dat je een duurzame relatie hebt met een levenspartner. Onder een duurzame relatie verstaan we in dit kader dat de relatie met jouw levenspartner al een langere periode bestaat en naar de toekomst bestendigt wordt.",
     "text_b": "Het tweede deel van de vraag over uw burgerlijke staat gaat over de afspraken die u heeft gemaakt met uw levenspartner. In Nederland kennen we verschillende juridische varianten zoals het huwelijk, het geregistreerd partnerschap en het samenlevingscontract. Wat is bij u van toepassing?",
-    "text_bInf": "Het tweede deel van de vraag over je burgerlijke staat gaat over de afspraken die je hebtt gemaakt met jouw levenspartner. In Nederland kennen we verschillende juridische varianten zoals het huwelijk, het geregistreerd partnerschap en het samenlevingscontract. Wat is bij jou van toepassing?"
+    "text_bInf": "Het tweede deel van de vraag over je burgerlijke staat gaat over de afspraken die je hebt gemaakt met jouw levenspartner. In Nederland kennen we verschillende juridische varianten zoals het huwelijk, het geregistreerd partnerschap en het samenlevingscontract. Wat is bij jou van toepassing?"
   },
   {
     "header": "Afspraken",
@@ -41,8 +41,8 @@
     "header": "Testament",
     "headerInf": "Testament",
     "sign": false,
-    "text_a": "Een testament is een belangrijke pijler onder de juridische vastlegging van de wensen in privé. Het beschrijft ondermeer wie uw erfgenamen zijn, wie uw nalatenschap regelt als executeur-testamentair, hoe u de overgang van uw vermogen naar uw erfgenamen wilt regelen en tal van andere onderwerpen. Is er geen testament aanwezig, dan wordt de nalatenschap afgewikkeld conform de wettelijke regelingen. ",
-    "text_aInf": "Een testament is een belangrijke pijler onder de juridische vastlegging van de wensen in privé. Het beschrijft ondermeer wie jouw erfgenamen zijn, wie jouw nalatenschap regelt als executeur-testamentair, hoe je de overgang van jouw vermogen naar jouw erfgenamen wilt regelen en tal van andere onderwerpen. Is er geen testament aanwezig, dan wordt de nalatenschap afgewikkeld conform de wettelijke regelingen. ",
+    "text_a": "Een testament is een belangrijke pijler onder de juridische vastlegging van de wensen in privé. Het beschrijft onder meer wie uw erfgenamen zijn, wie uw nalatenschap regelt als executeur-testamentair, hoe u de overgang van uw vermogen naar uw erfgenamen wilt regelen en tal van andere onderwerpen. Is er geen testament aanwezig, dan wordt de nalatenschap afgewikkeld conform de wettelijke regelingen. ",
+    "text_aInf": "Een testament is een belangrijke pijler onder de juridische vastlegging van de wensen in privé. Het beschrijft onder meer wie jouw erfgenamen zijn, wie jouw nalatenschap regelt als executeur-testamentair, hoe je de overgang van jouw vermogen naar jouw erfgenamen wilt regelen en tal van andere onderwerpen. Is er geen testament aanwezig, dan wordt de nalatenschap afgewikkeld conform de wettelijke regelingen. ",
     "text_b": "",
     "text_bInf": ""
   },

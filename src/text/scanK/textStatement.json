@@ -36,8 +36,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -57,8 +57,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Alleenstaand",
-    "optionB": "Samenwonend"
+    "optionA": "Alleenstaand.",
+    "optionB": "Samenwonend."
   },
   {
     "id": 3,
@@ -76,11 +76,11 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 5,
-    "optionA": "Huwelijk op algemene voorwaarden",
-    "optionB": "Huwelijk met huwelijkse voorwaarden",
-    "optionC": "Geregistreerd partnerschap",
-    "optionD": "Samenlevingscontract",
-    "optionE": "Geen juridische afspraken"
+    "optionA": "Huwelijk op algemene voorwaarden.",
+    "optionB": "Huwelijk met huwelijkse voorwaarden.",
+    "optionC": "Geregistreerd partnerschap.",
+    "optionD": "Samenlevingscontract.",
+    "optionE": "Geen juridische afspraken."
   },
   {
     "id": 4,
@@ -98,9 +98,9 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
-    "optionC": "Weet niet / onbekend",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
+    "optionC": "Weet niet / onbekend.",
     "optionD": ""
   },
   {
@@ -119,10 +119,10 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 4,
-    "optionA": "Afgelopen jaar",
-    "optionB": "2 tot 3 jaar geleden",
-    "optionC": "Langer dan 3 jaar geleden",
-    "optionD": "Geheel niet uitgevoerd"
+    "optionA": "Afgelopen jaar.",
+    "optionB": "2 tot 3 jaar geleden.",
+    "optionC": "Langer dan 3 jaar geleden.",
+    "optionD": "Geheel niet uitgevoerd."
   },
   {
     "id": 6,
@@ -140,9 +140,9 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 3,
-    "optionA": "Minder dan 2 jaar geleden",
-    "optionB": "2 tot 5 jaar geleden",
-    "optionC": "Langer dan 5 jaar geleden",
+    "optionA": "Minder dan 2 jaar geleden.",
+    "optionB": "2 tot 5 jaar geleden.",
+    "optionC": "Langer dan 5 jaar geleden.",
     "optionD": ""
   },
   {
@@ -161,8 +161,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -182,9 +182,9 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 3,
-    "optionA": "Minder dan 2 jaar geleden",
-    "optionB": "2 tot 5 jaar geleden",
-    "optionC": "Langer dan 5 jaar geleden",
+    "optionA": "Minder dan 2 jaar geleden.",
+    "optionB": "2 tot 5 jaar geleden.",
+    "optionC": "Langer dan 5 jaar geleden.",
     "optionD": ""
   },
   {
@@ -203,8 +203,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -224,9 +224,9 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 3,
-    "optionA": "Minder dan 2 jaar geleden",
-    "optionB": "2 tot 5 jaar geleden",
-    "optionC": "Langer dan 5 jaar geleden",
+    "optionA": "Minder dan 2 jaar geleden.",
+    "optionB": "2 tot 5 jaar geleden.",
+    "optionC": "Langer dan 5 jaar geleden.",
     "optionD": ""
   },
   {
@@ -245,8 +245,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -266,8 +266,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -287,8 +287,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -308,8 +308,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -329,8 +329,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -358,8 +358,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
@@ -411,8 +411,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja",
-    "optionB": "Nee",
+    "optionA": "Ja.",
+    "optionB": "Nee.",
     "optionC": "",
     "optionD": ""
   },
