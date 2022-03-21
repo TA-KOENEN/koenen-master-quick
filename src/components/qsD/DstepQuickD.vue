@@ -26,10 +26,10 @@ export default {
   computed: {
     question_b: {
       get() {
-        return this.$store.state.quickD.question_b;
+        return this.$store.state.quickAll.question_b;
       },
       set(value) {
-        this.$store.commit("quickD/update_question_b", value);
+        this.$store.commit("quickAll/update_question_b", value);
       },
     },
   },

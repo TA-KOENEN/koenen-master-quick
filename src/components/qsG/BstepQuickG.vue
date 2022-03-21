@@ -21,18 +21,18 @@ export default {
   computed: {
     sl_a: {
       get() {
-        return this.$store.state.quick.sl_a;
+        return this.$store.state.quickAllAll.sl_a;
       },
       set(value) {
-        this.$store.commit("quick/update_sl_a", value);
+        this.$store.commit("quickAll/update_sl_a", value);
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quick.question_a;
+        return this.$store.state.quickAll.question_a;
       },
       set(value) {
-        this.$store.commit("quick/update_question_a", value);
+        this.$store.commit("quickAll/update_question_a", value);
       },
     },
   },

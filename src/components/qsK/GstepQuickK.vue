@@ -28,18 +28,18 @@ export default {
   computed: {
     text_a: {
       get() {
-        return this.$store.state.quickK.text_a;
+        return this.$store.state.quickAll.text_a;
       },
       set(value) {
-        this.$store.commit("quickK/update_text_a", value);
+        this.$store.commit("quickAll/update_text_a", value);
       },
     },
     question_n: {
       get() {
-        return this.$store.state.quickK.question_n;
+        return this.$store.state.quickAll.question_n;
       },
       set(value) {
-        this.$store.commit("quickK/update_question_n", value);
+        this.$store.commit("quickAll/update_question_n", value);
       },
     },
   },

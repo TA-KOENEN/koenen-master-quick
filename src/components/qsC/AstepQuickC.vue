@@ -45,66 +45,66 @@ export default {
   computed: {
     sl_a: {
       get() {
-        return this.$store.state.quickC.sl_a;
+        return this.$store.state.quickAll.sl_a;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_a", value);
+        this.$store.commit("quickAll/update_sl_a", value);
       },
     },
     sl_b: {
       get() {
-        return this.$store.state.quickC.sl_b;
+        return this.$store.state.quickAll.sl_b;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_b", value);
+        this.$store.commit("quickAll/update_sl_b", value);
       },
     },
     sl_c: {
       get() {
-        return this.$store.state.quickC.sl_c;
+        return this.$store.state.quickAll.sl_c;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_c", value);
+        this.$store.commit("quickAll/update_sl_c", value);
       },
     },
     sl_d: {
       get() {
-        return this.$store.state.quickC.sl_d;
+        return this.$store.state.quickAll.sl_d;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_d", value);
+        this.$store.commit("quickAll/update_sl_d", value);
       },
     },
     sl_e: {
       get() {
-        return this.$store.state.quickC.sl_e;
+        return this.$store.state.quickAll.sl_e;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_e", value);
+        this.$store.commit("quickAll/update_sl_e", value);
       },
     },
     sl_f: {
       get() {
-        return this.$store.state.quickC.sl_f;
+        return this.$store.state.quickAll.sl_f;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_f", value);
+        this.$store.commit("quickAll/update_sl_f", value);
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quickC.question_a;
+        return this.$store.state.quickAll.question_a;
       },
       set(value) {
-        this.$store.commit("quickC/update_question_a", value);
+        this.$store.commit("quickAll/update_question_a", value);
       },
     },
     text_a: {
       get() {
-        return this.$store.state.quickC.text_a;
+        return this.$store.state.quickAll.text_a;
       },
       set(value) {
-        this.$store.commit("quickC/update_text_a", value);
+        this.$store.commit("quickAll/update_text_a", value);
       },
     },
   },

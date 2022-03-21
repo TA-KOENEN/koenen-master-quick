@@ -212,122 +212,122 @@ export default {
   computed: {
     cb_a: {
       get() {
-        return this.$store.state.quickD.cb_a;
+        return this.$store.state.quickAll.cb_a;
       },
     },
     cb_b: {
       get() {
-        return this.$store.state.quickD.cb_b;
+        return this.$store.state.quickAll.cb_b;
       },
     },
     cb_c: {
       get() {
-        return this.$store.state.quickD.cb_c;
+        return this.$store.state.quickAll.cb_c;
       },
     },
     cb_d: {
       get() {
-        return this.$store.state.quickD.cb_d;
+        return this.$store.state.quickAll.cb_d;
       },
     },
     cb_e: {
       get() {
-        return this.$store.state.quickD.cb_e;
+        return this.$store.state.quickAll.cb_e;
       },
     },
     cb_f: {
       get() {
-        return this.$store.state.quickD.cb_f;
+        return this.$store.state.quickAll.cb_f;
       },
     },
     cb_g: {
       get() {
-        return this.$store.state.quickD.cb_g;
+        return this.$store.state.quickAll.cb_g;
       },
     },
     cb_h: {
       get() {
-        return this.$store.state.quickD.cb_h;
+        return this.$store.state.quickAll.cb_h;
       },
     },
     cb_i: {
       get() {
-        return this.$store.state.quickD.cb_i;
+        return this.$store.state.quickAll.cb_i;
       },
     },
     cb_j: {
       get() {
-        return this.$store.state.quickD.cb_j;
+        return this.$store.state.quickAll.cb_j;
       },
     },
     cb_k: {
       get() {
-        return this.$store.state.quickD.cb_k;
+        return this.$store.state.quickAll.cb_k;
       },
     },
     cb_l: {
       get() {
-        return this.$store.state.quickD.cb_l;
+        return this.$store.state.quickAll.cb_l;
       },
     },
     cb_m: {
       get() {
-        return this.$store.state.quickD.cb_m;
+        return this.$store.state.quickAll.cb_m;
       },
     },
     cb_n: {
       get() {
-        return this.$store.state.quickD.cb_n;
+        return this.$store.state.quickAll.cb_n;
       },
     },
     cb_o: {
       get() {
-        return this.$store.state.quickD.cb_o;
+        return this.$store.state.quickAll.cb_o;
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quickD.question_a;
+        return this.$store.state.quickAll.question_a;
       },
     },
     question_b: {
       get() {
-        return this.$store.state.quickD.question_b;
+        return this.$store.state.quickAll.question_b;
       },
     },
     question_c: {
       get() {
-        return this.$store.state.quickD.question_c;
+        return this.$store.state.quickAll.question_c;
       },
     },
     question_d: {
       get() {
-        return this.$store.state.quickD.question_d;
+        return this.$store.state.quickAll.question_d;
       },
     },
     question_e: {
       get() {
-        return this.$store.state.quickD.question_e;
+        return this.$store.state.quickAll.question_e;
       },
     },
     text_a: {
       get() {
-        return this.$store.state.quickD.text_a;
+        return this.$store.state.quickAll.text_a;
       },
     },
     text_b: {
       get() {
-        return this.$store.state.quickD.text_b;
+        return this.$store.state.quickAll.text_b;
       },
     },
     text_c: {
       get() {
-        return this.$store.state.quickD.text_c;
+        return this.$store.state.quickAll.text_c;
       },
     },
     text_d: {
       get() {
-        return this.$store.state.quickD.text_d;
+        return this.$store.state.quickAll.text_d;
       },
     },
 
@@ -340,6 +340,9 @@ export default {
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
     this.websiteTeam = JSON.parse(localStorage.getItem("website_team"));
+  },
+  beforeDestroy() {
+    this.$store.dispatch("quickAll/setDefault");
   },
 };
 </script>

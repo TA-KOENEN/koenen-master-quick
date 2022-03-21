@@ -20,50 +20,50 @@ export default {
   computed: {
     cb_a: {
       get() {
-        return this.$store.state.quickH.cb_a;
+        return this.$store.state.quickAll.cb_a;
       },
       set(value) {
-        this.$store.commit("quickH/update_cb_a", value);
+        this.$store.commit("quickAll/update_cb_a", value);
       },
     },
     cb_b: {
       get() {
-        return this.$store.state.quickH.cb_b;
+        return this.$store.state.quickAll.cb_b;
       },
       set(value) {
-        this.$store.commit("quickH/update_cb_b", value);
+        this.$store.commit("quickAll/update_cb_b", value);
       },
     },
     cb_c: {
       get() {
-        return this.$store.state.quickH.cb_c;
+        return this.$store.state.quickAll.cb_c;
       },
       set(value) {
-        this.$store.commit("quickH/update_cb_c", value);
+        this.$store.commit("quickAll/update_cb_c", value);
       },
     },
     cb_d: {
       get() {
-        return this.$store.state.quickH.cb_d;
+        return this.$store.state.quickAll.cb_d;
       },
       set(value) {
-        this.$store.commit("quickH/update_cb_d", value);
+        this.$store.commit("quickAll/update_cb_d", value);
       },
     },
     cb_e: {
       get() {
-        return this.$store.state.quickH.cb_e;
+        return this.$store.state.quickAll.cb_e;
       },
       set(value) {
-        this.$store.commit("quickH/update_cb_e", value);
+        this.$store.commit("quickAll/update_cb_e", value);
       },
     },
     cb_f: {
       get() {
-        return this.$store.state.quickH.cb_f;
+        return this.$store.state.quickAll.cb_f;
       },
       set(value) {
-        this.$store.commit("quickH/update_cb_f", value);
+        this.$store.commit("quickAll/update_cb_f", value);
       },
     },
   },

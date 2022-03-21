@@ -187,67 +187,67 @@ export default {
   computed: {
     sl_a: {
       get() {
-        return this.$store.state.quickJ.sl_a;
+        return this.$store.state.quickAll.sl_a;
       },
     },
     sl_b: {
       get() {
-        return this.$store.state.quickJ.sl_b;
+        return this.$store.state.quickAll.sl_b;
       },
     },
     sl_c: {
       get() {
-        return this.$store.state.quickJ.sl_c;
+        return this.$store.state.quickAll.sl_c;
       },
     },
     sl_d: {
       get() {
-        return this.$store.state.quickJ.sl_d;
+        return this.$store.state.quickAll.sl_d;
       },
     },
     sl_e: {
       get() {
-        return this.$store.state.quickJ.sl_e;
+        return this.$store.state.quickAll.sl_e;
       },
     },
     sl_f: {
       get() {
-        return this.$store.state.quickJ.sl_f;
+        return this.$store.state.quickAll.sl_f;
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quickJ.question_a;
+        return this.$store.state.quickAll.question_a;
       },
     },
     question_b: {
       get() {
-        return this.$store.state.quickJ.question_b;
+        return this.$store.state.quickAll.question_b;
       },
     },
     question_c: {
       get() {
-        return this.$store.state.quickJ.question_c;
+        return this.$store.state.quickAll.question_c;
       },
     },
     question_d: {
       get() {
-        return this.$store.state.quickJ.question_d;
+        return this.$store.state.quickAll.question_d;
       },
     },
     question_e: {
       get() {
-        return this.$store.state.quickJ.question_e;
+        return this.$store.state.quickAll.question_e;
       },
     },
     text_a: {
       get() {
-        return this.$store.state.quickJ.text_a;
+        return this.$store.state.quickAll.text_a;
       },
     },
     text_b: {
       get() {
-        return this.$store.state.quickJ.text_b;
+        return this.$store.state.quickAll.text_b;
       },
     },
 
@@ -260,6 +260,17 @@ export default {
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
     this.websiteTeam = JSON.parse(localStorage.getItem("website_team"));
+  },
+  created() {
+    this.$store.commit("quickAll/update_sl_a", 5);
+    this.$store.commit("quickAll/update_sl_b", 5);
+    this.$store.commit("quickAll/update_sl_c", 5);
+    this.$store.commit("quickAll/update_sl_d", 5);
+    this.$store.commit("quickAll/update_sl_e", 5);
+    this.$store.commit("quickAll/update_sl_f", 5);
+  },
+  beforeDestroy() {
+    this.$store.dispatch("quickAll/setDefault");
   },
 };
 </script>

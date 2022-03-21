@@ -26,50 +26,50 @@ export default {
   computed: {
     sl_h: {
       get() {
-        return this.$store.state.quickC.sl_h;
+        return this.$store.state.quickAll.sl_h;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_h", value);
+        this.$store.commit("quickAll/update_sl_h", value);
       },
     },
     sl_i: {
       get() {
-        return this.$store.state.quickC.sl_i;
+        return this.$store.state.quickAll.sl_i;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_i", value);
+        this.$store.commit("quickAll/update_sl_i", value);
       },
     },
     sl_j: {
       get() {
-        return this.$store.state.quickC.sl_j;
+        return this.$store.state.quickAll.sl_j;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_j", value);
+        this.$store.commit("quickAll/update_sl_j", value);
       },
     },
     sl_k: {
       get() {
-        return this.$store.state.quickC.sl_k;
+        return this.$store.state.quickAll.sl_k;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_k", value);
+        this.$store.commit("quickAll/update_sl_k", value);
       },
     },
     sl_l: {
       get() {
-        return this.$store.state.quickC.sl_l;
+        return this.$store.state.quickAll.sl_l;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_l", value);
+        this.$store.commit("quickAll/update_sl_l", value);
       },
     },
     sl_m: {
       get() {
-        return this.$store.state.quickC.sl_m;
+        return this.$store.state.quickAll.sl_m;
       },
       set(value) {
-        this.$store.commit("quickC/update_sl_m", value);
+        this.$store.commit("quickAll/update_sl_m", value);
       },
     },
   },

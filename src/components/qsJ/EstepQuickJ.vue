@@ -15,10 +15,10 @@ export default {
   computed: {
     text_b: {
       get() {
-        return this.$store.state.quickJ.text_b;
+        return this.$store.state.quickAll.text_b;
       },
       set(value) {
-        this.$store.commit("quickJ/update_text_b", value);
+        this.$store.commit("quickAll/update_text_b", value);
       },
     },
   },

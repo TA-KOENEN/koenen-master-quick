@@ -189,42 +189,42 @@ export default {
   computed: {
     sl_a: {
       get() {
-        return this.$store.state.quickI.sl_a;
+        return this.$store.state.quickAll.sl_a;
       },
     },
     sl_b: {
       get() {
-        return this.$store.state.quickI.sl_b;
+        return this.$store.state.quickAll.sl_b;
       },
     },
     sl_c: {
       get() {
-        return this.$store.state.quickI.sl_c;
+        return this.$store.state.quickAll.sl_c;
       },
     },
     sl_d: {
       get() {
-        return this.$store.state.quickI.sl_d;
+        return this.$store.state.quickAll.sl_d;
       },
     },
     sl_e: {
       get() {
-        return this.$store.state.quickI.sl_e;
+        return this.$store.state.quickAll.sl_e;
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quickI.question_a;
+        return this.$store.state.quickAll.question_a;
       },
     },
     question_b: {
       get() {
-        return this.$store.state.quickI.question_b;
+        return this.$store.state.quickAll.question_b;
       },
     },
     question_c: {
       get() {
-        return this.$store.state.quickI.question_c;
+        return this.$store.state.quickAll.question_c;
       },
     },
 
@@ -237,6 +237,9 @@ export default {
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
     this.websiteTeam = JSON.parse(localStorage.getItem("website_team"));
+  },
+  beforeDestroy() {
+    this.$store.dispatch("quickAll/setDefault");
   },
 };
 </script>

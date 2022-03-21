@@ -193,62 +193,62 @@ export default {
   computed: {
     sl_a: {
       get() {
-        return this.$store.state.quickH.sl_a;
+        return this.$store.state.quickAll.sl_a;
       },
     },
     cb_a: {
       get() {
-        return this.$store.state.quickH.cb_a;
+        return this.$store.state.quickAll.cb_a;
       },
     },
     cb_b: {
       get() {
-        return this.$store.state.quickH.cb_b;
+        return this.$store.state.quickAll.cb_b;
       },
     },
     cb_c: {
       get() {
-        return this.$store.state.quickH.cb_c;
+        return this.$store.state.quickAll.cb_c;
       },
     },
     cb_d: {
       get() {
-        return this.$store.state.quickH.cb_d;
+        return this.$store.state.quickAll.cb_d;
       },
     },
     cb_e: {
       get() {
-        return this.$store.state.quickH.cb_e;
+        return this.$store.state.quickAll.cb_e;
       },
     },
     cb_f: {
       get() {
-        return this.$store.state.quickH.cb_f;
+        return this.$store.state.quickAll.cb_f;
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quickH.question_a;
+        return this.$store.state.quickAll.question_a;
       },
     },
     question_b: {
       get() {
-        return this.$store.state.quickH.question_b;
+        return this.$store.state.quickAll.question_b;
       },
     },
     question_c: {
       get() {
-        return this.$store.state.quickH.question_c;
+        return this.$store.state.quickAll.question_c;
       },
     },
     question_d: {
       get() {
-        return this.$store.state.quickH.question_d;
+        return this.$store.state.quickAll.question_d;
       },
     },
     question_e: {
       get() {
-        return this.$store.state.quickH.question_e;
+        return this.$store.state.quickAll.question_e;
       },
     },
 
@@ -261,6 +261,9 @@ export default {
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
     this.websiteTeam = JSON.parse(localStorage.getItem("website_team"));
+  },
+  beforeDestroy() {
+    this.$store.dispatch("quickAll/setDefault");
   },
 };
 </script>

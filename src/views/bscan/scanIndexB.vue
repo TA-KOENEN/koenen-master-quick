@@ -188,37 +188,37 @@ export default {
   computed: {
     sl_a: {
       get() {
-        return this.$store.state.quickB.sl_a;
+        return this.$store.state.quickAll.sl_a;
       },
     },
     sl_b: {
       get() {
-        return this.$store.state.quickB.sl_b;
+        return this.$store.state.quickAll.sl_b;
       },
     },
     sl_c: {
       get() {
-        return this.$store.state.quickB.sl_c;
+        return this.$store.state.quickAll.sl_c;
       },
     },
     sl_d: {
       get() {
-        return this.$store.state.quickB.sl_d;
+        return this.$store.state.quickAll.sl_d;
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quickB.question_a;
+        return this.$store.state.quickAll.question_a;
       },
     },
     question_b: {
       get() {
-        return this.$store.state.quickB.question_b;
+        return this.$store.state.quickAll.question_b;
       },
     },
     question_c: {
       get() {
-        return this.$store.state.quickB.question_c;
+        return this.$store.state.quickAll.question_c;
       },
     },
 
@@ -231,6 +231,9 @@ export default {
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
     this.websiteTeam = JSON.parse(localStorage.getItem("website_team"));
+  },
+  beforeDestroy() {
+    this.$store.dispatch("quickAll/setDefault");
   },
 };
 </script>

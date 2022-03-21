@@ -28,58 +28,58 @@ export default {
   computed: {
     cb_j: {
       get() {
-        return this.$store.state.quickD.cb_j;
+        return this.$store.state.quickAll.cb_j;
       },
       set(value) {
-        this.$store.commit("quickD/update_cb_j", value);
+        this.$store.commit("quickAll/update_cb_j", value);
       },
     },
     cb_k: {
       get() {
-        return this.$store.state.quickD.cb_k;
+        return this.$store.state.quickAll.cb_k;
       },
       set(value) {
-        this.$store.commit("quickD/update_cb_k", value);
+        this.$store.commit("quickAll/update_cb_k", value);
       },
     },
     cb_l: {
       get() {
-        return this.$store.state.quickD.cb_l;
+        return this.$store.state.quickAll.cb_l;
       },
       set(value) {
-        this.$store.commit("quickD/update_cb_l", value);
+        this.$store.commit("quickAll/update_cb_l", value);
       },
     },
     cb_m: {
       get() {
-        return this.$store.state.quickD.cb_m;
+        return this.$store.state.quickAll.cb_m;
       },
       set(value) {
-        this.$store.commit("quickD/update_cb_m", value);
+        this.$store.commit("quickAll/update_cb_m", value);
       },
     },
     cb_n: {
       get() {
-        return this.$store.state.quickD.cb_n;
+        return this.$store.state.quickAll.cb_n;
       },
       set(value) {
-        this.$store.commit("quickD/update_cb_n", value);
+        this.$store.commit("quickAll/update_cb_n", value);
       },
     },
     cb_o: {
       get() {
-        return this.$store.state.quickD.cb_o;
+        return this.$store.state.quickAll.cb_o;
       },
       set(value) {
-        this.$store.commit("quickD/update_cb_o", value);
+        this.$store.commit("quickAll/update_cb_o", value);
       },
     },
     text_d: {
       get() {
-        return this.$store.state.quickD.text_d;
+        return this.$store.state.quickAll.text_d;
       },
       set(value) {
-        this.$store.commit("quickD/update_text_d", value);
+        this.$store.commit("quickAll/update_text_d", value);
       },
     },
   },

@@ -38,18 +38,18 @@ export default {
   computed: {
     question_b: {
       get() {
-        return this.$store.state.quickE.question_b;
+        return this.$store.state.quickAll.question_b;
       },
       set(value) {
-        this.$store.commit("quickE/update_question_b", value);
+        this.$store.commit("quickAll/update_question_b", value);
       },
     },
     question_a: {
       get() {
-        return this.$store.state.quickE.question_a;
+        return this.$store.state.quickAll.question_a;
       },
       set(value) {
-        this.$store.commit("quickE/update_question_a", value);
+        this.$store.commit("quickAll/update_question_a", value);
       },
     },
   },

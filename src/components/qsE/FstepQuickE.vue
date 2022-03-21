@@ -38,26 +38,26 @@ export default {
   computed: {
     question_g: {
       get() {
-        return this.$store.state.quickE.question_g;
+        return this.$store.state.quickAll.question_g;
       },
       set(value) {
-        this.$store.commit("quickE/update_question_g", value);
+        this.$store.commit("quickAll/update_question_g", value);
       },
     },
     question_h: {
       get() {
-        return this.$store.state.quickE.question_h;
+        return this.$store.state.quickAll.question_h;
       },
       set(value) {
-        this.$store.commit("quickE/update_question_h", value);
+        this.$store.commit("quickAll/update_question_h", value);
       },
     },
     sl_c: {
       get() {
-        return this.$store.state.quickE.sl_c;
+        return this.$store.state.quickAll.sl_c;
       },
       set(value) {
-        this.$store.commit("quickE/update_sl_c", value);
+        this.$store.commit("quickAll/update_sl_c", value);
       },
     },
   },

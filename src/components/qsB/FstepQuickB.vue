@@ -15,10 +15,10 @@ export default {
   computed: {
     sl_d: {
       get() {
-        return this.$store.state.quickB.sl_d;
+        return this.$store.state.quickAll.sl_d;
       },
       set(value) {
-        this.$store.commit("quickB/update_sl_d", value);
+        this.$store.commit("quickAll/update_sl_d", value);
       },
     },
   },
