@@ -146,7 +146,11 @@ export default {
     },
     prevStep() {
       this.$vuetify.goTo(0);
-      if (this.currentStep === 4) {
+      if (this.currentStep === 5 && this.question_b === "ke1") {
+        this.currentStep = 3;
+      } else if (this.currentStep === 4 && this.question_b === "ke2") {
+        this.currentStep = 2;
+      } else if (this.currentStep === 4) {
         this.currentStep = 2;
       } else {
         this.currentStep--;

@@ -2,6 +2,7 @@
   <div>
     <ta-statement :stat-text="statTextMulti[2]" :formal="formal" />
     <ta-radio
+      label="Opvolger/waarnemer"
       v-model="question_b"
       error-messages="errors"
       rules="required"

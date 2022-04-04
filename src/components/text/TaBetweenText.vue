@@ -4,7 +4,7 @@
       {{ statText.questionAppForm }}
     </div>
     <div v-if="!formal">
-      {{ statText.questionAppForm }}
+      {{ statText.questionAppInf }}
     </div>
   </div>
 </template>

@@ -13,7 +13,7 @@
     "headerInf": "De huidige stand van zaken",
     "sign": false,
     "text_a": "In dit onderdeel staat de huidige functie van IT binnen uw onderneming centraal.",
-    "text_aInf": "In dit onderdeel staat de huidige functie van IT binnen uw onderneming centraal.",
+    "text_aInf": "In dit onderdeel staat de huidige functie van IT binnen jouw onderneming centraal.",
     "text_b": "",
     "text_bInf": "",
     "text_c": "",
@@ -21,10 +21,10 @@
   },
   {
     "header": "IT en uw bedrijfsproces",
-    "headerInf": "IT en uw bedrijfsproces",
+    "headerInf": "IT en jouw bedrijfsproces",
     "sign": false,
     "text_a": "Aan de basis van de IT functie in uw organisatie ligt de aansluiting tussen uw primaire bedrijfsprocessen en IT.",
-    "text_aInf": "Aan de basis van de IT functie in uw organisatie ligt de aansluiting tussen jouw primaire bedrijfsprocessen en IT.",
+    "text_aInf": "Aan de basis van de IT functie in jouw organisatie ligt de aansluiting tussen jouw primaire bedrijfsprocessen en IT.",
     "text_b": "",
     "text_bInf": ""
   },
@@ -33,7 +33,7 @@
     "headerInf": "Stuurinformatie en IT",
     "sign": false,
     "text_a": "Vanuit uw bedrijfsprocessen verkrijgt u informatie over de bedrijfsprestaties. In deze vraag staat managementinformatie centraal.",
-    "text_aInf": "Vanuit uw bedrijfsprocessen verkrijg je informatie over de bedrijfsprestaties. In deze vraag staat managementinformatie centraal.",
+    "text_aInf": "Vanuit jouw bedrijfsprocessen verkrijg je informatie over de bedrijfsprestaties. In deze vraag staat managementinformatie centraal.",
     "text_b": "",
     "text_bInf": ""
   },
