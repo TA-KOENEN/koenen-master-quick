@@ -214,6 +214,22 @@ export const actions = {
     }
   },
 
+  async loginL({ commit }, payload) {
+    commit("SET_LOADING", true);
+    try {
+      const response = await AuthService.loginL(payload);
+      commit("SET_TOKEN", response.data.token);
+      localStorage.setItem("token", response.data.token);
+      // axios.defaults.headers.common['Authorization'] = response.data.token
+      commit("SET_STEPTWO", true);
+      commit("SET_LOADING", false);
+    } catch (error) {
+      commit("SET_LOADING", false);
+      commit("SET_STEPTWO", false);
+      commit("SET_ERROR", getError(error));
+    }
+  },
+
   setGuest(context, { value }) {
     window.localStorage.setItem("guest", value);
   },
