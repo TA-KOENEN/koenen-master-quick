@@ -98,6 +98,8 @@ export default {
         this.beginJ();
       } else if (this.quickId === "quick_k") {
         this.beginK();
+      } else if (this.quickId === "quick_l") {
+        this.beginL();
       }
     },
     beginA() {
@@ -134,6 +136,10 @@ export default {
     },
     beginK() {
       const module = "moduleK";
+      loginService.start(this.tokkie, module);
+    },
+    beginL() {
+      const module = "moduleL";
       loginService.start(this.tokkie, module);
     },
   },
