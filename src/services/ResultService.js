@@ -73,6 +73,14 @@ export default {
       },
     });
   },
+  getStartL(payload) {
+    return axios.post("/autoLoginLscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
 
   getNewCodeA(payload) {
     return axios.post("/newCodeAscan", payload, {
@@ -140,6 +148,14 @@ export default {
   },
   getNewCodeK(payload) {
     return axios.post("/newCodeKscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
+  getNewCodeL(payload) {
+    return axios.post("/newCodeLscan", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -230,6 +246,16 @@ export default {
   getReportK(payload) {
     const token = localStorage.getItem("token");
     return axios.post("/sendReportKscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
+  },
+  getReportL(payload) {
+    const token = localStorage.getItem("token");
+    return axios.post("/sendReportLscan", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
