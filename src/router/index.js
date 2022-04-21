@@ -73,6 +73,13 @@ const introL = () =>
 const indexL = () =>
   import("../views/lscan/scanIndexL" /* webpackChunkName: "indexL" */);
 
+const loginM = () =>
+  import("../views/mscan/loginScanM" /* webpackChunkName: "loginM" */);
+const introM = () =>
+  import("../views/mscan/introScanM" /* webpackChunkName: "introM" */);
+const indexM = () =>
+  import("../views/mscan/scanIndexM" /* webpackChunkName: "indexM" */);
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -234,6 +241,21 @@ const router = new VueRouter({
       path: "/intro-familie",
       name: "intro_l",
       component: introL,
+    },
+    {
+      path: "/groei",
+      name: "index_m",
+      component: indexM,
+    },
+    {
+      path: "/login-groei",
+      name: "login_m",
+      component: loginM,
+    },
+    {
+      path: "/intro-groei",
+      name: "intro_m",
+      component: introM,
     },
 
     {
