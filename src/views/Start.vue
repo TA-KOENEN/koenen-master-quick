@@ -100,6 +100,8 @@ export default {
         this.beginK();
       } else if (this.quickId === "quick_l") {
         this.beginL();
+      } else if (this.quickId === "quick_m") {
+        this.beginM();
       }
     },
     beginA() {
@@ -140,6 +142,10 @@ export default {
     },
     beginL() {
       const module = "moduleL";
+      loginService.start(this.tokkie, module);
+    },
+    beginM() {
+      const module = "moduleM";
       loginService.start(this.tokkie, module);
     },
   },
