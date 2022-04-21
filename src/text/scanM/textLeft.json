@@ -1,0 +1,86 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Huidig groeitempo",
+    "headerInf": "Huidig groeitempo",
+    "sign": false,
+    "text_a": "De eerste vraag gaat over uw gevoel bij het huidige groeitempo van uw onderneming. Hoe kijkt u naar de behaalde resultaten in nieuwe omzet en klanten in relatie tot de marktgroei en -ontwikkeling? ",
+    "text_aInf": "De eerste vraag gaat over jouw gevoel bij het huidige groeitempo van jouw onderneming. Hoe kijkt u naar de behaalde resultaten in nieuwe omzet en klanten in relatie tot de marktgroei en -ontwikkeling?",
+    "text_b": "",
+    "text_bInf": "",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Blokkades voor groei",
+    "headerInf": "Blokkades voor groei",
+    "sign": false,
+    "text_a": "In deze vraag gaat het om blokkades die het groeitempo vertragen. In welke mate zijn de volgende factoren belemmerend voor het groeitempo? (meerdere antwoorden mogelijk)",
+    "text_aInf": "In deze vraag gaat het om blokkades die het groeitempo vertragen. In welke mate zijn de volgende factoren belemmerend voor het groeitempo? (meerdere antwoorden mogelijk) ",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Groeitempo verbeteren",
+    "headerInf": "Groeitempo verbeteren",
+    "sign": false,
+    "text_a": "In deze vraag gaat het om de verschillende factoren die kunnen bijdragen aan het versterken van het groeitempo.",
+    "text_aInf": "In deze vraag gaat het om de verschillende factoren die kunnen bijdragen aan het versterken van het groeitempo.",
+    "text_b": "In welke mate kunnen verbeteringen in de volgende factoren het groeitempo verder faciliteren? (Geef een rapportcijfer: 1 = niet belangrijk voor ons groeitempo, 10 = zeer belangrijk voor ons groeitempo)",
+    "text_bInf": "In welke mate kunnen verbeteringen in de volgende factoren het groeitempo verder faciliteren? (Geef een rapportcijfer: 1 = niet belangrijk voor ons groeitempo, 10 = zeer belangrijk voor ons groeitempo)"
+  },
+  {
+    "header": "Samenwerken of overnemen",
+    "headerInf": "Samenwerken of overnemen",
+    "sign": false,
+    "text_a": "Het verhogen van het groeitempo kan op meerdere wijzen plaatsvinden. Bijvoorbeeld door strategisch samen te werken of overnames te doen. Overweegt u naast autonome groei ook samenwerkingen met of acquisities van andere ondernemingen?",
+    "text_aInf": "Het verhogen van het groeitempo kan op meerdere wijzen plaatsvinden. Bijvoorbeeld door strategisch samen te werken of overnames te doen. Overweeg je naast autonome groei ook samenwerkingen met of acquisities van andere ondernemingen?",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Overig",
+    "headerInf": "Overig",
+    "sign": false,
+    "text_a": "Heeft u vragen over strategische vraagstukken die hierboven niet zijn genoemd? Zo ja, welke?",
+    "text_aInf": "Heb je vragen over strategische vraagstukken die hierboven niet zijn genoemd? Zo ja, welke?",
+    "text_b": "Heeft u behoefte aan strategisch advies om het groeitempo van uw onderneming verder te faciliteren?",
+    "text_bInf": "Heb je behoefte aan strategisch advies om het groeitempo van jouw onderneming verder te faciliteren?",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over de groei van uw onderneming ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over de groei van jouw onderneming ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  },
+  {
+    "header": "",
+    "headerInf": "",
+    "text_a": "",
+    "text_aInf": "",
+    "text_b": "",
+    "text_bInf": ""
+  }
+
+]

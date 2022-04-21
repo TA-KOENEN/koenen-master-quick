@@ -30,6 +30,8 @@ export default {
           response = await ResultService.getStartK(payload);
         } else if (module === "moduleL") {
           response = await ResultService.getStartL(payload);
+        } else if (module === "moduleM") {
+          response = await ResultService.getStartM(payload);
         } else {
           response = await ResultService.getStartA(payload);
         }
@@ -85,6 +87,8 @@ export default {
           await router.push({ name: "intro_k" });
         } else if (module === "moduleL") {
           await router.push({ name: "intro_l" });
+        } else if (module === "moduleM") {
+          await router.push({ name: "intro_m" });
         }
       } catch (error) {
         // eslint-disable-next-line no-undef
