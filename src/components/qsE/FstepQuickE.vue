@@ -12,7 +12,7 @@
       :optionC="statTextMulti[9].optionC"
     />
     <div v-if="question_g === 'ke1'">
-      <ta-statement :stat-text="statTextMulti[3]" :formal="formal" />
+      <ta-statement :stat-text="statTextMulti[10]" :formal="formal" />
       <ta-radio
         v-model="question_h"
         :label="statTextMulti[10].label"
@@ -23,6 +23,7 @@
         :optionB="statTextMulti[10].optionB"
         :optionC="statTextMulti[10].optionC"
       />
+      <ta-statement :stat-text="statTextMulti[14]" :formal="formal" />
       <ta-slider-feeling v-model="sl_c" />
     </div>
   </div>

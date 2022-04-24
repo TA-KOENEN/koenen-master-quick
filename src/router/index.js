@@ -66,6 +66,20 @@ const introK = () =>
 const indexK = () =>
   import("../views/kscan/scanIndexK" /* webpackChunkName: "indexK" */);
 
+const loginL = () =>
+  import("../views/lscan/loginScanL" /* webpackChunkName: "loginL" */);
+const introL = () =>
+  import("../views/lscan/introScanL" /* webpackChunkName: "introL" */);
+const indexL = () =>
+  import("../views/lscan/scanIndexL" /* webpackChunkName: "indexL" */);
+
+const loginM = () =>
+  import("../views/mscan/loginScanM" /* webpackChunkName: "loginM" */);
+const introM = () =>
+  import("../views/mscan/introScanM" /* webpackChunkName: "introM" */);
+const indexM = () =>
+  import("../views/mscan/scanIndexM" /* webpackChunkName: "indexM" */);
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -213,6 +227,37 @@ const router = new VueRouter({
       name: "intro_k",
       component: introK,
     },
+    {
+      path: "/familie",
+      name: "index_l",
+      component: indexL,
+    },
+    {
+      path: "/login-familie",
+      name: "login_l",
+      component: loginL,
+    },
+    {
+      path: "/intro-familie",
+      name: "intro_l",
+      component: introL,
+    },
+    {
+      path: "/groei",
+      name: "index_m",
+      component: indexM,
+    },
+    {
+      path: "/login-groei",
+      name: "login_m",
+      component: loginM,
+    },
+    {
+      path: "/intro-groei",
+      name: "intro_m",
+      component: introM,
+    },
+
     {
       path: "/",
       name: "Start",

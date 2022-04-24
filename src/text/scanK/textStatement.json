@@ -36,8 +36,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -57,8 +57,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Alleenstaand.",
-    "optionB": "Samenwonend."
+    "optionA": "Alleenstaand",
+    "optionB": "Samenwonend"
   },
   {
     "id": 3,
@@ -98,9 +98,9 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
-    "optionC": "Weet niet / onbekend.",
+    "optionA": "Ja",
+    "optionB": "Nee",
+    "optionC": "Weet niet / onbekend",
     "optionD": ""
   },
   {
@@ -161,8 +161,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -203,8 +203,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -245,8 +245,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -266,8 +266,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -287,8 +287,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -308,8 +308,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -329,8 +329,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -358,8 +358,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },
@@ -411,8 +411,8 @@
     "noteAppInfB": "",
     "noteAppInfC": "",
     "nrOptions": 2,
-    "optionA": "Ja.",
-    "optionB": "Nee.",
+    "optionA": "Ja",
+    "optionB": "Nee",
     "optionC": "",
     "optionD": ""
   },

@@ -1,6 +1,6 @@
 <template>
   <div class="ma-0 pa-0">
-    <ToolbarAuth :name="'Noodopvolging'" />
+    <ToolbarAuth :name="'Familiestatuut'" />
     <v-row no-gutters>
       <v-col
         cols="12"
@@ -100,16 +100,16 @@
 </template>
 
 <script>
-import leftText from "@/text/scanA/textLeft.json";
-import stepText from "@/text/scanA/textStep.json";
-import questionText from "@/text/scanA/textStatement.json";
-import AstepQuickA from "@/components/qsA/AstepQuickA";
-import BstepQuickA from "@/components/qsA/BstepQuickA";
-import CstepQuickA from "@/components/qsA/CstepQuickA";
-import DstepQuickA from "@/components/qsA/DstepQuickA";
-import EstepQuickA from "@/components/qsA/EstepQuickA";
-import FstepQuickA from "@/components/qsA/FstepQuickA";
-import GstepQuickA from "@/components/qsA/GstepQuickA";
+import leftText from "@/text/scanL/textLeft.json";
+import stepText from "@/text/scanL/textStep.json";
+import questionText from "@/text/scanL/textStatement.json";
+import AstepQuickL from "@/components/qsL/AstepQuickL";
+import BstepQuickL from "@/components/qsL/BstepQuickL";
+import CstepQuickL from "@/components/qsL/CstepQuickL";
+import DstepQuickL from "@/components/qsL/DstepQuickL";
+import EstepQuickL from "@/components/qsL/EstepQuickL";
+import FstepQuickL from "@/components/qsL/FstepQuickL";
+import GstepQuickL from "@/components/qsL/GstepQuickL";
 import ResultService from "@/services/ResultService";
 import AuthService from "@/services/AuthService";
 import TaBtnReport from "@/components/buttons/taBtnReport";
@@ -117,13 +117,13 @@ export default {
   name: "scanIndexG",
   components: {
     TaBtnReport,
-    "a-step": AstepQuickA,
-    "b-step": BstepQuickA,
-    "c-step": CstepQuickA,
-    "d-step": DstepQuickA,
-    "e-step": EstepQuickA,
-    "f-step": FstepQuickA,
-    "g-step": GstepQuickA,
+    "a-step": AstepQuickL,
+    "b-step": BstepQuickL,
+    "c-step": CstepQuickL,
+    "d-step": DstepQuickL,
+    "e-step": EstepQuickL,
+    "f-step": FstepQuickL,
+    "g-step": GstepQuickL,
   },
   data() {
     return {
@@ -146,51 +146,36 @@ export default {
     },
     prevStep() {
       this.$vuetify.goTo(0);
-      if (this.currentStep === 5 && this.question_b === "ke1") {
-        this.currentStep = 3;
-      } else if (this.currentStep === 4 && this.question_b === "ke2") {
-        this.currentStep = 2;
-      } else if (this.currentStep === 4) {
-        this.currentStep = 2;
-      } else {
-        this.currentStep--;
-      }
+      this.currentStep--;
     },
     onSubmit() {
       this.$vuetify.goTo(0);
-      if (this.currentStep === 2 && this.question_b === "ke2") {
-        this.currentStep = 4;
-      } else if (this.currentStep === 3) {
-        this.currentStep = 5;
-      } else {
-        console.log("gaat goed");
-        this.currentStep++;
-      }
+      this.currentStep++;
     },
     async getReport() {
       // eslint-disable-next-line
       console.log("gaat goed");
       const payload = {
         clientId: JSON.parse(localStorage.getItem("clientId")),
+        question_a: this.question_a,
         question_b: this.question_b,
         question_c: this.question_c,
-        question_d: this.question_d,
-        question_e: this.question_e,
-        question_f: this.question_f,
-        question_g: this.question_g,
         sl_a: this.sl_a,
+        sl_b: this.sl_b,
+        sl_c: this.sl_c,
+        sl_d: this.sl_d,
       };
       const payloadLog = {
         clientId: JSON.parse(localStorage.getItem("clientId")),
       };
       try {
         this.disableBtnReport = true;
-        await ResultService.getReportA(payload);
+        await ResultService.getReportL(payload);
         // eslint-disable-next-line no-undef
         await EventBus.$emit("reportSend", true);
 
         await this.sleep(1000);
-        await AuthService.logoutA(payloadLog);
+        await AuthService.logoutL(payloadLog);
         localStorage.clear();
         this.$router.push({ name: "Eind" });
       } catch (error) {
@@ -206,6 +191,26 @@ export default {
         return this.$store.state.quickAll.sl_a;
       },
     },
+    sl_b: {
+      get() {
+        return this.$store.state.quickAll.sl_b;
+      },
+    },
+    sl_c: {
+      get() {
+        return this.$store.state.quickAll.sl_c;
+      },
+    },
+    sl_d: {
+      get() {
+        return this.$store.state.quickAll.sl_d;
+      },
+    },
+    question_a: {
+      get() {
+        return this.$store.state.quickAll.question_a;
+      },
+    },
     question_b: {
       get() {
         return this.$store.state.quickAll.question_b;
@@ -216,26 +221,7 @@ export default {
         return this.$store.state.quickAll.question_c;
       },
     },
-    question_d: {
-      get() {
-        return this.$store.state.quickAll.question_d;
-      },
-    },
-    question_e: {
-      get() {
-        return this.$store.state.quickAll.question_e;
-      },
-    },
-    question_f: {
-      get() {
-        return this.$store.state.quickAll.question_f;
-      },
-    },
-    question_g: {
-      get() {
-        return this.$store.state.quickAll.question_g;
-      },
-    },
+
     filteredSteps() {
       return this.textStep.slice(this.currentStep + 1, this.totalSteps + 1);
     },
