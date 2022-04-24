@@ -4,7 +4,7 @@
     auto-heigth
     multi-line
     v-model="successFull"
-    color="info"
+    color="primary"
     absolute
     top
   >

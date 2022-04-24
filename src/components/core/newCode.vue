@@ -5,7 +5,7 @@
       auto-heigth
       multi-line
       v-model="successFull"
-      color="info"
+      color="primary"
       :vertical="true"
       top
       class="mt-15"

@@ -14,10 +14,10 @@
       class="mt-10"
     >
       <template v-slot:append>
-        <v-icon color="accent">mdi-plus-circle-outline</v-icon>
+        <v-icon color="primary">mdi-plus-circle-outline</v-icon>
       </template>
       <template v-slot:prepend>
-        <v-icon color="info">mdi-minus-circle-outline</v-icon>
+        <v-icon color="secondary">mdi-minus-circle-outline</v-icon>
       </template>
     </v-slider>
   </div>
@@ -44,9 +44,9 @@ export default {
     },
 
     color() {
-      if (this.value < 5) return "info";
-      if (this.value > 5) return "accent";
-      return "info";
+      if (this.value < 5) return "secondary";
+      if (this.value > 5) return "primary";
+      return "secondary";
     },
   },
 };

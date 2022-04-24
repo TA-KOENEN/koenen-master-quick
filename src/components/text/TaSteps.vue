@@ -89,8 +89,8 @@ export default {
   props: ["stepText", "number", "active"],
   data() {
     return {
-      activeColor: "info",
-      notActiveColor: "accent",
+      activeColor: "secondary",
+      notActiveColor: "primary",
     };
   },
 };

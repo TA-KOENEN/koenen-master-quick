@@ -39,7 +39,7 @@
       </div>
     </v-row>
     <v-row justify="center">
-      <div class="verder info--text">
+      <div class="verder primary--text">
         <transition
           enter-active-class="animate__animated animate__fadeInLeft"
           appear
