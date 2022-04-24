@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: "DstepQuickL",
+  name: "DstepQuickM",
   props: ["statTextMulti", "formal"],
   data() {
     return {};

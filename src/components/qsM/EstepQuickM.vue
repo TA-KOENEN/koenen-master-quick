@@ -27,12 +27,12 @@ export default {
     return {};
   },
   computed: {
-    question_b: {
+    question_d: {
       get() {
-        return this.$store.state.quickAll.question_b;
+        return this.$store.state.quickAll.question_d;
       },
       set(value) {
-        this.$store.commit("quickAll/update_question_b", value);
+        this.$store.commit("quickAll/update_question_d", value);
       },
     },
   },
