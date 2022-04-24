@@ -1,6 +1,6 @@
 <template>
   <div class="ma-0 pa-0">
-    <ToolbarAuth :name="'Noodopvolging'" />
+    <ToolbarAuth :name="'Groei'" />
     <v-row no-gutters>
       <v-col
         cols="12"
@@ -58,18 +58,8 @@
                 :stat-text-multi="textStat"
                 :formal="formal"
               />
-              <f-step
-                v-else-if="currentStep === 6"
-                :stat-text-multi="textStat"
-                :formal="formal"
-              />
-              <g-step
-                v-else-if="currentStep === 7"
-                :stat-text-multi="textStat"
-                :formal="formal"
-              />
               <ta-btn-report
-                v-else-if="currentStep === 8"
+                v-else-if="currentStep === 6"
                 @onClick="getReport"
               />
             </v-form>
@@ -100,16 +90,14 @@
 </template>
 
 <script>
-import leftText from "@/text/scanA/textLeft.json";
-import stepText from "@/text/scanA/textStep.json";
-import questionText from "@/text/scanA/textStatement.json";
-import AstepQuickA from "@/components/qsA/AstepQuickA";
-import BstepQuickA from "@/components/qsA/BstepQuickA";
-import CstepQuickA from "@/components/qsA/CstepQuickA";
-import DstepQuickA from "@/components/qsA/DstepQuickA";
-import EstepQuickA from "@/components/qsA/EstepQuickA";
-import FstepQuickA from "@/components/qsA/FstepQuickA";
-import GstepQuickA from "@/components/qsA/GstepQuickA";
+import leftText from "@/text/scanM/textLeft.json";
+import stepText from "@/text/scanM/textStep.json";
+import questionText from "@/text/scanM/textStatement.json";
+import AstepQuickM from "@/components/qsM/AstepQuickM";
+import BstepQuickM from "@/components/qsM/BstepQuickM";
+import CstepQuickM from "@/components/qsM/CstepQuickM";
+import DstepQuickM from "@/components/qsM/DstepQuickM";
+import EstepQuickM from "@/components/qsM/EstepQuickM";
 import ResultService from "@/services/ResultService";
 import AuthService from "@/services/AuthService";
 import TaBtnReport from "@/components/buttons/taBtnReport";
@@ -117,13 +105,11 @@ export default {
   name: "scanIndexG",
   components: {
     TaBtnReport,
-    "a-step": AstepQuickA,
-    "b-step": BstepQuickA,
-    "c-step": CstepQuickA,
-    "d-step": DstepQuickA,
-    "e-step": EstepQuickA,
-    "f-step": FstepQuickA,
-    "g-step": GstepQuickA,
+    "a-step": AstepQuickM,
+    "b-step": BstepQuickM,
+    "c-step": CstepQuickM,
+    "d-step": DstepQuickM,
+    "e-step": EstepQuickM,
   },
   data() {
     return {
@@ -135,7 +121,7 @@ export default {
       websiteTeam: null,
       formal: false,
       currentStep: 1,
-      totalSteps: 8,
+      totalSteps: 6,
     };
   },
   methods: {
@@ -146,51 +132,50 @@ export default {
     },
     prevStep() {
       this.$vuetify.goTo(0);
-      if (this.currentStep === 5 && this.question_b === "ke1") {
-        this.currentStep = 3;
-      } else if (this.currentStep === 4 && this.question_b === "ke2") {
-        this.currentStep = 2;
-      } else if (this.currentStep === 4) {
-        this.currentStep = 2;
-      } else {
-        this.currentStep--;
-      }
+      this.currentStep--;
     },
     onSubmit() {
       this.$vuetify.goTo(0);
-      if (this.currentStep === 2 && this.question_b === "ke2") {
-        this.currentStep = 4;
-      } else if (this.currentStep === 3) {
-        this.currentStep = 5;
-      } else {
-        console.log("gaat goed");
-        this.currentStep++;
-      }
+      this.currentStep++;
     },
     async getReport() {
       // eslint-disable-next-line
       console.log("gaat goed");
       const payload = {
         clientId: JSON.parse(localStorage.getItem("clientId")),
+        question_a: this.question_a,
         question_b: this.question_b,
         question_c: this.question_c,
         question_d: this.question_d,
-        question_e: this.question_e,
-        question_f: this.question_f,
-        question_g: this.question_g,
+        text_a: this.text_a,
+        text_b: this.text_b,
+        text_c: this.text_c,
+        text_d: this.text_d,
+        text_e: this.text_e,
         sl_a: this.sl_a,
+        sl_b: this.sl_b,
+        sl_c: this.sl_c,
+        sl_d: this.sl_d,
+        sl_e: this.sl_e,
+        sl_f: this.sl_f,
+        sl_g: this.sl_g,
+        sl_h: this.sl_h,
+        sl_i: this.sl_i,
+        sl_j: this.sl_j,
+        sl_k: this.sl_k,
+        sl_l: this.sl_l,
       };
       const payloadLog = {
         clientId: JSON.parse(localStorage.getItem("clientId")),
       };
       try {
         this.disableBtnReport = true;
-        await ResultService.getReportA(payload);
+        await ResultService.getReportM(payload);
         // eslint-disable-next-line no-undef
         await EventBus.$emit("reportSend", true);
 
         await this.sleep(1000);
-        await AuthService.logoutA(payloadLog);
+        await AuthService.logoutM(payloadLog);
         localStorage.clear();
         this.$router.push({ name: "Eind" });
       } catch (error) {
@@ -204,6 +189,66 @@ export default {
     sl_a: {
       get() {
         return this.$store.state.quickAll.sl_a;
+      },
+    },
+    sl_b: {
+      get() {
+        return this.$store.state.quickAll.sl_b;
+      },
+    },
+    sl_c: {
+      get() {
+        return this.$store.state.quickAll.sl_c;
+      },
+    },
+    sl_d: {
+      get() {
+        return this.$store.state.quickAll.sl_d;
+      },
+    },
+    sl_e: {
+      get() {
+        return this.$store.state.quickAll.sl_e;
+      },
+    },
+    sl_f: {
+      get() {
+        return this.$store.state.quickAll.sl_f;
+      },
+    },
+    sl_g: {
+      get() {
+        return this.$store.state.quickAll.sl_g;
+      },
+    },
+    sl_h: {
+      get() {
+        return this.$store.state.quickAll.sl_h;
+      },
+    },
+    sl_i: {
+      get() {
+        return this.$store.state.quickAll.sl_i;
+      },
+    },
+    sl_j: {
+      get() {
+        return this.$store.state.quickAll.sl_j;
+      },
+    },
+    sl_k: {
+      get() {
+        return this.$store.state.quickAll.sl_k;
+      },
+    },
+    sl_l: {
+      get() {
+        return this.$store.state.quickAll.sl_l;
+      },
+    },
+    question_a: {
+      get() {
+        return this.$store.state.quickAll.question_a;
       },
     },
     question_b: {
@@ -221,21 +266,32 @@ export default {
         return this.$store.state.quickAll.question_d;
       },
     },
-    question_e: {
+    text_a: {
       get() {
-        return this.$store.state.quickAll.question_e;
+        return this.$store.state.quickAll.text_a;
       },
     },
-    question_f: {
+    text_b: {
       get() {
-        return this.$store.state.quickAll.question_f;
+        return this.$store.state.quickAll.text_b;
       },
     },
-    question_g: {
+    text_c: {
       get() {
-        return this.$store.state.quickAll.question_g;
+        return this.$store.state.quickAll.text_c;
       },
     },
+    text_d: {
+      get() {
+        return this.$store.state.quickAll.text_d;
+      },
+    },
+    text_e: {
+      get() {
+        return this.$store.state.quickAll.text_e;
+      },
+    },
+
     filteredSteps() {
       return this.textStep.slice(this.currentStep + 1, this.totalSteps + 1);
     },
@@ -245,6 +301,20 @@ export default {
     this.firstNameUser = JSON.parse(localStorage.getItem("firstNameUser"));
     this.lastNameUser = JSON.parse(localStorage.getItem("lastNameUser"));
     this.websiteTeam = JSON.parse(localStorage.getItem("website_team"));
+  },
+  created() {
+    this.$store.commit("quickAll/update_sl_a", 5);
+    this.$store.commit("quickAll/update_sl_b", 5);
+    this.$store.commit("quickAll/update_sl_c", 5);
+    this.$store.commit("quickAll/update_sl_d", 5);
+    this.$store.commit("quickAll/update_sl_e", 5);
+    this.$store.commit("quickAll/update_sl_f", 5);
+    this.$store.commit("quickAll/update_sl_g", 5);
+    this.$store.commit("quickAll/update_sl_h", 5);
+    this.$store.commit("quickAll/update_sl_i", 5);
+    this.$store.commit("quickAll/update_sl_j", 5);
+    this.$store.commit("quickAll/update_sl_k", 5);
+    this.$store.commit("quickAll/update_sl_l", 5);
   },
   beforeDestroy() {
     this.$store.dispatch("quickAll/setDefault");
