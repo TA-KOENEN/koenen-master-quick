@@ -2,8 +2,8 @@
   <div>
     <ta-statement :stat-text="statTextMulti[2]" :formal="formal" />
     <ta-radio
-      label="Opvolger/waarnemer"
-      v-model="question_b"
+      label="Bovenstaande vraag"
+      v-model="question_a"
       error-messages="errors"
       rules="required"
       :nrOptions="statTextMulti[2].nrOptions"
@@ -11,28 +11,23 @@
       :optionB="statTextMulti[2].optionB"
       :optionC="statTextMulti[2].optionC"
     />
-    <ta-statement
-      v-if="question_b === 'ke2'"
-      :stat-text="statTextMulti[3]"
-      :formal="formal"
-    />
   </div>
 </template>
 
 <script>
 export default {
-  name: "BstepQuickA",
+  name: "BstepQuickB",
   props: ["statTextMulti", "formal"],
   data() {
     return {};
   },
   computed: {
-    question_b: {
+    question_a: {
       get() {
-        return this.$store.state.quickAll.question_b;
+        return this.$store.state.quickAll.question_a;
       },
       set(value) {
-        this.$store.commit("quickAll/update_question_b", value);
+        this.$store.commit("quickAll/update_question_a", value);
       },
     },
   },
