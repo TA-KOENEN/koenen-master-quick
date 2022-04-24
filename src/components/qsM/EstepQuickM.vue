@@ -2,7 +2,7 @@
   <div>
     <ta-statement :stat-text="statTextMulti[23]" :formal="formal" />
     <ta-val-area
-      rules="required"
+      rules="max:200"
       v-model="text_e"
       :label="statTextMulti[2].label"
     />
