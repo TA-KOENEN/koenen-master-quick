@@ -13,7 +13,7 @@
       <v-col cols="12" md="6">
         <div class="ma-5 pa-0">
           <ta-right-info
-            :vimeo-code="vimeo.scanC"
+            :vimeo-code="vimeo.scanI"
             :first-name-client="firstNameClient"
             :last-name-client="lastNameClient"
             :first-name-user="firstNameUser"
