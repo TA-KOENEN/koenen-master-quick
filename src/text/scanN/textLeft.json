@@ -1,0 +1,96 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Intercompany overeenkomsten",
+    "headerInf": "Intercompany overeenkomsten",
+    "sign": false,
+    "text_a": "Als uw onderneming bestaat uit meerdere (besloten) vennootschappen, zijn er vaak over en weer overeenkomsten gesloten, zoals bijvoorbeeld een rekeningen-courant met schuldoverneming en cessie binnen concern eventueel met bijbehorende pandakte activa.  ",
+    "text_aInf": "Als jouw onderneming bestaat uit meerdere (besloten) vennootschappen, zijn er vaak over en weer overeenkomsten gesloten, zoals bijvoorbeeld een rekeningen-courant met schuldoverneming en cessie binnen concern eventueel met bijbehorende pandakte activa. ",
+    "text_b": "Belangrijk is dat de positie van uw personal holding en daarmee de onderlinge afspraken met onderliggende vennootschappen kunnen veranderen in de tijd, terwijl de bestaande intercompany overeenkomsten niet zijn aangepast. Onze vragen hierover: ",
+    "text_bInf": "Belangrijk is dat de positie van jouw personal holding en daarmee de onderlinge afspraken met onderliggende vennootschappen kunnen veranderen in de tijd, terwijl de bestaande intercompany overeenkomsten niet zijn aangepast. Onze vragen hierover: ",
+    "text_c": "Beschikt u over intercompany overeenkomsten tussen uw personal holding en onderliggende vennootschappen zoals bijvoorbeeld hiervoor omschreven? Wanneer heeft u deze intercompany contracten voor het laatst aangepast? Heeft u de indruk dat deze overeenkomsten nog actueel en passend bij uw situatie zijn?",
+    "text_cInf": "Beschik je over intercompany overeenkomsten tussen je personal holding en onderliggende vennootschappen zoals bijvoorbeeld hiervoor omschreven? Wanneer heb je deze intercompany contracten voor het laatst aangepast? Heb je de indruk dat deze overeenkomsten nog actueel en passend bij jouw situatie zijn?"
+  },
+  {
+    "header": "Overeenkomsten met privé",
+    "headerInf": "Overeenkomsten met privé",
+    "sign": false,
+    "text_a": "Als eigenaar/bestuurder heeft u mogelijk een aantal overeenkomsten met uw persoonlijke holding, zoals een managementovereenkomst, een rekening-courant en/of eventueel een (hypothecaire) lening, enzovoort. ",
+    "text_aInf": "Als eigenaar/bestuurder heb je mogelijk een aantal overeenkomsten met jouw persoonlijke holding, zoals een managementovereenkomst, een rekening-courant en/of eventueel een (hypothecaire) lening, enzovoort.  ",
+    "text_b": "Ook bij deze overeenkomsten geldt dat uw privé en zakelijke omstandigheden, evenals de fiscale en juridische wetgeving kunnen veranderen, waardoor deze overeenkomsten wellicht niet meer passend zijn. Onze vragen aan u zijn: ",
+    "text_bInf": "Ook bij deze overeenkomsten geldt dat jouw privé en zakelijke omstandigheden, evenals de fiscale en juridische wetgeving kunnen veranderen, waardoor deze overeenkomsten wellicht niet meer passend zijn. Onze vragen aan jou zijn: ",
+    "text_c": "Beschikt u over overeenkomsten tussen uzelf en uw bedrijf, zoals bijvoorbeeld hiervoor omschreven? Wanneer zijn deze overeenkomsten voor het laatst aangepast? Heeft u de indruk dat deze overeenkomsten tussen uzelf en uw onderneming nog actueel en passend bij uw situatie zijn?",
+    "text_cInf": "Beschik je over overeenkomsten tussen jezelf en jouw bedrijf, zoals bijvoorbeeld hiervoor omschreven? Wanneer zijn deze overeenkomsten voor het laatst aangepast? Heb je de indruk dat deze overeenkomsten tussen jezelf en jouw onderneming nog actueel en passend bij jouw situatie zijn?"
+  },
+  {
+    "header": "Toekomstvoorziening",
+    "headerInf": "Toekomstvoorziening",
+    "sign": false,
+    "text_a": "Door veel (ex-)ondernemers wordt een deel van hun vermogen voor het toekomstig inkomen aangehouden in de personal holding. Vaak ook door middel van fiscale faciliteiten zoals stamrechtovereenkomsten of pensioenvoorzieningen. Onze vraag hierover is de volgende: ",
+    "text_aInf": "Door veel (ex-)ondernemers wordt een deel van hun vermogen voor het toekomstig inkomen aangehouden in de personal holding. Vaak ook door middel van fiscale faciliteiten zoals stamrechtovereenkomsten of pensioenvoorzieningen. Onze vraag hierover is de volgende: ",
+    "text_b": "Heeft u vermogen voor toekomstig inkomen gereserveerd in uw personal holding, eventueel via een stamrecht- of lijfrenteverplichting?",
+    "text_bInf": "Heb je vermogen voor toekomstig inkomen gereserveerd in jouw personal holding, eventueel via een stamrecht- of lijfrenteverplichting?"
+  },
+  {
+    "header": "Onroerend goed",
+    "headerInf": "Onroerend goed",
+    "sign": false,
+    "text_a": "Veel (ex-)ondernemers kopen vanuit de opbrengsten van de onderneming onroerend goed aan in hun bv. Bijvoorbeeld om commercieel te verhuren of (deels) privé gebruik van te maken. Afhankelijk van het object of de objecten gaat er in het kader van verduurzaming veel veranderen. Onze vraag over onroerend goed is de volgende:",
+    "text_aInf": "Veel (ex-)ondernemers kopen vanuit de opbrengsten van de onderneming onroerend goed aan in hun bv. Bijvoorbeeld om commercieel te verhuren of (deels) privé gebruik van te maken. Afhankelijk van het object of de objecten gaat er in het kader van verduurzaming veel veranderen. Onze vraag over onroerend goed is de volgende:",
+    "text_b": "Heeft u in de personal holding onroerend goed in bezit?",
+    "text_bInf": "Heb je in de personal holding onroerend goed in bezit?"
+  },
+  {
+    "header": "Beleggingen",
+    "headerInf": "Beleggingen",
+    "sign": false,
+    "text_a": "Vanuit de opbrengsten van de onderneming worden door (ex-)ondernemers ook vaak beleggingen in internationale waarden zoals aandelen of obligaties aangehouden. Soms via private banks of vermogensbeheerders, steeds vaker via online brokers zoals eToro, DeGiro of Binck Bank. Onze vraag hierover is:",
+    "text_aInf": "Vanuit de opbrengsten van de onderneming worden door (ex-)ondernemers ook vaak beleggingen in internationale waarden zoals aandelen of obligaties aangehouden. Soms via private banks of vermogensbeheerders, steeds vaker via online brokers zoals eToro, DeGiro of Binck Bank. Onze vraag hierover is:",
+    "text_b": "Heeft u een beleggingsportefeuille in de personal holding?",
+    "text_bInf": "Heb je een beleggingsportefeuille in de personal holding?",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Financiering aan derden",
+    "headerInf": "Financiering aan derden",
+    "text_a": "Naast financiering van de ondernemer zelf, kunnen via de personal holding financieringen aan anderen worden verstrekt, bijvoorbeeld kinderen of andere familieleden. De wetgeving vanuit het Financieel toezicht is de afgelopen jaren aangescherpt, waardoor het niet altijd evident is om financieringen aan derden te kunnen verstrekken. Onze vraag hierover is:",
+    "text_aInf": "Naast financiering van de ondernemer zelf, kunnen via de personal holding financieringen aan anderen worden verstrekt, bijvoorbeeld kinderen of andere familieleden. De wetgeving vanuit het Financieel toezicht is de afgelopen jaren aangescherpt, waardoor het niet altijd evident is om financieringen aan derden te kunnen verstrekken. Onze vraag hierover is:",
+    "text_b": "Heeft u in de personal holding financieringen aan anderen dan uzelf verstrekt?",
+    "text_bInf": "Heb je in de personal holding financieringen aan anderen dan jezelf verstrekt?"
+  },
+  {
+    "header": "Noodscenario",
+    "headerInf": "Noodscenario",
+    "text_a": "In de situatie dat u plotseling door ziekte of ongeval niet meer zelfstandig kunt handelen c.q. u komt plots te overlijden, heeft u iemand aangewezen die (tijdelijk) uw rol als eigenaar/bestuurder van uw personal holding kan overnemen? Kan deze persoon ook uw personal holding juridisch vertegenwoordigen en heeft deze persoon inzicht in wat uw wensen zijn met de personal holding?",
+    "text_aInf": "In de situatie dat u plotseling door ziekte of ongeval niet meer zelfstandig kunt handelen c.q. u komt plots te overlijden, heeft u iemand aangewezen die (tijdelijk) uw rol als eigenaar/bestuurder van uw personal holding kan overnemen? Kan deze persoon ook uw personal holding juridisch vertegenwoordigen en heeft deze persoon inzicht in wat uw wensen zijn met de personal holding?",
+    "text_b": "Als u plotseling wegvalt, heeft u dan alles goed geregeld voor uw personal holding?",
+    "text_bInf": "Als je plotseling wegvalt, heb je dan alles goed geregeld voor jouw personal holding?"
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over de groei van uw onderneming ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over de groei van jouw onderneming ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  }
+
+]

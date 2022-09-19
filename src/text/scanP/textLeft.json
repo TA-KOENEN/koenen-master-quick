@@ -1,0 +1,122 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Bedrijfsvoering",
+    "headerInf": "Bedrijfsvoering",
+    "sign": false,
+    "text_a": "Ontwikkelingen zoals Covid-19, de oorlog in de Oekraïne, snel stijgende prijzen en problemen met levertijden hebben grote invloed op onze samenleving. Prioriteiten wijzigen, door inflatie moeten er keuzes gemaakt worden en ondernemingen krijgen er hoe dan ook mee te maken. Dit kan een groot effect hebben op het werkkapitaal en/of het rendement.",
+    "text_aInf": "Ontwikkelingen zoals Covid-19, de oorlog in de Oekraïne, snel stijgende prijzen, en problemen met levertijden hebben grote invloed op onze samenleving. Prioriteiten wijzigen, door inflatie moeten er keuzes gemaakt worden en ondernemingen krijgen er hoe dan ook mee te maken. Dit kan een groot effect hebben op het werkkapitaal en/of het rendement.",
+    "text_b": "Ondervindt of voorziet u in meer of mindere mate problemen met de bedrijfsvoering en/of rendement in uw onderneming?",
+    "text_bInf": "Ondervind of voorzie je in meer of mindere mate problemen met de bedrijfsvoering en/of rendement in jouw onderneming?",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Personeelsbeleid",
+    "headerInf": "Personeelsbeleid",
+    "sign": false,
+    "text_a": "Misschien wel het grootste goed binnen een onderneming is het personeel. Krapte op de arbeidsmarkt, het aannemen van nieuwe personeelsleden en ontwikkelingen op het gebied van wet- en regelgeving vragen om een goed personeelsbeleid. Het meewerken van familieleden in de onderneming kan extra uitdagingen geven. ",
+    "text_aInf": "Misschien wel het grootste goed binnen een onderneming is het personeel. Krapte op de arbeidsmarkt, het aannemen van nieuwe personeelsleden en ontwikkelingen op het gebied van wet- en regelgeving vragen om een goed personeelsbeleid. Het meewerken van familieleden in de onderneming kan extra uitdagingen geven.  ",
+    "text_b": "In hoeverre is uw personeelsbeleid op orde?",
+    "text_bInf": "In hoeverre is jouw personeelsbeleid op orde?"
+  },
+  {
+    "header": "Financieringsbehoefte",
+    "headerInf": "Financieringsbehoefte",
+    "sign": false,
+    "text_a": "Bijna alle ondernemers hebben met financieringen te maken. Ontwikkelingen op de financiële markten, investeringsplannen, krapte in het werkkapitaal, rentestijgingen en aflopende rentevaste periode zijn zaken die aandacht vragen. ",
+    "text_aInf": "Bijna alle ondernemers hebben met financieringen te maken. Ontwikkelingen op de financiële markten, investeringsplannen, krapte in het werkkapitaal, rentestijgingen en aflopende rentevaste periode zijn zaken die aandacht vragen. ",
+    "text_b": "Heeft u inzicht in de (on)mogelijkheden in uw financieringsbehoefte, voor nu en op de langere termijn?",
+    "text_bInf": "Heb je inzicht in de (on)mogelijkheden in jouw financieringsbehoefte, voor nu en op de langere termijn? "
+  },
+  {
+    "header": "Visie op de toekomst",
+    "headerInf": "Visie op de toekomst",
+    "sign": false,
+    "text_a": "Als ondernemer bent u in grote mate bezig met de waan van de dag. Het inspelen op telkens wijzigende omstandigheden vergt veel van uw energie. De gedachte voor de lange termijn schiet er vaak bij in, terwijl juist deze blik op de toekomst u kan helpen bij de keuzes die nu gemaakt moeten worden. ",
+    "text_aInf": "Als ondernemer bent u in grote mate bezig met de waan van de dag. Het inspelen op telkens wijzigende omstandigheden vergt veel van uw energie. De gedachte voor de lange termijn schiet er vaak bij in, terwijl juist deze blik op de toekomst u kan helpen bij de keuzes die nu gemaakt moeten worden. ",
+    "text_b": "Heeft u een goed beeld van hoe de ontwikkeling van uw onderneming er op de (middel)lange termijn uit zou moeten komen te zien?",
+    "text_bInf": "Heb je een goed beeld van hoe de ontwikkeling van jouw onderneming er op de (middel)lange termijn uit zou moeten komen te zien?"
+  },
+  {
+    "header": "Ondernemerschap",
+    "headerInf": "Ondernemerschap",
+    "sign": false,
+    "text_a": "Voor elke ondernemer komt het moment dat u uw bedrijfsactiviteiten (gedeeltelijk) gaat beëindigen. Staking, samenwerking, verkoop van de onderneming en eventuele overdracht binnen de familie moet zorgvuldig en op tijd voorbereid en geregeld worden. ",
+    "text_aInf": "Voor elke ondernemer komt het moment dat u uw bedrijfsactiviteiten (gedeeltelijk) gaat beëindigen. Staking, samenwerking, verkoop van de onderneming en eventuele overdracht binnen de familie moet zorgvuldig en op tijd voorbereid en geregeld worden. ",
+    "text_b": "In welke mate speelt bij u al een mogelijke bedrijfsoverdracht of -beëindiging en bereidt u zich er al op voor?",
+    "text_bInf": "In welke mate speelt bij jou al een mogelijke bedrijfsoverdracht of -beëindiging en bereid je je er al op voor?",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Inkomen en vermogen",
+    "headerInf": "Inkomen en vermogen",
+    "sign": false,
+    "text_a": "Willen we niet allemaal genieten van een onbezorgde “oude” dag? Het is nooit te vroeg om u hierop voor te bereiden. Een goede financiële planning kan u helpen inzicht te krijgen in uw wensen en de mogelijkheden voor later. ",
+    "text_aInf": "Willen we niet allemaal genieten van een onbezorgde “oude” dag? Het is nooit te vroeg om u hierop voor te bereiden. Een goede financiële planning kan je helpen inzicht te krijgen in jouw wensen en de mogelijkheden voor later. ",
+    "text_b": "In hoeverre heeft u inzicht in uw toekomstige inkomsten en -vermogen?",
+    "text_bInf": "In hoeverre heb je inzicht in jouw toekomstige inkomsten en -vermogen?"
+  },
+  {
+    "header": "Fiscale aspecten",
+    "headerInf": "Fiscale aspecten",
+    "sign": false,
+    "text_a": "De fiscale wet- en regelgeving verandert constant, wijzigingen die mogelijk gevolgen hebben voor u en uw onderneming. Daarnaast kan uw eigen situatie veranderen, wat fiscale gevolgen kan hebben. Een fiscalist helpt u, samen met uw relatiebeheerder, om dit goed in beeld te krijgen en optimaal op elkaar te laten aansluiten.  ",
+    "text_aInf": "De fiscale wet- en regelgeving verandert constant, wijzigingen die mogelijk gevolgen hebben voor jou en jouw onderneming. Daarnaast kan jouw eigen situatie veranderen, wat fiscale gevolgen kan hebben. Een fiscalist helpt je, samen met jouw relatiebeheerder, om dit goed in beeld te krijgen en optimaal op elkaar te laten aansluiten.  ",
+    "text_b": "Verwacht u dat uw eigen omstandigheden, of de fiscale wet- en regelgeving zodanig is veranderd of gaat veranderen dat u samen met ons hiernaar wilt kijken.",
+    "text_bInf": "Verwacht je dat jouw eigen omstandigheden, of de fiscale wet- en regelgeving zodanig is veranderd of gaat veranderen dat je samen met ons hiernaar wil kijken."
+  },
+  {
+    "header": "Juridische zaken",
+    "headerInf": "Juridische zaken",
+    "sign": false,
+    "text_a": "U wilt toch niet geconfronteerd worden met zaken die u had kunnen voorkomen? Binnen uw onderneming zijn er tal van overeenkomsten die juridisch goed vastgelegd en actueel moeten zijn.  Het is verstandig om elke 2 jaar uw overeenkomsten door een jurist te laten controleren op juistheid en actualiteit. ",
+    "text_aInf": "Je wil toch niet geconfronteerd worden met zaken die je had kunnen voorkomen? Binnen jouw onderneming zijn er tal van overeenkomsten die juridisch goed vastgelegd en actueel moeten zijn.  Het is verstandig om elke 2 jaar jouw overeenkomsten door een jurist te laten controleren op juistheid en actualiteit. ",
+    "text_b": "Heeft u de indruk dat binnen uw onderneming de juridische zaken op orde en actueel zijn (niet langer dan 2 jaar geleden door een jurist beoordeeld)?",
+    "text_bInf": "Heb je de indruk dat binnen jouw onderneming de juridische zaken op orde en actueel zijn (niet langer dan 2 jaar geleden door een jurist beoordeeld)?"
+  },
+  {
+    "header": "Duurzaamheid",
+    "headerInf": "Duurzaamheid",
+    "sign": false,
+    "text_a": "De samenleving verwacht van u als ondernemer dat u zich steeds meer bezighoudt met duurzaamheid en maatschappelijk verantwoord ondernemen. Dit ziet u terug in eisen die klanten, leveranciers en banken aan u stellen. De overheid stimuleert dit door subsidies, maar ook door verplichtingen die zij oplegt. ",
+    "text_aInf": "De samenleving verwacht van jou als ondernemer dat je je steeds meer bezighoudt met duurzaamheid en maatschappelijk verantwoord ondernemen. Dit zie je terug in eisen die klanten, leveranciers en banken aan u stellen. De overheid stimuleert dit door subsidies, maar ook door verplichtingen die zij oplegt. ",
+    "text_b": "In welke mate is uw onderneming al bezig met en voorbereid op deze ontwikkelingen? ",
+    "text_bInf": "In welke mate is jouw onderneming al bezig met en voorbereid op deze ontwikkelingen? "
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal stellingen over uw onderneming ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal stellingen over jouw onderneming ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  },
+  {
+    "header": "",
+    "headerInf": "",
+    "text_a": "",
+    "text_aInf": "",
+    "text_b": "",
+    "text_bInf": ""
+  }
+
+]

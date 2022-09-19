@@ -34,6 +34,15 @@ export default {
   loginM(payload) {
     return API.apiClient.post("/loginMscan", payload);
   },
+  loginN(payload) {
+    return API.apiClient.post("/loginNscan", payload);
+  },
+  loginO(payload) {
+    return API.apiClient.post("/loginOscan", payload);
+  },
+  loginP(payload) {
+    return API.apiClient.post("/loginPscan", payload);
+  },
 
   logout(payload) {
     const token = localStorage.getItem("token");
@@ -155,6 +164,36 @@ export default {
       },
     });
   },
+  logoutN(payload) {
+    const token = localStorage.getItem("token");
+    return API.apiClient.post("/logoutNscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
+  },
+  logoutO(payload) {
+    const token = localStorage.getItem("token");
+    return API.apiClient.post("/logoutOscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
+  },
+  logoutP(payload) {
+    const token = localStorage.getItem("token");
+    return API.apiClient.post("/logoutPscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
+  },
   notIntA(payload) {
     return API.apiClient.post("/notIntAscan", payload);
   },
@@ -187,5 +226,14 @@ export default {
   },
   notIntM(payload) {
     return API.apiClient.post("/notIntMscan", payload);
+  },
+  notIntN(payload) {
+    return API.apiClient.post("/notIntNscan", payload);
+  },
+  notIntO(payload) {
+    return API.apiClient.post("/notIntOscan", payload);
+  },
+  notIntP(payload) {
+    return API.apiClient.post("/notIntPscan", payload);
   },
 };
