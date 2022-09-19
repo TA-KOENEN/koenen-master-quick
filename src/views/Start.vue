@@ -102,6 +102,12 @@ export default {
         this.beginL();
       } else if (this.quickId === "quick_m") {
         this.beginM();
+      } else if (this.quickId === "quick_n") {
+        this.beginN();
+      } else if (this.quickId === "quick_o") {
+        this.beginO();
+      } else if (this.quickId === "quick_p") {
+        this.beginP();
       }
     },
     beginA() {
@@ -146,6 +152,18 @@ export default {
     },
     beginM() {
       const module = "moduleM";
+      loginService.start(this.tokkie, module);
+    },
+    beginN() {
+      const module = "moduleN";
+      loginService.start(this.tokkie, module);
+    },
+    beginO() {
+      const module = "moduleO";
+      loginService.start(this.tokkie, module);
+    },
+    beginP() {
+      const module = "moduleP";
       loginService.start(this.tokkie, module);
     },
   },
