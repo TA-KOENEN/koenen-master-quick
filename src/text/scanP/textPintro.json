@@ -1,0 +1,20 @@
+{
+  "formal": {
+    "text_a": "Ondanks dat wij, als uw accountant/relatiebeheerder, met enige regelmaat met u spreken, kan het toch gebeuren dat bepaalde onderwerpen niet ter sprake komen. Om deze reden hebben wij 9 stellingen geformuleerd die een aantal (mogelijke) onderwerpen raken die anders misschien onderbelicht blijven. Wij hopen op deze manier input van u te ontvangen voor ons komende gesprek. ",
+    "text_b": "De stellingen en onderwerpen zijn ruim opgezet, zodat ze voor alle klanten relevante onderwerpen bevatten. Per stelling kunt u een aantal punten geven, maximaal -100 als u het helemaal niet eens bent met de stelling en maximaal +100 als u het volledig eens bent met de stelling. Mocht een onderwerp voor u niet van toepassing zijn, dan vragen we u om bij de betreffende stelling de slider op 0 te laten staan.",
+    "text_c": "Het invullen van de stelling vraagt ongeveer 5 minuten van uw tijd, na het invullen van de stellingen ontvangt u per e-mail een overzicht met de door u gegeven antwoorden. Op basis van de door u ingevulde antwoorden ontvangt u per onderwerp een aantal aandachtspunten of tips. We hopen dat het u nieuwe inzichten mag geven!",
+    "text_d": "U kunt de vragenlijst starten met de knop JA. In het volgende scherm wordt u gevraagd een persoonlijke inlogcode in te voeren. Inmiddels is deze persoonlijke inlogcode per e-mail aan u verstuurd.",
+    "text_e": "Heeft u geen interesse in het invullen van de vragenlijst, dan kunt u de knop NEE gebruiken. U wordt dan automatisch uitgelogd uit de app.",
+    "text_f": "Wilt u tijdens het invullen van de vragenlijst meer informatie? Bel mij gerust. Mijn contactgegevens treft u aan onderaan de e-mails die u zojuist hebt ontvangen.",
+    "text_g": "Met vriendelijke groet,"
+  },
+  "informal": {
+    "text_a": "Ondanks dat wij, als jouw accountant/relatiebeheerder, met enige regelmaat met jou spreken, kan het toch gebeuren dat bepaalde onderwerpen niet ter sprake komen. Om deze reden hebben wij 9 stellingen geformuleerd die een aantal (mogelijke) onderwerpen raken die anders misschien onderbelicht blijven. Wij hopen op deze manier input van je te ontvangen voor ons komende gesprek. ",
+    "text_b": "De stellingen en onderwerpen zijn ruim opgezet, zodat ze voor alle klanten relevante onderwerpen bevatten. Per stelling kun je een aantal punten geven, maximaal -100 als je het helemaal niet eens bent met de stelling en maximaal +100 als je het volledig eens bent met de stelling. Mocht een onderwerp voor jou niet van toepassing zijn, dan vragen we je om bij de betreffende stelling de slider op 0 te laten staan.",
+    "text_c": "Het invullen van de stelling vraagt ongeveer 5 minuten van je tijd, na het invullen van de stellingen ontvang je per e-mail een overzicht met de door jou gegeven antwoorden. Op basis van de door jou ingevulde antwoorden ontvang je per onderwerp een aantal aandachtspunten of tips. We hopen dat het je nieuwe inzichten mag geven!",
+    "text_d": "Je kunt de vragenlijst starten met de knop JA. In het volgende scherm wordt je gevraagd een persoonlijke inlogcode in te voeren. Inmiddels is deze persoonlijke inlogcode per e-mail aan je verstuurd.",
+    "text_e": "Heb je geen interesse in het invullen van de vragenlijst, dan kun je de knop NEE gebruiken. Je wordt dan automatisch uitgelogd uit de app.",
+    "text_f": "Wil je tijdens het invullen van de vragenlijst meer informatie? Bel mij gerust. Mijn contactgegevens tref je aan onderaan de e-mails die je zojuist hebt ontvangen.",
+    "text_g": "Met vriendelijke groet,"
+  }
+}

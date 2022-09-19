@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "text": "Not in use"
+  },
+  {
+    "id": 1,
+    "text": "Intercompany"
+  },
+  {
+    "id": 2,
+    "text": "Privé"
+  },
+  {
+    "id": 3,
+    "text": "Toekomstvoorzieningen"
+  },
+  {
+    "id": 4,
+    "text": "Onroerend goed"
+  },
+  {
+    "id": 5,
+    "text": "Beleggingen"
+  },
+  {
+    "id": 6,
+    "text": "Financiering derden"
+  },
+  {
+    "id": 7,
+    "text": "Noodscenario"
+  },
+  {
+    "id": 8,
+    "text": "Einde"
+  }
+]
