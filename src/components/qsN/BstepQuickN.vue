@@ -12,20 +12,22 @@
       :optionC="statTextMulti[4].optionC"
       :optionD="statTextMulti[4].optionD"
     />
-    <ta-statement :stat-text="statTextMulti[5]" :formal="formal" />
-    <ta-radio
-      label="Bovenstaande vraag"
-      v-model="question_d"
-      error-messages="errors"
-      rules="required"
-      :nrOptions="statTextMulti[5].nrOptions"
-      :optionA="statTextMulti[5].optionA"
-      :optionB="statTextMulti[5].optionB"
-      :optionC="statTextMulti[5].optionC"
-      :optionD="statTextMulti[5].optionD"
-    />
-    <ta-statement :stat-text="statTextMulti[6]" :formal="formal" />
-    <ta-slider-feeling v-model="sl_b" />
+    <div v-if="question_c === 'ke1'">
+      <ta-statement :stat-text="statTextMulti[5]" :formal="formal" />
+      <ta-radio
+        label="Bovenstaande vraag"
+        v-model="question_d"
+        error-messages="errors"
+        rules="required"
+        :nrOptions="statTextMulti[5].nrOptions"
+        :optionA="statTextMulti[5].optionA"
+        :optionB="statTextMulti[5].optionB"
+        :optionC="statTextMulti[5].optionC"
+        :optionD="statTextMulti[5].optionD"
+      />
+      <ta-statement :stat-text="statTextMulti[6]" :formal="formal" />
+      <ta-slider-feeling v-model="sl_b" />
+    </div>
   </div>
 </template>
 
