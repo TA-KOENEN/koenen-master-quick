@@ -32,6 +32,12 @@ export default {
           response = await ResultService.getStartL(payload);
         } else if (module === "moduleM") {
           response = await ResultService.getStartM(payload);
+        } else if (module === "moduleN") {
+          response = await ResultService.getStartN(payload);
+        } else if (module === "moduleO") {
+          response = await ResultService.getStartO(payload);
+        } else if (module === "moduleP") {
+          response = await ResultService.getStartP(payload);
         } else {
           response = await ResultService.getStartA(payload);
         }
@@ -89,6 +95,12 @@ export default {
           await router.push({ name: "intro_l" });
         } else if (module === "moduleM") {
           await router.push({ name: "intro_m" });
+        } else if (module === "moduleN") {
+          await router.push({ name: "intro_n" });
+        } else if (module === "moduleO") {
+          await router.push({ name: "intro_o" });
+        } else if (module === "moduleP") {
+          await router.push({ name: "intro_p" });
         }
       } catch (error) {
         // eslint-disable-next-line no-undef
