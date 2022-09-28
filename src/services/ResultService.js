@@ -89,6 +89,30 @@ export default {
       },
     });
   },
+  getStartN(payload) {
+    return axios.post("/autoLoginNscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
+  getStartO(payload) {
+    return axios.post("/autoLoginOscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
+  getStartP(payload) {
+    return axios.post("/autoLoginPscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
 
   getNewCodeA(payload) {
     return axios.post("/newCodeAscan", payload, {
@@ -172,6 +196,30 @@ export default {
   },
   getNewCodeM(payload) {
     return axios.post("/newCodeMscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
+  getNewCodeN(payload) {
+    return axios.post("/newCodeNscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
+  getNewCodeO(payload) {
+    return axios.post("/newCodeOscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+      },
+    });
+  },
+  getNewCodeP(payload) {
+    return axios.post("/newCodePscan", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",
@@ -282,6 +330,36 @@ export default {
   getReportM(payload) {
     const token = localStorage.getItem("token");
     return axios.post("/sendReportMscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
+  },
+  getReportN(payload) {
+    const token = localStorage.getItem("token");
+    return axios.post("/sendReportNscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
+  },
+  getReportO(payload) {
+    const token = localStorage.getItem("token");
+    return axios.post("/sendReportOscan", payload, {
+      baseURL: process.env.VUE_APP_API_URL,
+      headers: {
+        Accept: "Application/json",
+        Authorization: `Bearer ` + token,
+      },
+    });
+  },
+  getReportP(payload) {
+    const token = localStorage.getItem("token");
+    return axios.post("/sendReportPscan", payload, {
       baseURL: process.env.VUE_APP_API_URL,
       headers: {
         Accept: "Application/json",

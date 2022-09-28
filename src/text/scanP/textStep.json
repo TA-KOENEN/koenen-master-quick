@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "text": "Not in use"
+  },
+  {
+    "id": 1,
+    "text": "Bedrijfsvoering"
+  },
+  {
+    "id": 2,
+    "text": "Personeelsbeleid"
+  },
+  {
+    "id": 3,
+    "text": "Financieringsbehoefte"
+  },
+  {
+    "id": 4,
+    "text": "Visie op de toekomst"
+  },
+  {
+    "id": 5,
+    "text": "Ondernemerschap"
+  },
+  {
+    "id": 6,
+    "text": "Inkomen en vermogen"
+  },
+  {
+    "id": 7,
+    "text": "Fiscale aspecten"
+  },
+  {
+    "id": 8,
+    "text": "Juridische aspecten"
+  },
+  {
+    "id": 9,
+    "text": "Duurzaamheid"
+  },
+  {
+    "id": 10,
+    "text": "Einde"
+  }
+]
