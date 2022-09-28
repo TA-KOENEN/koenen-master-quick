@@ -1,0 +1,122 @@
+[
+  {
+    "header": "Not in use",
+    "headerInf": "Not in use",
+    "sign": false,
+    "text_a": "Not in use",
+    "text_aInf": "Not in use",
+    "text_b": "Not in use",
+    "text_bInf": "Not in use"
+  },
+  {
+    "header": "Pensioenlasten",
+    "headerInf": "Pensioenlasten",
+    "sign": false,
+    "text_a": "De financiële bijdrage die u als werkgever levert aan de pensioenregeling kan aanzienlijk zijn. Zeker als u te maken heeft met ‘ vergrijzing’ van uw personeel.",
+    "text_aInf": "De financiële bijdrage die je als werkgever levert aan de pensioenregeling kan aanzienlijk zijn. Zeker als je te maken heeft met ‘ vergrijzing’ van het personeel.",
+    "text_b": "De eerste vraag is deze Personal Quick Scan gaat over uw inzicht in de pensioenlasten van uw onderneming.",
+    "text_bInf": "De eerste vraag is deze Personal Quick Scan gaat over jouw inzicht in de pensioenlasten van jouw onderneming.",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Pensioentoezegging",
+    "headerInf": "Pensioentoezegging",
+    "sign": false,
+    "text_a": "Een belangrijke wijziging in de nieuwe Pensioenwet is de wijziging van de pensioentoezegging. Uitgangspunt voor de wijziging is de vorm van de huidige pensioentoezegging binnen uw onderneming. ",
+    "text_aInf": "Een belangrijke wijziging in de nieuwe Pensioenwet is de wijziging van de pensioentoezegging. Uitgangspunt voor de wijziging is de vorm van de huidige pensioentoezegging binnen jouw onderneming.  ",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Kennis over pensioenregeling",
+    "headerInf": "Kennis over pensioenregeling",
+    "sign": false,
+    "text_a": "Heeft u inzicht in de pensioenregeling en de pensioenaanspraken die uw werknemers opbouwen?",
+    "text_aInf": "Heb je inzicht in de pensioenregeling en de pensioenaanspraken die jouw werknemers opbouwen? ",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Kennis bij werknemers",
+    "headerInf": "Kennis bij werknemers",
+    "sign": false,
+    "text_a": "Om waardering te hebben voor het pensioen, is het belangrijk dat het personeel kennis heeft van wat de pensioenregeling voor hen betekent. ",
+    "text_aInf": "Om waardering te hebben voor het pensioen, is het belangrijk dat het personeel kennis heeft van wat de pensioenregeling voor hen betekent. ",
+    "text_b": "Hoe ervaart u het kennisniveau van uw personeel over de pensioenregeling?",
+    "text_bInf": "Hoe ervaar je het kennisniveau van uw personeel over de pensioenregeling?"
+  },
+  {
+    "header": "Begeleiding",
+    "headerInf": "Begeleiding",
+    "sign": false,
+    "text_a": "Om de kennis over de pensioenregeling te verhogen, kunt u uw personeel begeleiden bij het begrijpen en beslissen over de toepassing van de pensioenregeling voor zichzelf. ",
+    "text_aInf": "Om de kennis over de pensioenregeling te verhogen, kun je jouw personeel begeleiden bij het begrijpen en beslissen over de toepassing van de pensioenregeling voor zichzelf. ",
+    "text_b": "Dit betekent dat u concrete ondersteuning of hulpmiddelen kunt inzetten. ",
+    "text_bInf": "Dit betekent dat je concrete ondersteuning of hulpmiddelen kunt inzetten.",
+    "text_c": "",
+    "text_cInf": ""
+  },
+  {
+    "header": "Waardering",
+    "headerInf": "Waardering",
+    "sign": false,
+    "text_a": "Een beter begrip van de pensioenregeling kan leiden tot een hogere waardering van pensioen als arbeidsvoorwaarde. Wat is uw mening hierover?",
+    "text_aInf": "Een beter begrip van de pensioenregeling kan leiden tot een hogere waardering van pensioen als arbeidsvoorwaarde. Wat is jouw mening hierover?",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Update",
+    "headerInf": "Update",
+    "sign": false,
+    "text_a": "Een pensioenregeling wordt normaliter regelmatig geupdate of bij een andere uitvoerder ondergebracht. Dit gebeurt omdat de regeling inhoudelijk moet worden aangepast of omdat de huidige aanbieder niet meer de meest voordelige aanbieder is.",
+    "text_aInf": "Een pensioenregeling wordt normaliter regelmatig geupdate of bij een andere uitvoerder ondergebracht. Dit gebeurt omdat de regeling inhoudelijk moet worden aangepast of omdat de huidige aanbieder niet meer de meest voordelige aanbieder is.",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Wetswijziging",
+    "headerInf": "Wetswijziging",
+    "sign": false,
+    "text_a": "Zoals aangegeven verandert de pensioenwetgeving met ingang van 1 januari 2023. In hoeverre bent u op de hoogte van de wijzigingen die aan de nieuwe pensioenwetgeving verbonden zijn?",
+    "text_aInf": "Zoals aangegeven verandert de pensioenwetgeving met ingang van 1 januari 2023. In hoeverre ben je op de hoogte van de wijzigingen die aan de nieuwe pensioenwetgeving verbonden zijn?",
+    "text_b": "",
+    "text_bInf": ""
+  },
+  {
+    "header": "Aanpassingen",
+    "headerInf": "Aanpassingen",
+    "sign": false,
+    "text_a": "De nieuwe wetgeving kent belangrijke wijzigingen voor de pensioenregeling van uw onderneming. Zeker als u niet verplicht aangesloten bent bij een bedrijfstakpensioenfonds.",
+    "text_aInf": "De nieuwe wetgeving kent belangrijke wijzigingen voor de pensioenregeling van jouw onderneming. Zeker als je niet verplicht aangesloten bent bij een bedrijfstakpensioenfonds.",
+    "text_b": "De wijzigingen zijn mede afhankelijk van de huidige pensioentoezegging.",
+    "text_bInf": "De wijzigingen zijn mede afhankelijk van de huidige pensioentoezegging."
+  },
+  {
+    "header": "Einde",
+    "headerInf": "Einde",
+    "sign": true,
+    "text_a": "U bent aan het einde gekomen van deze vragenlijst. Wilt u uw antwoorden nog bekijken of veranderen? Gebruik de knop TERUG.",
+    "text_aInf": "Je bent aan het einde gekomen van deze vragenlijst. Wil je je antwoorden nog bekijken of veranderen? Gebruik de knop TERUG. ",
+    "text_b": "Met de knop RAPPORTAGE kunt u een rapport opvragen, waarin de vragen en uw antwoorden staan. Aan de hand van uw antwoorden hebben wij informatie zoals tips voor u aan het rapport toegevoegd.",
+    "text_bInf": "Met de knop RAPPORTAGE kun je een rapport opvragen, waarin de vragen en jouw antwoorden staan. Aan de hand van jouw antwoorden hebben wij informatie zoals tips voor je aan het rapport toegevoegd.",
+    "text_c": "U heeft in kort tijdsbestek een aantal vragen over uw onderneming ingevuld. Ik kan mij voorstellen dat u verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met u bespreken. ",
+    "text_cInf": "Je hebt in kort tijdsbestek een aantal vragen over jouw onderneming ingevuld. Ik kan mij voorstellen dat je verdere vragen heeft. In ons volgende overleg zal ik de resultaten van deze Personal QuickScan met je bespreken. ",
+    "text_d": "Heeft u tussentijds vragen? Bel mij gerust.",
+    "text_dInf": "Heb je tussentijds vragen? Bel mij gerust.",
+    "text_e": "Met vriendelijke groet,",
+    "text_eInf": "Met vriendelijke groet,",
+    "text_f": "Wij gaan op een zorgvuldige wijze met uw gegevens om. Kijk voor al onze voorwaarden op onze website!",
+    "text_fInf": "Wij gaan op een zorgvuldige wijze met jouw gegevens om. Kijk voor al onze voorwaarden op onze website!"
+  },
+  {
+    "header": "",
+    "headerInf": "",
+    "text_a": "",
+    "text_aInf": "",
+    "text_b": "",
+    "text_bInf": ""
+  }
+
+]

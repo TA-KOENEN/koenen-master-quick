@@ -80,6 +80,27 @@ const introM = () =>
 const indexM = () =>
   import("../views/mscan/scanIndexM" /* webpackChunkName: "indexM" */);
 
+const loginN = () =>
+  import("../views/nscan/loginScanN" /* webpackChunkName: "loginN" */);
+const introN = () =>
+  import("../views/nscan/introScanN" /* webpackChunkName: "introN" */);
+const indexN = () =>
+  import("../views/nscan/scanIndexN" /* webpackChunkName: "indexN" */);
+
+const loginO = () =>
+  import("../views/oscan/loginScanO" /* webpackChunkName: "loginO" */);
+const introO = () =>
+  import("../views/oscan/introScanO" /* webpackChunkName: "introO" */);
+const indexO = () =>
+  import("../views/oscan/scanIndexO" /* webpackChunkName: "indexO" */);
+
+const loginP = () =>
+  import("../views/pscan/loginScanP" /* webpackChunkName: "loginP" */);
+const introP = () =>
+  import("../views/pscan/introScanP" /* webpackChunkName: "introP" */);
+const indexP = () =>
+  import("../views/pscan/scanIndexP" /* webpackChunkName: "indexP" */);
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -256,6 +277,51 @@ const router = new VueRouter({
       path: "/intro-groei",
       name: "intro_m",
       component: introM,
+    },
+    {
+      path: "/intro-ph",
+      name: "intro_n",
+      component: introN,
+    },
+    {
+      path: "/ph",
+      name: "index_n",
+      component: indexN,
+    },
+    {
+      path: "/login-ph",
+      name: "login_n",
+      component: loginN,
+    },
+    {
+      path: "/intro-pensioen",
+      name: "intro_o",
+      component: introO,
+    },
+    {
+      path: "/pensioen",
+      name: "index_o",
+      component: indexO,
+    },
+    {
+      path: "/login-pensioen",
+      name: "login_o",
+      component: loginO,
+    },
+    {
+      path: "/intro-update",
+      name: "intro_p",
+      component: introP,
+    },
+    {
+      path: "/update",
+      name: "index_p",
+      component: indexP,
+    },
+    {
+      path: "/login-update",
+      name: "login_p",
+      component: loginP,
     },
 
     {
