@@ -23,7 +23,15 @@
       Let op deze code is 30 minuten geldig.
     </div>
     <v-row class="mt-15">
-      <v-otp-input length="6" v-model="innerValue" required></v-otp-input>
+      <v-col cols="1" />
+      <v-col cols="10">
+        <ta-val-input
+          label="code"
+          rules="required|min:6"
+          v-model="innerValue"
+        />
+      </v-col>
+      <v-col cols="1" />
     </v-row>
   </div>
 </template>
