@@ -70,8 +70,8 @@
     "header": "Update",
     "headerInf": "Update",
     "sign": false,
-    "text_a": "Een pensioenregeling wordt normaliter regelmatig geupdate of bij een andere uitvoerder ondergebracht. Dit gebeurt omdat de regeling inhoudelijk moet worden aangepast, of omdat de huidige aanbieder niet meer de meest voordelige aanbieder is.",
-    "text_aInf": "Een pensioenregeling wordt normaliter regelmatig geupdate of bij een andere uitvoerder ondergebracht. Dit gebeurt omdat de regeling inhoudelijk moet worden aangepast, of omdat de huidige aanbieder niet meer de meest voordelige aanbieder is.",
+    "text_a": "Een pensioenregeling wordt normaliter regelmatig geupdate of bij een andere uitvoerder ondergebracht. Dit gebeurt omdat de regeling inhoudelijk moet worden aangepast of omdat de huidige aanbieder niet meer de meest voordelige aanbieder is.",
+    "text_aInf": "Een pensioenregeling wordt normaliter regelmatig geupdate of bij een andere uitvoerder ondergebracht. Dit gebeurt omdat de regeling inhoudelijk moet worden aangepast of omdat de huidige aanbieder niet meer de meest voordelige aanbieder is.",
     "text_b": "",
     "text_bInf": ""
   },
@@ -89,7 +89,7 @@
     "headerInf": "Aanpassingen",
     "sign": false,
     "text_a": "De nieuwe wetgeving kent belangrijke wijzigingen voor de pensioenregeling van uw onderneming. Zeker als u niet verplicht aangesloten bent bij een bedrijfstakpensioenfonds.",
-    "text_aInf": "De nieuwe wetgeving kent belangrijke wijzigingen voor de pensioenregeling van uw onderneming. Zeker als je niet verplicht aangesloten bent bij een bedrijfstakpensioenfonds.",
+    "text_aInf": "De nieuwe wetgeving kent belangrijke wijzigingen voor de pensioenregeling van jouw onderneming. Zeker als je niet verplicht aangesloten bent bij een bedrijfstakpensioenfonds.",
     "text_b": "De wijzigingen zijn mede afhankelijk van de huidige pensioentoezegging.",
     "text_bInf": "De wijzigingen zijn mede afhankelijk van de huidige pensioentoezegging."
   },

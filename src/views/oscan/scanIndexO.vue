@@ -73,7 +73,7 @@
                 :stat-text-multi="textStat"
                 :formal="formal"
               />
-              <h-step
+              <i-step
                 v-else-if="currentStep === 9"
                 :stat-text-multi="textStat"
                 :formal="formal"
@@ -121,6 +121,7 @@ import EstepQuickO from "@/components/qsO/EstepQuickO";
 import FstepQuickO from "@/components/qsO/FstepQuickO";
 import GstepQuickO from "@/components/qsO/GstepQuickO";
 import HstepQuickO from "@/components/qsO/HstepQuickO";
+import IstepQuickO from "@/components/qsO/IstepQuickO";
 
 import ResultService from "@/services/ResultService";
 import AuthService from "@/services/AuthService";
@@ -137,6 +138,7 @@ export default {
     "f-step": FstepQuickO,
     "g-step": GstepQuickO,
     "h-step": HstepQuickO,
+    "i-step": IstepQuickO,
   },
   data() {
     return {
